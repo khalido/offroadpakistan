@@ -1,0 +1,38 @@
+---
+export interface Props {
+    picture: any;
+    totalCount: number;
+    currentIndex?: number;
+}
+
+const { picture, totalCount, currentIndex = 1 } = Astro.props;
+---
+
+<section class="mb-8">
+    <div class="border border-blue-100 p-2">
+        
+        <div class="bg-gray-100 flex items-center justify-center mb-2">
+            <a
+                href={`/pictures/${picture.data.gallery}/${picture.id.split("/").pop()}`}
+                title={picture.data.title}
+            >
+                <img
+                    src={`/src/content/pictures/${picture.data.gallery}/${picture.data.image}`}
+                    alt={picture.data.title}
+                    class="max-h-full max-w-full object-contain border border-gray-300 p-1 bg-gray-50 hover:opacity-90 transition-opacity cursor-pointer"
+                />
+            </a>
+        </div>
+        <p class="text-sm md:text-xs">
+            <strong>{picture.data.title}:</strong>
+            From the{" "}
+            <a
+                href={`/pictures/${picture.data.gallery}/`}
+                class="text-teal-600 hover:underline"
+            >
+                {picture.data.gallery}
+            </a>{" "}
+            gallery.
+        </p>
+    </div>
+</section>

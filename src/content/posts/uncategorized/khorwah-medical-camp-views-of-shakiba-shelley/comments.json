@@ -1,0 +1,33 @@
+{
+  "post_id": 666,
+  "comment_count": 3,
+  "comments": [
+    {
+      "id": 1512,
+      "author": "Sam",
+      "email": "S921v@yahoo.com",
+      "date": "2011-08-18 21:02:10",
+      "content": "How can I participate in a trip like this? I'd like to so something like this during my 2 week elective (as an ER resident).",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 1529,
+      "author": "Teeth Maestro",
+      "email": "teethmaestro@gmail.com",
+      "date": "2011-09-02 01:23:30",
+      "content": "Unfortunately I missed this trip - have been updated that this was one heck of trip :)  Stories abundant which are bound to entertain us during our future camp fires across Sindh and Baluchistan !!!",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 1612,
+      "author": "Rizwana Shelley",
+      "email": "rizwanashelley@gmail.com",
+      "date": "2013-07-25 00:03:11",
+      "content": "I absolutely loved this article and also the one about the pilgrimage to Baluchistan.\nI would love to go on an off-road trip with you .\nWith love and best wishes\nRizwana",
+      "parent_id": 0,
+      "approved": true
+    }
+  ]
+}

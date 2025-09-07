@@ -1,0 +1,111 @@
+/* offroadpakistan.com
+ * The 4x4 Offroaders Club Karachi
+ * ko@offroadpakistan.com
+ * abidomar@offroadpakistan.com
+ */
+
+/* Layout is Fun */
+html{margin:0;padding:0}
+body{margin:0;padding:0;text-align:center;background:#E4E4E4 url(bg.gif) repeat-y 50% 50%}
+body{font:12px/18px Tahoma,Verdana,Arial,Helvetica,sans-serif;color:#000}
+#frame{width:780px;text-align:left;margin:0 auto;padding:0;background:#fff;background:#f2f2f2}
+/*#frame{border-top:0px solid #fff;border-bottom:0;!important}*/
+
+/* Navigation for the Masses */
+#globalnav{padding:0 2em;height:29px;background:#565656}
+#globalnav ul {margin:0;padding:0;list-style-type:none;white-space:nowrap;font:11px/18px Tahoma,Verdana,Arial,Helvetica,sans-serif;color:#f2f2f2}
+#globalnav ul li {display:inline;text-align:center}
+#globalnav ul li a{float:left;display:block;padding:0.4em 1.2em 0.6em;text-decoration:none;color:#f2f2f2}
+#globalnav ul li a:hover {background-color:#9D9D9D;color:#f2f2f2} /* Useless Hover Effect */
+
+#header{padding:5px;margin-bottom:0px;border:1px solid #ccc;border-top:none;background:#f8f8ff;padding-left:20px}
+
+/* Main Content Area */
+#content{float:left;width:483px;padding:0 16px;/*background:blue*/background:#fff;}
+#content img{padding:4px;border:1px solid #ccc;background:#f8f8ff;
+float:left;margin:4px 15px 4px 0;}
+#content a:hover img, #content img:hover{background:#eef;border-color:#dadaba}
+#content p{margin-top:0}
+
+/* Side Content Area */ 
+#side{float:right;width:243px;padding:10px 10px 0px 10px;background:#f2f2f2}
+#side{font:11px/16px Tahoma,Verdana,Arial,Helvetica,sans-serif;color:#565656}
+
+/* Footer */
+#footer{clear:both;padding:10px 8px 6px 8px; background:eee}
+
+/* General Tag Soup */
+.hide{display:none}
+img{border:0;margin:0;padding:0;background:none}
+
+/* Changes from here on added by KO */
+/* changes copied from the pictures css file */
+
+/* General Tag Soup */
+a, a:link{color:#00473F;text-decoration:none}
+a:visited{color:#CC9966}
+a:hover{color:#CC3300;text-decoration:underline}
+img{border:none;margin:0;padding:0}
+
+h2, h2 a:link{font:bold 18px/24px Tahoma, Verdana, sans-serif;margin:10px 0 4px 0;padding:0;color:#00473f}
+h3, h3 a:link {font:bold 12px/19px Tahoma, Verdana, sans-serif;margin:6px 0 4px 0; padding:0;color:#00554B;}
+
+em{font-weight:normal;font-style:normal;color:#500000}
+p.small{margin:-6px 0 6px 0;padding:0 13px;font-size:9px;color:#500000}
+p.small a, p.small a:link {color:#500000}
+p.small a:visited{color:#500000}
+p.small a:hover{color:#A00000;text-decoration:none}
+p.small:hover {color:#A00000}
+
+/* Your Comments */
+#comment-entry{padding:5px;margin:0 0 16px 0;border:1px solid #ccc;background:#f8f8ff}
+#comment-entry:hover{background:#eef;border-color:#dadaba} /* Use JavaScript to trigger :focus behavior */
+#comment-entry p{background:#fff;padding:2.5px 7px;margin:0}
+#comment-entry p.name{background:#f5f5dc;padding:0 7px}
+#comment-entry p.posted{background:#f5f5dc;padding:0 7px;font-size:9px;line-height:14px;color:#999;text-transform:uppercase}
+#comment-entry:hover p {background:#f8f8ff}
+#comment-entry:hover p.name, #comment-entry:hover p.posted {background:#f1f1d1}
+
+/* Enter Your Comment Box */
+#comment-box{background:#eee;border:1px solid #e6e6e6;padding:10px}
+#comment-box h2{padding:0 0 0 1px;margin:0}
+#comment-box p.small{padding:0 0 0 1px}
+#comment-box p {padding:0 0 0 6px}
+#comment-box span{display:block;padding:2px 6px;margin:0;background:#f6f6f6;color:#00473f;border:1px solid #e6e6e6;border-width:1px 0}
+#comment-box label{float:left;width:160px}
+#comment-box .submit label{float:none;width:auto;display:inline}
+input, textarea {font: 11px/17px Verdana, Tahoma, Arial, sans-serif;border: solid 1px #ddd;}
+textarea {width:99.5%}
+input:focus, textarea:focus {border: solid 1px #ccc}
+#comment-box span:hover, #comment-box:hover{border-color:#dadaba}
+input.button {cursor:pointer}
+
+/* small text */
+.posted, .posted a:link, .posted a:visited{
+ font-family:verdana, arial, sans-serif; 
+font-size: 10px; color: #888; margin-bottom: 0px;}
+.posted a:link, .posted a:visited{border-bottom: 1px dotted #999;}
+
+/*globalnav - this highlights the active tab */ 
+body#home li#mhome a, 
+body#pictures li#mpictures a,
+body#travels li#mtravels a,
+body#articles li#marticles a,
+body#blog li#mblog a,
+body#about li#mabout a,
+body#contact li#mcontact a,
+body#forums li#mforums a {background:white;font-weight:bold;color:green}
+
+/* copied from old stylesheet */
+/* Individual Image Archive */
+#img{position:relative;background:#ffffff;border:10px solid #ffffff}
+#topnav{float:right;position:relative}
+#topnav p{position:relative;text-align:right;margin-top:0px;line-height:15px}
+#botnav{float:right;position:relative;margin-top:11px}
+#botnav p{margin-top:0px;text-align:right}
+
+/* Category Page */
+.endp{margin-bottom:8px}
+#mainimg{height:200px;cursor:hand;cursor:pointer}
+
+/* end copy from old stylesheet */

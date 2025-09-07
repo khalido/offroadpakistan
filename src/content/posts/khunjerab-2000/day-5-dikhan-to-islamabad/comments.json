@@ -1,0 +1,33 @@
+{
+  "post_id": 121,
+  "comment_count": 3,
+  "comments": [
+    {
+      "id": 1015,
+      "author": "Hameed",
+      "email": "hsumbal@hotmail.com",
+      "date": "2005-08-21 14:09:28",
+      "content": "<p>This is a gr8 effort.</p>\n\n\t<p>The road you mentioned 13 km from Chashma barrage is Mianwali Muzafarghar road, comonly know as MM road. It is not Indus highway. Indus highway trvels on the other side of the mighty indus and touches <span class=\"caps\">D I </span>Khan.</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 1017,
+      "author": "Adeel",
+      "email": "aakbar3022@gmail.com",
+      "date": "2008-12-18 11:59:52",
+      "content": "<p>Doc Sahib,</p>\n\n\t<p>You’ve written ur travelogue in such a way that one would feel traveling with you on this journey. Hats off to u n to the whole group. It reminds me of many tough journeys that I’ve done in Pak many years back …good old memories. I miss that like anything all the more.</p>\n\n\t<p>This stuff has made me a regular visitor of this site.</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 1018,
+      "author": "Abdul Rasheed",
+      "email": "abrasheed787@gmail.com",
+      "date": "2010-01-21 13:34:02",
+      "content": "<p>It is very useful site for collecting information</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    }
+  ]
+}

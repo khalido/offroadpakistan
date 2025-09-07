@@ -1,0 +1,42 @@
+{
+  "post_id": 35,
+  "comment_count": 4,
+  "comments": [
+    {
+      "id": 436,
+      "author": "Salman Ali",
+      "email": "jeep@jeep.com",
+      "date": "2005-05-09 12:22:07",
+      "content": "<p>Yaseen,  nice article, I am glad to note that u have given credit where it’s due and that ur writing skills have vastly improved. After all, Dubai is doing u some good.</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 439,
+      "author": "Ali Hafeez Azmat",
+      "email": "ali.h.azmat@gmail.com",
+      "date": "2005-10-03 13:53:33",
+      "content": "<p>V. Nice article.  It made me recall our first Orange colored Jeep.  It was a beauty and a workhorse.</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 440,
+      "author": "Noel H. Guerrero",
+      "email": "nhguerrero@gmail.com",
+      "date": "2006-01-12 18:11:32",
+      "content": "<p>In the Philippines where I live,jeeps have been a daily part of our lives since after the second world war ended.Many surplus jeeps were converted to transport use the descendants of which still ply their routes all over the islands.After the supply of the original jeeps ran out,many enterprising filipinos manufactured or remanufactured jeep parts.Of course with the rising cost of petrol,the original engines began to be phased out starting the late 70’s and were replaced with japanese surplus diesel engines.I myself have assembled several “replicas” and at present building a jeep wrangler replica.Originals are very expensive over here but we are lucky to have a filipino company who manufactures jeep body/chassis that is comparable and to the same dimentions as the originals.If anyone is interested look up “MDJuan” on the google search engine.More power and long live the jeep.</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 442,
+      "author": "Eric Bickel",
+      "email": "ebickel@cox.net",
+      "date": "2006-11-02 07:58:19",
+      "content": "<p>Yaseen –<br />\nI own Jamboree #152, here in Texas. I was thrilled to find postings regarding #044. Do you know if there is a registry of Jamborees? I know of four other Jamborees in the <span class=\"caps\">USA</span>, but don’t know of a registry. It would be nice to track down how many Jamborees are remaining.</p>\n\n\t<p>Best,</p>\n\n\t<p>Eric</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    }
+  ]
+}

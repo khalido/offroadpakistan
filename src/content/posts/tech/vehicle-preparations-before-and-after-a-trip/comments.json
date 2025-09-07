@@ -1,0 +1,51 @@
+{
+  "post_id": 92,
+  "comment_count": 5,
+  "comments": [
+    {
+      "id": 964,
+      "author": "Aamir",
+      "email": "info@victorinox.com.pk",
+      "date": "2008-11-05 10:15:16",
+      "content": "<p>Utility knife, its better to carry Victorinox Swiss Army Pocket Tool</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 965,
+      "author": "Guz",
+      "email": "hotdog_74@hotmail.com",
+      "date": "2009-03-17 14:32:17",
+      "content": "<p>Very useful article indeed, especially those who are new to the concept.</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 966,
+      "author": "jdm engines",
+      "email": "nick@highperformancejdm.com",
+      "date": "2009-12-03 18:45:13",
+      "content": "<p>This is a great list and a lot of it pertains to any car. Vehicles would last longer if most of us took proper precautions and maintained them.</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 967,
+      "author": "Khurram",
+      "email": "khurram_Ace@hotmail.com",
+      "date": "2010-02-02 12:12:58",
+      "content": "<p>Nice article, really helpful as i will be on a lengthy road trip soon.</p>\n\n\t<p>thanks</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 1791,
+      "author": "Brian Buckley",
+      "email": "myusedengines@gmail.com",
+      "date": "2014-09-08 16:03:43",
+      "content": "Great list of essentials for wherever your traveling. I have been broke down foreign and domestic and you can never be overly prepared.",
+      "parent_id": 0,
+      "approved": true
+    }
+  ]
+}

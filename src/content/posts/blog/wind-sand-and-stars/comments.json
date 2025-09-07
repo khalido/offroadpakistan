@@ -1,0 +1,42 @@
+{
+  "post_id": 57,
+  "comment_count": 4,
+  "comments": [
+    {
+      "id": 705,
+      "author": "imad",
+      "email": "qowui@oienhw.com",
+      "date": "2005-09-14 02:04:58",
+      "content": "<p>KO, where’s my copy?</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 706,
+      "author": "KO",
+      "email": "khalid.omar@gmail.com",
+      "date": "2005-09-27 02:14:18",
+      "content": "<p>Doc and TM have a copy each – I gave mine away.</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 707,
+      "author": "RaymonWazerri",
+      "email": "alliswelltoday43@yahoo.com",
+      "date": "2007-04-21 06:02:17",
+      "content": "<p>Hey,</p>\n\n\t<p>I love what you’e doing!</p>\n\n\t<p>Don’t ever change and best of luck.</p>\n\n\t<p>Raymon W.</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 708,
+      "author": "RandyJones",
+      "email": "alliswelltoday67@yahoo.com",
+      "date": "2007-04-25 23:57:38",
+      "content": "<p>Looks Like Dallas is in trouble!</p>\n\n\t<p>Phoenix might end up blowing them all away.</p>\n\n\t<p><span class=\"caps\">PHX</span> vs. Det. Hmmm..Could be interesting?</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    }
+  ]
+}

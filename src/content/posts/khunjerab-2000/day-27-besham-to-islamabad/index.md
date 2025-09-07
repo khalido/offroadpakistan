@@ -1,0 +1,32 @@
+---
+author: ko
+category: Khunjerab 2000
+date: 2004-02-26
+draft: false
+tags:
+- Dr. Mansur Ahmad
+title: 'Day  27: Besham to Islamabad'
+wordpress_id: 143
+---
+
+Beesham, Shiwi, Thakot, Batagram, Mansera, Abbotabad, Nathia gali, Muree, Islamabad.
+
+20th July 2000
+
+**Travelogue:**
+
+In our late night discussion it was decided that we would drive up to Nathia Gali and then on to Islamabad which is our destination for today. The 4×4’s were all ready and packed by ten in the morning. It was bright and sunny, and our first stop was the petrol pump past the PTDC turning on the KKH. By the time we were on the road heading towards Thakot it was eleven in the morning. The road from Besham on the way back travels on the right of the river and just before Thakot it crosses over to the left by the large suspension bridge. The terrain is flat valley as you leave Besham and there are few bends on the road so one can drive quite fast. The road then climbs up and the hairpin bends and sharp corners start to appear again, the terrain also changes, and the green Himalayan fauna is a pleasant change. The famous monument marking the distances between the cities both of Pakistan and China is also situated here. The road past Thakot is through a landslide area, we have been very lucky so far as we have had no landslides this trip. Last time we drove through this place a diesel tanker had been trapped in the rubble of the slide and we had to drive over it to get to the other side. There had been a traffic jam on both sides of the landslide for miles.
+
+The terrain changes as you leave the Besham area from the barren Karakorams to the green Himalayas the two mountain ranges gradually blend with each other to change the scenery from rugged rocks to green vegetation. The smell of pine trees suddenly appears and is very refreshing. We stopped before Mansera for tea at a local restaurant and to let Hamid catch up with us. The boys ordered chicken karahi. The food was unexpectedly good and served quickly. The boys are very fond of chicken karahi and they polished it off in no time.
+
+While driving through one of the many small towns on the KKH, Taimur had a little mishap on the road. He was honking as he drove through the bazaar when suddenly out of nowhere a girl ran onto the road and hit the side of the jeep, she fell besides the vehicle dazed on the road. He thought of the worst, luckily she escaped any injury but was in a state of shock. One of the shopkeepers had seen what had happened, he advised Taimur to drive away, as he was worried that the locals would cause trouble by making it into a big incident and demand money. Hamid had a similar experience, with an old fellow who kept on crossing the road even though he knew that a vehicle was approaching and would hit him if it did not brake, that did not deter the old local who was obviously unaware of his surroundings. It is dangerous driving through these small towns, as on many an occasion people just walk onto the roads. One is constantly on the lookout that any moment anyone may jump across in front of the vehicle with disastrous consequences. I honk continuously while driving through these terror towns.
+
+We reached Mansera at three in the afternoon. The drive from Mansera to Abottabad is very picturesque along some exquisite pine forests. The road is also in very good condition and the distances don’t seem much. We reached Abottabad at about three forty and waited again for Hamid to catch up. He drives at a leisurely pace and is constantly lagging behind.
+
+Abbottabad to Nathia Gali is a drive worth the detour. The road to Nathia Gali turns left from the main road before the overhead bridge and carries along the cantonment area till it starts to climb towards the Nathia Gali hill resort. The road has been recently opened for traffic and is a duel carriage all the way, with center islands and side railings. These modern safety measures seem odd after having driven through some of the most treacherous terrain’s and road conditions this country has to offer. These modern safety measures are the need of the day with increasing number of fast cars however I prefer to drive on the old tracks at a slow leisurely pace anytime. I remember driving on the same road in 1993 when it was a broken single road and oncoming traffic could barely squeeze past. The same road is now transformed into a duel carriage and the surface is so good that you hardly feel a bump as one takes the sharp bends all the way up to Nathia Gali. The climb is a 4×4 low range effort and the vehicle with the entire load takes it in second gear. The weather began to change as we climbed the mountain and it was overcast and drizzling, the mist engulfed the area as we approached the hill resort. The clouds come in through the windows as they are at level with the vehicle and the road, it is an enthralling experience.
+
+The drive to the Greens hotel is along a narrow lane, which climbs at quite a steep gradient, the hotel is situated at the end of the road, and in fact the road ends in the car park. We reached the hotel at five thirty in the evening, the temperature outside is twenty degrees and very pleasant. There is this strange wet feeling in the air with the moisture of the clouds in the atmosphere. The water rich clouds form a mist around us. We sat on the terrace outside and ordered tea and sandwiches. The view of the tall trees and the clouds as they mingle with each other in front of us, was quite an experience.
+
+We started our drive down towards Islamabad as the sun was setting. The view of the sunset up in the mountains is breathtaking as the dark silhouette of the hills and the trees blend with the orange hue of the horizon. I had to take stills of this moment and the results were beautiful. The drive on to Murree is dangerous, as it was now dark and the road was slippery because of being wet with the rain. I breathed a sigh of relief as the lights of Murree came into view, the road improves after Murree with traffic and lights on the road improving the visibility.
+
+We reached the Islamabad guest house by nine thirty that night, with the mileage at 1330324 and the temperature thirty degrees. We have been on the road almost 4500 km so far.

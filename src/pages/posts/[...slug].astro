@@ -1,0 +1,36 @@
+---
+import { getCollection, render } from "astro:content";
+import BlogLayout from "../../layouts/BlogLayout.astro";
+import CommentsList from "../../components/content/CommentsList.astro";
+
+export async function getStaticPaths() {
+    const posts = await getCollection("posts", ({ data }) => !data.draft);
+    return posts.map((post) => ({
+        params: { slug: post.id },
+        props: { post },
+    }));
+}
+
+const { post } = Astro.props;
+const { Content, headings } = await render(post);
+
+// Try to load comments if they exist
+let comments = [];
+try {
+    // Look for comments.json in the post directory
+    const commentsModule = await import(
+        /* @vite-ignore */ `../../content/posts/${post.id}/comments.json`
+    );
+    comments = commentsModule.default?.comments || [];
+} catch (e) {
+    // No comments file found, that's ok
+}
+---
+
+<BlogLayout post={post}>
+    <div class="prose">
+        <Content />
+    </div>
+
+    <CommentsList comments={comments} />
+</BlogLayout>

@@ -1,0 +1,60 @@
+{
+  "post_id": 10,
+  "comment_count": 6,
+  "comments": [
+    {
+      "id": 33,
+      "author": "Jamal Panhwar",
+      "email": "jamaltours@hotmail.com",
+      "date": "2004-04-04 02:00:04",
+      "content": "\t<p>Karakorum Highway is indeed a wonder on earth. The article is very well written and gies a lot of information.</p>\n\n\n ",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 34,
+      "author": "karim",
+      "email": "tomothchi@yahoo.com",
+      "date": "2004-05-17 23:09:17",
+      "content": "\t<p>i want  to  be  a member</p>\n\n\n ",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 35,
+      "author": "Jawad",
+      "email": "jawad@bhattiz.com",
+      "date": "2005-02-22 20:25:56",
+      "content": "\t<p>Hello Karim</p>\n\n\t<p>Its interesting to read.  Could you tell us, what is the best time of the year to travel to Northen Pakistan including China through the Silk Route?</p>\n\n\t<p>cheers</p>\n\n\n ",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 36,
+      "author": "Mir Asad Ali",
+      "email": "asad_pacc@yahoo.com",
+      "date": "2005-09-06 15:30:13",
+      "content": "\t<p>aap ki website mien jo pictures hien woh bari zabardast hien or un ko dekh kar ehsaas hota hay k ap logo ka group bohot adventures hay.in pics ko dekh kar mera bhi dil chahanay laga hay k mien bhi in places ka visit karo yaqeen nahi aata k pakistan mien itni beautiful places bhi hein, kisi din InshaAllah mien in places par zaroor jaon ga. i hope k ap apni website kuch or achi pics ka izafa karein gay bye&#8230;&#8230;&#8230;</p>\n\n\t<p>asad</p>\n\n\n ",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 37,
+      "author": "karim tajik",
+      "email": "yaurchi@yahoo.com",
+      "date": "2007-06-07 01:02:29",
+      "content": "\t<p>after viewing this i wanna be the member</p>\n\n\n ",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 38,
+      "author": "karim tajik",
+      "email": "yaurchi@yahoo.com",
+      "date": "2007-06-07 01:03:09",
+      "content": "\t<p>nice</p>\n\n\n ",
+      "parent_id": 0,
+      "approved": true
+    }
+  ]
+}

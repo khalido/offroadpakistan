@@ -1,0 +1,33 @@
+{
+  "post_id": 31,
+  "comment_count": 3,
+  "comments": [
+    {
+      "id": 1549,
+      "author": "Dr Imran Ahmed",
+      "email": "Dr.I.Ahmed@Gmail.Com",
+      "date": "2012-01-08 17:12:37",
+      "content": "Excellent advice.",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 1635,
+      "author": "mobeen",
+      "email": "mobeenmohamad@gmail.com",
+      "date": "2013-11-06 21:03:16",
+      "content": "Hey,\n\nFirst time on ur site!\n\nHave to say a detailed extensive list, never saw anything this detailed.\nBeen to may drives and treks, but no one put it out so detailed.\n\nthanks for the list, will follow ur site now.\n\nregards,",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 1636,
+      "author": "Kate Dircksen",
+      "email": "Maski3477@gmail.com",
+      "date": "2013-11-21 03:08:24",
+      "content": "So how exactly does a snake eat an animal that is certainly bigger than it can be head?",
+      "parent_id": 0,
+      "approved": true
+    }
+  ]
+}

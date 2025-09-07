@@ -1,0 +1,15 @@
+{
+  "post_id": 115,
+  "comment_count": 1,
+  "comments": [
+    {
+      "id": 996,
+      "author": "Dheeraj Raj",
+      "email": "dheeraj.raj@gmail.com",
+      "date": "2008-09-28 17:35:54",
+      "content": "<p>Awsome</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    }
+  ]
+}

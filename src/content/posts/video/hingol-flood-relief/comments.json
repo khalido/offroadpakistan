@@ -1,0 +1,24 @@
+{
+  "post_id": 83,
+  "comment_count": 2,
+  "comments": [
+    {
+      "id": 884,
+      "author": "Mohammed Ali WAda",
+      "email": "aliwada@yahoo.com",
+      "date": "2009-03-18 00:07:42",
+      "content": "<p>Alahh App ko Jaza-e-khair atta karray</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 885,
+      "author": "S.DANISH ANWER",
+      "email": "whoisdani@hotmail.com",
+      "date": "2009-09-27 19:37:40",
+      "content": "<p><span class=\"caps\">AOA</span>, ITS <span class=\"caps\">REALLY MAKES ME FEEL HAPPY THAT I WANT TO JOIN THAT TEAM WHICH ALSO HAVE SOFT CORNER FOR THOSE WHO ARE HELPLESS</span>. ITS <span class=\"caps\">RELLY GREAT EFFORTS</span>. I <span class=\"caps\">APPRICIATE THIS KIND OF ACTIVITY</span>. THANK <span class=\"caps\">YOU</span></p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    }
+  ]
+}

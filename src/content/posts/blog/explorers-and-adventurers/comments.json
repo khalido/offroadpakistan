@@ -1,0 +1,24 @@
+{
+  "post_id": 9,
+  "comment_count": 2,
+  "comments": [
+    {
+      "id": 31,
+      "author": "James Hurley",
+      "email": "jhurley@booksasia.com",
+      "date": "2004-02-23 20:59:03",
+      "content": "<p>A very nice summary of the subject. Enjoyed reading it and got some insights.</p>\n\n\t<p>Jim Hurley</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 32,
+      "author": "A.Hoefnagel",
+      "email": "hoefnagel.a@wxs.nl",
+      "date": "2005-01-26 16:54:23",
+      "content": "<p>Like you article, especially because of some details in the history of exploration.</p>\n\n\t<p>Looking for the synoptic map drawn by Godwin Austen.Maybe you can tell me where I can find a copy ot that map.</p>\n\n\t<p>with kindly regards,</p>\n\n\t<p>A.Hoefnagel</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    }
+  ]
+}

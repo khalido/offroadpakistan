@@ -1,0 +1,24 @@
+{
+  "post_id": 124,
+  "comment_count": 2,
+  "comments": [
+    {
+      "id": 1020,
+      "author": "yasir naveed",
+      "email": "pakistaninspiration@yahoo.com",
+      "date": "2004-10-01 20:58:24",
+      "content": "\t<p>very good explorations,keep it up.i m from haripur.</p>\n\n\n ",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 1021,
+      "author": "imran khan",
+      "email": "imrankhan_tkt@hotmail.com",
+      "date": "2005-04-09 02:57:36",
+      "content": "\t<p>i am a resident of thakot. I will piont out the information about china bridge .The china bridge (recently renamed <span class=\"caps\">UE YEE</span> bridge )means pak china friendship,</p>\n\n\t<p>this bridge have been built in 1976 by 300 chines engineers.now it has been renamed as <span class=\"caps\">UE YEE</span> bridge <span class=\"caps\">WHICH MEANS PAK CHINA FRIEN SHIP</span>.</p>\n\n\t<p>It is situated in <span class=\"caps\">THAKOT</span> city. which is located in hazara division <span class=\"caps\">NWFP</span>.</p>\n\n\n ",
+      "parent_id": 0,
+      "approved": true
+    }
+  ]
+}

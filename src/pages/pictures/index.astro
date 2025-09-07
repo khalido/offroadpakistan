@@ -1,0 +1,149 @@
+---
+import { getCollection } from 'astro:content';
+import PageLayout from '../../layouts/PageLayout.astro';
+
+// Get all galleries using the new galleries collection
+const galleries = await getCollection('galleries', ({ data }) => !data.draft);
+
+// Sort galleries by date (newest first)
+const sortedGalleries = galleries.sort((a, b) =>
+  new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
+);
+
+// Get preview pictures for each gallery
+const galleriesWithPreviews = await Promise.all(
+  sortedGalleries.map(async (gallery) => {
+    const gallerySlug = gallery.id.replace('/index', '');
+
+    // Get first few pictures from this gallery for preview
+    const galleryPictures = await getCollection('pictures', ({ data }) =>
+      data.gallery === gallerySlug && !data.draft
+    );
+    const previewPictures = galleryPictures
+      .sort((a, b) => (a.data.order || 0) - (b.data.order || 0))
+      .slice(0, 4);
+
+    return {
+      gallery,
+      gallerySlug,
+      previewPictures
+    };
+  })
+);
+---
+
+<PageLayout
+  title="Picture Galleries - OffroadPakistan"
+  description="Explore decades of Pakistani adventure photography from the 4x4 Offroaders Club Karachi"
+>
+  <!-- Page Header -->
+  <header class="mb-8">
+    <h1 class="text-sm md:text-base font-bold text-gray-600 mb-2">Picture Gallery</h1>
+    <p class="text-xs md:text-sm text-gray-700 mb-4 leading-relaxed">
+      These are the journeys of the 4x4 Offroaders Club Karachi, venturing forth where few have gone before.
+      The picture gallery features pictures from all over Pakistan.
+    </p>
+    <p class="text-xs text-gray-600">
+      Explore {galleries.length} galleries documenting decades of Pakistani adventure and travel.
+    </p>
+  </header>
+
+  <!-- Galleries List -->
+  <div class="space-y-6">
+    {galleriesWithPreviews.map(({ gallery, gallerySlug, previewPictures }) => (
+      <article class="border-b border-gray-300 pb-4 mb-4 last:border-b-0">
+        <!-- Gallery Title -->
+        <h2 class="text-sm md:text-base font-bold text-teal-600 mb-2">
+          <a href={`/pictures/${gallerySlug}/`} class="text-teal-600 hover:text-green-600 transition-colors">
+            {gallery.data.title}
+            {gallery.data.featured && (
+              <span class="ml-1 inline-block w-2 h-2 bg-green-500 rounded-full" title="Featured gallery"></span>
+            )}
+          </a>
+        </h2>
+
+        <!-- Gallery Meta -->
+        <div class="flex flex-wrap items-center gap-2 md:gap-4 text-xs text-gray-600 mb-2">
+          {gallery?.data.picture_count && (
+            <span>{gallery.data.picture_count} photos</span>
+          )}
+          {gallery?.data.date && (
+            <>
+              <span class="text-gray-400 hidden md:inline">|</span>
+              <time datetime={gallery.data.date.toISOString()}>
+                {gallery.data.date.toLocaleDateString('en-US', {
+                  year: 'numeric',
+                  month: 'short',
+                  day: 'numeric'
+                })}
+              </time>
+            </>
+          )}
+        </div>
+
+        <!-- Gallery Description -->
+        {gallery.data.description && (
+          <p class="text-xs md:text-sm text-gray-700 mb-3 leading-relaxed">
+            {gallery.data.description}
+          </p>
+        )}
+
+        <!-- Preview Thumbnails -->
+        {previewPictures.length > 0 && (
+          <div class="mb-3">
+            <!-- Mobile: 2 columns, Desktop: 4 columns -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-2 mb-2">
+              {previewPictures.slice(0, 4).map((pic) => (
+                <a
+                  href={`/pictures/${gallerySlug}/${pic.id.split('/').pop()}/`}
+                  class="block aspect-[4/3] overflow-hidden"
+                  title={pic.data.title}
+                >
+                  <img
+                    src={`/src/content/pictures/${gallerySlug}/${pic.data.thumbnail || pic.data.image}`}
+                    alt={pic.data.title}
+                    class="w-full h-full object-cover heritage-image transition-transform hover:scale-105"
+                    loading="lazy"
+                  />
+                </a>
+              ))}
+            </div>
+
+            <!-- Show more indicator if there are additional images -->
+            {gallery.data.picture_count && gallery.data.picture_count > 4 && (
+              <p class="text-xs text-gray-500">
+                and {gallery.data.picture_count - 4} more photos...
+              </p>
+            )}
+          </div>
+        )}
+
+        <!-- View Gallery Link -->
+        <div class="text-xs">
+          <a
+            href={`/pictures/${gallerySlug}/`}
+            class="text-teal-600 hover:text-green-600 font-bold transition-colors"
+          >
+            View Gallery →
+          </a>
+        </div>
+      </article>
+    ))}
+  </div>
+
+  {galleriesWithPreviews.length === 0 && (
+    <div class="text-center py-8">
+      <p class="text-sm text-gray-600">No galleries available at the moment.</p>
+    </div>
+  )}
+
+  <!-- Heritage Note -->
+  <div class="mt-8 p-4 bg-gray-50 border border-gray-200 text-xs md:text-sm">
+    <h3 class="font-bold text-teal-600 mb-2">Heritage Archive</h3>
+    <p class="text-gray-700 leading-relaxed">
+      This collection represents decades of Pakistani adventure documentation by the 4x4 Offroaders Club Karachi.
+      These images capture the raw beauty of Pakistan's landscapes and the spirit of exploration that defined
+      an era of adventure travel. Originally published at offroadpakistan.com from 2003-2008.
+    </p>
+  </div>
+</PageLayout>

@@ -1,0 +1,15 @@
+{
+  "post_id": 100,
+  "comment_count": 1,
+  "comments": [
+    {
+      "id": 978,
+      "author": "Karachi\\'s Situation",
+      "email": "yousaftalha@gmail.com",
+      "date": "2011-02-08 13:10:35",
+      "content": "<p>Well this is really nice effort and I’ll definitely pass it on to my friends.</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    }
+  ]
+}

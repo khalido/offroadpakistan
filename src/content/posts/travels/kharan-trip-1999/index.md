@@ -1,0 +1,30 @@
+---
+author: ko
+category: Travels
+date: 2003-08-04
+draft: false
+tags:
+- Taimur Mirza
+title: Kharan Trip 1999
+wordpress_id: 11
+---
+
+**In search of the extraordinary tombs.**
+
+Reproduced below is a part from the narrative of Journey made by Col. Henry Pottinger in 1807 and written in a book called Travels through Baluchistan and Sind published in 1810. He was the first European to travel through Baluchistan on Camel back and recorded his journey. To find the extraordinary tombs described below, search has been attempted in the past as far back in 1905 for the location of the unusual tombs but in vain. I along with friends also attempted looking for these tombs in 1999.
+
+“About four miles from our halting place we, this evening, passed the remains of some very extraordinary tombs, built on the western bank of the river about 4 hundred yards from it: they were of a quadrangular shape, and had each been surrounded by a low wall of curious open freestone work, which conveyed to me at that moment, the idea of meshes of a net stretched at one end into a conical shape: these walls enclosed an area of four or five square yards, and the entrance to them, as well as the buildings, fronted due East: there were several large mounds of earth and stones scattered over the desert to a considerable distance, which induced me to get off my camel, but as it was raining at the time, and I was but just able to walk, I did not stay to examine any of them minutely. I could discover no inscriptions, and it was in vain that I subsequently made strict inquiry with respect to these places, as I had not the good fortune to meet with any person who had seen them. All the satisfaction that my guide could give me was, that they were built in time of the Guebres\*, but that is the source, to which is ascribed everything uncommon or inexplicable throughout the country, and ought not therefore to be implicitly credited; it is, however, probable that in this instance the conjecture was right: there was nothing whatever Mohammadan or Hindu in the style, and if we remove the erection of them from those notions, it naturally rests with Parsees\* unless we choose to attribute it to a still earlier period. They were evidently very ancient, for not withstanding the durable nature of the materials they were composed, every one mouldering and in a complete state of dilapidation. The most remarkable circumstance regarding them, if true, was pointed out to me by Moorad Khan, who informed me there was no stone of the same description (with that they were erected with) to be found in any part of the country, and added that it would be of no value, for the people of our days were incapable of executing such workmanship. I am still dubious whether these buildings were formerly sepulchers or places of worship; inside of each was a raised mound covered with stone, which had, beyond a doubt the appearance of a grave, but it is also possible that this was the altar for the sacred fire of the Atush Kudu # ; their numbers speak, more than any other argument, to their having been cemeteries”.
+
+In 1905 Dr. M.A. Stein attempted to trace some of the places of archaeological interest which were noticed by Pottinger when he traveled through Kharan in 1810. Dr. Stein has kindly supplied the following notes about his journey:
+
+“The search for the more interesting ruins which Pottinger had seen on his third march south of Nushki, proved far more difficult. From certain topographical indications I concluded that on his way into Kharan he must have followed the route crossing the range of mountains south west of Nushki by the Tafui pass. But the country being in Pottinger’s days quite as devoid of permanent inhabitations as it is now, and, of course unsurveyed, his narrative does not supply such local names or other indicia by which his line of route or the site referred to could be fixed with precision on the modern map. Nevertheless, the close agreement of Pottinger’s description with the ground seen by me on the Tafui route, as well as his mention of the Bel stream (his Bale) make me now feel certain that he actually traveled by this route. The information gathered from Brahuized Hindus coming from Kharan, the only travelers we met on this route, pointed to the existence of ruined mounds near the route some miles to the North of Nouroz Kalat. This was confirmed by what was known to some nomadic Brahui shepards we picked up at our second encampment near a well in the dry river bed of Bel.
+
+Under the guidance of of one of these shepards I proceeded on the morning of the third day to the ruined site spoken of. It proved to be situated by the left bank of the broad river bed which is formed by the junction of the Bel with the Baddo river, coming from the mountains to the north-east and known in its upper course as Lijji or Chiringi. The old site known like all ruins of this region by the name of ‘Kona-shahr’, so familiar to me from Turkestan, lies about one and a half mile below the junction just referred to, which is marked by the ziarat of Sheikh Hussain (‘Shah Hasan Ziarat of north-western Trans-frontier map no:22’). It occupies the angle formed between the bed of the united Bel and Baddo rivers and a small dry nullah known as Toji which joins it from the north-east. The distance from Nushki which by the map as well as by an approximately accurate road estimate was shown to be about 65 miles, agreed remarkably well with Pottinger’s indications, but though there were the several large mounds of earth and stone scattered over the desert to which his description refers, no trace could be found of the ‘very extraordinary tombs of a quadrangular shape, each surrounded by a low wall of curious open free stone work’, which he mentions at a distance of approximately 400 yards from the western bank of the river”.
+
+I leave this to the younger generation to find this and other places of historical and archaeological importance in Pakistan.
+
+Taimur Mirza.
+
+* Guebres /Parsees are the Zoroastrians who ruled Persia some 4000 years back.
+
+1. Fire temple.

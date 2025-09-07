@@ -1,0 +1,24 @@
+---
+import { getCollection } from "astro:content";
+
+// Get all galleries using the galleries collection
+const galleries = await getCollection("galleries", ({ data }) => !data.draft);
+
+// Sort galleries alphabetically by title
+const sortedGalleries = galleries.sort((a, b) =>
+    a.data.title.localeCompare(b.data.title),
+);
+---
+
+<ul class="text-xs space-y-1 heritage-links">
+    {sortedGalleries.map((gallery) => {
+        const gallerySlug = gallery.id.replace("/index", "");
+        return (
+            <li key={gallery.id}>
+                <a href={`/pictures/${gallerySlug}/`}>
+                    {gallery.data.title}
+                </a>
+            </li>
+        );
+    })}
+</ul>

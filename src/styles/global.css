@@ -1,0 +1,299 @@
+@import "tailwindcss";
+@plugin '@tailwindcss/typography';
+
+/* Heritage Color Scheme - Original OffroadPakistan.com */
+:root {
+    --heritage-background: #e4e4e4; /* Light gray background */
+    --heritage-frame-bg: #ffffff; /* White content area */
+    --heritage-header-bg: #e2e87e; /* Yellow-green header */
+    --heritage-nav-bg: #565656; /* Dark gray navigation */
+    --heritage-nav-text: #f2f2f2; /* Light gray nav text */
+    --heritage-sidebar-bg: #f2f2f2; /* Light gray sidebar */
+    --heritage-content-links: #00473f; /* Dark teal links */
+    --heritage-visited-links: #cc9966; /* Brown visited links */
+    --heritage-accent-green: #98a100; /* Olive green accents */
+    --heritage-cream: #ffffff; /* Content background - now white */
+}
+
+/* Base styles inspired by original site */
+body {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    background-color: var(--heritage-background);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #333333;
+}
+
+/* Responsive font sizing */
+@media (min-width: 640px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 13px;
+    }
+}
+
+/* Heritage frame - responsive container */
+.heritage-frame {
+    max-width: 772px;
+    width: 100%;
+    margin: 0 auto;
+    background: var(--heritage-frame-bg);
+    text-align: left;
+}
+
+/* Heritage content and sidebar - mobile first */
+.heritage-content {
+    width: 100%;
+    background: #ffffff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.heritage-sidebar {
+    width: 100%;
+    background: var(--heritage-sidebar-bg);
+    padding: 15px;
+    box-sizing: border-box;
+    border-top: 1px solid #ddd;
+}
+
+/* Desktop layout - two columns */
+@media (min-width: 768px) {
+    .heritage-content {
+        width: 482px;
+        float: left;
+        border-right: none;
+        border-top: none;
+        padding: 16px;
+    }
+
+    .heritage-sidebar {
+        width: 240px;
+        float: right;
+        border-top: none;
+        padding: 10px;
+    }
+}
+
+/* Clear floats */
+.clearfix::after,
+.page-layout-container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Heritage navigation */
+.heritage-nav {
+    background: var(--heritage-nav-bg);
+    color: var(--heritage-nav-text);
+    padding: 8px 10px;
+    position: relative;
+    min-height: 40px;
+}
+
+.heritage-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.heritage-nav li {
+    display: inline;
+}
+
+.heritage-nav a {
+    color: var(--heritage-nav-text);
+    text-decoration: none;
+    font-size: 11px;
+    padding: 4px 8px;
+}
+
+.heritage-nav a:hover {
+    text-decoration: underline;
+}
+
+/* Heritage links */
+.heritage-links a:link {
+    color: var(--heritage-content-links);
+    text-decoration: none;
+}
+
+.heritage-links a:visited {
+    color: var(--heritage-visited-links);
+}
+
+.heritage-links a:hover {
+    color: #cc3300;
+    text-decoration: underline;
+}
+
+/* Heritage images */
+.heritage-image,
+img.heritage-image,
+.thumbnail-grid img,
+.prose img,
+article img,
+.post-content img {
+    padding: 4px;
+    border: 1px solid #ccc;
+    background: #f8f8ff;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+}
+
+/* Ensure blog post images maintain heritage styling */
+.prose img {
+    border-radius: 0 !important;
+}
+
+/* Responsive thumbnail grid */
+.thumbnail-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+}
+
+@media (min-width: 480px) {
+    .thumbnail-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 640px) {
+    .thumbnail-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* Typography */
+h1 {
+    font:
+        bold 18px Verdana,
+        Helvetica,
+        Arial,
+        sans-serif;
+    color: var(--heritage-nav-bg);
+    margin: 0 0 8px 0;
+}
+
+h2 {
+    font:
+        italic 17px Georgia,
+        "Times New Roman",
+        Times,
+        serif;
+    color: var(--heritage-nav-bg);
+    margin: 15px 0 8px 0;
+}
+
+h3 {
+    font:
+        bold 14px Verdana,
+        Helvetica,
+        Arial,
+        sans-serif;
+    color: var(--heritage-nav-bg);
+    margin: 10px 0 5px 0;
+}
+
+p {
+    color: #333333;
+    font:
+        14px/1.7 Verdana,
+        Helvetica,
+        Arial,
+        sans-serif;
+    margin: 10px 0;
+}
+
+/* Responsive typography scaling */
+@media (min-width: 640px) {
+    h1 {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 17px;
+    }
+    h3 {
+        font-size: 14px;
+    }
+    p {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 14px;
+    }
+    p {
+        font-size: 13px;
+    }
+}
+
+/* Improved blog post typography for readability on modern screens */
+@media (min-width: 768px) {
+    .prose p,
+    .post-content p,
+    article p {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+}
+
+@media (min-width: 1024px) {
+    .prose p,
+    .post-content p,
+    article p {
+        font-size: 16px;
+        line-height: 1.85;
+    }
+}
+
+/* Mobile touch targets */
+@media (max-width: 767px) {
+    a,
+    button {
+        min-height: 44px;
+        min-width: 44px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+}
+
+/* Utility classes */
+.font-heritage {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* Ensure responsive behavior */
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}

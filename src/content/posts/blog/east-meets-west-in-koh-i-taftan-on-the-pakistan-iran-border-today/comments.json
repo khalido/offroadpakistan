@@ -1,0 +1,42 @@
+{
+  "post_id": 38,
+  "comment_count": 4,
+  "comments": [
+    {
+      "id": 474,
+      "author": "Yaseen",
+      "email": "yaseen.ali@gmail.com",
+      "date": "2005-12-17 01:11:02",
+      "content": "<p>Indeed an informative and well authored piece of journalism, Kaleem Uncle.</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 475,
+      "author": "Abrar",
+      "email": "ex04051@qmul.ac.uk",
+      "date": "2007-05-31 15:38:09",
+      "content": "<p>I planned a cycle trip from London to Bangladesh (DHaka) via all of Europe and eventually Iran and Pakistan on to India and BAngladesh. I was advised that the border between Iran and Pakistan is very dangerous and different problems led to my cancellation of this trip. I also wanted to fundraise on the way. I wish these ‘jeep’ lovers all the best and wish I could also follow in their footsteps one day.</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 476,
+      "author": "Ali Butt",
+      "email": "alirazabutt@hotmail.co.uk",
+      "date": "2009-03-02 06:27:07",
+      "content": "<p>I really admire the effort being done by the off roaders club karachi,and the expedition compeleted by the mambers.This is one of the great oppertunity and the  platform for the Pakistani to show their skills and knowledge of driving in different region of the country.Well done</p>\n\n\t<p>Please if some one can let me know if i travel from london to karachi on car,can i cross the border between Iran and Pakistan these days.It will be highly apperciated if some one gives me advise about it. Thanks</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 477,
+      "author": "Taimur Mirza",
+      "email": "gibli24@gmail.com",
+      "date": "2009-03-06 14:07:12",
+      "content": "<p>Ali It would be best to find out from the Pakistan High Commission in London before making any plans.</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    }
+  ]
+}

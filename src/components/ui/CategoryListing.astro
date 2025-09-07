@@ -1,0 +1,22 @@
+---
+import { getCollection } from "astro:content";
+
+// Get all posts to determine unique categories from folder structure
+const posts = await getCollection("posts", ({ data }) => !data.draft);
+
+// Extract unique categories from post paths (first folder level)
+const categories = [...new Set(posts.map(post => post.id.split("/")[0]))];
+
+// Sort categories alphabetically
+const sortedCategories = categories.sort();
+---
+
+<ul class="text-xs space-y-1 heritage-links">
+    {sortedCategories.map((category) => (
+        <li key={category}>
+            <a href={`/posts/${category}/`}>
+                {category.charAt(0).toUpperCase() + category.slice(1).replace(/-/g, " ")}
+            </a>
+        </li>
+    ))}
+</ul>

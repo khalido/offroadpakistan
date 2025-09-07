@@ -1,0 +1,44 @@
+---
+import { getCollection, render } from 'astro:content';
+import PictureLayout from "../../../layouts/PictureLayout.astro";
+
+export async function getStaticPaths() {
+    // Get all individual pictures using the new pictures collection
+    const pictures = await getCollection("pictures", ({ data }) => !data.draft);
+
+    return pictures.map((picture) => ({
+        params: {
+            gallery: picture.data.gallery,
+            slug: picture.id.split("/").pop(), // Get just the filename without gallery path
+        },
+        props: { picture },
+    }));
+}
+
+const { picture } = Astro.props;
+// const { Content } = await picture.render();
+
+// Get other pictures in the same gallery for navigation
+const allPictures = await getCollection(
+    "pictures",
+    ({ data }) => data.gallery === picture.data.gallery && !data.draft,
+);
+const sortedPictures = allPictures.sort(
+    (a, b) => (a.data.order || 0) - (b.data.order || 0),
+);
+const currentIndex = sortedPictures.findIndex((p) => p.id === picture.id);
+const prevPicture = currentIndex > 0 ? sortedPictures[currentIndex - 1] : null;
+const nextPicture =
+    currentIndex < sortedPictures.length - 1
+        ? sortedPictures[currentIndex + 1]
+        : null;
+---
+
+<PictureLayout
+    title={picture.data.title}
+    picture={picture}
+    prevPicture={prevPicture}
+    nextPicture={nextPicture}
+    pictureNumber={currentIndex + 1}
+    totalPictures={sortedPictures.length}
+/>

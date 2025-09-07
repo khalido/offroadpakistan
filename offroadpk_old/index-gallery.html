@@ -1,0 +1,456 @@
+<?php
+$lines = file ('numbers'); $links = file ('links');
+$total_lines = count ($lines);
+for ($i = 0; $i < $total_lines; $i++) {
+	if ($lines[$i] == 586)
+		{	$position=$i+1;
+			if ($i>0){$p=$links[$i-1];} else{$p="0";}
+			if ($i+1<$total_lines) {$n=$links[$i+1]; } else {$n="0";}
+	} } //end for loop
+function _prev($p="0"){
+	if ($p=="0") {echo "";} else {echo "<a href=\"$p\">&laquo; prev</a>"; } }
+function _next($n="0"){
+	if ($n=="0") { echo "";} else {echo "<a href=\"$n\">next &raquo;</a>"; } }
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Chitral (4x4 Offroaders Club Karachi)</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="MSSmartTagsPreventParsing" content="true" />
+<meta http-equiv="imagetoolbar" content="false" />
+<meta name="ROBOTS" content="ALL" />
+<meta name="Copyright" content="Copyright (c) 2003 4x4 Offroaders Club Karachi" />
+<meta name="description" content="4x4 Offroaders Club Karachi, Photo Gallery. Continuously updated as we travel around Pakistan" />
+<meta name="keywords" content="4x4 Offroaders Club Karachi, Pakistan, Photo Gallery, photography pictures, offroad track outdoors camping, jeep cj5 cj7 m38 m171, sind sindh baluchistan punjab nwfp northern areas  " />
+<meta name="author" content="Khalid and Abid Omar" />
+<link rel="offroadpakistan" href="http://www.offroadpakistan.com/" title="4x4 Offroaders Club Karachi" />
+<link rel="about" href="http://www.offroadpakistan.com/about/" title="About the 4x4 Offroaders Club Karachi website" />
+<link rel="ko" href="http://ko.offroadpakistan.com/" title="Khalid Omar's Daily Rant" />
+<meta name="Rating" content="General" />
+<meta name="revisit-after" content="4 Days" />
+<meta name="expires" content="never" />
+<meta name="distribution" content="global" />
+<meta name="doc-class" content="Living Document" />
+
+<meta name="geo.position" content="24.85;67.0333" />
+<meta name="geo.region" content="PK-SD" />
+<meta name="geo.placename" content="Karachi" />
+<meta name="dc:title" lang="en" content="4x4 Offroaders Club Karachi, Photo Gallery. Continuously updated as we travel around Pakistan" />
+<meta name="dc:creator" content="Khalid and Abid Omar" />
+
+<link rel="Shortcut Icon" type="image/ico" href="favicon.ico" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.offroadpakistan.com/index.xml" />
+
+<style type="text/css" media="all">@import "offroad2.css";
+#mainimg{background:#fff url("http://offroadpakistan.com/pictures/chitral/chitral_omars_19.jpg") 50% 50% no-repeat}
+#content{width:580px}
+#side{width:146px}
+</style>
+<!-- <link rel="stylesheet" type="text/css" media="print" href="print.css" /> -->
+<script type="text/javascript" language="javascript">
+
+</script>
+</head>
+<body id="pictures">
+
+<div id="frame">
+<div id="header">
+<h1><a href="http://www.offroadpakistan.com/" title="Offroad Pakistan" accesskey="1">Offroad Pakistan</a></h1>
+<h2><a href="/pictures">Picture Gallery</a> &raquo;
+	<a href="http://offroadpakistan.com/pictures/chitral/index.html">Chitral</a></h2>
+</div><!-- header -->
+
+<!-- Navigation Menu -->
+<?php include ('/home/offroad/www/www/asset/globalnav'); ?>
+
+<div id="content">
+	<h1>Chitral</h1>
+	<p>A family trip to Chitral, in the summer of 1995.</p>
+	<p class="endp">This picture gallery has 32 pictures.
+	<strong><a href="http://offroadpakistan.com/pictures/chitral/index.html#thumbnails" title="View picture gallery">View Thumbnails</a></strong>. The first picture in the gallery:</p>
+
+<div id="img">
+	<div id="topnav">
+	<p><?php _prev($p); ?> |
+	<?php echo $position ?> of 32 |
+	<?php _next($n); ?></p>
+	</div><!-- topnav -->
+	<div id="mainimg" onclick="document.location='http://offroadpakistan.com/pictures/chitral/fishing_for_trout_at_maho_dand_lake.html';" title="Fishing for trout at Maho Dand lake"></div>
+	<p><strong>Fishing for trout at Maho Dand lake:</strong>
+	This is a river fed by glaciers just around the bend. It's one of those spots which you see in pictures of travel magazines.</p>
+
+</div><!-- img -->
+<a name="thumbnails"></a>
+
+<div id="thumbnails">
+<?php if (false) : ?>
+<div style="border: 2px solid red; background: yellow; margin: 1em; padding: 1em; font-family: sans-serif;">The <b>MTPaginate</b> tag only works within PHP documents!
+<br />
+Make sure that the document extension is <b>.php</b> and that your server supports PHP documents.
+</div>
+<?php endif; ?>
+<?
+// Values that can be used in other PHP code on the page
+$paginate_num_pages = 2;
+$paginate_num_sections = 32;
+$paginate_page_selector = 'page';
+$paginate_current_page = $_GET['page'];
+// Pin page selector to a valid number (or 'all')
+if($paginate_current_page=='')
+	$paginate_current_page = '1';
+if($paginate_current_page != 'all') {
+	if($paginate_current_page == 'first')
+		$paginate_current_page = 1;
+	elseif($paginate_current_page == 'last')
+		$paginate_current_page = 2;
+	elseif($paginate_current_page < 1)
+		$paginate_current_page = 1;
+	elseif($paginate_current_page > 2)
+		$paginate_current_page = 2;
+$paginate_sections = array( 0
+, 20, 32);
+	$paginate_top_section = $paginate_sections[$paginate_current_page-1]+1;
+	$paginate_bottom_section = $paginate_sections[$paginate_current_page];
+} else {
+	$paginate_top_section = 1;
+	$paginate_bottom_section = 32;
+}
+$paginate_self = '&' . $_SERVER['QUERY_STRING'] . '&';
+$paginate_self = preg_replace("/&page=[^&]*&/", "&", $paginate_self);
+$paginate_self = substr($paginate_self, 0, strlen($paginate_self) - 1);
+if($paginate_self == '&')
+	$paginate_self = '';
+$paginate_self = basename($_SERVER['PHP_SELF']) . "?${paginate_self}page";
+?>
+	<p><?php if($paginate_current_page != 'all' && $paginate_current_page>1) : ?>
+<a href="<?php if($paginate_current_page > 1) echo "$paginate_self=" . ($paginate_current_page-1); ?>
+">&laquo; prev</a><?php endif; ?>
+ |
+	<?php echo $paginate_current_page; ?>
+ of 2 |
+	<?php if($paginate_current_page != 'all' && $paginate_current_page<2) : ?>
+<a href="<?php if($paginate_current_page < 2) echo "$paginate_self=" . ($paginate_current_page+1); ?>
+">next &raquo;</a><?php endif; ?>
+ |
+	<?php
+	if($paginate_current_page == 'all') {
+		echo 'Display All Thumbnails | ';
+	} else {
+		echo "<a href=\"$paginate_self=all\" title=\"Display all thumbnails at once\">Display All Thumbnails</a> | ";
+	}
+for($i = 1; $i <= 2; $i++) {
+	if($i > 1)
+		echo ' | ';
+	if($i == $paginate_current_page) {
+		echo sprintf("Page %d", $i);
+	} else {
+		echo "<a href=\"$paginate_self=$i\""  . sprintf(' title="See thumbnails on page %d"', $i) .  sprintf('>Page %d', $i) . '</a>';
+	}
+}
+?>
+</p>
+
+<?php if($paginate_current_page == 1 || $paginate_current_page == 'all') : ?>
+	<a name="000501"></a>
+	<a href="http://offroadpakistan.com/pictures/chitral/bridge.html">
+	<img src="http://offroadpakistan.com/pictures/chitral/chitral_omars_1-thumb.jpg" width="120" height="90" title="Bridge" alt="Bridge" /></a>
+
+	<a name="000502"></a>
+	<a href="http://offroadpakistan.com/pictures/chitral/major_breakdown.html">
+	<img src="http://offroadpakistan.com/pictures/chitral/chitral_omars_2-thumb.jpg" width="120" height="90" title="Major Breakdown" alt="Major Breakdown" /></a>
+
+	<a name="000507"></a>
+	<a href="http://offroadpakistan.com/pictures/chitral/rest_stop_on_the_n5.html">
+	<img src="http://offroadpakistan.com/pictures/chitral/chitral_omars_3-thumb.jpg" width="120" height="90" title="Rest Stop on the N5" alt="Rest Stop on the N5" /></a>
+
+	<a name="000508"></a>
+	<a href="http://offroadpakistan.com/pictures/chitral/lowari_pass_resthouse.html">
+	<img src="http://offroadpakistan.com/pictures/chitral/chitral_omars_4-thumb.jpg" width="120" height="90" title="Lowari Pass Resthouse" alt="Lowari Pass Resthouse" /></a>
+
+	<a name="000509"></a>
+	<a href="http://offroadpakistan.com/pictures/chitral/hotel.html">
+	<img src="http://offroadpakistan.com/pictures/chitral/chitral_omars_5-thumb.jpg" width="120" height="90" title="Hotel" alt="Hotel" /></a>
+
+	<a name="000510"></a>
+	<a href="http://offroadpakistan.com/pictures/chitral/glacier.html">
+	<img src="http://offroadpakistan.com/pictures/chitral/chitral_omars_6-thumb.jpg" width="120" height="90" title="Glacier" alt="Glacier" /></a>
+
+	<a name="000511"></a>
+	<a href="http://offroadpakistan.com/pictures/chitral/ice_factory.html">
+	<img src="http://offroadpakistan.com/pictures/chitral/chitral_omars_7-thumb.jpg" width="120" height="90" title="Ice Factory" alt="Ice Factory" /></a>
+
+	<a name="000512"></a>
+	<a href="http://offroadpakistan.com/pictures/chitral/kalash_dancers.html">
+	<img src="http://offroadpakistan.com/pictures/chitral/chitral_omars_8-thumb.jpg" width="120" height="90" title="Kalash Dancers" alt="Kalash Dancers" /></a>
+
+	<a name="000513"></a>
+	<a href="http://offroadpakistan.com/pictures/chitral/kalash_locals.html">
+	<img src="http://offroadpakistan.com/pictures/chitral/chitral_omars_9-thumb.jpg" width="120" height="90" title="Kalash Locals" alt="Kalash Locals" /></a>
+
+	<a name="000538"></a>
+	<a href="http://offroadpakistan.com/pictures/chitral/watching_forest.html">
+	<img src="http://offroadpakistan.com/pictures/chitral/chitral_omars_10-thumb.jpg" width="120" height="90" title="Watching Forest" alt="Watching Forest" /></a>
+
+	<a name="000550"></a>
+	<a href="http://offroadpakistan.com/pictures/chitral/ko_by_jeep.html">
+	<img src="http://offroadpakistan.com/pictures/chitral/chitral_omars_11-thumb.jpg" width="120" height="90" title="KO by Jeep" alt="KO by Jeep" /></a>
+
+	<a name="000551"></a>
+	<a href="http://offroadpakistan.com/pictures/chitral/ao_on_jeep.html">
+	<img src="http://offroadpakistan.com/pictures/chitral/chitral_omars_12-thumb.jpg" width="120" height="90" title="AO on Jeep" alt="AO on Jeep" /></a>
+
+	<a name="000580"></a>
+	<a href="http://offroadpakistan.com/pictures/chitral/sikander_coke.html">
+	<img src="http://offroadpakistan.com/pictures/chitral/chitral_omars_13-thumb.jpg" width="120" height="90" title="Sikander Coke" alt="Sikander Coke" /></a>
+
+	<a name="000581"></a>
+	<a href="http://offroadpakistan.com/pictures/chitral/anika_coke.html">
+	<img src="http://offroadpakistan.com/pictures/chitral/chitral_omars_14-thumb.jpg" width="120" height="90" title="Anika Coke" alt="Anika Coke" /></a>
+
+	<a name="000582"></a>
+	<a href="http://offroadpakistan.com/pictures/chitral/cj_flat_tire.html">
+	<img src="http://offroadpakistan.com/pictures/chitral/chitral_omars_15-thumb.jpg" width="120" height="90" title="CJ Flat Tire" alt="CJ Flat Tire" /></a>
+
+	<a name="000583"></a>
+	<a href="http://offroadpakistan.com/pictures/chitral/rice_fields.html">
+	<img src="http://offroadpakistan.com/pictures/chitral/chitral_omars_16-thumb.jpg" width="120" height="90" title="Rice fields" alt="Rice fields" /></a>
+
+	<a name="000584"></a>
+	<a href="http://offroadpakistan.com/pictures/chitral/charpai.html">
+	<img src="http://offroadpakistan.com/pictures/chitral/chitral_omars_17-thumb.jpg" width="120" height="90" title="Charpai" alt="Charpai" /></a>
+
+	<a name="000585"></a>
+	<a href="http://offroadpakistan.com/pictures/chitral/british_bridge.html">
+	<img src="http://offroadpakistan.com/pictures/chitral/chitral_omars_18-thumb.jpg" width="120" height="90" title="British Bridge" alt="British Bridge" /></a>
+
+	<a name="000587"></a>
+	<a href="http://offroadpakistan.com/pictures/chitral/mahodand_lake.html">
+	<img src="http://offroadpakistan.com/pictures/chitral/chitral_omars_20-thumb.jpg" width="120" height="90" title="Mahodand Lake" alt="Mahodand Lake" /></a>
+
+	<a name="000588"></a>
+	<a href="http://offroadpakistan.com/pictures/chitral/kkh_signboard.html">
+	<img src="http://offroadpakistan.com/pictures/chitral/chitral_omars_21-thumb.jpg" width="120" height="90" title="KKH Signboard" alt="KKH Signboard" /></a>
+
+<?php endif; ?>
+<?php if($paginate_current_page == 2 || $paginate_current_page == 'all') : ?>
+
+	<a name="000589"></a>
+	<a href="http://offroadpakistan.com/pictures/chitral/so_jeep.html">
+	<img src="http://offroadpakistan.com/pictures/chitral/chitral_omars_22-thumb.jpg" width="120" height="90" title="SO Jeep" alt="SO Jeep" /></a>
+
+	<a name="000590"></a>
+	<a href="http://offroadpakistan.com/pictures/chitral/mo_hammock.html">
+	<img src="http://offroadpakistan.com/pictures/chitral/chitral_omars_23-thumb.jpg" width="120" height="90" title="MO Hammock" alt="MO Hammock" /></a>
+
+	<a name="000591"></a>
+	<a href="http://offroadpakistan.com/pictures/chitral/on_the_move.html">
+	<img src="http://offroadpakistan.com/pictures/chitral/chitral_omars_24-thumb.jpg" width="120" height="90" title="On the Move" alt="On the Move" /></a>
+
+	<a name="000592"></a>
+	<a href="http://offroadpakistan.com/pictures/chitral/fallen_jeep.html">
+	<img src="http://offroadpakistan.com/pictures/chitral/chitral_omars_25-thumb.jpg" width="120" height="90" title="Fallen Jeep" alt="Fallen Jeep" /></a>
+
+	<a name="000593"></a>
+	<a href="http://offroadpakistan.com/pictures/chitral/winching.html">
+	<img src="http://offroadpakistan.com/pictures/chitral/chitral_omars_26-thumb.jpg" width="120" height="90" title="Winching" alt="Winching" /></a>
+
+	<a name="000594"></a>
+	<a href="http://offroadpakistan.com/pictures/chitral/winching_ends.html">
+	<img src="http://offroadpakistan.com/pictures/chitral/chitral_omars_27-thumb.jpg" width="120" height="90" title="Winching Ends" alt="Winching Ends" /></a>
+
+	<a name="000595"></a>
+	<a href="http://offroadpakistan.com/pictures/chitral/susan.html">
+	<img src="http://offroadpakistan.com/pictures/chitral/chitral_omars_29-thumb.jpg" width="120" height="90" title="Susan" alt="Susan" /></a>
+
+	<a name="000596"></a>
+	<a href="http://offroadpakistan.com/pictures/chitral/narrow_road.html">
+	<img src="http://offroadpakistan.com/pictures/chitral/chitral_omars_30-thumb.jpg" width="120" height="90" title="Narrow Road" alt="Narrow Road" /></a>
+
+	<a name="000597"></a>
+	<a href="http://offroadpakistan.com/pictures/chitral/chitral_camp_site.html">
+	<img src="http://offroadpakistan.com/pictures/chitral/chitral_omars_31-thumb.jpg" width="120" height="90" title="Chitral Camp Site" alt="Chitral Camp Site" /></a>
+
+	<a name="000598"></a>
+	<a href="http://offroadpakistan.com/pictures/chitral/omar_family.html">
+	<img src="http://offroadpakistan.com/pictures/chitral/chitral_omars_32-thumb.jpg" width="120" height="90" title="Omar Family" alt="Omar Family" /></a>
+
+	<a name="000599"></a>
+	<a href="http://offroadpakistan.com/pictures/chitral/sukker_hotel.html">
+	<img src="http://offroadpakistan.com/pictures/chitral/chitral_omars_33-thumb.jpg" width="120" height="90" title="Sukker Hotel" alt="Sukker Hotel" /></a>
+
+	<a name="000586"></a>
+	<a href="http://offroadpakistan.com/pictures/chitral/fishing_for_trout_at_maho_dand_lake.html">
+	<img src="http://offroadpakistan.com/pictures/chitral/chitral_omars_19-thumb.jpg" width="120" height="90" title="Fishing for trout at Maho Dand lake" alt="Fishing for trout at Maho Dand lake" /></a>
+
+<?php endif; ?>
+
+	<div id="botnav">
+	<p><?php
+	if($paginate_current_page == 'all') {
+		echo 'Display All Thumbnails | ';
+	} else {
+		echo "<a href=\"$paginate_self=all\" title=\"Display all thumbnails at once\">Display All Thumbnails</a> | ";
+	}
+for($i = 1; $i <= 2; $i++) {
+	if($i > 1)
+		echo ' | ';
+	if($i == $paginate_current_page) {
+		echo sprintf("Page %d", $i);
+	} else {
+		echo "<a href=\"$paginate_self=$i\""  . sprintf(' title="See thumbnails on page %d"', $i) .  sprintf('>Page %d', $i) . '</a>';
+	}
+}
+?>
+</p>
+	</div><!-- botnav -->
+	<p><?php if($paginate_current_page != 'all' && $paginate_current_page>1) : ?>
+<a href="<?php if($paginate_current_page > 1) echo "$paginate_self=" . ($paginate_current_page-1); ?>
+">&laquo; prev</a><?php endif; ?>
+ |
+	<?php echo $paginate_current_page; ?>
+ of 2 |
+	<?php if($paginate_current_page != 'all' && $paginate_current_page<2) : ?>
+<a href="<?php if($paginate_current_page < 2) echo "$paginate_self=" . ($paginate_current_page+1); ?>
+">next &raquo;</a><?php endif; ?>
+</p>
+
+</div><!-- thumbnails -->
+
+
+<br />
+
+   	<h2>Recent Comments</h2>
+
+	        <div id="comment-entry">
+<p class="name">ahsan says in  <strong><a href="http://offroadpakistan.com/pictures/chitral/mahodand_lake.html">Mahodand Lake</a></strong>:</p>
+<p class="posted">On August 23, 2005 09:51 PM <?php if (isset($_COOKIE["admin"])) {?> ::
+<a href="http://offroadpakistan.com/cgi-bin/mt/mt.cgi?__mode=view&_type=comment&id=9590&blog_id=4">Edit</a>
+<?php } ?></p>
+
+<p>the kagan valley is the most beautiful valley i have seen in my life and "two  lakes mahodhand and kandol"</p>
+</div><!-- comment-entry -->
+
+	        <div id="comment-entry">
+<p class="name">Perwez says in  <strong><a href="http://offroadpakistan.com/pictures/shandur_2004/rock_city_1.html">Rock City 1</a></strong>:</p>
+<p class="posted">On August 17, 2005 01:57 PM <?php if (isset($_COOKIE["admin"])) {?> ::
+<a href="http://offroadpakistan.com/cgi-bin/mt/mt.cgi?__mode=view&_type=comment&id=9246&blog_id=4">Edit</a>
+<?php } ?></p>
+
+<p>Where is ROCK CITY??????Could be in Jacobabad</p>
+</div><!-- comment-entry -->
+
+	        <div id="comment-entry">
+<p class="name">roger worldie says in  <strong><a href="http://offroadpakistan.com/pictures/gawadur_2001/chinese_jeep.html">Chinese Jeep</a></strong>:</p>
+<p class="posted">On August 17, 2005 08:38 AM <?php if (isset($_COOKIE["admin"])) {?> ::
+<a href="http://offroadpakistan.com/cgi-bin/mt/mt.cgi?__mode=view&_type=comment&id=9232&blog_id=4">Edit</a>
+<?php } ?></p>
+
+<p>I am wishing to purchase a Chinese made Jeep and import it to India.  Question:</p>
+
+<p>What is best Gasoline or Diesel? For power and economy.</p>
+
+<p>What is the vehicals value in India or Pakistan.</p>
+
+<p>Thanks<br />
+</p>
+</div><!-- comment-entry -->
+
+	        <div id="comment-entry">
+<p class="name">Ashwini Ratnoo says in  <strong><a href="http://offroadpakistan.com/pictures/hingol_2005/red_man.html">Red Man</a></strong>:</p>
+<p class="posted">On August 16, 2005 01:03 AM <?php if (isset($_COOKIE["admin"])) {?> ::
+<a href="http://offroadpakistan.com/cgi-bin/mt/mt.cgi?__mode=view&_type=comment&id=9185&blog_id=4">Edit</a>
+<?php } ?></p>
+
+<p>The idol is of Lord Hanuman</p>
+</div><!-- comment-entry -->
+
+	        <div id="comment-entry">
+<p class="name">shamyl ali says in  <strong><a href="http://offroadpakistan.com/pictures/chitral/mahodand_lake.html">Mahodand Lake</a></strong>:</p>
+<p class="posted">On August 15, 2005 07:13 PM <?php if (isset($_COOKIE["admin"])) {?> ::
+<a href="http://offroadpakistan.com/cgi-bin/mt/mt.cgi?__mode=view&_type=comment&id=9173&blog_id=4">Edit</a>
+<?php } ?></p>
+
+<p>i visited  this lake in 2005, in july.This lake is at the end of SWAT valley, and then u can goto chitral which will take you 2 days by walk as there r no roads OR tracks. This lake is a start of swat river, and is very beautiful place.The only thing i didnt liked abt it is, the polution there! which is caused by the tourist etc.My request to u all " visit this place but please dont ruin it".<br />
+A perfect place to visit! luv pakistan~!</p>
+</div><!-- comment-entry -->
+
+
+
+</div><!-- content -->
+
+<div id="side">
+
+<p>You are at the photo gallery of the 4x4 Offroaders Club Karachi. The pictures are sorted in the following galleries:</p>
+	<h3>Picture Gallery</h3>
+	<ul><li><a href="http://offroadpakistan.com/pictures/bhootani_farms/index.html">Bhootani Farms</a></li>
+ 	<li><a href="http://offroadpakistan.com/pictures/chitral/index.html">Chitral</a></li>
+ 	<li><a href="http://offroadpakistan.com/pictures/gawadur_2001/index.html">Gawadur 2001</a></li>
+ 	<li><a href="http://offroadpakistan.com/pictures/hingol/index.html">Hingol</a></li>
+ 	<li><a href="http://offroadpakistan.com/pictures/hingol_2005/index.html">Hingol 2005</a></li>
+ 	<li><a href="http://offroadpakistan.com/pictures/hub_dam/index.html">Hub Dam</a></li>
+ 	<li><a href="http://offroadpakistan.com/pictures/khunjerab_2000/index.html">Khunjerab 2000</a></li>
+ 	<li><a href="http://offroadpakistan.com/pictures/kirthar_2005/index.html">Kirthar 2005</a></li>
+ 	<li><a href="http://offroadpakistan.com/pictures/neza_e_sultan/index.html">Neza e Sultan</a></li>
+ 	<li><a href="http://offroadpakistan.com/pictures/quetta_2004/index.html">Quetta 2004</a></li>
+ 	<li><a href="http://offroadpakistan.com/pictures/shandur_2004/index.html">Shandur 2004</a></li>
+ 	<li><a href="http://offroadpakistan.com/pictures/thar_2003/index.html">Thar 2003</a></li>
+ 	<li><a href="http://offroadpakistan.com/pictures/uthal_2002/index.html">Uthal 2002</a></li>
+ 	<li><a href="http://offroadpakistan.com/pictures/ziarat_2002/index.html">Ziarat 2002</a></li>
+ 	</ul>
+	<br />
+	<h3>Search</h3>
+	<form method="get" action="http://offroadpakistan.com/cgi-bin/mt/mt-search.cgi">
+<input type="hidden" name="IncludeBlogs" value="4" />
+<input type="hidden" name="IncludeBlogs" value="5" />
+<input type="hidden" name="IncludeBlogs" value="8" />
+<input type="hidden" name="IncludeBlogs" value="18" />
+<input type="hidden" name="Template" value="offroad" />
+		<label for="search" accesskey="4"></label>
+		<input id="search" name="search" class="searchbox" size="20" onfocus="value=''" value="Search..." />
+		<input type="submit" class="button" value="Find" />
+	</form>
+	<br />
+
+<br />
+	<div id="comments-recent">
+	<h5>Recent Comments</h5>
+		ahsan:
+	<a href="http://offroadpakistan.com/pictures/chitral/mahodand_lake.html">
+	the kagan valley is the most beautifu...</a>
+	<br/>
+		Perwez:
+	<a href="http://offroadpakistan.com/pictures/shandur_2004/rock_city_1.html">
+	Where is ROCK CITY??????Could be in J...</a>
+	<br/>
+		roger worldie:
+	<a href="http://offroadpakistan.com/pictures/gawadur_2001/chinese_jeep.html">
+	I am wishing to purchase a Chinese ma...</a>
+	<br/>
+		Ashwini Ratnoo:
+	<a href="http://offroadpakistan.com/pictures/hingol_2005/red_man.html">
+	The idol is of Lord Hanuman...</a>
+	<br/>
+		shamyl ali:
+	<a href="http://offroadpakistan.com/pictures/chitral/mahodand_lake.html">
+	i visited  this lake in 2005, in july...</a>
+	<br/>
+
+	</div><!-- comments-recent -->
+	<br />
+
+
+    <p>
+<!-- Creative Commons License -->
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/"><img alt="Creative Commons License" border="0" src="http://creativecommons.org/images/public/somerights20.gif" /></a>
+<!-- /Creative Commons License -->
+</p>
+
+</div><!-- end sidebar -->
+
+<?php include ('/home/offroad/www/www/asset/footer'); ?>
+
+</div><!-- frame -->
+</body>
+</html>

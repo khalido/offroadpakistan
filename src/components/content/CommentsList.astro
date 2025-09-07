@@ -1,0 +1,35 @@
+---
+interface Props {
+    comments: any[];
+    title?: string;
+}
+
+const { comments, title = "Comments" } = Astro.props;
+---
+
+{
+    comments.length > 0 && (
+        <div id="comments" class="mt-12 border-t border-gray-200 pt-8">
+            <h3 class="text-sm font-bold text-gray-600 mb-4">
+                {title} ({comments.length})
+            </h3>
+            <div class="space-y-4">
+                {comments.map((comment: any) => (
+                    <div class="comment border-l-4 border-teal-600 pl-4 py-2 bg-gray-50">
+                        <div class="comment-meta mb-2">
+                            <strong class="text-xs text-gray-800">
+                                {comment.author}
+                            </strong>
+                            <time class="text-xs text-gray-600 ml-2">
+                                {comment.date}
+                            </time>
+                        </div>
+                        <div class="comment-content text-xs text-gray-700 leading-relaxed">
+                            <p set:html={comment.content} />
+                        </div>
+                    </div>
+                ))}
+            </div>
+        </div>
+    )
+}

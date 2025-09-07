@@ -1,0 +1,135 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+
+export async function getStaticPaths() {
+    // Get all galleries using the new galleries collection
+    const galleries = await getCollection(
+        "galleries",
+        ({ data }) => !data.draft,
+    );
+
+    return galleries.map((gallery) => {
+        const gallerySlug = gallery.id.replace("/index", "");
+        return {
+            params: { gallery: gallerySlug },
+            props: { gallery, gallerySlug },
+        };
+    });
+}
+
+const { gallery, gallerySlug } = Astro.props;
+
+// Get all pictures for this gallery using the new pictures collection
+const pictures = await getCollection(
+    "pictures",
+    ({ data }) => data.gallery === gallerySlug && !data.draft,
+);
+const sortedPictures = pictures.sort(
+    (a, b) => (a.data.order || 0) - (b.data.order || 0),
+);
+---
+
+<BaseLayout title={gallery.data.title}>
+    <!-- Gallery Header -->
+    <div class="mb-6">
+        <nav class="mb-4">
+            <a href="/pictures/" class="text-green-600 hover:underline text-xs">
+                ← Back to all galleries
+            </a>
+        </nav>
+
+        <h1 class="text-xl font-bold text-teal-600 mb-4">
+            {gallery.data.title}
+        </h1>
+
+        <!-- Gallery Description -->
+        <div class="prose prose-sm max-w-none mb-4 text-xs">
+            <div set:html={gallery.rendered?.html || ""} />
+        </div>
+
+        <!-- Gallery Info -->
+        <p class="text-xs text-gray-600 mb-4">
+            This picture gallery has {sortedPictures.length} pictures.
+            {
+                sortedPictures.length > 0 && (
+                    <>
+                        <strong>View Thumbnails</strong>. The first picture in
+                        the gallery:
+                    </>
+                )
+            }
+        </p>
+    </div>
+
+    <!-- Featured First Picture -->
+    {
+        sortedPictures.length > 0 && (
+            <div id="img" class="mb-8 text-center">
+                <div id="topnav" class="heritage-picture-nav heritage-links">
+                    <p>
+                        1 of {sortedPictures.length}
+                        {sortedPictures.length > 1 && (
+                            <>
+                                {" | "}
+                                <a
+                                    href={`/pictures/${gallerySlug}/${sortedPictures[1].id.split("/").pop()}/`}
+                                >
+                                    next »
+                                </a>
+                            </>
+                        )}
+                    </p>
+                </div>
+                <a
+                    href={`/pictures/${gallerySlug}/${sortedPictures[0].id.split("/").pop()}/`}
+                >
+                    <div
+                        id="mainimg"
+                        style={`background:#fff url('/src/content/pictures/${gallerySlug}/${sortedPictures[0].data.image}') 50% 50% no-repeat; cursor: pointer;`}
+                        title={sortedPictures[0].data.title}
+                    />
+                </a>
+                <p class="text-xs mt-2 text-gray-700">
+                    <strong>{sortedPictures[0].data.title}:</strong>
+                    {sortedPictures[0].data.gallery && (
+                        <span>
+                            {" "}
+                            From the {sortedPictures[0].data.gallery} gallery.
+                        </span>
+                    )}
+                </p>
+            </div>
+        )
+    }
+
+    <!-- Thumbnail Grid -->
+    <div class="flex flex-wrap gap-1 mb-8">
+        {
+            sortedPictures.map((picture) => (
+                <a
+                    href={`/pictures/${gallerySlug}/${picture.id.split("/").pop()}/`}
+                    class="block"
+                    title={picture.data.title}
+                >
+                    <img
+                        src={`/src/content/pictures/${gallerySlug}/${picture.data.thumbnail || picture.data.image}`}
+                        alt={picture.data.title}
+                        class="w-24 h-18 object-cover heritage-image"
+                        loading="lazy"
+                    />
+                </a>
+            ))
+        }
+    </div>
+    <!-- Heritage Note -->
+    <div class="mt-8 p-4 bg-gray-50 border border-gray-200 text-xs">
+        <h3 class="font-bold text-teal-600 mb-2">Gallery Archive</h3>
+        <p class="text-gray-700">
+            This gallery is part of the 4x4 Offroaders Club Karachi heritage
+            archive, documenting decades of Pakistani adventure travel. Click on
+            any thumbnail to view the full-size image and read the original
+            descriptions.
+        </p>
+    </div>
+</BaseLayout>

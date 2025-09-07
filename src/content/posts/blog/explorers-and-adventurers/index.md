@@ -1,0 +1,49 @@
+---
+author: ko
+category: Blog
+date: 2003-07-17
+draft: false
+tags: []
+title: Explorers and Adventurers
+wordpress_id: 9
+---
+
+Mountain exploration began in Europe only in the eighteenth century. Until then the mountains were feared, with most cultures believing them to be home of hungry dragons and fairies able to seduce the unwary to an untimely death. The climbing of Mont Blanc in 1786 created the kind of attitude necessary for the exploration of the greater Himalayan ranges, and this coincided with the expansionist plans of the British East India Company.
+
+The company had started trading in India in the seventeenth century. By late in the eighteenth century, it was looking north to Central Asia for the lucrative markets in the legendary cities of Khotan, Yarkhand, Kashgar, Tashkent and Samarkand. But it was many years before the British fully appreciated the barrier between their Indian domains and their hoped for markets: a solid block of high mountains stretching 500 kilometers from south to north, their passes high and difficult and their inhabitants divided into hostile kingdoms. Though local traders and pilgrims had been crossing the mountains for thousands of years, there were as yet no maps of the area. Most of the early information on the mountains was collected by the famous Pundits, Indian surveyors specially trained by the founder of the Indian Army?s Intelligence Department, Sir Charles MacGregor, the prototype for Rudyard Kipling?s Lurgan Sahib in his Great Game novel Kim. The Pundits, disguised as Pilgrims or traders, explored and surveyed much of the Karakoram, the Himalaya and Tibet during the second half of the nineteenth century.
+
+European explorers came as hunters or parading in local costume, sporting huge turbans. They suffered extraordinary hardships probing the passes of the Himalaya, Karakoram and Hindu Kush, looking hopefully for possible trade routes and fearfully for lines of invasion open to the Russians.
+
+Two Jesuit missionaries reached Leh in 1631 and 1715, but it was not until 1808 and Mountstuart Elphinstone?s mission to Kabul that the first map showing the upper Indus River, the ?Kurrakooram? and the ?Hemalleh? mountains was drawn by the British.
+
+In 1830 William Moorcroft, a British explorer and trader already aged 55, did the round from Kulu to Leh and Srinagar, in what is now India. The first qualified veterinary surgeon in England, Moorcroft later went to Bukhara to buy Turkoman horses. He was poisoned near Bukhara in 1824, so never returned with his horses, but his papers were collected by later travellers and published in1841.
+
+It was not until 1835 that the Karakoram, in what is now Pakistan, was first visited by a foreigner who lived to write about it. Godfrey Thomas Vigne left Srinagar in that year, posing as nothing more than an English gentleman travelling for his health, Vigne crossed the Burzil Pass and the Deosai Plateau to Skardu. He became friends with Raja Ahmed Khan of Skardu and spent four summers exploring the area; right up to the Hisparr and West (New) Mustagh passes, quietly assessing the possibility of Russian forces advancing through the Karakoram. The East (Old) and West Mustagh passes had been used for trade between Baltistan and Yarkhand, but both were blocked by advancing ice by the mid nineteenth century. Vigne also tried to reach Gilgit via Astor but was turned back before crossing the Indus at Bunji. His name is given to a difficult pass, the south side of which he may have visited, and one of the glaciers flowing into Concordia, which he could never have seen.
+
+The second Westerner to reach Skardu was a Scottish adventurer and doctor named John Henderson, who in October 1835 followed the Indus down from Leh and then crossed south to Srinagar. Wearing tattered native dress, he met Vigne in Srinagar.
+
+In 1847 another Scot, Thomas Thomas, a botanist working with the Boundary Commission demarcating the boundaries of Kashmir, traveled from Ladakh down the Shyok River through Khaplu to Skardu, where he spent the winter before crossing the Zoji La Pass to Srinagar. He took many plants back to England with him and ended his days happily in Kew Gardens in London, recognized as one of the greatest botanists of his day.
+
+The real giants of the Karakoram were not sighted until 1856, when Thomas G Montgomerie, of the Grand Trigonometrical Survey of India, standing on Haramukh peak in the Pir Panjal, spotted two huge peaks about 220 kilometers away, which he labelled K1 and K2, the K standing for Karakoram K1 turned out to be Masherbrum, which was measured that same year by Adof Schlaginweit, a German now largely forgotten at least in the English speaking world, though he was one of three brothers who undertook extraordinary journeys through the Himalaya; his measurement of 7821 meters is still accepted today. The Schlagintweit brothers were the first to cross the Karakoram Pass, and Adolph was the first European to reach Yarkhand. He was murdered somewhere near Kashgar.
+
+Not until 1858, two years after its sighting, was K2 measured at 8,622 meters from a vantage point on the Deosai Plateau. The mountain was measured again by Henry Haversham Godwin Austen in 1860 at 8,611 meters and again in 1988 by Professor Ardito Desio at 8,616 meters. Godwin Austen wrote from the Deosai:
+
+Peak K2 appeared of an airy blue tint surrounded by the yellower peaks K1, K3 and other all over 24,000 feet (7,315 meters in Height). Other minor peaks by hundreds thrust up their heads some snow capped, some rounded, some bare and angular, running up as sharp as needles.
+
+Godwin Austen then ascended the Panmah Glacier and attempted the West Mustagh Pass but, like Vigne, failed. He next headed up the Baltoro Glacier as far as Urdukas and climbed above the camp to a point from which he could see K2 over the intervening mountains. This was the mountain?s first close sighting. Which established its position on the Central Asian watershed.
+
+The first European to record his visit to Gilgit was Dr Gottlieb Wilhelm Leitner, who crossed the Indus at Bunji in 1866 and marched up to Gilgit, which was then in the charge of a Dogra garrison of the maharaja of Kashmir. Though he never returned to Gilgit, he produced The Languages and Races of Dardistan in 1877, coining the name Dardistan to cover most of the area described in this guide. He published The Hunza Nagyr Handbook in 1889.
+
+In 1874, John Biddulph explored the Pamirs and the north side of the Hindu Kush. He discovered how low and green the Boroghil Pass was, raising the alarm of how easy it would be for the Russians to ride in from the north. In 1876, he became the first westerner to visit Hunza and left a vivid description of the road into the remote kingdom in his Tribes of the Hindoo Koosh:
+
+For nearly half a mile it was necessary to scramble over rocky ledges, sometimes letting oneself down nearly to the water?s edge, then ascending 300 to 400 feet (100 or so meters) above the stream, holding on by corners of rock, working along rocky shelves three or four inches wide, and round Projecting Knobs corners where no four footed animal less agile than a wild goat could find a path.
+
+Today it is an easy two hours drive up the Karakoram Highway from Gilgit. In 1877, Biddulph was made the first British political agent to Gilgit, a lone British officer in what was then the remotest outpost of the British Empire. In 1878 he visited Yasin, made the first crossing of the Shandur Pass and walked down to Chitral town to meet the ruler Aman ul Mulk. The vulnerable Gilgit Agency was closed in 1880 after and attacks by the ruler of Yasin. Biddulph would probably have been killed had not Aman ul Mulk seen this as his chance to attack and take Yasin. The agency did not open again until 1889.
+
+William MacNair disguised, as a Muslim doctor (hakim) became the first Westerner to cross the Lowari Pass to Chitral in 1883. He visited the Kalash and saw the Dorah Pass, the main trade and pilgrim route used for thousands of years between Central Asia and the Indian subcontinent. He left via the Shandur Pass to Gilgit, going from there to Srinagar.
+
+In 1885, Colonel William Lockhart, Charles MacGregor?s friends and deputy, mounted the first British mission to Dardistan, taking along 300 mules laden with gifts (mostly beads) for the locals. His Party explored the Yasin, Darkot, Boroghil and Shandur passes before descending to Chitral town. They managed to visit Drosh, the Dorah Pass and Kafiristan, recording all they saw, before returning via Gilgit to Srinagar. They compiled the first gazetteer to Chitral.
+
+Francis Younghusband made the first European crossing of the high Karakoram in 1887, using the East (Old) Mustagh Pass, and then spent two years exploring all of the passes between Hunza and India?s defences against Russian or Chinese attack. The British Boundary Commissions followed in his wake, drawing the northern border of the Indian Empire.
+
+The outline of the empire being complete, it remained to fill in the blanks on either side of the border, those areas still marked with the challenge ?unexplored? on early twentieth century maps. The major valleys in the central Karakoram were mapped before Independence of Pakistan in 1947, and Eric Shipton and Harold William Tilman filled in the last great blank when they surveyed the north side of K2 and snow Lake. Yet, to this day, the glaciers radiating out from Snow Lake are not fully mapped. Similarly, although most of the valleys of the Hindu Kush have been explored, modern maps are hopelessly inaccurate regarding the side valleys of the Indus in Kohistan.

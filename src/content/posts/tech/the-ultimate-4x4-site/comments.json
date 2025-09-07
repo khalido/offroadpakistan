@@ -1,0 +1,24 @@
+{
+  "post_id": 72,
+  "comment_count": 2,
+  "comments": [
+    {
+      "id": 801,
+      "author": "zarak khan",
+      "email": "zaraq@fc.net.pk",
+      "date": "2006-10-31 20:27:11",
+      "content": "<p>this is my number 0321-5113000..i am looking for a very good conditon jeep anyone solding plzzz contact</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 803,
+      "author": "Sardar Mohammad",
+      "email": "mohammad_the_game@hotmail.com",
+      "date": "2007-11-11 00:34:52",
+      "content": "<p>Hey<img src=\"!\" alt=\"\" border=\"0\" />!</p>\n\n\t<p>Iam looking for an open jeep used for huntingn offroading….</p>\n\n\t<p>Anybody selling it in karachi…..</p>\n\n\t<p>plz contact….</p>\n\n\t<p>mohammad_the_game@hotmail.com</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    }
+  ]
+}

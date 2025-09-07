@@ -1,0 +1,33 @@
+{
+  "post_id": 30,
+  "comment_count": 3,
+  "comments": [
+    {
+      "id": 409,
+      "author": "Yaseen",
+      "email": "yaseen@offroadpakistan.com",
+      "date": "2005-03-11 01:42:16",
+      "content": "<p>Hello Peter,</p>\n\n\t<p>I read your account of your travels to the mekran coast on camel back and the return trip on a boat. It is very heartening for us to know that through our website we and lots of other people with similar interests are connecting. Travelogues like yours are not only interesting reading but also encouraging and inspirational for people wanting to experience this beautiful and rugged countryside.</p>\n\n\t<p>Thank you for your contribution and hoping to see some pictures soon.</p>\n\n\t<p>Regards,</p>\n\n\t<p>Yaseen</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 410,
+      "author": "Dr. Dev",
+      "email": "jhingade@gmail.com",
+      "date": "2005-07-15 21:56:12",
+      "content": "<p>it was wonderful reading about the region that my ancestors inhabited till 680 A.D.</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 411,
+      "author": "Makran Derian",
+      "email": "mack_d4@hotmail.com",
+      "date": "2006-07-19 22:33:16",
+      "content": "<p>Hi, my name is Makran.My grandfather gave me my name.He passed away 2002.He always used to say that he’d seen unbelivable and mysterious things going on in Makran.He couldn’t tell me back then because i was too young,but then he passed away.I was wondering if anyone outhere knows something,this was supposedly 40 years ago.I’m still curious about it..Since it was so mysterious and unbeliveable to him/ Makran</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    }
+  ]
+}

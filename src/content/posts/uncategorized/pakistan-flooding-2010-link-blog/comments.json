@@ -1,0 +1,24 @@
+{
+  "post_id": 98,
+  "comment_count": 2,
+  "comments": [
+    {
+      "id": 1568,
+      "author": "Fred",
+      "email": "Frank@yahoo.com",
+      "date": "2012-12-16 16:45:34",
+      "content": "I think this was very usefull information. However you do not seem to have a perecipitation graph wich would have been very helpfull thanks great information",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 1569,
+      "author": "Abid Omar",
+      "email": "abidomar@gmail.com",
+      "date": "2012-12-17 08:07:47",
+      "content": "Fred, the first graph is a precipitation graph.",
+      "parent_id": 0,
+      "approved": true
+    }
+  ]
+}

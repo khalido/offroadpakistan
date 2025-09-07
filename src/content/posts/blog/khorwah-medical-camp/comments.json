@@ -1,0 +1,24 @@
+{
+  "post_id": 660,
+  "comment_count": 2,
+  "comments": [
+    {
+      "id": 1527,
+      "author": "bashirshah",
+      "email": "bashirshah_ace@yahoo.com",
+      "date": "2011-08-26 06:32:22",
+      "content": "great team work  u guys did very great job",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 1535,
+      "author": "khudadadM",
+      "email": "khudadadmakhdoom@hotmail.com",
+      "date": "2011-11-07 15:45:24",
+      "content": "this is khorwah chowk at national high whey",
+      "parent_id": 0,
+      "approved": true
+    }
+  ]
+}

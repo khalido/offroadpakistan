@@ -1,0 +1,29 @@
+---
+author: ko
+category: Travels
+date: 2003-06-22
+draft: false
+tags: []
+title: 'Kanrach: a place where time has stood still'
+wordpress_id: 6
+---
+
+Kanrach, a sparsely populated region in southeastern Balochistan, about 120 kilometres north of Karachi, is a land of great beauty but also of great poverty. Situated in Las Bela district and named after the village of Kanrach, the region is bordered on the east by the rugged Chapar Range (rising to a height of 1,500 metres) and on the west by the Mor Range (rising to a height of 1,400 metres).
+
+Running through the region in a north-to-south direction is the Kanrach River, a seasonal stream that only flows when there are rains in the area or in the surrounding hills. Numerous small seasonal streams feed into the river, making the region a very picturesque sight after rain. Kanrach saw only a little rain this year, after a drought lasting more than five years. But it was enough to get the streams running again, if only for a few days, and for the hillsides to suddenly turn green in that miracle of instant re-birth that occurs in rocky desert regions after rain.
+
+To get to Kanrach, you take the RCD Highway out of Karachi. Crossing over into Balochistan at the Hub River bridge, 20 kilometres northwest of Karachi, the highway takes you past the fishing village of Gadani, the village of Naka Kharai and the naval artillery testing range at Sonmiani to the small town of Vinder – the turn-off point for Kanrach. At the north end of Vinder is a petrol station. You turn right here on to a narrow, paved farm-to-market road. About 10 kilometres up this road is the small settlement of Haji Kalati, named after a gentleman from Kharan, in central Balochistan, who settled here some 35 years ago and went into fruit farming.
+
+In the mid-1970s, the Japanese government funded a tubewell irrigation scheme in the Haji Kalati area. With water supplies assured, Haji Kalati was gradually transformed, over the next couple of decades, into a region of lush-green orchards and verdant fields, where a wide range of fruit, vegetables and other crops are grown, including chikoos, guavas, custard apples, dates, bananas, papayas, tamarind, chillies, squashes, pumpkins and wheat. Today, some 3,600 acres of orchards dot the area, proof that even an arid region can be made highly productive with hard work, good land-husbandry practices and a relatively modest investment in groundwater schemes.
+
+Breaking journey here one day on a trip to Kanrach in January a couple of years ago, a bunch of friends and I saw an incredible sight: wave upon wave of flamingos flying south on their annual winter migration from Siberia. On and on they came, in waves of a couple of thousand birds at a time. In less than an hour, we must have seen something like 50,000 of them, wheeling and dipping in the sky in precise formation, circling high overhead, then heading out for the nearby Sirinda Lake (in what used to be the Miani “niabat” of Las Bela district). It was one of the most beautiful sights I have ever seen.
+
+Leaving Haji Kalati, the farm-to-market road continues north for another 20 kilometres or so, until it meets the Kanrach River. Here, the paved road ends. The rest of the journey to Kanrach is along an unpaved track. The track winds its way through a succession of valleys, past lonely little hamlets and abandoned shacks to the village of Kanrach, the region’s main settlement with a population of about 750. The journey from the Kanrach River crossing to the village, a distance of some 120 kilometres, takes about four-and-a-half hours by jeep.
+
+Along the way, you travel through a spectacular landscape of rocky hills, narrow passes and wide uplands where huge vistas greet the eye on every side. The hills seem to change colour with the time of day. Sometimes, they are dark brown, sometimes ochre, sometimes almost black, and there are times when they even seem to glow golden in the mellow, late-afternoon sunlight. Moonrise here can be an incredible sight, with a huge moon suddenly emerging from behind distant hills like some giant spacecraft. At night, the sky is a canopy of a zillion stars.
+
+For all the region’s beauty, however, life for its people is hard. There are no paved roads in Kanrach, no electricity, no water supply schemes, no schools, no hospitals or health clinics, no civic facilities of any kind. The only means of transport for the local population are three privately owned buses that ply between Kanrach and Karachi, taking nearly 24 hours to make the journey. And the only police station in the area is the one in the village of Kanrach, at the far northern end of the region where the jeep track peters out. Despite being so poorly policed, however, or, perhaps, because it is so poorly policed, crime here is virtually unknown.
+
+Journeying through the region, which two millennia ago echoed to the tramp of Alexander’s legions on their home to Greece, you are struck by how little things have changed in Kanrach in the centuries since then. It is as if time here has stood still. You see the same ochre hills, the same boulder-strewn stream beds, the same fantastic rock shapes carved by wind and weather, the same free-spirited breed of camel, loping along ahead of your jeep, headed for who knows where.
+
+The people of Kanrach are a very hospitable people. They may not have much, but whatever little they have they will willingly share with you. Go to even the poorest hamlet, and the inhabitants will insist you share a cup of tea or a meal with them. Visitors are greeted by the locals with a friendly wave of the hand, a gesture that says: “Go in peace, friend.” You reply with a friendly wave of your own, thinking, as you drive past, that there is a lot that city dwellers could learn from the people of Kanrach about goodwill towards one’s fellow human beings.

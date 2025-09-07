@@ -1,0 +1,363 @@
+<?php
+$lines = file ('numbers'); $links = file ('links');
+$total_lines = count ($lines);
+for ($i = 0; $i < $total_lines; $i++) {
+if ($lines[$i] == 2763)
+{ $position=$i+1;
+if ($i>0){$p=$links[$i-1];} else{$p="0";}
+if ($i+1<$total_lines) {$n=$links[$i+1]; } else {$n="0";}
+} } //end for loop
+function _prev($p="0"){
+if ($p=="0") {echo "";} else {echo "<a href=\"$p\">&laquo; prev</a>"; } }
+function _next($n="0"){
+if ($n=="0") { echo "";} else {echo "<a href=\"$n\">next &raquo;</a>"; } }
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<link rel="alternate" href="photos.rss" type="application/rss+xml" title="" id="gallery" />
+
+<head>
+<title>Dureji Jan 2007 (4x4 Offroaders Club Karachi)</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="MSSmartTagsPreventParsing" content="true" />
+<meta http-equiv="imagetoolbar" content="false" />
+<meta name="ROBOTS" content="ALL" />
+<meta name="Copyright" content="Copyright (c) 2003 4x4 Offroaders Club Karachi" />
+<meta name="description" content="4x4 Offroaders Club Karachi, Photo Gallery. Continuously updated as we travel around Pakistan" />
+<meta name="keywords" content="4x4 Offroaders Club Karachi, Pakistan, Photo Gallery, photography pictures, offroad track outdoors camping, jeep cj5 cj7 m38 m171, sind sindh baluchistan punjab nwfp northern areas " />
+<meta name="author" content="Khalid and Abid Omar" />
+<link rel="offroadpakistan" href="http://www.offroadpakistan.com/" title="4x4 Offroaders Club Karachi" />
+<link rel="about" href="http://www.offroadpakistan.com/about/" title="About the 4x4 Offroaders Club Karachi website" />
+<link rel="ko" href="http://ko.offroadpakistan.com/" title="Khalid Omar's Daily Rant" />
+<meta name="Rating" content="General" />
+<meta name="revisit-after" content="4 Days" />
+<meta name="expires" content="never" />
+<meta name="distribution" content="global" />
+<meta name="doc-class" content="Living Document" />
+
+<meta name="geo.position" content="24.85;67.0333" />
+<meta name="geo.region" content="PK-SD" />
+<meta name="geo.placename" content="Karachi" />
+<meta name="dc:title" lang="en" content="4x4 Offroaders Club Karachi, Photo Gallery. Continuously updated as we travel around Pakistan" />
+<meta name="dc:creator" content="Khalid and Abid Omar" />
+
+<link rel="alternate" href="photos.rss" type="application/rss+xml" title="photos" id="gallery" />
+
+<style type="text/css" media="all">@import "http://offroadpakistan.com/asset/offroad2.css";
+#mainimg{background:#fff url("http://offroadpakistan.com/pictures/dureji_jan_2007/85.jpg") 50% 50% no-repeat}
+#content{width:580px}
+#side{width:146px}
+</style>
+<!-- <link rel="stylesheet" type="text/css" media="print" href="print.css" /> -->
+
+</head>
+<body id="pictures">
+
+<div id="frame">
+
+<div id="header">
+<h1><a href="http://www.offroadpakistan.com/" title="Offroad Pakistan" accesskey="1">Offroad Pakistan</a></h1>
+<h2><a href="/pictures">Picture Gallery</a> &raquo;
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/">Dureji Jan 2007</a></h2>
+</div><!-- header -->
+
+<!-- Navigation Menu -->
+<?php include ('/home/offroadp/public_html/asset/globalnav'); ?>
+
+<div id="content">
+<h1>Dureji Jan 2007</h1>
+<p></p>
+<p class="endp">This picture gallery has 42 pictures.
+<strong><a href="http://offroadpakistan.com/pictures/dureji_jan_2007/#thumbnails" title="View picture gallery">View Thumbnails</a></strong>. The first picture in the gallery:</p>
+
+<div id="img">
+<div id="topnav">
+<p><?php _prev($p); ?> |
+<?php echo $position ?> of 42 |
+<?php _next($n); ?></p>
+</div><!-- topnav -->
+<div id="mainimg" onclick="document.location='http://offroadpakistan.com/pictures/dureji_jan_2007/moonscape_watching.html';" title="Moonscape watching"></div>
+<p><strong>Moonscape watching:</strong>
+</p>
+
+</div><!-- img -->
+<a name="thumbnails"></a>
+
+<div id="thumbnails">
+
+
+<a name="002763"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/moonscape_watching.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/85-thumb.jpg" width="120" height="90" title="Moonscape watching" alt="Moonscape watching" /></a>
+
+<a name="002764"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/baluchi_hut.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/100_0084-thumb.jpg" width="120" height="90" title="Baluchi Hut" alt="Baluchi Hut" /></a>
+
+<a name="002766"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/group_photo_9.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/100_0107-thumb.jpg" width="120" height="90" title="Group Photo" alt="Group Photo" /></a>
+
+<a name="002767"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/the_lunarscape_from_the_top_of_andahar_m.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/100_0137-thumb.jpg" width="120" height="90" title="The lunarscape from the top of Andahar mountain" alt="The lunarscape from the top of Andahar mountain" /></a>
+
+<a name="002768"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/dusk_1.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/100_0144-thumb.jpg" width="120" height="90" title="Dusk" alt="Dusk" /></a>
+
+<a name="002769"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/check_dam.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/100_0153-thumb.jpg" width="120" height="90" title="Check Dam" alt="Check Dam" /></a>
+
+<a name="002770"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/campsite_3.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/100_0159-thumb.jpg" width="120" height="90" title="Campsite" alt="Campsite" /></a>
+
+<a name="002771"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/fields_of_green_1.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/100_0170-thumb.jpg" width="120" height="90" title="Fields of Green" alt="Fields of Green" /></a>
+
+<a name="002772"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/driving_through_the_african_savannah.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/100_0207-thumb.jpg" width="120" height="90" title="Driving through the African Savannah" alt="Driving through the African Savannah" /></a>
+
+<a name="002773"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/purple_haze.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/100_0225-thumb.jpg" width="120" height="90" title="Purple Haze" alt="Purple Haze" /></a>
+
+<a name="002774"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/the_drive_to_the_mountain.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/CIMG0298-thumb.jpg" width="120" height="90" title="The drive to the mountain" alt="The drive to the mountain" /></a>
+
+<a name="002775"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/halfway_up_andahar.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/CIMG0306-thumb.jpg" width="120" height="90" title="Halfway up Andahar" alt="Halfway up Andahar" /></a>
+
+<a name="002776"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/still_driving_up_andahar.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/CIMG0328-thumb.jpg" width="120" height="90" title="Still driving up Andahar" alt="Still driving up Andahar" /></a>
+
+<a name="002777"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/good_parking_is_hard_to_find.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/CIMG0330-thumb.jpg" width="120" height="90" title="Good parking is hard to find" alt="Good parking is hard to find" /></a>
+
+<a name="002778"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/river.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/CIMG0337-thumb.jpg" width="120" height="90" title="River" alt="River" /></a>
+
+<a name="002779"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/rolling_hills_covered_with_golden_graa.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/CIMG0340-thumb.jpg" width="120" height="90" title="Rolling hills covered with golden graa" alt="Rolling hills covered with golden graa" /></a>
+
+<a name="002780"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/driving_diving.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/DSC01029-thumb.jpg" width="120" height="90" title="Driving, diving" alt="Driving, diving" /></a>
+
+<a name="002781"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/sunset_at_camp.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/DSC01187-thumb.jpg" width="120" height="90" title="Sunset at Camp" alt="Sunset at Camp" /></a>
+
+<a name="002782"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/the_original_rasta_up_the_mountain.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/DSC01223-thumb.jpg" width="120" height="90" title="The original rasta up the mountain" alt="The original rasta up the mountain" /></a>
+
+<a name="002783"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/dry_river_bed_1.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/DSC01240-thumb.jpg" width="120" height="90" title="Dry River bed" alt="Dry River bed" /></a>
+
+<a name="002784"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/river_stream.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/DSC01407-thumb.jpg" width="120" height="90" title="River Stream" alt="River Stream" /></a>
+
+<a name="002785"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/water_water.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/DSC01409-thumb.jpg" width="120" height="90" title="Water, water" alt="Water, water" /></a>
+
+<a name="002786"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/campsite_at_night.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/DSC01447-thumb.jpg" width="120" height="90" title="Campsite at night" alt="Campsite at night" /></a>
+
+<a name="002787"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/orange_skies.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/DSC01467-thumb.jpg" width="120" height="90" title="Orange skies" alt="Orange skies" /></a>
+
+<a name="002788"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/will_it_rain.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/DSCN1549-thumb.jpg" width="120" height="90" title="Will it rain" alt="Will it rain" /></a>
+
+<a name="002789"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/greeness.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/DSCN1553-thumb.jpg" width="120" height="90" title="Greeness" alt="Greeness" /></a>
+
+<a name="002790"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/canal.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/DSCN2690-thumb.jpg" width="120" height="90" title="Canal" alt="Canal" /></a>
+
+<a name="002791"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/an_interesting_rock.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/DSCN2756-thumb.jpg" width="120" height="90" title="An interesting rock" alt="An interesting rock" /></a>
+
+<a name="002792"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/dust.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/IMG_0437-thumb.jpg" width="120" height="90" title="Dust" alt="Dust" /></a>
+
+<a name="002793"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/the_view_form_a_landy.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/P1274571-thumb.jpg" width="120" height="90" title="The view form a landy" alt="The view form a landy" /></a>
+
+<a name="002794"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/campfire_2.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/P1274578-thumb.jpg" width="120" height="90" title="Campfire" alt="Campfire" /></a>
+
+<a name="002795"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/a_water_bridge.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/P1284626-thumb.jpg" width="120" height="90" title="A water bridge" alt="A water bridge" /></a>
+
+<a name="002796"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/traffic_jam.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/P1284647-thumb.jpg" width="120" height="90" title="Traffic Jam" alt="Traffic Jam" /></a>
+
+<a name="002797"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/omar_in_his_fj40.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/P1284650-thumb.jpg" width="120" height="90" title="Omar in his FJ40" alt="Omar in his FJ40" /></a>
+
+<a name="002798"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/at_the_top_of_andahar.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/P1284664-thumb.jpg" width="120" height="90" title="At the top of Andahar" alt="At the top of Andahar" /></a>
+
+<a name="002799"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/binocs.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/P1284671-thumb.jpg" width="120" height="90" title="Binocs" alt="Binocs" /></a>
+
+<a name="002800"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/gps_at_andahar.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/P1284676-thumb.jpg" width="120" height="90" title="GPS at Andahar" alt="GPS at Andahar" /></a>
+
+<a name="002801"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/view_from_the_top_1.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/P1284679-thumb.jpg" width="120" height="90" title="View from the Top 1" alt="View from the Top 1" /></a>
+
+<a name="002802"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/driving_past.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/P1294704-thumb.jpg" width="120" height="90" title="Driving past" alt="Driving past" /></a>
+
+<a name="002803"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/red_hills.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/P1294705-thumb.jpg" width="120" height="90" title="Red hills" alt="Red hills" /></a>
+
+<a name="002804"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/stopped_agaom.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/P1294760-thumb.jpg" width="120" height="90" title="Stopped Agaom" alt="Stopped Agaom" /></a>
+
+<a name="002805"></a>
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/panaroma.html">
+<img src="http://offroadpakistan.com/pictures/dureji_jan_2007/Pan02-thumb.jpg" width="120" height="90" title="Panaroma" alt="Panaroma" /></a>
+
+
+<div id="botnav">
+<p></p>
+</div><!-- botnav -->
+
+</div><!-- thumbnails -->
+
+<br />
+
+</div><!-- content -->
+
+<div id="side">
+
+<p>You are at the photo gallery of the 4x4 Offroaders Club Karachi. The pictures are sorted in the following galleries:</p>
+<h3>Picture Gallery</h3>
+<ul><li><a href="http://offroadpakistan.com/pictures/besham_2007/">Besham 2007</a></li>
+<li><a href="http://offroadpakistan.com/pictures/bhootani_farms/">Bhootani Farms</a></li>
+<li><a href="http://offroadpakistan.com/pictures/chitral/">Chitral</a></li>
+<li><a href="http://offroadpakistan.com/pictures/dureji_2006/">Dureji 2006</a></li>
+<li><a href="http://offroadpakistan.com/pictures/dureji_jan_2007/">Dureji Jan 2007</a></li>
+<li><a href="http://offroadpakistan.com/pictures/ford_f1/">Ford F1</a></li>
+<li><a href="http://offroadpakistan.com/pictures/gawadur_2001/">Gawadur 2001</a></li>
+<li><a href="http://offroadpakistan.com/pictures/goran_gatti_2008/">Goran Gatti 2008</a></li>
+<li><a href="http://offroadpakistan.com/pictures/goran_gatti_nov_2008/">Goran Gatti Nov 2008</a></li>
+<li><a href="http://offroadpakistan.com/pictures/hingol/">Hingol</a></li>
+<li><a href="http://offroadpakistan.com/pictures/hingol_2005/">Hingol 2005</a></li>
+<li><a href="http://offroadpakistan.com/pictures/hingol_april_2007/">Hingol April 2007</a></li>
+<li><a href="http://offroadpakistan.com/pictures/hingol_flood_relief_2007/">Hingol Flood Relief 2007</a></li>
+<li><a href="http://offroadpakistan.com/pictures/hingol_river_jan_06/">Hingol River Jan 06</a></li>
+<li><a href="http://offroadpakistan.com/pictures/hub_dam/">Hub Dam</a></li>
+<li><a href="http://offroadpakistan.com/pictures/indus_river_expedition_1978/">Indus River Expedition 1978</a></li>
+<li><a href="http://offroadpakistan.com/pictures/k2_base_camp_hike/">K2 Base Camp Hike</a></li>
+<li><a href="http://offroadpakistan.com/pictures/khunjerab_2000/">Khunjerab 2000</a></li>
+<li><a href="http://offroadpakistan.com/pictures/kirthar_2005/">Kirthar 2005</a></li>
+<li><a href="http://offroadpakistan.com/pictures/makli_tombs/">Makli Tombs</a></li>
+<li><a href="http://offroadpakistan.com/pictures/medical_camp_march_2008/">Medical Camp March 2008</a></li>
+<li><a href="http://offroadpakistan.com/pictures/neza_e_sultan/">Neza e Sultan</a></li>
+<li><a href="http://offroadpakistan.com/pictures/quetta_2004/">Quetta 2004</a></li>
+<li><a href="http://offroadpakistan.com/pictures/shandur_2004/">Shandur 2004</a></li>
+<li><a href="http://offroadpakistan.com/pictures/sorh_feb_09/">Sorh Feb 2009</a></li>
+<li><a href="http://offroadpakistan.com/pictures/taftan_plantak_2005/">Taftan Plantak 2005</a></li>
+<li><a href="http://offroadpakistan.com/pictures/thar_2003/">Thar 2003</a></li>
+<li><a href="http://offroadpakistan.com/pictures/thar_2006/">Thar 2006</a></li>
+<li><a href="http://offroadpakistan.com/pictures/uthal_2002/">Uthal 2002</a></li>
+<li><a href="http://offroadpakistan.com/pictures/ziarat_2002/">Ziarat 2002</a></li>
+</ul>
+<br />
+<h3>Search</h3>
+<form method="get" action="http://offroadpakistan.com/cgi-bin/mt4/mt-search.cgi">
+<input type="hidden" name="IncludeBlogs" value="4" />
+<input type="hidden" name="IncludeBlogs" value="5" />
+<input type="hidden" name="IncludeBlogs" value="8" />
+<input type="hidden" name="Template" value="offroad" />
+<label for="search" accesskey="4"></label>
+<input id="search" name="search" class="searchbox" size="20" onfocus="value=''" value="Search..." />
+<input type="submit" class="button" value="Find" />
+</form>
+<br />
+
+<br />
+<div id="comments-recent">
+<h5>Recent Comments</h5>
+
+Fabiana:
+<a href="http://offroadpakistan.com/pictures/dureji_jan_2007/stopped_agaom.html">
+By :By :By :By :there doesn't have to...</a>
+<br/>
+
+Geetika:
+<a href="http://offroadpakistan.com/pictures/hingol_river_jan_06/winching_1.html">
+There is an opt out proceeding in pre...</a>
+<br/>
+
+Bekircan:
+<a href="http://offroadpakistan.com/pictures/thar_2006/village_in_the_desert.html">
+RE:    Are you making an arneumgt to ...</a>
+<br/>
+
+Suresh:
+<a href="http://offroadpakistan.com/pictures/goran_gatti_2008/zooming_across_over_another_marshy_bit_o.html">
+Ah, yes, that familiar Kon-ka-reeeee!...</a>
+<br/>
+
+Danthay:
+<a href="http://offroadpakistan.com/pictures/thar_2006/decorated_truck.html">
+It has taken me a little while to fiu...</a>
+<br/>
+
+</div><!-- comments-recent -->
+<br />
+
+<p><a href="photos.rss">Photo MediaRSS feed</a></p>
+<p>
+<!-- Creative Commons License -->
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/"><img alt="Creative Commons License" border="0" src="http://creativecommons.org/images/public/somerights20.gif" /></a>
+<!-- /Creative Commons License -->
+</p>
+
+</div><!-- end sidebar -->
+
+<?php include ('/home/offroadp/public_html/asset/footer'); ?>
+
+</div><!-- frame -->
+</body>
+</html>

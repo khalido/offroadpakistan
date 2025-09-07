@@ -1,0 +1,100 @@
+---
+// Header image is in public folder
+const headerImagePath = "/header1.jpg";
+---
+
+<!-- Header with heritage background using img element for better mobile support -->
+<a
+    href="/"
+    class="block relative h-[120px] md:h-[187px] overflow-hidden bg-[#e2e87e]"
+>
+    <header class="relative h-full w-full">
+        <!-- Actual image element for better mobile compatibility -->
+        <img
+            src={headerImagePath}
+            alt="OFFROADPAKISTAN - 4x4 Offroaders Club Karachi"
+            class="w-auto h-full min-w-full object-cover object-left md:object-center"
+            style="min-height: 100%;"
+        />
+
+        <!-- Fallback text overlay in case image doesn't load - hidden but accessible -->
+        <div
+            class="absolute inset-0 flex items-center justify-between px-4 md:px-8"
+        >
+            <span class="sr-only">Offroad Pakistan</span>
+            <span class="sr-only">4x4 Offroaders Club Karachi</span>
+        </div>
+    </header>
+</a>
+
+<!-- Navigation bar with heritage styling -->
+<nav class="bg-[#565656] relative">
+    <div class="max-w-[780px] mx-auto">
+        <!-- Navigation - visible at all screen sizes -->
+        <ul class="flex list-none m-0 p-0 items-center h-9 md:h-10">
+            <li>
+                <a
+                    href="/"
+                    class="inline-block px-3 md:px-4 py-2 text-[#f2f2f2] hover:bg-[#666666] text-xs"
+                    style="font-family: Tahoma, Verdana, Arial, sans-serif;"
+                >
+                    Home
+                </a>
+            </li>
+            <li>
+                <a
+                    href="/posts/"
+                    class="inline-block px-3 md:px-4 py-2 text-[#f2f2f2] hover:bg-[#666666] text-xs"
+                    style="font-family: Tahoma, Verdana, Arial, sans-serif;"
+                >
+                    Posts
+                </a>
+            </li>
+            <li>
+                <a
+                    href="/pictures/"
+                    class="inline-block px-3 md:px-4 py-2 text-[#f2f2f2] hover:bg-[#666666] text-xs"
+                    style="font-family: Tahoma, Verdana, Arial, sans-serif;"
+                >
+                    Pictures
+                </a>
+            </li>
+            <li>
+                <a
+                    href="/about/"
+                    class="inline-block px-3 md:px-4 py-2 text-[#f2f2f2] hover:bg-[#666666] text-xs"
+                    style="font-family: Tahoma, Verdana, Arial, sans-serif;"
+                >
+                    About
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<style>
+    /* Screen reader only class for accessibility */
+    .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border-width: 0;
+    }
+
+    /* Make sure the header link doesn't show underline on hover */
+    a[href="/"]:hover {
+        text-decoration: none;
+    }
+
+    /* Ensure image doesn't distort */
+    header img {
+        image-rendering: auto;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+</style>

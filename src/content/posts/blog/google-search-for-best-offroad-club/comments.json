@@ -1,0 +1,33 @@
+{
+  "post_id": 79,
+  "comment_count": 3,
+  "comments": [
+    {
+      "id": 855,
+      "author": "Tanya",
+      "email": "tani86@gmail.com",
+      "date": "2007-07-31 23:35:45",
+      "content": "<p>Thumbs up!</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 856,
+      "author": "Waqas",
+      "email": "waqas.k@cyber.net.pk",
+      "date": "2008-10-06 15:37:47",
+      "content": "<p>Keep it up <img src=\"!\" alt=\"\" border=\"0\" /></p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 857,
+      "author": "Pakistan",
+      "email": "sonia22@hotmail.com",
+      "date": "2009-04-12 00:15:09",
+      "content": "<p>Nice tip.</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    }
+  ]
+}

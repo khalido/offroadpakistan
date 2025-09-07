@@ -1,0 +1,33 @@
+{
+  "post_id": 53,
+  "comment_count": 3,
+  "comments": [
+    {
+      "id": 676,
+      "author": "Salman Ali",
+      "email": "turumti@hotmail.com",
+      "date": "2005-03-07 09:00:34",
+      "content": "<p>Sounds interesting. I would like to attend this lecture.</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 677,
+      "author": "Yaseen",
+      "email": "yaseen@offroadpakistan.com",
+      "date": "2005-03-07 11:17:32",
+      "content": "<p>I would like to attend this lecture.</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 678,
+      "author": "Adelino",
+      "email": "john@onlinepokerbot.net",
+      "date": "2010-01-15 09:58:32",
+      "content": "<p>whats up!, im new to this site. This website’s fantastic, I have learned a lot from it so far!</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    }
+  ]
+}

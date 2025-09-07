@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<?php
+$lines = file ('numbers'); $links = file ('links');
+$total_lines = count ($lines);
+for ($i = 0; $i < $total_lines; $i++) {
+if ($lines[$i] == 2900)
+{ $position=$i+1;
+if ($i>0){$p=$links[$i-1];} else{$p="0";}
+if ($i+1<$total_lines) {$n=$links[$i+1]; } else {$n="0";}
+} } //end for loop
+function _prev($p="0"){
+if ($p=="0") {echo "";} else {echo "<a href=\"$p\">&laquo; prev</a>"; } }
+function _next($n="0"){
+if ($n=="0") { echo "";} else {echo "<a href=\"$n\">next &raquo;</a>"; } }
+?>
+
+<head>
+<title>The Indus Motel in Skardu, in K2 Base Camp Hike, 4x4 Offroaders Club Karachi</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="ROBOTS" content="ALL" />
+<meta name="Copyright" content="Copyright (c) 2003-04 4x4 Offroaders Club Karachi" />
+<meta name="description" content="4x4 Offroaders Club Karachi, Photo Gallery. Continuously updated as we travel around Pakistan" />
+<meta name="keywords" content="The Indus Motel in Skardu, 4x4 Offroaders Club Karachi" />
+<meta name="author" content="4x4 Offroaders Club Karachi, Khalid and Abid Omar" />
+<link rel="offroadpakistan" href="http://www.offroadpakistan.com/" title="4x4 Offroaders Club Karachi" />
+<meta name="Rating" content="General" />
+<meta name="revisit-after" content="7 Days" />
+<meta name="expires" content="never" />
+<meta name="distribution" content="global" />
+<meta name="doc-class" content="Living Document" />
+
+<meta name="geo.position" content="24.85;67.0333" />
+<meta name="geo.region" content="PK-SD" />
+<meta name="geo.placename" content="Karachi" />
+<meta name="dc:title" lang="en" content="4x4 Offroaders Club Karachi, Photo Gallery. Continuously updated as we travel around Pakistan" />
+<meta name="dc:creator" content="4x4 Offroaders Club Karachi, Khalid and Abid Omar" />
+
+<style type="text/css" media="all">@import "http://offroadpakistan.com/pictures/pics.css";</style>
+
+</head>
+
+<body id="pictures">
+
+<div id="frame">
+<div id="content" style="width:<?php $imgsize = getimagesize ("http://offroadpakistan.com/pictures/k2_base_camp_hike/P6270728.jpg",$info );$imgsize[0] = $imgsize[0] + 18 ; echo "$imgsize[0]" ?>px">
+
+<!-- Navigation Menu -->
+<?php include ('/home/offroadp/public_html/asset/globalnav'); ?>
+
+<div id="img">
+<?php
+$imgsize = getimagesize ("http://offroadpakistan.com/pictures/k2_base_camp_hike/P6270728.jpg",$info );
+
+if ($n=="0") { echo "<img src=\"http://offroadpakistan.com/pictures/k2_base_camp_hike/P6270728.jpg\" {$imgsize[3]} alt=\"The Indus Motel in Skardu\">";} else {echo "<a href=\"$n\"><img src=\"http://offroadpakistan.com/pictures/k2_base_camp_hike/P6270728.jpg\" {$imgsize[3]} alt=\"The Indus Motel in Skardu\"></a>"; }
+?>
+<p><strong>The Indus Motel in Skardu</strong>: Where we stayed at in Skardu.</p>
+
+<div id="botnav">
+<p class="posted"><?php _prev($p); ?> |
+<?php echo $position ?> of <?php echo $total_lines ?> |
+<?php _next($n); ?></p>
+</div><!-- botnav -->
+
+<p class="posted">Posted on August  5, 2007 in <strong><a href="http://offroadpakistan.com/pictures/k2_base_camp_hike/">K2 Base Camp Hike</a></strong> <a href="http://offroadpakistan.com/cgi-bin/mt4/mt.cgi?__mode=view&_type=entry&id=2900&blog_id=4">#</a></p>
+
+</div><!-- img -->
+
+
+<div id="comments">
+
+<h2>Comments (1)</h2>
+<p class="small"><a href="#" />You can leave new comments below</a></p>
+
+
+<div class="comment-entry">
+<p class="name">gh. mehdi says:</p>
+<p class="posted">On February 17, 2010  8:00 PM</p>
+
+<p>salam, nazir baye i am the relative of ur from india ,u send some phots with a tourist , u contact no & u mail id ,i send u mail many times but u not respone.this time i saw u hotel photo on the net, very butiful hotel.ok bye inshillah met again.<br />
+allah hafiz<br />
+gh.mehdi<br />
+kargil india<br />
+ my mail id     :  muntazir_aryan@yahoo.com</p>
+</div><!-- comment-entry -->
+
+
+
+
+
+<script type="text/javascript" language="javascript" src="/inc/cookie.js"></script>
+<div id="comment-box">
+<h2>Enter Your Comment</h2>
+<p class="small">Please read <a href="/" />comment policy</a> before commenting</p>
+
+<form method="post" action="http://offroadpakistan.com/cgi-bin/mt5/mt-comments.cgi" name="comments_form" onsubmit="if (this.bakecookie[0].checked) rememberMe(this)">
+<input type="hidden" name="static" value="1" />
+<input type="hidden" name="entry_id" value="2900" />
+
+<span><label for="author"><strong>Name:</strong></label>
+<input tabindex="1" id="author" name="author" title="Enter your name" />
+(required)</span>
+
+<span><label for="email"><strong>Email Address:</strong></label>
+<input tabindex="2" id="email" name="email" title="Enter your email address" />
+(required)</span>
+
+<span><label for="url">Website:</label>
+<input tabindex="3" type="text" name="url" id="url" title="Enter your website" />
+(if you've got a web site, then you can link to it)</span>
+
+<span><label for="text"><strong>Your comment:</strong> (required)</label>
+<textarea tabindex="4" id="text" name="text" rows="7" cols="40" title="Write your comments here"></textarea></span>
+
+<span><input type="checkbox" name="subscribe" id="subscribe" value="subscribe" title="Subscribe to this comment feed?" />
+recieve reply via email</span>
+
+<span class="submit">
+<input type="submit" class="button" name="preview" id="preview" tabindex="5" value="Preview Comment" />
+<input type="submit" class="button" name="post" id="post" tabindex="6" value="Post" />
+
+<input type="checkbox" id="bakecookie" name="bakecookie" title="Remember your personal info the next time you visit?" />
+<label for="bakecookie">remember me, or <a href="#" onclick="forgetMe(this.form)">forget me</a></label>
+</span>
+</form>
+<script type="text/javascript" language="javascript">
+<!--
+document.comments_form.email.value = getCookie("mtcmtmail");
+document.comments_form.author.value = getCookie("mtcmtauth");
+document.comments_form.url.value = getCookie("mtcmthome");
+if (getCookie("mtcmtauth")) {
+document.comments_form.bakecookie[0].checked = true;
+} else {
+document.comments_form.bakecookie[1].checked = true;
+}
+//-->
+</script>
+<p>Please be considerate of others. Keep comments relevant. Content deemed inappropriate or offensive may be edited and/or deleted. For feedback not pertaining to this picture, please use the <a href="/forums/">forums</a>.</p>
+</div><!-- comment-box -->
+
+
+
+</div><!-- comments-->
+
+<!-- this is where the code for the thumbnails will go -->
+
+<p>You are looking at picture <?php echo $position ?> of 194 in the K2 Base Camp Hike picture gallery. For more, follow the links below.</p>
+<p><?php _prev($p); ?> | <?php _next($n); ?> | <a href="http://offroadpakistan.com/pictures/k2_base_camp_hike/">This Trip</a> | <a href="/pictures">Picture Gallery</a> | <a href="/forums/">Forums</a> | <a href="/">Home</a></p>
+
+
+<p>Copyright &copy; Offroaders Club Karachi. <a href="http://offroadpakistan.com/bitsnpieces/site_news/site_copyright.html">Some Rights Reserved</a>.</p>
+</div><!-- content -->
+
+</div><!-- frame -->
+</body>
+</html>

@@ -1,0 +1,69 @@
+{
+  "post_id": 75,
+  "comment_count": 7,
+  "comments": [
+    {
+      "id": 832,
+      "author": "Fahad Ali",
+      "email": "fahadali4wd@yahoo.com",
+      "date": "2007-01-30 14:24:31",
+      "content": "<p>KO,</p>\n\n\t<p>Whats the asking price of a tent for six people…</p>\n\n\t<p>And for a sleeping bag……….</p>\n\n\t<p>Waiting for reply…</p>\n\n\t<p>Fahad</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 833,
+      "author": "KO",
+      "email": "khalid.omar@gmail.com",
+      "date": "2007-01-30 19:33:57",
+      "content": "<p>I haven’t been there, so can’t say.</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 834,
+      "author": "Fahad Ali",
+      "email": "fahadali4wd@yahoo.com",
+      "date": "2007-01-31 14:33:51",
+      "content": "<p>KO</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 835,
+      "author": "KO",
+      "email": "khalid.omar@gmail.com",
+      "date": "2007-01-31 17:43:03",
+      "content": "<p>The price seems reasonable – can you post the website url here?</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 836,
+      "author": "fahad ali",
+      "email": "fahadali4wd@yahoo.com",
+      "date": "2007-01-31 18:41:37",
+      "content": "<p>Its <span class=\"caps\">WWW</span>.Makropakistan.com…..</p>\n\n\t<p>Regards,</p>\n\n\t<p>fahad</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 837,
+      "author": "riaz khatri",
+      "email": "rh_khatri@hotmail.com",
+      "date": "2007-03-18 14:23:46",
+      "content": "<p>sir</p>\n\n\t<p>do you have telescope or binocular with high range if avalable so please send me the deatail</p>\n\n\t<p>thanks</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 838,
+      "author": "Zain",
+      "email": "mkibaloch@yahoo.com",
+      "date": "2007-10-19 00:22:25",
+      "content": "<p>Thank you for this details</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    }
+  ]
+}

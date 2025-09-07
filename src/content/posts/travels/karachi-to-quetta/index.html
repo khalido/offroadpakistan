@@ -1,0 +1,400 @@
+<?php
+$lines = file ('numbers'); $links = file ('links');
+$total_lines = count ($lines);
+for ($i = 0; $i < $total_lines; $i++) {
+if ($lines[$i] == 1208)
+{ $position=$i+1;
+if ($i>0){$p=$links[$i-1];} else{$p="0";}
+if ($i+1<$total_lines) {$n=$links[$i+1]; } else {$n="0";}
+} } //end for loop
+function _prev($p="0"){
+if ($p=="0") {echo "";} else {echo "<a href=\"$p\">&laquo; prev</a>"; } }
+function _next($n="0"){
+if ($n=="0") { echo "";} else {echo "<a href=\"$n\">next &raquo;</a>"; } }
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<link rel="alternate" href="photos.rss" type="application/rss+xml" title="" id="gallery" />
+
+<head>
+<title>Quetta 2004 (4x4 Offroaders Club Karachi)</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="MSSmartTagsPreventParsing" content="true" />
+<meta http-equiv="imagetoolbar" content="false" />
+<meta name="ROBOTS" content="ALL" />
+<meta name="Copyright" content="Copyright (c) 2003 4x4 Offroaders Club Karachi" />
+<meta name="description" content="4x4 Offroaders Club Karachi, Photo Gallery. Continuously updated as we travel around Pakistan" />
+<meta name="keywords" content="4x4 Offroaders Club Karachi, Pakistan, Photo Gallery, photography pictures, offroad track outdoors camping, jeep cj5 cj7 m38 m171, sind sindh baluchistan punjab nwfp northern areas " />
+<meta name="author" content="Khalid and Abid Omar" />
+<link rel="offroadpakistan" href="http://www.offroadpakistan.com/" title="4x4 Offroaders Club Karachi" />
+<link rel="about" href="http://www.offroadpakistan.com/about/" title="About the 4x4 Offroaders Club Karachi website" />
+<link rel="ko" href="http://ko.offroadpakistan.com/" title="Khalid Omar's Daily Rant" />
+<meta name="Rating" content="General" />
+<meta name="revisit-after" content="4 Days" />
+<meta name="expires" content="never" />
+<meta name="distribution" content="global" />
+<meta name="doc-class" content="Living Document" />
+
+<meta name="geo.position" content="24.85;67.0333" />
+<meta name="geo.region" content="PK-SD" />
+<meta name="geo.placename" content="Karachi" />
+<meta name="dc:title" lang="en" content="4x4 Offroaders Club Karachi, Photo Gallery. Continuously updated as we travel around Pakistan" />
+<meta name="dc:creator" content="Khalid and Abid Omar" />
+
+<link rel="alternate" href="photos.rss" type="application/rss+xml" title="photos" id="gallery" />
+
+<style type="text/css" media="all">@import "http://offroadpakistan.com/asset/offroad2.css";
+#mainimg{background:#fff url("http://offroadpakistan.com/pictures/quetta_2004/CNV000005.jpg") 50% 50% no-repeat}
+#content{width:580px}
+#side{width:146px}
+</style>
+<!-- <link rel="stylesheet" type="text/css" media="print" href="print.css" /> -->
+
+</head>
+<body id="pictures">
+
+<div id="frame">
+
+<div id="header">
+<h1><a href="http://www.offroadpakistan.com/" title="Offroad Pakistan" accesskey="1">Offroad Pakistan</a></h1>
+<h2><a href="/pictures">Picture Gallery</a> &raquo;
+<a href="http://offroadpakistan.com/pictures/quetta_2004/">Quetta 2004</a></h2>
+</div><!-- header -->
+
+<!-- Navigation Menu -->
+<?php include ('/home/offroadp/public_html/asset/globalnav'); ?>
+
+<div id="content">
+<h1>Quetta 2004</h1>
+<p>Karachi to Quetta/Ziarat in early 2004. This winter saw the most snowfall in Quetta and Ziarat since many years gone by, so this trip was special. </p>
+<p class="endp">This picture gallery has 51 pictures.
+<strong><a href="http://offroadpakistan.com/pictures/quetta_2004/#thumbnails" title="View picture gallery">View Thumbnails</a></strong>. The first picture in the gallery:</p>
+
+<div id="img">
+<div id="topnav">
+<p><?php _prev($p); ?> |
+<?php echo $position ?> of 51 |
+<?php _next($n); ?></p>
+</div><!-- topnav -->
+<div id="mainimg" onclick="document.location='http://offroadpakistan.com/pictures/quetta_2004/saroona_lake.html';" title="Saroona Lake"></div>
+<p><strong>Saroona Lake:</strong>
+A view of Saroona lake from the highway. It stretches for many miles alongside the road, and starts about 10 kilometers after Winder. The bank is muddy, and in many places is quicksand. The lake is stagnant sandy water, so although it looks good the entire area around the lake is inhospitable and barren.
+</p>
+
+</div><!-- img -->
+<a name="thumbnails"></a>
+
+<div id="thumbnails">
+
+
+<a name="001208"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/saroona_lake.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/CNV000005-thumb.jpg" width="120" height="90" title="Saroona Lake" alt="Saroona Lake" /></a>
+
+<a name="001209"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/yellow_brush.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/CNV000007-thumb.jpg" width="120" height="90" title="Yellow Brush" alt="Yellow Brush" /></a>
+
+<a name="001210"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/local_transport.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/CNV000010-thumb.jpg" width="120" height="90" title="Local Transport" alt="Local Transport" /></a>
+
+<a name="001211"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/driving_1.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/CNV000011-thumb.jpg" width="120" height="90" title="Driving 1" alt="Driving 1" /></a>
+
+<a name="001212"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/speed_demon.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/CNV000018-thumb.jpg" width="120" height="90" title="Speed Demon" alt="Speed Demon" /></a>
+
+<a name="001213"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/road_1.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/CNV000035-thumb.jpg" width="120" height="90" title="Road 1" alt="Road 1" /></a>
+
+<a name="001214"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/alleyway_in_baz.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F10033-thumb.jpg" width="120" height="90" title="Alleyway in Bazaar" alt="Alleyway in Bazaar" /></a>
+
+<a name="001215"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/fuel_stop_on_th.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1000003-thumb.jpg" width="120" height="90" title="Fuel Stop on the Higway" alt="Fuel Stop on the Higway" /></a>
+
+<a name="001216"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/laq_pass_1.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1000004-thumb.jpg" width="120" height="90" title="Laq Pass 1" alt="Laq Pass 1" /></a>
+
+<a name="001217"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/icey_roads.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1000009-thumb.jpg" width="120" height="90" title="Icey Roads" alt="Icey Roads" /></a>
+
+<a name="001218"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/signs.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1000010-thumb.jpg" width="120" height="90" title="Signs" alt="Signs" /></a>
+
+<a name="001219"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/train_pic_from.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1000013-thumb.jpg" width="120" height="90" title="Train Pic from Riverbed" alt="Train Pic from Riverbed" /></a>
+
+<a name="001220"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/quetta_main_roa.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1000014-thumb.jpg" width="120" height="90" title="Quetta Main Road" alt="Quetta Main Road" /></a>
+
+<a name="001221"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/dolphin_bakery.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1000015-thumb.jpg" width="120" height="90" title="Dolphin Bakery" alt="Dolphin Bakery" /></a>
+
+<a name="001222"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/portrait.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1000016-thumb.jpg" width="120" height="90" title="Portrait" alt="Portrait" /></a>
+
+<a name="001223"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/dinner_at_resta.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1000017-thumb.jpg" width="120" height="90" title="Dinner at Restaurant" alt="Dinner at Restaurant" /></a>
+
+<a name="001224"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/quaideazam_resi.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1000021-thumb.jpg" width="120" height="90" title="Quaid-e-Azam Residency" alt="Quaid-e-Azam Residency" /></a>
+
+<a name="001225"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/alternative_med.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1000027-thumb.jpg" width="120" height="90" title="Alternative Medicine" alt="Alternative Medicine" /></a>
+
+<a name="001226"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/ho_next_to_jeep.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1000029-thumb.jpg" width="120" height="90" title="HO next to Jeep" alt="HO next to Jeep" /></a>
+
+<a name="001227"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/lunch_at_ziarat.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1000032-thumb.jpg" width="120" height="90" title="Lunch at Ziarat" alt="Lunch at Ziarat" /></a>
+
+<a name="001228"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/train_at_windy.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1000033-thumb.jpg" width="120" height="90" title="Train at Windy Corner" alt="Train at Windy Corner" /></a>
+
+<a name="001229"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/closeup_of_picn.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1000036-thumb.jpg" width="120" height="90" title="Closeup of Picnic" alt="Closeup of Picnic" /></a>
+
+<a name="001230"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/786_biryani_hou.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1000121-thumb.jpg" width="120" height="90" title="786 Biryani House" alt="786 Biryani House" /></a>
+
+<a name="001231"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/prince_road.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1000129-thumb.jpg" width="120" height="90" title="Prince Road" alt="Prince Road" /></a>
+
+<a name="001232"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/picnic_spot_red.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1000133-thumb.jpg" width="120" height="90" title="Picnic Spot Redux" alt="Picnic Spot Redux" /></a>
+
+<a name="001233"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/diversion.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1010016-thumb.jpg" width="120" height="90" title="Diversion" alt="Diversion" /></a>
+
+<a name="001234"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/the_sea.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1010025-thumb.jpg" width="120" height="90" title="The Sea" alt="The Sea" /></a>
+
+<a name="001235"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/shoe.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1010027-thumb.jpg" width="120" height="90" title="Shoe" alt="Shoe" /></a>
+
+<a name="001236"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/setting_out_1.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1010028-thumb.jpg" width="120" height="90" title="Setting Out" alt="Setting Out" /></a>
+
+<a name="001251"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/lasbela.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1010031-thumb.jpg" width="120" height="90" title="Lasbela" alt="Lasbela" /></a>
+
+<a name="001252"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/road_to_ziarat.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1020002-thumb.jpg" width="120" height="90" title="Road to Ziarat" alt="Road to Ziarat" /></a>
+
+<a name="001253"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/ziarat_to_quett.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1020012-thumb.jpg" width="120" height="90" title="Ziarat to Quetta" alt="Ziarat to Quetta" /></a>
+
+<a name="001255"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/kia_in_repose.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1020020-thumb.jpg" width="120" height="90" title="Kia in repose" alt="Kia in repose" /></a>
+
+<a name="001258"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/kia_2.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1020024-thumb.jpg" width="120" height="90" title="Kia 2" alt="Kia 2" /></a>
+
+<a name="001261"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/cherokee_under.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1020025-thumb.jpg" width="120" height="90" title="Cherokee under a Tree" alt="Cherokee under a Tree" /></a>
+
+<a name="001265"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/snow_covered_fi.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1020028-thumb.jpg" width="120" height="90" title="Snow Covered Field" alt="Snow Covered Field" /></a>
+
+<a name="001266"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/more_snow.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1020032-thumb.jpg" width="120" height="90" title="More snow" alt="More snow" /></a>
+
+<a name="001267"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/fruit.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1030003-thumb.jpg" width="120" height="90" title="Fruit" alt="Fruit" /></a>
+
+<a name="001270"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/dry_fruit.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1030005-thumb.jpg" width="120" height="90" title="Kuchlak Bazaar" alt="Kuchlak Bazaar" /></a>
+
+<a name="001271"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/n40_n25_highway.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1030022-thumb.jpg" width="120" height="90" title="N40 N25 Highway" alt="N40 N25 Highway" /></a>
+
+<a name="001298"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/lens_flare.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1030023-thumb.jpg" width="120" height="90" title="Lens Flare" alt="Lens Flare" /></a>
+
+<a name="001299"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/overturned_tank.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1030025-thumb.jpg" width="120" height="90" title="Overturned Tanker" alt="Overturned Tanker" /></a>
+
+<a name="001300"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/first_snow.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1030033-thumb.jpg" width="120" height="90" title="First Snow" alt="First Snow" /></a>
+
+<a name="001301"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/diesel_fillup.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1030035-thumb.jpg" width="120" height="90" title="Diesel Fillup" alt="Diesel Fillup" /></a>
+
+<a name="001302"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/superintending.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1030036-thumb.jpg" width="120" height="90" title="Superintending Engineer" alt="Superintending Engineer" /></a>
+
+<a name="001304"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/bazaar_street.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1040006-thumb.jpg" width="120" height="90" title="Bazaar Street" alt="Bazaar Street" /></a>
+
+<a name="001305"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/lourdes_sticker.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1040011-thumb.jpg" width="120" height="90" title="Lourdes Stickers" alt="Lourdes Stickers" /></a>
+
+<a name="001306"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/cleaning_kia.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1040015-thumb.jpg" width="120" height="90" title="Cleaning Kia" alt="Cleaning Kia" /></a>
+
+<a name="001308"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/cherokee_midst.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1040027-thumb.jpg" width="120" height="90" title="Cherokee Midst Snow" alt="Cherokee Midst Snow" /></a>
+
+<a name="001309"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/snowed_road.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1040030-thumb.jpg" width="120" height="90" title="Snowed Road" alt="Snowed Road" /></a>
+
+<a name="001310"></a>
+<a href="http://offroadpakistan.com/pictures/quetta_2004/kia_snowy_road.html">
+<img src="http://offroadpakistan.com/pictures/quetta_2004/F1040034-thumb.jpg" width="120" height="90" title="Kia Snowy Road" alt="Kia Snowy Road" /></a>
+
+
+<div id="botnav">
+<p></p>
+</div><!-- botnav -->
+
+</div><!-- thumbnails -->
+
+<br />
+
+</div><!-- content -->
+
+<div id="side">
+
+<p>You are at the photo gallery of the 4x4 Offroaders Club Karachi. The pictures are sorted in the following galleries:</p>
+<h3>Picture Gallery</h3>
+<ul><li><a href="http://offroadpakistan.com/pictures/besham_2007/">Besham 2007</a></li>
+<li><a href="http://offroadpakistan.com/pictures/bhootani_farms/">Bhootani Farms</a></li>
+<li><a href="http://offroadpakistan.com/pictures/chitral/">Chitral</a></li>
+<li><a href="http://offroadpakistan.com/pictures/dureji_2006/">Dureji 2006</a></li>
+<li><a href="http://offroadpakistan.com/pictures/dureji_jan_2007/">Dureji Jan 2007</a></li>
+<li><a href="http://offroadpakistan.com/pictures/ford_f1/">Ford F1</a></li>
+<li><a href="http://offroadpakistan.com/pictures/gawadur_2001/">Gawadur 2001</a></li>
+<li><a href="http://offroadpakistan.com/pictures/goran_gatti_2008/">Goran Gatti 2008</a></li>
+<li><a href="http://offroadpakistan.com/pictures/goran_gatti_nov_2008/">Goran Gatti Nov 2008</a></li>
+<li><a href="http://offroadpakistan.com/pictures/hingol/">Hingol</a></li>
+<li><a href="http://offroadpakistan.com/pictures/hingol_2005/">Hingol 2005</a></li>
+<li><a href="http://offroadpakistan.com/pictures/hingol_april_2007/">Hingol April 2007</a></li>
+<li><a href="http://offroadpakistan.com/pictures/hingol_flood_relief_2007/">Hingol Flood Relief 2007</a></li>
+<li><a href="http://offroadpakistan.com/pictures/hingol_river_jan_06/">Hingol River Jan 06</a></li>
+<li><a href="http://offroadpakistan.com/pictures/hub_dam/">Hub Dam</a></li>
+<li><a href="http://offroadpakistan.com/pictures/indus_river_expedition_1978/">Indus River Expedition 1978</a></li>
+<li><a href="http://offroadpakistan.com/pictures/k2_base_camp_hike/">K2 Base Camp Hike</a></li>
+<li><a href="http://offroadpakistan.com/pictures/khunjerab_2000/">Khunjerab 2000</a></li>
+<li><a href="http://offroadpakistan.com/pictures/kirthar_2005/">Kirthar 2005</a></li>
+<li><a href="http://offroadpakistan.com/pictures/makli_tombs/">Makli Tombs</a></li>
+<li><a href="http://offroadpakistan.com/pictures/medical_camp_march_2008/">Medical Camp March 2008</a></li>
+<li><a href="http://offroadpakistan.com/pictures/neza_e_sultan/">Neza e Sultan</a></li>
+<li><a href="http://offroadpakistan.com/pictures/quetta_2004/">Quetta 2004</a></li>
+<li><a href="http://offroadpakistan.com/pictures/shandur_2004/">Shandur 2004</a></li>
+<li><a href="http://offroadpakistan.com/pictures/sorh_feb_09/">Sorh Feb 2009</a></li>
+<li><a href="http://offroadpakistan.com/pictures/taftan_plantak_2005/">Taftan Plantak 2005</a></li>
+<li><a href="http://offroadpakistan.com/pictures/thar_2003/">Thar 2003</a></li>
+<li><a href="http://offroadpakistan.com/pictures/thar_2006/">Thar 2006</a></li>
+<li><a href="http://offroadpakistan.com/pictures/uthal_2002/">Uthal 2002</a></li>
+<li><a href="http://offroadpakistan.com/pictures/ziarat_2002/">Ziarat 2002</a></li>
+</ul>
+<br />
+<h3>Search</h3>
+<form method="get" action="http://offroadpakistan.com/cgi-bin/mt4/mt-search.cgi">
+<input type="hidden" name="IncludeBlogs" value="4" />
+<input type="hidden" name="IncludeBlogs" value="5" />
+<input type="hidden" name="IncludeBlogs" value="8" />
+<input type="hidden" name="Template" value="offroad" />
+<label for="search" accesskey="4"></label>
+<input id="search" name="search" class="searchbox" size="20" onfocus="value=''" value="Search..." />
+<input type="submit" class="button" value="Find" />
+</form>
+<br />
+
+<br />
+<div id="comments-recent">
+<h5>Recent Comments</h5>
+
+LaKeesha:
+<a href="http://offroadpakistan.com/pictures/quetta_2004/road_1.html">
+aparadexto  ine  to  katastima sas  s...</a>
+<br/>
+
+Vahur:
+<a href="http://offroadpakistan.com/pictures/hub_dam/slipway.html">
+hi namitha u r so sexy and cute woman...</a>
+<br/>
+
+Selim:
+<a href="http://offroadpakistan.com/pictures/hingol_river_jan_06/alongsides_the_hingol.html">
+There is an opt out proceeding in prs...</a>
+<br/>
+
+Ferhat:
+<a href="http://offroadpakistan.com/pictures/hingol_2005/approaching_the_temple.html">
+DhonnobadKi korbo  ja fog hocche   ki...</a>
+<br/>
+
+Kenyetta:
+<a href="http://offroadpakistan.com/pictures/khunjerab_2000/imad_title_this_1.html">
+Hai dude .how r u ..i want ur fhnside...</a>
+<br/>
+
+</div><!-- comments-recent -->
+<br />
+
+<p><a href="photos.rss">Photo MediaRSS feed</a></p>
+<p>
+<!-- Creative Commons License -->
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/"><img alt="Creative Commons License" border="0" src="http://creativecommons.org/images/public/somerights20.gif" /></a>
+<!-- /Creative Commons License -->
+</p>
+
+</div><!-- end sidebar -->
+
+<?php include ('/home/offroadp/public_html/asset/footer'); ?>
+
+</div><!-- frame -->
+</body>
+</html>

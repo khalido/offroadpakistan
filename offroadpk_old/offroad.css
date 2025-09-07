@@ -1,0 +1,139 @@
+/* Offroad Pakistan*/
+/* www.offroadpakistan.com */
+
+/* Layout */
+body{margin:0px;padding:0px;background:#f5f5f5;color:#000000;text-align:center;font:11px/18px Verdana,Helvetica,Arial,sans-serif}
+#frame{width:772px;margin-left:auto;margin-right:auto;text-align:left}
+#content{position:absolute;width:482px;margin-left:145px;border:1px solid #000;border-top:0px;background:#FDF5E6}
+#links{position:absolute;width:135px;padding:5px}
+#linkbar{position:absolute;width:130px;margin-left:627px;padding:5px 5px 5px 10px}
+
+/* Main Image */
+#mainimg{height:200px;border-bottom:1px solid #000;cursor:pointer}
+
+#maintxt{background:#FFDEAD;padding:10px;border-bottom:1px solid #000}
+#maintxt h2{font:italic 15px/18px Georgia,Times,"Times New Roman",serif;color:#000;margin:0 0 0 0}
+
+h2{font:italic 15px Georgia,"Times New Roman", Times, serif;color:#565656;margin:10px 0 5px 0}
+
+#recentArticles{padding:10px;background:#fff}
+
+/* Individual Image Archive */
+#img{position:relative;background:#ffffff;border:10px solid #ffffff}
+#topnav{float:right;position:relative}
+#topnav p{position:relative;text-align:right;margin-top:0px;line-height:15px}
+#botnav{float:right;position:relative;margin-top:11px}
+#botnav p{margin-top:0px;text-align:right}
+
+/* General */
+a, a:link{color:#CC3300;text-decoration:none}
+a:visited{color:#CC9966}
+a:hover{color:#CC3300;text-decoration:underline}
+p{color:#333333;font:11px/18px Verdana,Helvetica,Arial,sans-serif;margin:10px 0 0 0}
+h1{font:bold 14px Verdana,Helvetica,Arial,sans-serif;color:#565656;margin:0 0 5px 0;}
+/*h2{font:bold 12px Verdana,Helvetica,Arial,sans-serif;color:#565656;margin:0 0 0 0;}*/
+/*h3{font:bold 12px Verdana,Helvetica,Arial,sans-serif;color:#565656;margin-bottom:5px}*/
+/*h5{font:bold 11px Verdana,Helvetica,Arial,sans-serif;color:#485E29;margin:10px 0 0 0}*/
+h5 {font-size:11px;margin-right:12px;margin-bottom:5px;color:#666;
+border:0px; border-bottom:1px dotted #666;margin-top:8px}
+h5 a:link,#Sidebar h3 a:visited {color:#666;}
+h5 a:hover {color:#F49300;}
+
+#linkbar p {
+padding: 0;/*font-family: Geneva, Verdana;*/
+margin: 0 0 7px 0;line-height:14px }
+
+/*  Comments */
+#comments{}
+#comments p{font-size:10px;line-height:14px;color:#333333}
+#comments .info{color:#666666;margin-top:0px}
+/* Comments */
+.comments-head  {font-weight:bold; margin-bottom:10px;border-bottom:1px dotted #999;}
+.comments-post {font-size: 10px;color: #999999;margin-bottom: 25px;margin-top: 10px; }
+.comments-body p {margin: 0px 0px 1em 0px;padding: 0px;}
+
+/*  Comment Box */
+#comment-box{}
+#comment-box-left{float:left;margin-right:20px}
+#comment-box-right{}
+
+/*  Recent Comments */
+#comments-recent{font-size:10px;line-height:12px;margin-top:3px}
+
+/* Form Elements */
+form{margin:0px}
+.form{font-size:11px;color:#333333;}
+form input.checkbox{margin:3px 0 0 0}
+.button{margin:0;padding:0;color:#333333;font-size:10px}
+.searchbox{width:94px;color:#333333;font-size:11px}
+
+/* Header Elements */
+#header{color:#000000;background:#EEEEEE;text-align:center;margin:0px;height:56px;border-bottom:1px dotted #000000}
+#header-frame{width:760px;margin-left:auto;margin-right:auto;text-align:left;padding-top:18px}
+#header h1{color:#40E0D0;margin:0px}
+#header p{margin:0px}
+#header a{color:#595959}
+
+/* Footer Elements */
+#footer{margin:18px 0 8px 0;border-top:1px dotted #000000}
+#footer p{color:#999999;font-size:9px;line-height:12px}
+
+/* Thumbnails */
+#thumbnails{padding:5px}
+#thumbnails img{border:5px solid #ffffff;border-bottom:15px solid #ffffff;margin:5px}
+
+/* Category Page */
+.endp{margin-bottom:10px}
+/*#mainimg{height:200px;cursor:pointer}*/
+	/*	Extended #mainimg code parsed by php in the html file. Kept here for reference.
+	#mainimg{background:#fff url("<p><strong>You are free:</strong></p>
+			<ul>
+
+				<li>to copy, distribute, display, and perform the work</li>
+				<li>to make derivative works</li>
+			</ul>
+
+		<p><strong>Under the following conditions:</strong></p>
+	        <div align="center"><table border="0" cellspacing="0" cellpadding="4" width="500" class="draft">
+		<tbody>
+                <tr><td align="left"><div class="tiny"><strong>Attribution</strong>. You must give the original author credit.</div></td></tr>
+
+                
+                <tr><td align="left"><div class="tiny"><strong>Noncommercial</strong>. You may not use this work for commercial purposes.</div></td></tr>
+                
+                <tr><td align="left"><div class="tiny"><strong>Share Alike</strong>. If you alter, transform, or build upon this work, you may distribute the resulting work only under a license identical to this one.</div></td></tr>
+                </tbody></table></div>
+		
+    <ul>
+    <li>For any reuse or distribution, you must make clear to others the license terms of this work.</li>
+    <li>Any of these conditions can be waived if you get permission from the copyright holder.</li>
+
+    </ul>.jpg") 50% 50% no-repeat}
+	*/
+
+/* Two Column Layout for Recent Articles */
+#twocolumn{margin-top:10px}
+#column-left{float:left;width:285px;padding:10px}
+#column-right{float:left;width:285px;padding:10px}
+#twocolumn h2,h2 a:link{font:bold 11px Georgia,"Times New Roman",serif;color:#CC3300;text-decoration:none;margin:10px 0 -10px 0}
+.excerpt-info{margin-top:5px;color:#666666;font-size:10px}
+
+/* Added by KO */
+h3,h4 {font-size: 12px; margin-bottom:4px; margin-top:10px; border:0px; border-bottom:1px dotted #666;}
+h3 a:link		{ color: #990000; background: transparent; border-bottom: none;}
+h3 a:visited	{ color: #990000; background: transparent;}
+h3 a:active		{ color: #069; background: transparent; }
+h3 a:hover		{ color: #f60; background: transparent; border-bottom: none;}
+
+.nav{	text-align: center; margin:20px 1px 15px 1px;}
+
+/* small text */
+.posted, .posted a:link, .posted a:visited{
+ 	font-family:verdana, arial, sans-serif; 
+	font-size: 10px; 
+	color: #888; 
+	margin-bottom: 0px;	}
+.posted a:link, .posted a:visited{border-bottom: 1px dotted #999;	}
+.posted a:hover{color: #EC5020;text-decoration: none;}
+
+.policy {margin:4px 2px}

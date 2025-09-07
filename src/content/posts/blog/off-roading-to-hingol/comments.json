@@ -1,0 +1,51 @@
+{
+  "post_id": 95,
+  "comment_count": 5,
+  "comments": [
+    {
+      "id": 974,
+      "author": "Trekking Holidays",
+      "email": "trekkinglife@seojuice.net",
+      "date": "2010-12-09 04:12:32",
+      "content": "<p>The views based on the pictures are breathtaking. I have yet to go on a 4 wheel ride far away from home but that is just an awesome adventure in Hingol National Park, my family would enjoy it.</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 975,
+      "author": "Ameer Hamza",
+      "email": "ameer.great@gmail.com",
+      "date": "2011-01-31 10:29:09",
+      "content": "<p>I quite agree with what Faisal writes here because it was my first time when I went with this exception group of people – a team as it were – who think out of the box and travel to places where only few would dare. I can relate to all this because just yesterday (30 Jan, 2011) I returned from this trip. Due to the allergy of my friend from so much dust, we both stayed behind otherwise we would also have gone to Pol Dat as well. But I still managed to get breathtaking photographs because this whole place is so wonderful.</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 1532,
+      "author": "MP",
+      "email": "mariapatel@gmail.com",
+      "date": "2011-09-29 14:15:57",
+      "content": "hey can we reach there in 1300 cc? is it possible? are there any tracks?",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 1553,
+      "author": "Adil Mustikhan",
+      "email": "adilmustikhan@yahoo.com",
+      "date": "2012-02-15 13:15:12",
+      "content": "Hello Faisal, am from Balochistan & Engineer by profession, a keen off-roader & a biker, currently based in Karachi. I know & visited dozens of locations like this one in Balochistan. Is it possible if I could join the 4 X 4 off-roaders club Karachi.",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 1614,
+      "author": "Judson Raith",
+      "email": "Keely_Pichette@yahoo.com",
+      "date": "2013-07-26 16:50:17",
+      "content": "Keep up the good work i will return often.",
+      "parent_id": 0,
+      "approved": true
+    }
+  ]
+}

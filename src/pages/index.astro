@@ -1,0 +1,138 @@
+---
+import { getCollection } from "astro:content";
+import PageLayout from "../layouts/PageLayout.astro";
+import FeaturedPosts from "../components/content/FeaturedPosts.astro";
+import FeaturedPicture from "../components/content/FeaturedPicture.astro";
+
+// Get recent galleries
+const allGalleries = await getCollection(
+    "galleries",
+    ({ data }) => !data.draft,
+);
+const featuredGalleries = allGalleries.filter(({ data }) => data.featured);
+const regularGalleries = allGalleries.filter(({ data }) => !data.featured);
+
+// Combine featured galleries first, then regular galleries
+const galleries = [...featuredGalleries, ...regularGalleries];
+const recentGalleries = galleries
+    .sort(
+        (a, b) =>
+            new Date(b.data.date).getTime() - new Date(a.data.date).getTime(),
+    )
+    .slice(0, 14);
+
+// Get some random individual pictures for the main display - prioritize featured
+const allPictures = await getCollection("pictures", ({ data }) => !data.draft);
+const featuredPictures = allPictures.filter(({ data }) => data.featured);
+const regularPictures = allPictures.filter(({ data }) => !data.featured);
+
+// Combine featured pictures first, then regular pictures
+const pictures = [...featuredPictures, ...regularPictures];
+// Shuffle array and take 8 random pictures
+const randomPictures = pictures.sort(() => Math.random() - 0.5).slice(0, 9);
+---
+
+<PageLayout
+    title="OffroadPakistan - Pakistani Adventure Heritage Archive"
+    description="Decades of Pakistani adventure and travel documentation from the 4x4 Offroaders Club Karachi. Explore remote valleys, desert expeditions, and mountain adventures."
+>
+    <!-- Main Introduction -->
+    <section class="mb-8">
+        <h1 class="text-base md:text-sm font-bold text-gray-600 mb-2">
+            Pakistani Adventure Heritage Archive
+        </h1>
+        <p class="text-sm md:text-xs text-gray-700 mb-4">
+            These are the journeys of the 4x4 Offroaders Club Karachi, venturing
+            forth where few have gone before. Our members are a bit shy of the
+            keyboard, being more used to Jeeps than computers, so you will see
+            this website evolving in front of your eyes as we keep adding more
+            content and pictures.
+        </p>
+        <p class="text-sm md:text-xs text-gray-600 mb-6">
+            This archive preserves decades of Pakistani adventure
+            documentation,originally published a long time ago in a Pakistan.
+        </p>
+    </section>
+
+    <!-- Featured Picture -->
+    {
+        randomPictures.length > 0 && (
+            <FeaturedPicture
+                picture={randomPictures[0]}
+                totalCount={allPictures.length}
+            />
+        )
+    }
+
+    <!-- Random Pictures Grid -->
+    <section class="mb-8">
+        <h2
+            class="text-sm md:text-xs font-bold text-gray-600 mb-2 border-b border-dotted border-gray-400"
+        >
+            Random Pictures
+        </h2>
+        <p class="text-sm md:text-xs text-gray-600 mb-3">
+            A random selection of pictures from the photo gallery.
+        </p>
+        <div class="flex flex-wrap gap-1 mb-4">
+            {
+                randomPictures.map((picture) => (
+                    <a
+                        href={`/pictures/${picture.data.gallery}/${picture.id.split("/").pop()}`}
+                        class="block"
+                        title={picture.data.title}
+                    >
+                        <img
+                            src={`/src/content/pictures/${picture.data.gallery}/${picture.data.thumbnail || picture.data.image}`}
+                            alt={picture.data.title}
+                            class="object-cover heritage-image"
+                            loading="lazy"
+                        />
+                    </a>
+                ))
+            }
+        </div>
+    </section>
+
+    <!-- Featured Posts Component -->
+    <FeaturedPosts limit={5} />
+
+    <!-- Recent Galleries -->
+    <section class="mb-8">
+        <h2
+            class="text-sm md:text-xs font-bold text-gray-600 mb-2 border-b border-dotted border-gray-400"
+        >
+            Recent Galleries
+        </h2>
+        <div class="space-y-2">
+            {
+                recentGalleries.map((gallery) => {
+                    const gallerySlug = gallery.id.replace("/index", "");
+                    return (
+                        <div class="flex items-center gap-2 text-sm md:text-xs">
+                            <a
+                                href={`/pictures/${gallerySlug}/`}
+                                class="text-teal-600 hover:text-green-600 font-bold"
+                            >
+                                {gallery.data.title}
+                            </a>
+                            {gallery.data.picture_count && (
+                                <span class="text-gray-600">
+                                    ({gallery.data.picture_count} photos)
+                                </span>
+                            )}
+                        </div>
+                    );
+                })
+            }
+        </div>
+        <div class="mt-3">
+            <a
+                href="/pictures/"
+                class="text-sm md:text-xs text-teal-600 hover:text-green-600 font-bold"
+            >
+                View All Galleries →
+            </a>
+        </div>
+    </section>
+</PageLayout>

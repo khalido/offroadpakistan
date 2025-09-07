@@ -1,0 +1,253 @@
+---
+import { getCollection } from 'astro:content';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+
+// Get all published posts
+const posts = await getCollection('posts', ({ data }) => !data.draft);
+
+// Enhanced post data with comments and content length
+const enhancedPosts = await Promise.all(
+    posts.map(async (post) => {
+        // Load comments
+        let commentCount = 0;
+        try {
+            const commentsModule = await import(`../../content/posts/${post.id}/comments.json`);
+            commentCount = commentsModule.default?.comments?.length || 0;
+        } catch (e) {
+            // No comments file found
+        }
+
+        // Calculate content length (word count)
+        let contentLength = 0;
+        try {
+            const { render } = await import('astro:content');
+            const { Content } = await render(post);
+            // Simple word count approximation
+            const contentText = post.body || '';
+            contentLength = contentText.split(/\s+/).filter(word => word.length > 0).length;
+        } catch (e) {
+            // Fallback to 0
+        }
+
+        return {
+            ...post,
+            commentCount,
+            contentLength
+        };
+    })
+);
+
+// Group posts by category
+const postsByCategory: Record<string, typeof enhancedPosts> = {};
+const titleCounts: Record<string, number> = {};
+const duplicateGroups: Record<string, typeof enhancedPosts> = {};
+
+// Group posts by category and count title occurrences
+enhancedPosts.forEach(post => {
+    const category = post.id.split('/')[0];
+    if (!postsByCategory[category]) {
+        postsByCategory[category] = [];
+    }
+    postsByCategory[category].push(post);
+
+    // Count title occurrences
+    const title = post.data.title;
+    titleCounts[title] = (titleCounts[title] || 0) + 1;
+
+    // Group duplicates
+    if (!duplicateGroups[title]) {
+        duplicateGroups[title] = [];
+    }
+    duplicateGroups[title].push(post);
+});
+
+// Function to determine which duplicate to keep
+function getDuplicateRecommendation(duplicates: typeof enhancedPosts): { keepIndex: number; reason: string } {
+    if (duplicates.length <= 1) return { keepIndex: 0, reason: '' };
+
+    // Sort by comment count (ascending - fewer comments = older)
+    const sortedByComments = [...duplicates].sort((a, b) => a.commentCount - b.commentCount);
+
+    // If comment counts differ, keep the one with more comments (newer)
+    if (sortedByComments[0].commentCount !== sortedByComments[sortedByComments.length - 1].commentCount) {
+        const keepPost = sortedByComments[sortedByComments.length - 1];
+        const keepIndex = duplicates.findIndex(p => p.id === keepPost.id);
+        return {
+            keepIndex,
+            reason: `Keep (more comments: ${keepPost.commentCount})`
+        };
+    }
+
+    // If comment counts are same, keep the longer post (typically newer)
+    const sortedByLength = [...duplicates].sort((a, b) => b.contentLength - a.contentLength);
+    if (sortedByLength[0].contentLength !== sortedByLength[sortedByLength.length - 1].contentLength) {
+        const keepPost = sortedByLength[0];
+        const keepIndex = duplicates.findIndex(p => p.id === keepPost.id);
+        return {
+            keepIndex,
+            reason: `Keep (longer: ${keepPost.contentLength} words)`
+        };
+    }
+
+    // Exact duplicates
+    return {
+        keepIndex: 0,
+        reason: 'EXACT DUPE'
+    };
+}
+
+// Sort categories alphabetically
+const sortedCategories = Object.keys(postsByCategory).sort();
+
+// Sort posts within each category alphabetically by title
+sortedCategories.forEach(category => {
+    postsByCategory[category].sort((a, b) =>
+        a.data.title.localeCompare(b.data.title)
+    );
+});
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="All posts from OffroadPakistan - complete listing of all blog posts organized by category" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <title>All Posts - OffroadPakistan</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                background-color: #e4e4e4;
+                font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+                font-size: 11px;
+                line-height: 1.6;
+                text-align: center;
+            }
+            .container {
+                max-width: 780px;
+                margin: 0 auto;
+                background: white;
+                text-align: left;
+            }
+            .content {
+                padding: 16px;
+            }
+            h1 {
+                font: bold 18px Verdana, Helvetica, Arial, sans-serif;
+                color: #565656;
+                margin: 0 0 16px 0;
+            }
+            h2 {
+                font: bold 14px Verdana, Helvetica, Arial, sans-serif;
+                color: #00473F;
+                margin: 20px 0 8px 0;
+                border-bottom: 1px dotted #ccc;
+                padding-bottom: 4px;
+            }
+            .post-item {
+                margin: 4px 0;
+                padding: 2px 0;
+            }
+            .post-title {
+                color: #00473F;
+                text-decoration: none;
+                font-weight: normal;
+            }
+            .post-title:hover {
+                color: #cc3300;
+                text-decoration: underline;
+            }
+            .post-tags {
+                color: #98A100;
+                margin-left: 8px;
+            }
+            .post-tags a {
+                color: #98A100;
+                text-decoration: none;
+            }
+            .post-tags a:hover {
+                text-decoration: underline;
+            }
+            .dupe-marker {
+                color: #cc3300;
+                font-weight: bold;
+                margin-left: 4px;
+            }
+            .keep-recommendation {
+                color: #009900;
+                font-weight: bold;
+                margin-left: 8px;
+                font-size: 10px;
+            }
+            .stats {
+                background: #f2f2f2;
+                padding: 8px;
+                margin: 16px 0;
+                border: 1px solid #ddd;
+                font-size: 10px;
+                color: #666;
+            }
+            .post-meta {
+                color: #666;
+                font-size: 10px;
+                margin-left: 8px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <Header />
+            
+            <div class="content">
+                <h1>All Posts - Complete Listing</h1>
+                
+                <div class="stats">
+                    Total Posts: {posts.length} | Categories: {sortedCategories.length}
+                </div>
+                
+                {sortedCategories.map(category => (
+                    <div key={category}>
+                        <h2>{category.charAt(0).toUpperCase() + category.slice(1).replace(/-/g, ' ')}</h2>
+                        {postsByCategory[category].map(post => {
+                            const isDupe = titleCounts[post.data.title] > 1;
+                            const duplicates = duplicateGroups[post.data.title];
+                            const recommendation = isDupe ? getDuplicateRecommendation(duplicates) : null;
+                            const isRecommended = recommendation && duplicates.findIndex(p => p.id === post.id) === recommendation.keepIndex;
+
+                            return (
+                                <div class="post-item">
+                                    <a href={`/posts/${post.id}/`} class="post-title">
+                                        {post.data.title}
+                                    </a>
+                                    {isDupe && !isRecommended && <span class="dupe-marker">Dupe - Remove</span>}
+                                    {isDupe && isRecommended && (
+                                        <span class="keep-recommendation">{recommendation.reason}</span>
+                                    )}
+                                    <span class="post-meta">
+                                        {post.commentCount} comments, {post.contentLength} words
+                                    </span>
+                                    {post.data.tags && post.data.tags.length > 0 && (
+                                        <span class="post-tags">
+                                            {post.data.tags.map((tag: string) => (
+                                                <a href={`/posts/tag/${tag}/`}>#{tag}</a>
+                                            ))}
+                                        </span>
+                                    )}
+                                </div>
+                            );
+                        })}
+                    </div>
+                ))}
+                
+                {sortedCategories.length === 0 && (
+                    <p style="color: #666;">No posts available.</p>
+                )}
+            </div>
+            
+            <Footer />
+        </div>
+    </body>
+</html>

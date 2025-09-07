@@ -1,0 +1,51 @@
+{
+  "post_id": 5,
+  "comment_count": 5,
+  "comments": [
+    {
+      "id": 2,
+      "author": "fatima",
+      "email": "fatimsiddiqui@hotmail.com",
+      "date": "2005-07-06 22:06:29",
+      "content": "<p>AoA,</p>\n\n\t<p>I m a research student, recently i hav visited ur site and found it marvellous,i just wana know do u hav any information regarding flora of  chiltan national park,if so plz send it to me.thnx</p>\n\n\t<p>fatima</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 3,
+      "author": "Habib mengal",
+      "email": "yoyovit@yahoo.com",
+      "date": "2006-12-01 22:57:22",
+      "content": "<p>Being a Balochistani, I have found this province no doubt a World itself the way its hsa desert,  sahara, rande of mountains or plenty of places which are worth to explore. Guys I have been to this place called <span class=\"caps\">SHAHBAAN</span> some distance of 70 Kms from Quetta cit and I strongly advise you to drop in and explore. Its a place which I called heaven when went in the first time.</p>\n\n\t<p>Fatima I have enough info abot Chiltan national park. If needed then raise your questions in a mail.</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 4,
+      "author": "schmittmathias",
+      "email": "jeanblanchard2003@yahoo.fr",
+      "date": "2006-12-12 20:00:41",
+      "content": "<p>I would like to communicate with some people who knows Balouchistan very well to prepare a filming there</p>\n\n\t<p>My best</p>\n\n\t<p>Mathias Schmitt</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 5,
+      "author": "NKHAN",
+      "email": "lindaking25@yahoo.com",
+      "date": "2007-04-05 00:01:14",
+      "content": "<p>schmittmathias,</p>\n\n\t<p>where are you from? i live in the UK, let me know if you need my help, have lived in quetta for along time.</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 6,
+      "author": "Asrar",
+      "email": "asrar737@hotmail.com",
+      "date": "2007-07-18 13:08:25",
+      "content": "<p>Dear Schmittmathias</p>\n\n\t<p>Can you please any photos from there? Chilton National Park.</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    }
+  ]
+}

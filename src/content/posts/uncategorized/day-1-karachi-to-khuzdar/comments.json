@@ -1,0 +1,33 @@
+{
+  "post_id": 117,
+  "comment_count": 3,
+  "comments": [
+    {
+      "id": 997,
+      "author": "mehroz",
+      "email": "mehroza@gmail.com",
+      "date": "2005-12-03 16:54:01",
+      "content": "\t<p>ohohohohohohohoh</p>\n\n\n ",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 998,
+      "author": "Aman",
+      "email": "dna_raja@yahoo.com",
+      "date": "2008-07-15 13:02:38",
+      "content": "\t<p>Kindly help me to read the Altemeter used in  Landcrusier Prado model 1992 <span class=\"caps\">JL71</span></p>\n\n\n ",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 1621,
+      "author": "Mehmooda",
+      "email": "mehmooda786@gmail.com",
+      "date": "2013-09-05 17:32:18",
+      "content": "hey i need your urgent feedback. please help... have u been to the cavecity of baluchistan. its somewhere near khuzdar , we are planning a trip to teh cave city. but we dont yet have the exact location... kindly help!",
+      "parent_id": 0,
+      "approved": true
+    }
+  ]
+}

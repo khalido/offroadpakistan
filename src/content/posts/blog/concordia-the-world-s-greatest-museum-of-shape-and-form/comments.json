@@ -1,0 +1,42 @@
+{
+  "post_id": 93,
+  "comment_count": 4,
+  "comments": [
+    {
+      "id": 968,
+      "author": "manuel",
+      "email": "manuel@solojeep.com",
+      "date": "2008-10-28 16:13:42",
+      "content": "<p>That beautiful areas for 4×4, I envy <img src='http://komac.local/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /></p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 970,
+      "author": "humayun Qureshi",
+      "email": "humayun@misl.org",
+      "date": "2009-10-02 18:07:16",
+      "content": "<p>Dear Khalid, I’m sending you some pictures of climbing off road vehicles. Can you add them to this blog?</p>\n\n\n",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 1238,
+      "author": "Faisal Mamsa",
+      "email": "fsmamsa@yahoo.com",
+      "date": "2011-05-27 16:39:08",
+      "content": "Finalizing plan to Concordia and GondogoLa pass...from 9th July to 24th July 2011. Any one interested to come along can inbox me fsmamsa at yahoo.com",
+      "parent_id": 0,
+      "approved": true
+    },
+    {
+      "id": 1246,
+      "author": "ko",
+      "email": "khalid.omar@gmail.com",
+      "date": "2011-06-16 06:57:28",
+      "content": "Good luck with your hike!",
+      "parent_id": 1238,
+      "approved": true
+    }
+  ]
+}
