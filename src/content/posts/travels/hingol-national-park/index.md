@@ -12,7 +12,7 @@ wordpress_id: 46
 
 ![](./IMG_76421-thumb.jpg) Leaving the warmth of my sleeping bag reluctantly, I stepped out of the tent to be greeted by a sight that prompted me to get my camera in a vain attempt to capture nature at its best. The pine needle like long leaves of “Gaz”, a native plant that grows along rivers and nallahs in Balochistan, sparkled like a jewel-studded Christmas tree. Dew drops formed at the tips of millions of Gaz leaves glowed in the golden sunlight shying the most expensive and articulately cut diamonds.
 
-![](./DSCN4445.JPG)
+![](./DSCN4445.jpg)
 
 The desire to breathe in fresh air, smell of burning firewood, tranquil surroundings, chirpings of birds and an occasional call of a partridge, well hidden somewhere in the jungle along the Hingol River, are reasons good enough for me to visit this unique ecosystem at least twice during the winter season.
 
