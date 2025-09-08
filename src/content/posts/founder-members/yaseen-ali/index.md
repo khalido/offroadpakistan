@@ -9,13 +9,13 @@ title: Yaseen Ali
 wordpress_id: 33
 ---
 
-[caption id="attachment\_970" align="alignnone" width="474"][![](./256208_10152934057480226_754041236_o1-1024x683.jpg)](./256208_10152934057480226_754041236_o1.jpg) Photo credit - Imran Khan Photography[/caption]
+![](./256208_10152934057480226_754041236_o1-1024x683.jpg) Photo credit - Imran Khan Photography
 
 **Member Profile:**Founder Member 4x4 Offroaders Club Karachi. The youngest of the Mir brothers is an outdoors addict, long distance driver ready to go anywhere at the drop of a hat, avid photographer, sometimes hunter, party animal, resident tikka barbeque-ist, and above all, a Jeep aficionado since infancy. "I like my life in the city because it makes me long for the outdoors. I enjoy creature comforts but working on my Jeep on a Saturday afternoon has its own pleasure."
 
 **Vehicle:** 1982 Jeep CJ7 Jamboree 30th Anniversary Commemorative Edition Issue No. 0044 of 2500
 
-[caption id="attachment\_972" align="alignnone" width="474"][![](./1412452_652861581426113_783642545_o-1024x683.jpg)](./1412452_652861581426113_783642545_o.jpg) Photo credit - Imran Khan Photography[/caption]
+![](./1412452_652861581426113_783642545_o-1024x683.jpg) Photo credit - Imran Khan Photography
 
 **Purchased:** 2004
 

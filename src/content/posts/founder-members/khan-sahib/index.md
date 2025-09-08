@@ -9,7 +9,7 @@ title: Khan Sahib
 wordpress_id: 20
 ---
 
-[![](./F10100281.jpg)](./F10100281.jpg)
+![](./F10100281.jpg)
 
 **Member Profile:** One of the oldest members of the club, Khan Sahib has done more offroading than one can imagine. Immensely popular with young and old alike, there's never a dull moment to be had in Khan Sahib's company. Also the original karahi cook of the group.
 

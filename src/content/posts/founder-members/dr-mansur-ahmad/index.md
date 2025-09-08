@@ -9,13 +9,13 @@ title: Dr. Mansur Ahmad
 wordpress_id: 15
 ---
 
-![](http://static.flickr.com/12/88318118_53ee1e7d1f_o.jpg 475×321)
+![](http://static.flickr.com/12/88318118_53ee1e7d1f_o.jpg)
 
 **Member profile:** Founder Member 4x4 Offroaders Club Karachi, Hunter, photographer, conservationist, occasional daredevil, and fulltime maxillofacial surgeon.
 
-**Vehicle #1:** CJ5
+## **Vehicle #1:** CJ5
 
-[caption id="attachment\_956" align="alignnone" width="960"][![](./10704151_10152324270095741_4040593390930721771_n-1.jpg)](./10704151_10152324270095741_4040593390930721771_n-1.jpg) Photo credit - Yaseen Ali[/caption]
+![](./10704151_10152324270095741_4040593390930721771_n-1.jpg) Photo credit - Yaseen Ali
 
 **Engine:** Toyota 2JZGE 3.0 liter inline six
 
@@ -33,9 +33,9 @@ wordpress_id: 15
 
 **Other Specs:** Custom front bumper, custom spare tire carrier, custom roll bar, 12" extended wheelbase, spring over axle suspension lift
 
-**Vehicle #2:**Range Rover
+## **Vehicle #2:**Range Rover
 
-[caption id="attachment\_955" align="alignnone" width="474"][![](./IMG_20160306_1514501-1024x768.jpg)](./IMG_20160306_1514501.jpg) Photo credit - Imad Ali[/caption]
+![](./IMG_20160306_1514501-1024x768.jpg) Photo credit - Imad Ali
 
 **Engine:** 3.5 liter gasoline V8 converted to dual barrel single carb intake
 

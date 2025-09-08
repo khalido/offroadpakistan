@@ -9,7 +9,7 @@ title: Khalid Omar
 wordpress_id: 14
 ---
 
-![](http://static.flickr.com/23/88312801_954075f744_o.jpg 475×321)
+![](http://static.flickr.com/23/88312801_954075f744_o.jpg)
 
 **Member Profile:** Founder Member 4x4 Offroaders Club Karachi, voracious reader, enthusiastic writer, occasional photographer & resident tech geek
 

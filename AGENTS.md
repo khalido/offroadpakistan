@@ -122,6 +122,7 @@ src/
 - [ ] Implement related posts functionality (based on category/tags)
 - [ ] Generate XML sitemap (Astro integration)
 - [ ] Implement search functionality (client-side JS for simple site)
+- [ ] Create Node.js CLI script for bulk picture gallery creation: Run via npx, input source folder with JPEGs (prompt for gallery slug/date/title), output to content/pictures/[slug]/ with index.md (title/date/picture_count), per-picture .md files (title from EXIF/filename, date from EXIF, image/thumbnail/order frontmatter, sorted alphabetically by filename), generate 250px wide thumbnails using Sharp, copy originals. Match existing structure: co-locate images/thumbs in folder. Best practices: Use exifr for EXIF, Sharp for images; validate schema compliance; handle errors (missing EXIF); make idempotent (skip existing files); add to package.json bin/scripts for easy invocation.
 
 ## Best Practices (Condensed)
 

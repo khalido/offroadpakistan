@@ -3,6 +3,11 @@ import { getCollection, render } from "astro:content";
 import BlogLayout from "../../layouts/BlogLayout.astro";
 import CommentsList from "../../components/content/CommentsList.astro";
 
+// Load all comments.json files at build time
+const allCommentsModules = import.meta.glob(
+    "/src/content/posts/**/comments.json",
+);
+
 export async function getStaticPaths() {
     const posts = await getCollection("posts", ({ data }) => !data.draft);
     return posts.map((post) => ({
@@ -14,16 +19,12 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const { Content, headings } = await render(post);
 
-// Try to load comments if they exist
+// Find and load comments for the current post
 let comments = [];
-try {
-    // Look for comments.json in the post directory
-    const commentsModule = await import(
-        /* @vite-ignore */ `../../content/posts/${post.id}/comments.json`
-    );
+const commentPath = `/src/content/posts/${post.id}/comments.json`;
+if (allCommentsModules[commentPath]) {
+    const commentsModule = await allCommentsModules[commentPath]();
     comments = commentsModule.default?.comments || [];
-} catch (e) {
-    // No comments file found, that's ok
 }
 ---
 

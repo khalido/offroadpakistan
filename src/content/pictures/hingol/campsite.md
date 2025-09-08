@@ -44,7 +44,7 @@ Azhar
 
 **tezza`** - May 18, 2005  5:25 AM
 
-good pictures but might need sum of mud volcanoes erupting...now that would be kewl
+good pictures but might need some of mud volcanoes erupting...now that would be kewl
 
 </div>
 

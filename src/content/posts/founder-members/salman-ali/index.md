@@ -8,7 +8,7 @@ title: Salman Ali
 wordpress_id: 17
 ---
 
-![](./IMG_20150416_184935-1024x768.jpg)](./IMG_20150416_184935.jpg) Photo credit - Imad Ali
+![](./IMG_20150416_184935-1024x768.jpg) Photo credit - Imad Ali
 
 **Member Profile:** Founder Member 4x4 Offroaders Club Karachi. A falconer first and everything else a distant second. Also very fond of hunting, fishing, camping, traveling, writing and photography.  “Rover, wanderer, nomad, vagabond, call me what you will!”
 
