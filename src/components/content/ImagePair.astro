@@ -1,0 +1,34 @@
+---
+import { Image } from "astro:assets";
+import type { ImageMetadata } from "astro";
+
+interface Props {
+    src1: ImageMetadata | string;
+    alt1: string;
+    caption1?: string;
+    src2: ImageMetadata | string;
+    alt2: string;
+    caption2?: string;
+}
+
+const { src1, alt1, caption1, src2, alt2, caption2 } = Astro.props;
+---
+
+<div class="not-prose flex flex-col gap-4 my-6 md:flex-row">
+    <div class="md:w-1/2">
+        <Image src={src1} alt={alt1} class="heritage-image w-full" />
+        {
+            caption1 && (
+                <p class="mt-2 text-center text-sm text-gray-600">{caption1}</p>
+            )
+        }
+    </div>
+    <div class="md:w-1/2">
+        <Image src={src2} alt={alt2} class="heritage-image w-full" />
+        {
+            caption2 && (
+                <p class="mt-2 text-center text-sm text-gray-600">{caption2}</p>
+            )
+        }
+    </div>
+</div>

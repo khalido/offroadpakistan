@@ -55,21 +55,23 @@ Improve slightly for modern/responsive use (mobile/desktop).
 - Structure: `content/pictures/[gallery-slug]/` with index.md + picture .md files and co-located images/thumbs
 - Count: 31 galleries, 1,645 pictures, 1,897 comments
 
-Each picture defines its image in frontmatter and includes it in markdown content. The PictureLayout hides duplicate images from rendered markdown.
+Each picture defines its image in frontmatter as well as includes it in the markdown to make it easier to see the image in markdown editors while editing content.
 
-### 3. Layout Patterns
-- **BaseLayout**: HTML shell + Header/Footer only (no padding)  
-- **PageLayout**: BaseLayout + Sidebar (two-column for listings)
-- **BlogLayout**: BaseLayout + single-column content container with responsive padding
-- **PictureLayout**: BaseLayout + single-column with heritage styling
-
-**Key Pattern**: Single-column layouts need content containers with responsive padding:
-```astro
-<div class="max-w-[780px] mx-auto bg-white">
-  <div class="px-4 py-6 md:px-8 md:py-8 lg:px-10 lg:py-10">
-    <!-- content -->
-  </div>
-</div>
+### 3. Project Structure
+```
+src/
+├── components/
+│   ├── layout/ (BaseLayout.astro, BlogLayout.astro, GalleryLayout.astro)
+│   ├── ui/ (Header.astro, Footer.astro, Sidebar.astro, CommentsList.astro, etc.)
+│   └── content/ (FeaturedPosts.astro, FeaturedPicture.astro, etc.)
+├── pages/
+│   ├── index.astro
+│   ├── about.astro
+│   ├── posts/ ([category]/index.astro, [...slug].astro, index.astro)
+│   ├── pictures/ (index.astro, [gallery]/index.astro, [gallery]/[...slug].astro)
+│   └── rss.xml.js
+├── styles/ (global.css, heritage.css)
+└── utils/ + content/config.ts
 ```
 
 ## Design & Styling Guidelines
@@ -101,13 +103,12 @@ Each picture defines its image in frontmatter and includes it in markdown conten
 - [x] Ensure images and content containers are responsive
 - [ ] Test all layouts on different screen sizes (add to workflow)
 
-### Phase 3: Heritage Design & Polish (Done)
+### Phase 3: Heritage Design & Polish (Partial)
 - [x] Apply original color scheme consistently using CSS variables (in global.css)
-- [x] Implement heritage image styling (borders and padding) consistently
-- [x] Style navigation with original dark gray (#565656) background  
+- [ ] Implement heritage image styling (borders and padding) consistently
+- [x] Style navigation with original dark gray (#565656) background
 - [x] Create `CommentsList.astro` component that loads and displays comments.json for both posts and pictures
-- [x] Update typography - use modern font sizes (14-16px base) while keeping heritage fonts
-- [x] Add proper padding containers for single-column layouts
+- [ ] Update typography - use modern font sizes (14-16px base) while keeping heritage fonts
 - [ ] Add basic SEO meta tags and Open Graph support (e.g., in layouts)
 
 ### Phase 4: Picture Display Improvements (New)
@@ -130,12 +131,10 @@ Each picture defines its image in frontmatter and includes it in markdown conten
 - Component size: Small, focused; descriptive names.
 - This is a simple site: Don't change code too much—evolve original design naturally, prioritize readability over features.
 
-### Layout & Responsive  
-- BaseLayout: HTML shell only + Header/Footer (no content padding)
-- Single-column layouts: Always wrap content in responsive padding container
-- Two-column: PageLayout with main (482px) + sidebar (240px) on desktop
-- Mobile-first: Stack sidebar below content; 44px touch targets
-- Heritage: Original colors/fonts; 4px image padding + 1px #ccc border + #f8f8ff background
+### Layout & Responsive
+- BaseLayout: HTML shell only + Header/Footer.
+- Mobile-first: Breakpoints consistent (Tailwind defaults); no horizontal scroll; 44px touch targets.
+- Heritage: Use original colors/fonts; add borders/padding to images; modernize typography (14-16px base).
 
 ### Code & Performance
 - Organization: Group in ui/content/layout; relative imports; TS interfaces for props.
@@ -147,20 +146,9 @@ Each picture defines its image in frontmatter and includes it in markdown conten
 - Commits: Small, focused messages.
 
 ## Advice for Future AI Agents
-
-### Design Philosophy
-- Heritage evolution: Preserve 2000s feel; avoid modern overhauls
-- Content-first: Let stories/photos shine; minimal UI changes
-- Performance: Static generation; optimize images; no heavy JS
-
-### Layout Rules  
-- Single-column pages need content containers with responsive padding
-- Two-column uses PageLayout (main + sidebar)
-- Always check existing layouts before creating new ones
-- Test on mobile: sidebar stacks below, no horizontal scroll
-
-### Workflow
-- Read related files before edits; understand existing patterns
-- Small, focused changes; verify with diagnostics
-- For pictures: support keyboard/touch navigation; maintain heritage styling
-- Plan multi-step tasks; confirm with user before major changes
+- Stick to heritage evolution: Minimal changes to preserve 2000s feel; avoid modern overhauls like SPAs.
+- Simple site mindset: Prioritize fast loads/static gen; no heavy libs (e.g., no React if not needed).
+- Read all related files before edits (use read/glob); verify with lint/typecheck after changes.
+- For pictures: ensure responsive/full-screen views without breaking navigation; support touch/keyboard (e.g., arrows/swipe), handle mobile and desktop.
+- Plan first: Use todowrite for multi-step tasks; batch tool calls; confirm with user before implementing.
+- Security/SEO: Add meta/OpenGraph; never log secrets; test responsiveness.

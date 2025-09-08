@@ -135,7 +135,6 @@ const formattedDate = date.toLocaleDateString("en-US", {
                         prose-pre:bg-[#f2f2f2]
                         prose-pre:border
                         prose-pre:border-[#ddd]
-                        prose-img:mx-auto
                         prose-img:my-6"
                     style="font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;"
                 >
@@ -168,12 +167,18 @@ const formattedDate = date.toLocaleDateString("en-US", {
 </BaseLayout>
 
 <style>
+    /* Force prose content to fill its container */
+    :global(.prose) {
+        max-width: 100%;
+    }
+
     /* Custom heritage image styling for all images in content */
     :global(.prose img) {
         padding: 4px;
         border: 1px solid #ccc;
         background: #f8f8ff;
         border-radius: 0;
+        width: 100%;
     }
 
     /* Ensure visited links get the heritage color */
@@ -184,8 +189,8 @@ const formattedDate = date.toLocaleDateString("en-US", {
     /* Mobile-first responsive adjustments */
     @media (max-width: 640px) {
         :global(.prose) {
-            font-size: 16px;
-            line-height: 1.8;
+            font-size: 18px;
+            line-height: 1.9;
         }
 
         :global(.prose p) {

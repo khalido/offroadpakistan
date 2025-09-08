@@ -10,7 +10,9 @@ title: Hingol National Park
 wordpress_id: 46
 ---
 
-![](./IMG_76421-thumb.jpg) Leaving the warmth of my sleeping bag reluctantly, I stepped out of the tent to be greeted by a sight that prompted me to get my camera in a vain attempt to capture nature at its best. The pine needle like long leaves of “Gaz”, a native plant that grows along rivers and nallahs in Balochistan, sparkled like a jewel-studded Christmas tree. Dew drops formed at the tips of millions of Gaz leaves glowed in the golden sunlight shying the most expensive and articulately cut diamonds.
+![](./IMG_76421.jpg)
+
+Leaving the warmth of my sleeping bag reluctantly, I stepped out of the tent to be greeted by a sight that prompted me to get my camera in a vain attempt to capture nature at its best. The pine needle like long leaves of “Gaz”, a native plant that grows along rivers and nallahs in Balochistan, sparkled like a jewel-studded Christmas tree. Dew drops formed at the tips of millions of Gaz leaves glowed in the golden sunlight shying the most expensive and articulately cut diamonds.
 
 ![](./DSCN4445.jpg)
 
