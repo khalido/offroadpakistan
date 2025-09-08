@@ -5,11 +5,11 @@ date: 2007-11-18
 draft: false
 tags:
 - F.D.Toor
-title: A day\'s trek to a village near Besham, Kohistan
+title: A day's trek to a village near Besham, Kohistan
 wordpress_id: 87
 ---
 
-“![](./DSC01845-thumb.jpg) /> When Hamid Omar of 4×4 Offroaders Club, Karachi recently completed the rebuilding of the [1948 Ford F1 Pickup](./the_ford_f1_story_from_california_to_karachi.html), the family decided to take it on a long test drive from Karachi all the way to Besham on the Karakorum Highway (a part of the ‘Silk Route’). The trip was, in part, influenced by the invitation of one of their domestics of long standing, Shah Aalam, to visit his ancestral home situated at a mountaintop a few kilometers off Besham in Kohistan. Hamid and his wife Sabiha drove to Lahore on the [newly rebuilt Ford F1](./the_ford_f1_story_from_california_to_karachi.html), followed by Mahera and Khalid Omar in the Toyota Prado.
+![](./DSC01845-thumb.jpg) When Hamid Omar of 4×4 Offroaders Club, Karachi recently completed the rebuilding of the [1948 Ford F1 Pickup](./the_ford_f1_story_from_california_to_karachi.html), the family decided to take it on a long test drive from Karachi all the way to Besham on the Karakorum Highway (a part of the ‘Silk Route’). The trip was, in part, influenced by the invitation of one of their domestics of long standing, Shah Aalam, to visit his ancestral home situated at a mountaintop a few kilometers off Besham in Kohistan. Hamid and his wife Sabiha drove to Lahore on the [newly rebuilt Ford F1](./the_ford_f1_story_from_california_to_karachi.html), followed by Mahera and Khalid Omar in the Toyota Prado.
 
 They reached Lahore on the 14th of October i.e., during Eid holidays. Samina and I joined them, and on Tuesday the 16th, we drove from Lahore to Islamabad. Hamid’s family stayed with his old friend Amjad Mawaz, who had had a road accident some 40 years ago, severely hurting his left leg, now unable to take strenuous walks. Despite this, he was convinced to accompany us, as it was “only a trip to Besham”. Him and his son Shamu, joined the team in their Ford SUV and we all drove to Besham in the late morning of Wednesday, the 17th. We reached PTDC Motel in Besham by late evening and were met by Shah Aalam, his elder brother Shah Nazar and another of Hamid’s domestics, named Sami, and thence started the saga of this trip.
 

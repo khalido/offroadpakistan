@@ -1,0 +1,123 @@
+---
+import { getCollection } from "astro:content";
+import PageLayout from "../../layouts/PageLayout.astro";
+import { slugify } from "../../utils/slugify";
+
+export async function getStaticPaths() {
+    const posts = await getCollection("posts", ({ data }) => !data.draft);
+    const pictures = await getCollection("pictures", ({ data }) => !data.draft);
+
+    const allItems = [...posts, ...pictures];
+    const uniqueTags = new Set<string>();
+
+    allItems.forEach((item) => {
+        item.data.tags?.forEach((tag: string) => {
+            uniqueTags.add(slugify(tag));
+        });
+    });
+
+    return Array.from(uniqueTags).map((tagSlug) => ({
+        params: { tag: tagSlug },
+    }));
+}
+
+const { tag: tagSlug } = Astro.params;
+
+// Get all content with this tag, matching the slug
+const posts = await getCollection(
+    "posts",
+    ({ data }) =>
+        !data.draft && data.tags?.some((tag) => slugify(tag) === tagSlug),
+);
+const pictures = await getCollection(
+    "pictures",
+    ({ data }) =>
+        !data.draft && data.tags?.some((tag) => slugify(tag) === tagSlug),
+);
+
+// Combine and sort all tagged items by date
+const taggedItems = [...posts, ...pictures].sort(
+    (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime(),
+);
+
+// Get the original tag name for display from the first item found
+const tagName =
+    taggedItems.length > 0
+        ? taggedItems[0].data.tags.find((t: string) => slugify(t) === tagSlug)
+        : tagSlug;
+
+function getItemUrl(item: any) {
+    if (item.collection === "posts") {
+        return `/posts/${item.id}/`;
+    }
+    if (item.collection === "pictures") {
+        const pictureSlug = item.id.split("/").pop()?.replace(".md", "");
+        return `/pictures/${item.data.gallery}/${pictureSlug}/`;
+    }
+    return "#"; // Fallback
+}
+---
+
+<PageLayout
+    title={`Content tagged with "${tagName}" - OffroadPakistan`}
+    description={`Find all posts and pictures about "${tagName}" from the OffroadPakistan heritage archive.`}
+>
+    <!-- Page Header -->
+    <header class="mb-8">
+        <h1 class="text-sm md:text-base font-bold text-gray-600 mb-2">
+            Content tagged with <span class="text-teal-600">"{tagName}"</span>
+        </h1>
+        <p class="text-xs text-gray-700">
+            Found {taggedItems.length} item{taggedItems.length !== 1 ? "s" : ""}
+            tagged with "{tagName}".
+        </p>
+    </header>
+
+    <!-- Tagged Content List -->
+    <div class="space-y-6">
+        {
+            taggedItems.map((item) => (
+                <article class="border-b border-gray-300 pb-4 last:border-b-0">
+                    <h2 class="text-sm md:text-base font-bold mb-2">
+                        <a
+                            href={getItemUrl(item)}
+                            class="text-[#00473F] hover:text-[#CC3300] transition-colors"
+                        >
+                            {item.data.title}
+                        </a>
+                    </h2>
+
+                    <div class="flex flex-wrap items-center gap-2 md:gap-4 text-xs text-gray-600">
+                        <span class="font-bold uppercase text-teal-600">
+                            {item.collection === "posts" ? "Post" : "Picture"}
+                        </span>
+                        <span class="text-gray-400">|</span>
+                        <time datetime={item.data.date.toISOString()}>
+                            {item.data.date.toLocaleDateString("en-US", {
+                                year: "numeric",
+                                month: "short",
+                                day: "numeric",
+                            })}
+                        </time>
+                        {item.data.author && (
+                            <>
+                                <span class="text-gray-400">|</span>
+                                <span>By {item.data.author}</span>
+                            </>
+                        )}
+                    </div>
+                </article>
+            ))
+        }
+    </div>
+
+    {
+        taggedItems.length === 0 && (
+            <div class="text-center py-8">
+                <p class="text-sm text-gray-600">
+                    No content found for this tag.
+                </p>
+            </div>
+        )
+    }
+</PageLayout>

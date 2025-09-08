@@ -1,0 +1,123 @@
+---
+import { getCollection } from "astro:content";
+import PageLayout from "../../layouts/PageLayout.astro";
+
+import { slugify } from "../../utils/slugify.ts";
+
+export async function getStaticPaths() {
+    const posts = await getCollection(
+        "posts",
+        ({ data }) => !data.draft && data.author,
+    );
+    const pictures = await getCollection(
+        "pictures",
+        ({ data }) => !data.draft && data.author,
+    );
+
+    const allItems = [...posts, ...pictures];
+    const uniqueAuthors = new Set<string>();
+
+    allItems.forEach((item) => {
+        if (item.data.author) {
+            uniqueAuthors.add(item.data.author);
+        }
+    });
+
+    return Array.from(uniqueAuthors).map((author) => ({
+        params: { author: slugify(author) },
+    }));
+}
+
+const { author: authorSlug } = Astro.params;
+
+// Get all content by this author, matching the slug
+const posts = await getCollection(
+    "posts",
+    ({ data }) =>
+        !data.draft && data.author && slugify(data.author) === authorSlug,
+);
+const pictures = await getCollection(
+    "pictures",
+    ({ data }) =>
+        !data.draft && data.author && slugify(data.author) === authorSlug,
+);
+
+// Combine and sort all items by date
+const authoredItems = [...posts, ...pictures].sort(
+    (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime(),
+);
+
+// Get the original author name for display from the first item found
+const authorName =
+    authoredItems.length > 0 ? authoredItems[0].data.author : authorSlug;
+
+function getItemUrl(item: any) {
+    if (item.collection === "posts") {
+        return `/posts/${item.id}/`;
+    }
+    if (item.collection === "pictures") {
+        const pictureSlug = item.id.split("/").pop()?.replace(".md", "");
+        return `/pictures/${item.data.gallery}/${pictureSlug}/`;
+    }
+    return "#"; // Fallback
+}
+---
+
+<PageLayout
+    title={`Content by ${authorName} - OffroadPakistan`}
+    description={`Find all posts and pictures by ${authorName} from the OffroadPakistan heritage archive.`}
+>
+    <!-- Page Header -->
+    <header class="mb-8">
+        <h1 class="text-sm md:text-base font-bold text-gray-600 mb-2">
+            Content by <span class="text-teal-600">{authorName}</span>
+        </h1>
+        <p class="text-xs text-gray-700">
+            Found {authoredItems.length} item{
+                authoredItems.length !== 1 ? "s" : ""
+            } by this author.
+        </p>
+    </header>
+
+    <!-- Authored Content List -->
+    <div class="space-y-6">
+        {
+            authoredItems.map((item) => (
+                <article class="border-b border-gray-300 pb-4 last:border-b-0">
+                    <h2 class="text-sm md:text-base font-bold mb-2">
+                        <a
+                            href={getItemUrl(item)}
+                            class="text-[#00473F] hover:text-[#CC3300] transition-colors"
+                        >
+                            {item.data.title}
+                        </a>
+                    </h2>
+
+                    <div class="flex flex-wrap items-center gap-2 md:gap-4 text-xs text-gray-600">
+                        <span class="font-bold uppercase text-teal-600">
+                            {item.collection === "posts" ? "Post" : "Picture"}
+                        </span>
+                        <span class="text-gray-400">|</span>
+                        <time datetime={item.data.date.toISOString()}>
+                            {item.data.date.toLocaleDateString("en-US", {
+                                year: "numeric",
+                                month: "short",
+                                day: "numeric",
+                            })}
+                        </time>
+                    </div>
+                </article>
+            ))
+        }
+    </div>
+
+    {
+        authoredItems.length === 0 && (
+            <div class="text-center py-8">
+                <p class="text-sm text-gray-600">
+                    No content found for this author.
+                </p>
+            </div>
+        )
+    }
+</PageLayout>

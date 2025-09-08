@@ -1,31 +1,37 @@
 ---
-import { getCollection } from 'astro:content';
-import Header from '../components/layout/Header.astro';
-import Footer from '../components/layout/Footer.astro';
+import { getCollection } from "astro:content";
+import Header from "../components/layout/Header.astro";
+import Footer from "../components/layout/Footer.astro";
+
+// Load all comments.json files at build time
+const allCommentsModules = import.meta.glob(
+    "/src/content/posts/**/comments.json",
+);
 
 // Get all published posts
-const posts = await getCollection('posts', ({ data }) => !data.draft);
+const posts = await getCollection("posts", ({ data }) => !data.draft);
 
 // Enhanced post data with comments and content length
 const enhancedPosts = await Promise.all(
     posts.map(async (post) => {
         // Load comments
         let commentCount = 0;
-        try {
-            const commentsModule = await import(`../../content/posts/${post.id}/comments.json`);
+        const commentPath = `/src/content/posts/${post.id}/comments.json`;
+        if (allCommentsModules[commentPath]) {
+            const commentsModule = await allCommentsModules[commentPath]();
             commentCount = commentsModule.default?.comments?.length || 0;
-        } catch (e) {
-            // No comments file found
         }
 
         // Calculate content length (word count)
         let contentLength = 0;
         try {
-            const { render } = await import('astro:content');
+            const { render } = await import("astro:content");
             const { Content } = await render(post);
             // Simple word count approximation
-            const contentText = post.body || '';
-            contentLength = contentText.split(/\s+/).filter(word => word.length > 0).length;
+            const contentText = post.body || "";
+            contentLength = contentText
+                .split(/\s+/)
+                .filter((word) => word.length > 0).length;
         } catch (e) {
             // Fallback to 0
         }
@@ -33,9 +39,9 @@ const enhancedPosts = await Promise.all(
         return {
             ...post,
             commentCount,
-            contentLength
+            contentLength,
         };
-    })
+    }),
 );
 
 // Group posts by category
@@ -44,8 +50,8 @@ const titleCounts: Record<string, number> = {};
 const duplicateGroups: Record<string, typeof enhancedPosts> = {};
 
 // Group posts by category and count title occurrences
-enhancedPosts.forEach(post => {
-    const category = post.id.split('/')[0];
+enhancedPosts.forEach((post) => {
+    const category = post.id.split("/")[0];
     if (!postsByCategory[category]) {
         postsByCategory[category] = [];
     }
@@ -63,37 +69,50 @@ enhancedPosts.forEach(post => {
 });
 
 // Function to determine which duplicate to keep
-function getDuplicateRecommendation(duplicates: typeof enhancedPosts): { keepIndex: number; reason: string } {
-    if (duplicates.length <= 1) return { keepIndex: 0, reason: '' };
+function getDuplicateRecommendation(duplicates: typeof enhancedPosts): {
+    keepIndex: number;
+    reason: string;
+} {
+    if (duplicates.length <= 1) return { keepIndex: 0, reason: "" };
 
     // Sort by comment count (ascending - fewer comments = older)
-    const sortedByComments = [...duplicates].sort((a, b) => a.commentCount - b.commentCount);
+    const sortedByComments = [...duplicates].sort(
+        (a, b) => a.commentCount - b.commentCount,
+    );
 
     // If comment counts differ, keep the one with more comments (newer)
-    if (sortedByComments[0].commentCount !== sortedByComments[sortedByComments.length - 1].commentCount) {
+    if (
+        sortedByComments[0].commentCount !==
+        sortedByComments[sortedByComments.length - 1].commentCount
+    ) {
         const keepPost = sortedByComments[sortedByComments.length - 1];
-        const keepIndex = duplicates.findIndex(p => p.id === keepPost.id);
+        const keepIndex = duplicates.findIndex((p) => p.id === keepPost.id);
         return {
             keepIndex,
-            reason: `Keep (more comments: ${keepPost.commentCount})`
+            reason: `Keep (more comments: ${keepPost.commentCount})`,
         };
     }
 
     // If comment counts are same, keep the longer post (typically newer)
-    const sortedByLength = [...duplicates].sort((a, b) => b.contentLength - a.contentLength);
-    if (sortedByLength[0].contentLength !== sortedByLength[sortedByLength.length - 1].contentLength) {
+    const sortedByLength = [...duplicates].sort(
+        (a, b) => b.contentLength - a.contentLength,
+    );
+    if (
+        sortedByLength[0].contentLength !==
+        sortedByLength[sortedByLength.length - 1].contentLength
+    ) {
         const keepPost = sortedByLength[0];
-        const keepIndex = duplicates.findIndex(p => p.id === keepPost.id);
+        const keepIndex = duplicates.findIndex((p) => p.id === keepPost.id);
         return {
             keepIndex,
-            reason: `Keep (longer: ${keepPost.contentLength} words)`
+            reason: `Keep (longer: ${keepPost.contentLength} words)`,
         };
     }
 
     // Exact duplicates
     return {
         keepIndex: 0,
-        reason: 'EXACT DUPE'
+        reason: "EXACT DUPE",
     };
 }
 
@@ -101,9 +120,9 @@ function getDuplicateRecommendation(duplicates: typeof enhancedPosts): { keepInd
 const sortedCategories = Object.keys(postsByCategory).sort();
 
 // Sort posts within each category alphabetically by title
-sortedCategories.forEach(category => {
+sortedCategories.forEach((category) => {
     postsByCategory[category].sort((a, b) =>
-        a.data.title.localeCompare(b.data.title)
+        a.data.title.localeCompare(b.data.title),
     );
 });
 ---
@@ -112,7 +131,10 @@ sortedCategories.forEach(category => {
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <meta name="description" content="All posts from OffroadPakistan - complete listing of all blog posts organized by category" />
+        <meta
+            name="description"
+            content="All posts from OffroadPakistan - complete listing of all blog posts organized by category"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <title>All Posts - OffroadPakistan</title>
@@ -136,13 +158,21 @@ sortedCategories.forEach(category => {
                 padding: 16px;
             }
             h1 {
-                font: bold 18px Verdana, Helvetica, Arial, sans-serif;
+                font:
+                    bold 18px Verdana,
+                    Helvetica,
+                    Arial,
+                    sans-serif;
                 color: #565656;
                 margin: 0 0 16px 0;
             }
             h2 {
-                font: bold 14px Verdana, Helvetica, Arial, sans-serif;
-                color: #00473F;
+                font:
+                    bold 14px Verdana,
+                    Helvetica,
+                    Arial,
+                    sans-serif;
+                color: #00473f;
                 margin: 20px 0 8px 0;
                 border-bottom: 1px dotted #ccc;
                 padding-bottom: 4px;
@@ -152,7 +182,7 @@ sortedCategories.forEach(category => {
                 padding: 2px 0;
             }
             .post-title {
-                color: #00473F;
+                color: #00473f;
                 text-decoration: none;
                 font-weight: normal;
             }
@@ -161,11 +191,11 @@ sortedCategories.forEach(category => {
                 text-decoration: underline;
             }
             .post-tags {
-                color: #98A100;
+                color: #98a100;
                 margin-left: 8px;
             }
             .post-tags a {
-                color: #98A100;
+                color: #98a100;
                 text-decoration: none;
             }
             .post-tags a:hover {
@@ -200,53 +230,86 @@ sortedCategories.forEach(category => {
     <body>
         <div class="container">
             <Header />
-            
+
             <div class="content">
                 <h1>All Posts - Complete Listing</h1>
-                
-                <div class="stats">
-                    Total Posts: {posts.length} | Categories: {sortedCategories.length}
-                </div>
-                
-                {sortedCategories.map(category => (
-                    <div key={category}>
-                        <h2>{category.charAt(0).toUpperCase() + category.slice(1).replace(/-/g, ' ')}</h2>
-                        {postsByCategory[category].map(post => {
-                            const isDupe = titleCounts[post.data.title] > 1;
-                            const duplicates = duplicateGroups[post.data.title];
-                            const recommendation = isDupe ? getDuplicateRecommendation(duplicates) : null;
-                            const isRecommended = recommendation && duplicates.findIndex(p => p.id === post.id) === recommendation.keepIndex;
 
-                            return (
-                                <div class="post-item">
-                                    <a href={`/posts/${post.id}/`} class="post-title">
-                                        {post.data.title}
-                                    </a>
-                                    {isDupe && !isRecommended && <span class="dupe-marker">Dupe - Remove</span>}
-                                    {isDupe && isRecommended && (
-                                        <span class="keep-recommendation">{recommendation.reason}</span>
-                                    )}
-                                    <span class="post-meta">
-                                        {post.commentCount} comments, {post.contentLength} words
-                                    </span>
-                                    {post.data.tags && post.data.tags.length > 0 && (
-                                        <span class="post-tags">
-                                            {post.data.tags.map((tag: string) => (
-                                                <a href={`/posts/tag/${tag}/`}>#{tag}</a>
-                                            ))}
+                <div class="stats">
+                    Total Posts: {posts.length} | Categories: {
+                        sortedCategories.length
+                    }
+                </div>
+
+                {
+                    sortedCategories.map((category) => (
+                        <div key={category}>
+                            <h2>
+                                {category.charAt(0).toUpperCase() +
+                                    category.slice(1).replace(/-/g, " ")}
+                            </h2>
+                            {postsByCategory[category].map((post) => {
+                                const isDupe = titleCounts[post.data.title] > 1;
+                                const duplicates =
+                                    duplicateGroups[post.data.title];
+                                const recommendation = isDupe
+                                    ? getDuplicateRecommendation(duplicates)
+                                    : null;
+                                const isRecommended =
+                                    recommendation &&
+                                    duplicates.findIndex(
+                                        (p) => p.id === post.id,
+                                    ) === recommendation.keepIndex;
+
+                                return (
+                                    <div class="post-item">
+                                        <a
+                                            href={`/posts/${post.id}/`}
+                                            class="post-title"
+                                        >
+                                            {post.data.title}
+                                        </a>
+                                        {isDupe && !isRecommended && (
+                                            <span class="dupe-marker">
+                                                Dupe - Remove
+                                            </span>
+                                        )}
+                                        {isDupe && isRecommended && (
+                                            <span class="keep-recommendation">
+                                                {recommendation.reason}
+                                            </span>
+                                        )}
+                                        <span class="post-meta">
+                                            {post.commentCount} comments,{" "}
+                                            {post.contentLength} words
                                         </span>
-                                    )}
-                                </div>
-                            );
-                        })}
-                    </div>
-                ))}
-                
-                {sortedCategories.length === 0 && (
-                    <p style="color: #666;">No posts available.</p>
-                )}
+                                        {post.data.tags &&
+                                            post.data.tags.length > 0 && (
+                                                <span class="post-tags">
+                                                    {post.data.tags.map(
+                                                        (tag: string) => (
+                                                            <a
+                                                                href={`/posts/tag/${tag}/`}
+                                                            >
+                                                                #{tag}
+                                                            </a>
+                                                        ),
+                                                    )}
+                                                </span>
+                                            )}
+                                    </div>
+                                );
+                            })}
+                        </div>
+                    ))
+                }
+
+                {
+                    sortedCategories.length === 0 && (
+                        <p style="color: #666;">No posts available.</p>
+                    )
+                }
             </div>
-            
+
             <Footer />
         </div>
     </body>
