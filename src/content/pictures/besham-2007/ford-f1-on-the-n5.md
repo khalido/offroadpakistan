@@ -1,9 +1,9 @@
 ---
 date: 2007-11-18
 gallery: besham-2007
-image: IMG_0724.jpg
+image: ./IMG_0724.jpg
 order: 1
-thumbnail: IMG_0724-thumb.jpg
+thumbnail: ./IMG_0724-thumb.jpg
 title: Ford F1 on the N5
 ---
 

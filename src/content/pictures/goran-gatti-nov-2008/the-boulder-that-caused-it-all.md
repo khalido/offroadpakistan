@@ -1,9 +1,9 @@
 ---
 date: 2008-11-20
 gallery: goran-gatti-nov-2008
-image: dsc07748.jpg
+image: ./dsc07748.jpg
 order: 20
-thumbnail: dsc07748-thumb.jpg
+thumbnail: ./dsc07748-thumb.jpg
 title: The boulder that caused it all.
 ---
 
@@ -13,10 +13,12 @@ title: The boulder that caused it all.
 
 ## Comments (1)
 
+<div id="comment">
+
 **Mir Abdul latif** - January 18, 2009  8:50 PM
 
 nice
 
----
+</div>
 
 </div>

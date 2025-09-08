@@ -1,9 +1,9 @@
 ---
 date: 2003-06-29
 gallery: neza-e-sultan
-image: F1010028.jpg
+image: ./F1010028.jpg
 order: 75
-thumbnail: F1010028-thumb.jpg
+thumbnail: ./F1010028-thumb.jpg
 title: Khan Sahib
 ---
 
@@ -15,16 +15,20 @@ Sitting in Taimur Mirza'a CJ7.
 
 ## Comments (2)
 
+<div id="comment">
+
 **Mirza** - July  3, 2003 10:57 AM
 
 Dekh, ghour se dekh, kya Babbar Sher baitha hae..........
 
----
+</div>
+
+<div id="comment">
 
 **Unkill Taam** - July  5, 2003  1:16 AM
 
 Khayee ke paan Banaras wala, khul jaye band aqal ka tala!!! Beera aysa kare kamal, seedhi karde sab ki chaal!!!
 
----
+</div>
 
 </div>

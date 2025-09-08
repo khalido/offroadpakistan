@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: shandur-2004
-image: 000037.jpg
+image: ./000037.jpg
 order: 24
-thumbnail: 000037-thumb.jpg
+thumbnail: ./000037-thumb.jpg
 title: Cutting the Ice
 ---
 

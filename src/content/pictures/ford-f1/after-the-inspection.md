@@ -1,9 +1,9 @@
 ---
 date: 2007-05-26
 gallery: ford-f1
-image: DSC03592.jpg
+image: ./DSC03592.jpg
 order: 3
-thumbnail: DSC03592-thumb.jpg
+thumbnail: ./DSC03592-thumb.jpg
 title: After the inspection
 ---
 

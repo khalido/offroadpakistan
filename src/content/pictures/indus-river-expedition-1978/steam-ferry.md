@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: indus-river-expedition-1978
-image: scan0058.jpg
+image: ./scan0058.jpg
 order: 12
-thumbnail: scan0058-thumb.jpg
+thumbnail: ./scan0058-thumb.jpg
 title: Steam Ferry
 ---
 

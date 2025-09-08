@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: shandur-2004
-image: 2004-06-27_12-16-00_0035.jpg
+image: ./2004-06-27_12-16-00_0035.jpg
 order: 106
-thumbnail: 2004-06-27_12-16-00_0035-thumb.jpg
+thumbnail: ./2004-06-27_12-16-00_0035-thumb.jpg
 title: Valley Pic 3
 ---
 
@@ -14,6 +14,8 @@ A green valley en route to Shandur.
 <div id="comments">
 
 ## Comments (3)
+
+<div id="comment">
 
 **Mrs Yasir** - December 13, 2004  6:07 PM
 
@@ -26,7 +28,9 @@ Amna Abdul Wahid
 (BCS semester 7)
 Comsats Institute of Information Technology, h-8 campus, Islamabad.
 
----
+</div>
+
+<div id="comment">
 
 **Ismail Faiz** - September 23, 2005  7:55 PM
 
@@ -37,13 +41,15 @@ Regards,
 Ismail Faiz
 Islamabad.
 
----
+</div>
+
+<div id="comment">
 
 **Nour ull Huda Yaftali** - August 23, 2007 12:49 PM
 
 Hi I am Nour ull Huda Yaftali belong to Yaftali family of laspur i like polo,trekking fishing,Horses ,dogs.
 This pic.Laspur taken from Latori Brock.
 
----
+</div>
 
 </div>

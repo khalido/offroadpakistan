@@ -1,9 +1,9 @@
 ---
 date: 2004-01-13
 gallery: hub-dam
-image: F1000066.jpg
+image: ./F1000066.jpg
 order: 17
-thumbnail: F1000066-thumb.jpg
+thumbnail: ./F1000066-thumb.jpg
 title: Another Scenic Scene
 ---
 

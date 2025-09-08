@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: hingol-april-2007
-image: DSC00112.jpg
+image: ./DSC00112.jpg
 order: 9
-thumbnail: DSC00112-thumb.jpg
+thumbnail: ./DSC00112-thumb.jpg
 title: Clearing the way
 ---
 
@@ -15,10 +15,12 @@ The rains had cut away the old trail, so we had to cut the river bank to make it
 
 ## Comments (1)
 
+<div id="comment">
+
 **Shehryar Azmi** - April 24, 2011  5:56 PM
 
 more videos please!
 
----
+</div>
 
 </div>

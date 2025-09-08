@@ -1,9 +1,9 @@
 ---
 date: 2004-01-13
 gallery: hub-dam
-image: F1000002.jpg
+image: ./F1000002.jpg
 order: 2
-thumbnail: F1000002-thumb.jpg
+thumbnail: ./F1000002-thumb.jpg
 title: By the Boats
 ---
 

@@ -1,9 +1,9 @@
 ---
 date: 2008-01-18
 gallery: goran-gatti-2008
-image: goran_gatti_320.jpg
+image: ./goran_gatti_320.jpg
 order: 59
-thumbnail: goran_gatti_320-thumb.jpg
+thumbnail: ./goran_gatti_320-thumb.jpg
 title: This is our 'porta potty' tent being packed. It is critically important
 ---
 

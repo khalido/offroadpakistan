@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: shandur-2004
-image: 000018.jpg
+image: ./000018.jpg
 order: 20
-thumbnail: 000018-thumb.jpg
+thumbnail: ./000018-thumb.jpg
 title: Yaseen plus Water
 ---
 

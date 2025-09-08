@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0048.jpg
+image: ./IMG_0048.jpg
 order: 154
-thumbnail: IMG_0048-thumb.jpg
+thumbnail: ./IMG_0048-thumb.jpg
 title: Celebration feast at Broad Peak base camp
 ---
 

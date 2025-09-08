@@ -1,9 +1,9 @@
 ---
 date: 2005-01-10
 gallery: shandur-2004
-image: 2004-06-29_15-58-16_035.jpg
+image: ./2004-06-29_15-58-16_035.jpg
 order: 141
-thumbnail: 2004-06-29_15-58-16_035-thumb.jpg
+thumbnail: ./2004-06-29_15-58-16_035-thumb.jpg
 title: Ameena Ayesha
 ---
 
@@ -15,10 +15,12 @@ This is Lowari Top.
 
 ## Comments (1)
 
+<div id="comment">
+
 **KARAM TALPUR** - January  6, 2009 12:19 PM
 
 long live bravo
 
----
+</div>
 
 </div>

@@ -1,9 +1,9 @@
 ---
 date: 2008-01-18
 gallery: goran-gatti-2008
-image: img_2299.jpg
+image: ./img_2299.jpg
 order: 15
-thumbnail: img_2299-thumb.jpg
+thumbnail: ./img_2299-thumb.jpg
 title: Thats a lot of tires around this jeep
 ---
 

@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: quetta-2004
-image: F1000013.jpg
+image: ./F1000013.jpg
 order: 12
-thumbnail: F1000013-thumb.jpg
+thumbnail: ./F1000013-thumb.jpg
 title: Train Pic from Riverbed
 ---
 
@@ -15,10 +15,12 @@ Train Crossing. This railway line was built by the British sometime b/w 1901-190
 
 ## Comments (1)
 
+<div id="comment">
+
 **Khurram** - May 12, 2005  8:35 PM
 
 I'm sure the intense dry weather of Balochistan has plenty to do with why the bridge hasn't required major repairs.
 
----
+</div>
 
 </div>

@@ -1,9 +1,9 @@
 ---
 date: 2005-09-10
 gallery: hingol-2005
-image: IMG_73361.jpg
+image: ./IMG_73361.jpg
 order: 37
-thumbnail: IMG_73361-thumb.jpg
+thumbnail: ./IMG_73361-thumb.jpg
 title: RCD Highway
 ---
 

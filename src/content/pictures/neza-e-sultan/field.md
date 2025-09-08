@@ -1,9 +1,9 @@
 ---
 date: 2003-06-25
 gallery: neza-e-sultan
-image: F1000035.jpg
+image: ./F1000035.jpg
 order: 42
-thumbnail: F1000035-thumb.jpg
+thumbnail: ./F1000035-thumb.jpg
 title: Field
 ---
 

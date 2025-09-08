@@ -1,9 +1,9 @@
 ---
 date: 2003-10-11
 gallery: thar-2003
-image: thar27.jpg
+image: ./thar27.jpg
 order: 23
-thumbnail: thar27-thumb.jpg
+thumbnail: ./thar27-thumb.jpg
 title: Ali Raza in Desert
 ---
 
@@ -15,10 +15,12 @@ Group Photo.
 
 ## Comments (1)
 
+<div id="comment">
+
 **akash** - July 12, 2008 11:41 PM
 
 how come there's camels and stuff it should have lancruiser's only thank you
 
----
+</div>
 
 </div>

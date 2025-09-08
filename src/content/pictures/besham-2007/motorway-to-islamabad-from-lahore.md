@@ -1,9 +1,9 @@
 ---
 date: 2007-11-25
 gallery: besham-2007
-image: IMG_0824.jpg
+image: ./IMG_0824.jpg
 order: 7
-thumbnail: IMG_0824-thumb.jpg
+thumbnail: ./IMG_0824-thumb.jpg
 title: Motorway to Islamabad from Lahore
 ---
 

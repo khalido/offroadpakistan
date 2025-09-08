@@ -1,9 +1,9 @@
 ---
 date: 2009-02-27
 gallery: sorh-feb-09
-image: img_3234.jpg
+image: ./img_3234.jpg
 order: 5
-thumbnail: img_3234-thumb.jpg
+thumbnail: ./img_3234-thumb.jpg
 title: There were a lot of sandwiches in Sorh Valley
 ---
 

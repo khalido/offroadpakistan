@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0423.jpg
+image: ./IMG_0423.jpg
 order: 52
-thumbnail: IMG_0423-thumb.jpg
+thumbnail: ./IMG_0423-thumb.jpg
 title: Our tents at Paiju
 ---
 

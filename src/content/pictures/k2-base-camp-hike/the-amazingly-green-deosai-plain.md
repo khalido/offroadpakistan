@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0218.jpg
+image: ./IMG_0218.jpg
 order: 18
-thumbnail: IMG_0218-thumb.jpg
+thumbnail: ./IMG_0218-thumb.jpg
 title: The amazingly green Deosai plain
 ---
 
@@ -15,10 +15,12 @@ Near Sheosar lake.
 
 ## Comments (1)
 
+<div id="comment">
+
 **dr israr** - July 19, 2008 10:55 AM
 
 very nice
 
----
+</div>
 
 </div>

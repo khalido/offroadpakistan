@@ -1,9 +1,9 @@
 ---
 date: 2008-11-20
 gallery: goran-gatti-nov-2008
-image: dsc07924.jpg
+image: ./dsc07924.jpg
 order: 89
-thumbnail: dsc07924-thumb.jpg
+thumbnail: ./dsc07924-thumb.jpg
 title: Taimur Mirza next to his super Green Jeep.
 ---
 
@@ -15,10 +15,12 @@ This is by far the most super duper jeep in Pakistan.
 
 ## Comments (1)
 
+<div id="comment">
+
 **Aamir Bilal Sheikh** - November 20, 2008  9:55 AM
 
 Chachajee hero lag rahhain
 
----
+</div>
 
 </div>

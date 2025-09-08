@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: neza-e-sultan
-image: F1000103.jpg
+image: ./F1000103.jpg
 order: 85
-thumbnail: F1000103-thumb.jpg
+thumbnail: ./F1000103-thumb.jpg
 title: TM CJ7
 ---
 

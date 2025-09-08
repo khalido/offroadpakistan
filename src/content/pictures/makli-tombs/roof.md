@@ -1,9 +1,9 @@
 ---
 date: 2005-12-12
 gallery: makli-tombs
-image: DSC09289.jpg
+image: ./DSC09289.jpg
 order: 3
-thumbnail: DSC09289-thumb.jpg
+thumbnail: ./DSC09289-thumb.jpg
 title: Roof
 ---
 
@@ -15,10 +15,12 @@ The ceiling actually, as Kahn below pointed out.
 
 ## Comments (1)
 
+<div id="comment">
+
 **Kahn** - August 31, 2007  8:24 AM
 
 The pic is ceiling and not roof
 
----
+</div>
 
 </div>

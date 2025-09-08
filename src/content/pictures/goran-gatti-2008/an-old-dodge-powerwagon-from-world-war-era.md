@@ -1,9 +1,9 @@
 ---
 date: 2008-01-18
 gallery: goran-gatti-2008
-image: img_2397.jpg
+image: ./img_2397.jpg
 order: 72
-thumbnail: img_2397-thumb.jpg
+thumbnail: ./img_2397-thumb.jpg
 title: An old Dodge Powerwagon from World War era
 ---
 
@@ -14,6 +14,8 @@ An old Dodge Powerwagon from World War era, still in use:
 <div id="comments">
 
 ## Comments (1)
+
+<div id="comment">
 
 **Arkaprava Datta** - September 26, 2008  5:43 PM
 
@@ -27,6 +29,6 @@ Regards,
 
 Arka
 
----
+</div>
 
 </div>

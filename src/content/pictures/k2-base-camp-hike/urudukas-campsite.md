@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0035.jpg
+image: ./IMG_0035.jpg
 order: 89
-thumbnail: IMG_0035-thumb.jpg
+thumbnail: ./IMG_0035-thumb.jpg
 title: Urudukas Campsite
 ---
 

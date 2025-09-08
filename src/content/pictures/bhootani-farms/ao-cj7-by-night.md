@@ -1,9 +1,9 @@
 ---
 date: 2004-02-27
 gallery: bhootani-farms
-image: P1100048.jpg
+image: ./P1100048.jpg
 order: 14
-thumbnail: P1100048-thumb.jpg
+thumbnail: ./P1100048-thumb.jpg
 title: AO CJ7 by Night
 ---
 

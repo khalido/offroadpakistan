@@ -1,9 +1,9 @@
 ---
 date: 2006-01-24
 gallery: hingol-river-jan-06
-image: DSCN0591.jpg
+image: ./DSCN0591.jpg
 order: 21
-thumbnail: DSCN0591-thumb.jpg
+thumbnail: ./DSCN0591-thumb.jpg
 title: Ibex roof bag
 ---
 

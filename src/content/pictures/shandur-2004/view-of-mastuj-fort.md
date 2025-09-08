@@ -1,9 +1,9 @@
 ---
 date: 2004-09-10
 gallery: shandur-2004
-image: 2004-06-27_07-50-38.jpg
+image: ./2004-06-27_07-50-38.jpg
 order: 83
-thumbnail: 2004-06-27_07-50-38-thumb.jpg
+thumbnail: ./2004-06-27_07-50-38-thumb.jpg
 title: View of Mastuj Fort
 ---
 

@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0260.jpg
+image: ./IMG_0260.jpg
 order: 26
-thumbnail: IMG_0260-thumb.jpg
+thumbnail: ./IMG_0260-thumb.jpg
 title: The Indus river from Askole road
 ---
 
@@ -13,10 +13,12 @@ title: The Indus river from Askole road
 
 ## Comments (1)
 
+<div id="comment">
+
 **aamir sajjad gilani** - April  5, 2009 11:29 AM
 
 Indus seems to be a nallah !
 
----
+</div>
 
 </div>

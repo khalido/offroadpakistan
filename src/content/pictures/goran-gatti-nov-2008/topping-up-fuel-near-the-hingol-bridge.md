@@ -1,9 +1,9 @@
 ---
 date: 2008-11-20
 gallery: goran-gatti-nov-2008
-image: img_0178.jpg
+image: ./img_0178.jpg
 order: 50
-thumbnail: img_0178-thumb.jpg
+thumbnail: ./img_0178-thumb.jpg
 title: Topping up fuel near the Hingol Bridge
 ---
 

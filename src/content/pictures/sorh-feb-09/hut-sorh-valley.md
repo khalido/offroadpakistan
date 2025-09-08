@@ -1,9 +1,9 @@
 ---
 date: 2009-02-27
 gallery: sorh-feb-09
-image: img_3291.jpg
+image: ./img_3291.jpg
 order: 22
-thumbnail: img_3291-thumb.jpg
+thumbnail: ./img_3291-thumb.jpg
 title: Hut - Sorh Valley
 ---
 

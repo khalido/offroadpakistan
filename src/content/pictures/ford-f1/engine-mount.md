@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: ford-f1
-image: DSCN1538.jpg
+image: ./DSCN1538.jpg
 order: 15
-thumbnail: DSCN1538-thumb.jpg
+thumbnail: ./DSCN1538-thumb.jpg
 title: Engine mount
 ---
 

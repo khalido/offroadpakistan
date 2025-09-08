@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: hingol
-image: doc_hingol_1.jpg
+image: ./doc_hingol_1.jpg
 order: 1
-thumbnail: doc_hingol_1-thumb.jpg
+thumbnail: ./doc_hingol_1-thumb.jpg
 title: Breakfast at Camp
 ---
 
@@ -15,12 +15,16 @@ Waiting for a brave man to cook breakfast.
 
 ## Comments (2)
 
+<div id="comment">
+
 **Jim Nibblett** - August  7, 2003  2:37 AM
 
 More Pictures! Especially where one might build a dam out of sand bags. Writing directly to me would be best. Thanks,
 Jim
 
----
+</div>
+
+<div id="comment">
 
 **Jef Simpson** - September 20, 2004 11:49 PM
 
@@ -29,6 +33,6 @@ or have you adapted toyota parts to it? I have 3 JeepS of my own and offroad the
 We do alot of mud and rocks here. What kind of terain do you 4 wheel in?
 Jef Simpson
 
----
+</div>
 
 </div>

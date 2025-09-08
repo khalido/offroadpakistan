@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: hingol-april-2007
-image: DSC00177.jpg
+image: ./DSC00177.jpg
 order: 11
-thumbnail: DSC00177-thumb.jpg
+thumbnail: ./DSC00177-thumb.jpg
 title: Crossing a trick patch
 ---
 

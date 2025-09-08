@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0005.jpg
+image: ./IMG_0005.jpg
 order: 152
-thumbnail: IMG_0005-thumb.jpg
+thumbnail: ./IMG_0005-thumb.jpg
 title: A high tech tent
 ---
 

@@ -1,9 +1,9 @@
 ---
 date: 2003-10-11
 gallery: thar-2003
-image: thar08.jpg
+image: ./thar08.jpg
 order: 6
-thumbnail: thar08-thumb.jpg
+thumbnail: ./thar08-thumb.jpg
 title: Along the way
 ---
 
@@ -15,10 +15,12 @@ A not so lonely road in the desert.
 
 ## Comments (1)
 
+<div id="comment">
+
 **shafiquekk** - January  4, 2011  4:25 PM
 
 bhaya aa rood to hathungo sa aga hingorjon ki ghot ki ha jo namak ki kan per ja rahee ha
 
----
+</div>
 
 </div>

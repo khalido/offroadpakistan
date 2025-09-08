@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0470.jpg
+image: ./IMG_0470.jpg
 order: 61
-thumbnail: IMG_0470-thumb.jpg
+thumbnail: ./IMG_0470-thumb.jpg
 title: The Trango towers
 ---
 

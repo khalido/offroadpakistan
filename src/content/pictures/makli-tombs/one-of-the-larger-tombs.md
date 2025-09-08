@@ -1,9 +1,9 @@
 ---
 date: 2005-12-13
 gallery: makli-tombs
-image: DSCN0335.jpg
+image: ./DSCN0335.jpg
 order: 20
-thumbnail: DSCN0335-thumb.jpg
+thumbnail: ./DSCN0335-thumb.jpg
 title: One of the larger tombs
 ---
 

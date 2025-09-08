@@ -1,9 +1,9 @@
 ---
 date: 2007-11-25
 gallery: besham-2007
-image: DSC01863.jpg
+image: ./DSC01863.jpg
 order: 33
-thumbnail: DSC01863-thumb.jpg
+thumbnail: ./DSC01863-thumb.jpg
 title: On the KKH
 ---
 

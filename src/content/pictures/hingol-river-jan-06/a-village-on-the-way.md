@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: hingol-river-jan-06
-image: DSCN0745.jpg
+image: ./DSCN0745.jpg
 order: 48
-thumbnail: DSCN0745-thumb.jpg
+thumbnail: ./DSCN0745-thumb.jpg
 title: A village on the way
 ---
 
@@ -15,12 +15,16 @@ This village was just off the new coastal highway.
 
 ## Comments (3)
 
+<div id="comment">
+
 **Abdul Rauf khan** - March 20, 2006 10:20 PM
 
 What a beautiful thinking of the photographer.i really do appreciate and pay selute to photographer...
 Best Wishes for Photographer By Abdul Rauf Khan
 
----
+</div>
+
+<div id="comment">
 
 **Shahid Iqbal Muhammad** - March 28, 2006  5:30 PM
 
@@ -37,7 +41,9 @@ Excellent photographs....
 
 Best wishes to you ppl...
 
----
+</div>
+
+<div id="comment">
 
 **Ibad ul Haque Khan** - July 29, 2008 10:42 PM
 
@@ -55,6 +61,6 @@ With best regards
 
 Ibad ul Haque
 
----
+</div>
 
 </div>

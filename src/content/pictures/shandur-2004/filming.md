@@ -1,9 +1,9 @@
 ---
 date: 2004-08-21
 gallery: shandur-2004
-image: 2004-06-25_15-00-58_0122.jpg
+image: ./2004-06-25_15-00-58_0122.jpg
 order: 38
-thumbnail: 2004-06-25_15-00-58_0122-thumb.jpg
+thumbnail: ./2004-06-25_15-00-58_0122-thumb.jpg
 title: Filming
 ---
 
@@ -15,10 +15,12 @@ On the way to Kalash.
 
 ## Comments (1)
 
+<div id="comment">
+
 **Omar Syed Husain** - January  4, 2006  3:50 AM
 
 you know whats cool. I was on this trip.
 
----
+</div>
 
 </div>

@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: neza-e-sultan
-image: F1040027.jpg
+image: ./F1040027.jpg
 order: 97
-thumbnail: F1040027-thumb.jpg
+thumbnail: ./F1040027-thumb.jpg
 title: Buxi
 ---
 

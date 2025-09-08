@@ -1,9 +1,9 @@
 ---
 date: 2003-10-12
 gallery: thar-2003
-image: thar31.jpg
+image: ./thar31.jpg
 order: 35
-thumbnail: thar31-thumb.jpg
+thumbnail: ./thar31-thumb.jpg
 title: Date Plantation
 ---
 

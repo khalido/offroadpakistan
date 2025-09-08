@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: ford-f1
-image: DSC00310.jpg
+image: ./DSC00310.jpg
 order: 23
-thumbnail: DSC00310-thumb.jpg
+thumbnail: ./DSC00310-thumb.jpg
 title: Closeup view of the winch
 ---
 

@@ -1,9 +1,9 @@
 ---
 date: 2003-06-26
 gallery: neza-e-sultan
-image: F1030007.jpg
+image: ./F1030007.jpg
 order: 56
-thumbnail: F1030007-thumb.jpg
+thumbnail: ./F1030007-thumb.jpg
 title: Skulls
 ---
 
@@ -15,6 +15,8 @@ Skulls emerging from within.
 
 ## Comments (6)
 
+<div id="comment">
+
 **M_Adeel_Qureshi** - August 25, 2005  9:30 AM
 
 i, M Adeel Qureshi is the Student of Archaeology and doing my M. Phill in Archetecture with special reference to chokhandi tombs in Pakistan, i like your web site
@@ -23,13 +25,17 @@ Research Assistant,
 Pakistan Study Centre,
 University of Karachi
 
----
+</div>
+
+<div id="comment">
 
 **Kahn** - August 31, 2007  9:41 AM
 
 Very interesting; it will arouse more interest if some information follows archeological finds or work.
 
----
+</div>
+
+<div id="comment">
 
 **M-Adeel Qureshi** - October  1, 2007 11:27 AM
 
@@ -41,7 +47,9 @@ Pakistan Study Centre,
 University of Karachi
 0322-2539606
 
----
+</div>
+
+<div id="comment">
 
 **M.Adeel Qureshi** - October  1, 2007 11:43 AM
 
@@ -54,14 +62,18 @@ Lecturer, Arts Faculty
 University of Karachi
 0322-2539606
 
----
+</div>
+
+<div id="comment">
 
 **M.Adeel Qureshi** - October 22, 2007  3:27 PM
 
 Sind:
 Sindh (Sindhī: سنڌ, Urdū: سندھ) is one of the four provinces of Pakistan and historically is home to the Sindhis. Different cultural and ethnic groups also reside in Sindh including Urdu speaking people who migrated from India at the time of independence and partition as well as the people migrated from other provinces after independence. Neighbouring regions are Balochistan to the west and north, Punjab in the north, Rajasthan and Gujarat (India) to the east, and the Arabian Sea to the south. The main languages are Sindhi and Urdu. In Sanskrit, the province was dubbed Sindhu meaning "ocean". The Assyrians (as early as the seventh century BCE) knew the region as Sinda, the Persians Abisind, the Greeks Sinthus, the Romans Sindus, the Chinese Sintow, while the Arabs dubbed it Sind. It is mentioned to be a part of Abhirrdesh (Abhira Kingdom) in Srimad Bhagavatam [2]. Sindh was the first place where Islam spread in South Asia. As a result, it is often referred to as "Bab-al-Islam" (Gate of Islam).
 
----
+</div>
+
+<div id="comment">
 
 **AdeeL** - October  9, 2008  9:49 AM
 
@@ -85,6 +97,6 @@ Faraz magar kisi se shikayat nahi mujhe...
 
 0323-2988014
 
----
+</div>
 
 </div>

@@ -1,9 +1,9 @@
 ---
 date: 2003-06-25
 gallery: neza-e-sultan
-image: F1000021.jpg
+image: ./F1000021.jpg
 order: 39
-thumbnail: F1000021-thumb.jpg
+thumbnail: ./F1000021-thumb.jpg
 title: Camels
 ---
 
@@ -15,10 +15,12 @@ Camels grazing.
 
 ## Comments (1)
 
+<div id="comment">
+
 **SalmanZ** - February 25, 2010  9:02 PM
 
 Very Nice Shot.
 
----
+</div>
 
 </div>

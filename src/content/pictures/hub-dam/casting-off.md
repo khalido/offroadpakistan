@@ -1,9 +1,9 @@
 ---
 date: 2004-01-13
 gallery: hub-dam
-image: F1000056.jpg
+image: ./F1000056.jpg
 order: 11
-thumbnail: F1000056-thumb.jpg
+thumbnail: ./F1000056-thumb.jpg
 title: Casting Off
 ---
 

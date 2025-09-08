@@ -1,9 +1,9 @@
 ---
 date: 2005-12-13
 gallery: makli-tombs
-image: DSCN0334.jpg
+image: ./DSCN0334.jpg
 order: 19
-thumbnail: DSCN0334-thumb.jpg
+thumbnail: ./DSCN0334-thumb.jpg
 title: Carved pillars
 ---
 
@@ -13,10 +13,12 @@ title: Carved pillars
 
 ## Comments (1)
 
+<div id="comment">
+
 **Salman** - March 15, 2009 10:18 PM
 
 Thats what u call an "imprint on the sands of time". IMMACULATE CAPTURING!!!
 
----
+</div>
 
 </div>

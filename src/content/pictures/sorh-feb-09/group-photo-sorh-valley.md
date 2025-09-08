@@ -1,9 +1,9 @@
 ---
 date: 2009-02-27
 gallery: sorh-feb-09
-image: img_3492.jpg
+image: ./img_3492.jpg
 order: 2
-thumbnail: img_3492-thumb.jpg
+thumbnail: ./img_3492-thumb.jpg
 title: Group photo - Sorh Valley
 ---
 

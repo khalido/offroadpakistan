@@ -1,9 +1,9 @@
 ---
 date: 2007-11-25
 gallery: besham-2007
-image: DSC01926.jpg
+image: ./DSC01926.jpg
 order: 42
-thumbnail: DSC01926-thumb.jpg
+thumbnail: ./DSC01926-thumb.jpg
 title: Grinding corn and wheat
 ---
 

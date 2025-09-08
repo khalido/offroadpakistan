@@ -1,9 +1,9 @@
 ---
 date: 2003-10-11
 gallery: thar-2003
-image: thar26.jpg
+image: ./thar26.jpg
 order: 4
-thumbnail: thar26-thumb.jpg
+thumbnail: ./thar26-thumb.jpg
 title: Pepsi Break 1
 ---
 
@@ -15,16 +15,20 @@ The first of many rest stops after 30 minutes of gruelling coasting along the hi
 
 ## Comments (2)
 
+<div id="comment">
+
 **alibhai** - February  9, 2004  2:42 AM
 
 how much did pepsi pay u guys for the endorsement
 
----
+</div>
+
+<div id="comment">
 
 **Nasir Manzoor** - August 27, 2006  1:02 AM
 
 Haha that is funny Ali....they should tell pepsi to endorse them and make this area more attractive to tourists.
 
----
+</div>
 
 </div>

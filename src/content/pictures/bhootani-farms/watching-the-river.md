@@ -1,9 +1,9 @@
 ---
 date: 2004-02-13
 gallery: bhootani-farms
-image: P1100043.jpg
+image: ./P1100043.jpg
 order: 11
-thumbnail: P1100043-thumb.jpg
+thumbnail: ./P1100043-thumb.jpg
 title: Watching the River
 ---
 
@@ -15,10 +15,12 @@ title: Watching the River
 
 ## Comments (1)
 
+<div id="comment">
+
 **fawad jamali** - January  3, 2009  3:38 PM
 
 is it safe to have such trips with families in pakistan now?
 
----
+</div>
 
 </div>

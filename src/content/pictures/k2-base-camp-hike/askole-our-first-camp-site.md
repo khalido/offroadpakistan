@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0317.jpg
+image: ./IMG_0317.jpg
 order: 32
-thumbnail: IMG_0317-thumb.jpg
+thumbnail: ./IMG_0317-thumb.jpg
 title: Askole - our first camp site
 ---
 
@@ -15,10 +15,12 @@ This is the most pleasant of all the campsites. There are two restaurants and ba
 
 ## Comments (1)
 
+<div id="comment">
+
 **KARAM TALPUR** - December 18, 2008 12:52 PM
 
 ALLAH TALA KI KUDRAT.KIA TO MANZAR HE
 
----
+</div>
 
 </div>

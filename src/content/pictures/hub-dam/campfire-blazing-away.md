@@ -1,9 +1,9 @@
 ---
 date: 2004-01-14
 gallery: hub-dam
-image: F1000131.jpg
+image: ./F1000131.jpg
 order: 27
-thumbnail: F1000131-thumb.jpg
+thumbnail: ./F1000131-thumb.jpg
 title: CampFire blazing away
 ---
 

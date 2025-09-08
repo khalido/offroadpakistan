@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: taftan-plantak-2005
-image: DSCN0125.jpg
+image: ./DSCN0125.jpg
 order: 12
-thumbnail: DSCN0125-thumb.jpg
+thumbnail: ./DSCN0125-thumb.jpg
 title: Refuelling
 ---
 
@@ -15,17 +15,21 @@ In the more remote parts of Baluchistan (95%) there are no fuel pumps. You get t
 
 ## Comments (2)
 
+<div id="comment">
+
 **Arif Syed** - May 18, 2006  3:13 AM
 
 Hello,
 Going through the pictures and reading about your trips has been very interesting. I was wondering how do you deal with the poor quality of fuel and its effects on the vehicles?
 
----
+</div>
+
+<div id="comment">
 
 **Babloo Mashterr** - May 18, 2006  1:40 PM
 
 You should pre-filter the fuel before decating it into your vehicle, and also use diesel fuel additive to prevent formation of wax deposits in the fuel injection system. If you dont have diesel additive, then adding one litre of engine oil to forty litres of diesel also works well.
 
----
+</div>
 
 </div>

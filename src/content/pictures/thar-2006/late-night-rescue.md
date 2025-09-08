@@ -1,9 +1,9 @@
 ---
 date: 2006-09-24
 gallery: thar-2006
-image: P8191814.jpg
+image: ./P8191814.jpg
 order: 57
-thumbnail: P8191814-thumb.jpg
+thumbnail: ./P8191814-thumb.jpg
 title: Late night rescue
 ---
 

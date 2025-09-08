@@ -1,9 +1,9 @@
 ---
 date: 2006-08-26
 gallery: thar-2006
-image: DSCN1606.jpg
+image: ./DSCN1606.jpg
 order: 15
-thumbnail: DSCN1606-thumb.jpg
+thumbnail: ./DSCN1606-thumb.jpg
 title: Campsite
 ---
 

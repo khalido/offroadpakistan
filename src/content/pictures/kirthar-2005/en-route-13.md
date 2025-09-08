@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: kirthar-2005
-image: F1020024.jpg
+image: ./F1020024.jpg
 order: 39
-thumbnail: F1020024-thumb.jpg
+thumbnail: ./F1020024-thumb.jpg
 title: En route 13
 ---
 

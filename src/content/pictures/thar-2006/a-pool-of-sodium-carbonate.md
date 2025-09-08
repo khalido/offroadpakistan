@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: thar-2006
-image: 000068.jpg
+image: ./000068.jpg
 order: 42
-thumbnail: 000068-thumb.jpg
+thumbnail: ./000068-thumb.jpg
 title: A pool of sodium carbonate
 ---
 

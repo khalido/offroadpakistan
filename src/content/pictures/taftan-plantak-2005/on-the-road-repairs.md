@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: taftan-plantak-2005
-image: Pakistan_Offroad-121.jpg
+image: ./Pakistan_Offroad-121.jpg
 order: 51
-thumbnail: Pakistan_Offroad-121-thumb.jpg
+thumbnail: ./Pakistan_Offroad-121-thumb.jpg
 title: On the road repairs
 ---
 

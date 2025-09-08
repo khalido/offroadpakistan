@@ -1,9 +1,9 @@
 ---
 date: 2004-09-19
 gallery: khunjerab-2000
-image: khunjerab_41.jpg
+image: ./khunjerab_41.jpg
 order: 39
-thumbnail: khunjerab_41-thumb.jpg
+thumbnail: ./khunjerab_41-thumb.jpg
 title: Sunset in Nathiagali
 ---
 

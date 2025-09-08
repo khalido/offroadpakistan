@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: kirthar-2005
-image: DSC05627.jpg
+image: ./DSC05627.jpg
 order: 14
-thumbnail: DSC05627-thumb.jpg
+thumbnail: ./DSC05627-thumb.jpg
 title: Markhor 2
 ---
 

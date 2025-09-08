@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0408.jpg
+image: ./IMG_0408.jpg
 order: 50
-thumbnail: IMG_0408-thumb.jpg
+thumbnail: ./IMG_0408-thumb.jpg
 title: Tree near Paiju
 ---
 

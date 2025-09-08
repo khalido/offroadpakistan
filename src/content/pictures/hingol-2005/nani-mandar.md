@@ -1,9 +1,9 @@
 ---
 date: 2005-07-29
 gallery: hingol-2005
-image: DSC08151.jpg
+image: ./DSC08151.jpg
 order: 6
-thumbnail: DSC08151-thumb.jpg
+thumbnail: ./DSC08151-thumb.jpg
 title: Nani Mandar
 ---
 

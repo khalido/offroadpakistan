@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: shandur-2004
-image: 2004-06-27_15-19-14_183.jpg
+image: ./2004-06-27_15-19-14_183.jpg
 order: 121
-thumbnail: 2004-06-27_15-19-14_183-thumb.jpg
+thumbnail: ./2004-06-27_15-19-14_183-thumb.jpg
 title: Shandur Polo ground
 ---
 
@@ -14,6 +14,8 @@ An arial view. The toughest polo matches in the world take place here - players 
 <div id="comments">
 
 ## Comments (3)
+
+<div id="comment">
 
 **Vadasz Siegfried** - February 23, 2007 11:02 PM
 
@@ -31,7 +33,9 @@ Kind Regards
 
 Siegfried
 
----
+</div>
+
+<div id="comment">
 
 **KO** - February 26, 2007 12:01 PM
 
@@ -44,13 +48,15 @@ Most of our jeeps are near stock height, so we don't always have "2 fingers spac
 regards from all of us here,
 ko
 
----
+</div>
+
+<div id="comment">
 
 **Abdul Wali Khan Yaftali** - March 24, 2008  3:27 PM
 
 This is the beautiful of picure of Shandur. Shandur is the highest pologround in the world. It is considered to be heaven for mountian tourism.
 Abdul Wali Khan Yaftali
 
----
+</div>
 
 </div>

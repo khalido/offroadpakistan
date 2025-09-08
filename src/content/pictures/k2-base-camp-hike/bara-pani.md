@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0152.jpg
+image: ./IMG_0152.jpg
 order: 13
-thumbnail: IMG_0152-thumb.jpg
+thumbnail: ./IMG_0152-thumb.jpg
 title: Bara Pani
 ---
 

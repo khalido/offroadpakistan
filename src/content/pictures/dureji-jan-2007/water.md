@@ -1,9 +1,9 @@
 ---
 date: 2007-03-18
 gallery: dureji-jan-2007
-image: DSC01409.jpg
+image: ./DSC01409.jpg
 order: 22
-thumbnail: DSC01409-thumb.jpg
+thumbnail: ./DSC01409-thumb.jpg
 title: Water
 ---
 

@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: quetta-2004
-image: F1000032.jpg
+image: ./F1000032.jpg
 order: 20
-thumbnail: F1000032-thumb.jpg
+thumbnail: ./F1000032-thumb.jpg
 title: Lunch at Ziarat
 ---
 

@@ -1,9 +1,9 @@
 ---
 date: 2008-01-18
 gallery: goran-gatti-2008
-image: dsc03746.jpg
+image: ./dsc03746.jpg
 order: 56
-thumbnail: dsc03746-thumb.jpg
+thumbnail: ./dsc03746-thumb.jpg
 title: The local guides have made a separate bonfire for themselves. Its much smaller
 ---
 

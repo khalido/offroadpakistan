@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: P6300868.jpg
+image: ./P6300868.jpg
 order: 21
-thumbnail: P6300868-thumb.jpg
+thumbnail: ./P6300868-thumb.jpg
 title: A polo match at Skardu
 ---
 

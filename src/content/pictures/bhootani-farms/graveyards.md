@@ -1,9 +1,9 @@
 ---
 date: 2003-06-14
 gallery: bhootani-farms
-image: F1000037.jpg
+image: ./F1000037.jpg
 order: 1
-thumbnail: F1000037-thumb.jpg
+thumbnail: ./F1000037-thumb.jpg
 title: Graveyards
 ---
 
@@ -15,6 +15,8 @@ Graveyards on the way to the resort. [More details later.]
 
 ## Comments (4)
 
+<div id="comment">
+
 **susannthomsen** - February 19, 2005  8:51 PM
 
 hi offroaders,
@@ -22,13 +24,17 @@ great pictures! thanks a lot for sharing. i used to live in karachi for five yea
 take care,
 susann
 
----
+</div>
+
+<div id="comment">
 
 **Khalid** - March 21, 2006 10:35 PM
 
 great pictures. thanks for providing so beautiful trip.
 
----
+</div>
+
+<div id="comment">
 
 **Zaim** - June 25, 2006  4:35 AM
 
@@ -36,12 +42,14 @@ Hi all! I am really facinated by what you guys are doing? I am really happy beca
 his team for showing what real Pakistan is! Please keep up the good work!
 Thank
 
----
+</div>
+
+<div id="comment">
 
 **shamee ghori** - August  2, 2008  8:09 AM
 
 these are very beautiful loctions.please tell me where is this bhootani farm.I need exact location. this website has awoken again my curiosity of going to such places. Shameem ghori
 
----
+</div>
 
 </div>

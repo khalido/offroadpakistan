@@ -1,9 +1,9 @@
 ---
 date: 2008-01-18
 gallery: goran-gatti-2008
-image: img_2494.jpg
+image: ./img_2494.jpg
 order: 57
-thumbnail: img_2494-thumb.jpg
+thumbnail: ./img_2494-thumb.jpg
 title: When the locals travel
 ---
 

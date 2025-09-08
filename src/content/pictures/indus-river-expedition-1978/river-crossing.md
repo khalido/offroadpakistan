@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: indus-river-expedition-1978
-image: scan0170.jpg
+image: ./scan0170.jpg
 order: 32
-thumbnail: scan0170-thumb.jpg
+thumbnail: ./scan0170-thumb.jpg
 title: River crossing
 ---
 

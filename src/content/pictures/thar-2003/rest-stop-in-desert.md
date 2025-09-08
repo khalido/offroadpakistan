@@ -1,9 +1,9 @@
 ---
 date: 2003-10-11
 gallery: thar-2003
-image: thar20.jpg
+image: ./thar20.jpg
 order: 24
-thumbnail: thar20-thumb.jpg
+thumbnail: ./thar20-thumb.jpg
 title: Rest Stop in Desert
 ---
 
@@ -15,10 +15,12 @@ We had stopped here to survery the terrain.
 
 ## Comments (1)
 
+<div id="comment">
+
 **rafeek** - January 15, 2006  4:47 PM
 
 very nice
 
----
+</div>
 
 </div>

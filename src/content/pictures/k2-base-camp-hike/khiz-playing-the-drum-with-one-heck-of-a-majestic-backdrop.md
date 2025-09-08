@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0628.jpg
+image: ./IMG_0628.jpg
 order: 150
-thumbnail: IMG_0628-thumb.jpg
+thumbnail: ./IMG_0628-thumb.jpg
 title: Khiz playing the drum with one heck of a majestic backdrop
 ---
 
@@ -15,11 +15,15 @@ K2, K2.
 
 ## Comments (3)
 
+<div id="comment">
+
 **Imad** - August 12, 2007 10:28 AM
 
 You lucky buggers!!
 
----
+</div>
+
+<div id="comment">
 
 **Sadiq Shah** - February  2, 2008  2:51 PM
 
@@ -37,12 +41,14 @@ Website: www.travelstourism.com
 Address: Suit No. 205, 2nd Floor, Gulshan Trade Centre. Block No. 5, Gulshan-e-Iqbal, Karachi-75300, Pakistan.
 (Near Gulshan Chowrangi just above Telenor & TCS offices)
 
----
+</div>
+
+<div id="comment">
 
 **safdar khan hunzai** - March 12, 2009  1:53 AM
 
 thank u for ur services and a message to all hunzai peopls please dont black mail to allamah nasir u din nasir hunzai because he is a sufe scholor of ismaili world thank u
 
----
+</div>
 
 </div>

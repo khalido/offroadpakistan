@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: chitral
-image: chitral_omars_18.jpg
+image: ./chitral_omars_18.jpg
 order: 17
-thumbnail: chitral_omars_18-thumb.jpg
+thumbnail: ./chitral_omars_18-thumb.jpg
 title: British Bridge
 ---
 

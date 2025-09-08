@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: neza-e-sultan
-image: F1020032.jpg
+image: ./F1020032.jpg
 order: 87
-thumbnail: F1020032-thumb.jpg
+thumbnail: ./F1020032-thumb.jpg
 title: Ford Bronco
 ---
 

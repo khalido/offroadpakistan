@@ -1,9 +1,9 @@
 ---
 date: 2004-04-14
 gallery: quetta-2004
-image: F1020028.jpg
+image: ./F1020028.jpg
 order: 36
-thumbnail: F1020028-thumb.jpg
+thumbnail: ./F1020028-thumb.jpg
 title: Snow Covered Field
 ---
 
@@ -16,11 +16,15 @@ Picture shot from a moving car at about 20km per hour with a Canon SLR 28-90mm E
 
 ## Comments (2)
 
+<div id="comment">
+
 **Yaseen** - April 25, 2004  8:00 PM
 
 Ure the king Abid....very nice pic!
 
----
+</div>
+
+<div id="comment">
 
 **khalid rahim** - September 20, 2007  9:52 AM
 
@@ -28,6 +32,6 @@ THIS IS ABEAUTIFUL POST CARD {PICTURE} I LIVE IN TORONTO i WAS RAISED /EDUCATED
 IN QUETTA i STILL HAVE FAMILY THERE.
 kHALID
 
----
+</div>
 
 </div>

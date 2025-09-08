@@ -1,9 +1,9 @@
 ---
 date: 2008-01-18
 gallery: goran-gatti-2008
-image: img_2566.jpg
+image: ./img_2566.jpg
 order: 51
-thumbnail: img_2566-thumb.jpg
+thumbnail: ./img_2566-thumb.jpg
 title: Up close to the mud mountains. The peculiar structure origantes from mud vents
   all over the Hingol Valley
 ---

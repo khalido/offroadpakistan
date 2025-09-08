@@ -1,9 +1,9 @@
 ---
 date: 2003-06-21
 gallery: khunjerab-2000
-image: khunjerab4.jpg
+image: ./khunjerab4.jpg
 order: 4
-thumbnail: khunjerab4-thumb.jpg
+thumbnail: ./khunjerab4-thumb.jpg
 title: Raheel | MO | SO | Maria
 ---
 

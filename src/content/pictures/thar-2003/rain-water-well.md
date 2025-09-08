@@ -1,9 +1,9 @@
 ---
 date: 2003-10-12
 gallery: thar-2003
-image: thar30.jpg
+image: ./thar30.jpg
 order: 34
-thumbnail: thar30-thumb.jpg
+thumbnail: ./thar30-thumb.jpg
 title: Rain water well
 ---
 

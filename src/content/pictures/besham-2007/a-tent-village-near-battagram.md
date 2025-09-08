@@ -1,9 +1,9 @@
 ---
 date: 2007-11-25
 gallery: besham-2007
-image: IMG_0862.jpg
+image: ./IMG_0862.jpg
 order: 23
-thumbnail: IMG_0862-thumb.jpg
+thumbnail: ./IMG_0862-thumb.jpg
 title: A tent village near Battagram
 ---
 
@@ -15,11 +15,15 @@ All is still not back to normal in the area since the 2005 earthquake.
 
 ## Comments (3)
 
+<div id="comment">
+
 **Hidayat** - June  5, 2008  5:48 PM
 
 It is the area of the Govt Degree College For Boys Battagram. It is in Village Chappargram.
 
----
+</div>
+
+<div id="comment">
 
 **mohammad abid** - July 27, 2009  4:29 PM
 
@@ -30,7 +34,9 @@ cel.no.00966568886342
 email.abidkhanuza@yahoo.com
 gmail.abidkhanuza@gmail.com
 
----
+</div>
+
+<div id="comment">
 
 **Randy Salomon** - September 20, 2009 12:24 PM
 
@@ -38,6 +44,6 @@ I am the Chief Engineer for the reconstruction of the new Government Degree Coll
 foreground was then a military installation of the Pak Army Engineering Battalion. To date, reconstruction of the new Government Degree College
 as well as a new Bridge and Access Road up to KKH had been completed and due to be inaugurated on October 8, 2009.
 
----
+</div>
 
 </div>

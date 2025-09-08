@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: quetta-2004
-image: CNV000010.jpg
+image: ./CNV000010.jpg
 order: 3
-thumbnail: CNV000010-thumb.jpg
+thumbnail: ./CNV000010-thumb.jpg
 title: Local Transport
 ---
 
@@ -14,6 +14,8 @@ There are more people in this pickup truck than a typical New York subway train.
 <div id="comments">
 
 ## Comments (4)
+
+<div id="comment">
 
 **khalil jibran** - October  1, 2004 12:08 AM
 
@@ -34,13 +36,17 @@ software engineer
 lucknow
 india
 
----
+</div>
+
+<div id="comment">
 
 **mr b.t.butt** - May  9, 2005  6:00 PM
 
 i was overjoyed on seeing this beutiful scene .exactly still in my village same things happens daily, due shortage of transport. at least none is left behind to wait for for another one . thats if there is one
 
----
+</div>
+
+<div id="comment">
 
 **imtyaaz mohammed** - March  7, 2006  9:12 PM
 
@@ -59,12 +65,14 @@ senior project analyst
 IBM corp
 mumbai
 
----
+</div>
+
+<div id="comment">
 
 **S K Durrani** - August 25, 2009 10:29 PM
 
 I think this is Khuzdar.
 
----
+</div>
 
 </div>

@@ -1,9 +1,9 @@
 ---
 date: 2002-10-16
 gallery: neza-e-sultan
-image: F1020018.jpg
+image: ./F1020018.jpg
 order: 23
-thumbnail: F1020018-thumb.jpg
+thumbnail: ./F1020018-thumb.jpg
 title: Naiza-e-Sultan
 ---
 
@@ -15,10 +15,12 @@ Top of Naiza-e-Sultan.
 
 ## Comments (1)
 
+<div id="comment">
+
 **natasha** - June 30, 2003  1:13 PM
 
 nice blue sky...
 
----
+</div>
 
 </div>

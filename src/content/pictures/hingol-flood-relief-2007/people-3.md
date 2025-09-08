@@ -1,9 +1,9 @@
 ---
 date: 2007-07-23
 gallery: hingol-flood-relief-2007
-image: DSC00553.jpg
+image: ./DSC00553.jpg
 order: 15
-thumbnail: DSC00553-thumb.jpg
+thumbnail: ./DSC00553-thumb.jpg
 title: People 3
 ---
 

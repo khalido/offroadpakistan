@@ -1,9 +1,9 @@
 ---
 date: 2007-08-26
 gallery: ford-f1
-image: DSC00828.jpg
+image: ./DSC00828.jpg
 order: 29
-thumbnail: DSC00828-thumb.jpg
+thumbnail: ./DSC00828-thumb.jpg
 title: Pickup bed
 ---
 

@@ -1,9 +1,9 @@
 ---
 date: 2003-06-29
 gallery: neza-e-sultan
-image: F1000088.jpg
+image: ./F1000088.jpg
 order: 59
-thumbnail: F1000088-thumb.jpg
+thumbnail: ./F1000088-thumb.jpg
 title: Dr. Rizwan
 ---
 

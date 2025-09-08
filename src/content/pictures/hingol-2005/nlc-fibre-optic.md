@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: hingol-2005
-image: DSC08273.jpg
+image: ./DSC08273.jpg
 order: 27
-thumbnail: DSC08273-thumb.jpg
+thumbnail: ./DSC08273-thumb.jpg
 title: NLC Fibre Optic
 ---
 

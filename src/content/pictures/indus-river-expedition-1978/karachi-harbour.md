@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: indus-river-expedition-1978
-image: scan0175.jpg
+image: ./scan0175.jpg
 order: 34
-thumbnail: scan0175-thumb.jpg
+thumbnail: ./scan0175-thumb.jpg
 title: Karachi Harbour
 ---
 
@@ -15,10 +15,12 @@ Arriving back at Karachi Harbour, reception arranged by friends and family and t
 
 ## Comments (1)
 
+<div id="comment">
+
 **Asad** - November 27, 2005  1:51 PM
 
 My Pakistan was so good in those old days.
 
----
+</div>
 
 </div>

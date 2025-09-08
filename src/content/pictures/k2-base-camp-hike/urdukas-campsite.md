@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0206.jpg
+image: ./IMG_0206.jpg
 order: 169
-thumbnail: IMG_0206-thumb.jpg
+thumbnail: ./IMG_0206-thumb.jpg
 title: Urdukas Campsite
 ---
 

@@ -1,9 +1,9 @@
 ---
 date: 2003-06-29
 gallery: neza-e-sultan
-image: F1000104.jpg
+image: ./F1000104.jpg
 order: 66
-thumbnail: F1000104-thumb.jpg
+thumbnail: ./F1000104-thumb.jpg
 title: Ford Bronco Struggling
 ---
 

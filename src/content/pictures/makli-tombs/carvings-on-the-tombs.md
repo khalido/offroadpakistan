@@ -1,9 +1,9 @@
 ---
 date: 2005-12-13
 gallery: makli-tombs
-image: DSCN0356.jpg
+image: ./DSCN0356.jpg
 order: 25
-thumbnail: DSCN0356-thumb.jpg
+thumbnail: ./DSCN0356-thumb.jpg
 title: Carvings on the tombs
 ---
 
@@ -13,10 +13,12 @@ title: Carvings on the tombs
 
 ## Comments (1)
 
+<div id="comment">
+
 **Salman** - March 15, 2009 10:31 PM
 
 Talk about "Paying attention to the details"..........
 
----
+</div>
 
 </div>

@@ -1,9 +1,9 @@
 ---
 date: 2009-02-27
 gallery: sorh-feb-09
-image: img_3443.jpg
+image: ./img_3443.jpg
 order: 27
-thumbnail: img_3443-thumb.jpg
+thumbnail: ./img_3443-thumb.jpg
 title: A sandy incline in Sorh Valley
 ---
 

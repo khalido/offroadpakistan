@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: shandur-2004
-image: 001107.jpg
+image: ./001107.jpg
 order: 66
-thumbnail: 001107-thumb.jpg
+thumbnail: ./001107-thumb.jpg
 title: Goat Painting
 ---
 

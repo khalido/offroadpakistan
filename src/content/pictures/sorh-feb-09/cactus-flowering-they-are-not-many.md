@@ -1,9 +1,9 @@
 ---
 date: 2009-02-27
 gallery: sorh-feb-09
-image: img_3280.jpg
+image: ./img_3280.jpg
 order: 13
-thumbnail: img_3280-thumb.jpg
+thumbnail: ./img_3280-thumb.jpg
 title: Cactus - flowering! They are not many
 ---
 

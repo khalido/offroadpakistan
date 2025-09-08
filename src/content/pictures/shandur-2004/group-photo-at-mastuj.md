@@ -1,9 +1,9 @@
 ---
 date: 2004-09-13
 gallery: shandur-2004
-image: 2004-06-27_22-15-04_242.jpg
+image: ./2004-06-27_22-15-04_242.jpg
 order: 94
-thumbnail: 2004-06-27_22-15-04_242-thumb.jpg
+thumbnail: ./2004-06-27_22-15-04_242-thumb.jpg
 title: Group Photo at Mastuj
 ---
 
@@ -15,6 +15,8 @@ Everyone gathered around the campfire at Mastuj.
 
 ## Comments (1)
 
+<div id="comment">
+
 **Karim Ali Amir** - March  3, 2006  4:47 PM
 
 Ma nam Karim Ali Amir
@@ -23,6 +25,6 @@ Awa karachi assum......
 
 Awa karachi study koman
 
----
+</div>
 
 </div>

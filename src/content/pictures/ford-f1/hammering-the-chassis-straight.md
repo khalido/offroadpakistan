@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: ford-f1
-image: DSC05027.jpg
+image: ./DSC05027.jpg
 order: 12
-thumbnail: DSC05027-thumb.jpg
+thumbnail: ./DSC05027-thumb.jpg
 title: Hammering the chassis straight
 ---
 

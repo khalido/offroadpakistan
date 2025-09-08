@@ -1,9 +1,9 @@
 ---
 date: 2003-10-12
 gallery: thar-2003
-image: thar22.jpg
+image: ./thar22.jpg
 order: 42
-thumbnail: thar22-thumb.jpg
+thumbnail: ./thar22-thumb.jpg
 title: Water Lilies
 ---
 
@@ -15,10 +15,12 @@ Water lilies in the nara canal.
 
 ## Comments (1)
 
+<div id="comment">
+
 **Harpreet Shergill** - July 27, 2005  6:58 PM
 
 Simply "beautiful".
 
----
+</div>
 
 </div>

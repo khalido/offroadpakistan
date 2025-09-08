@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0176.jpg
+image: ./IMG_0176.jpg
 order: 104
-thumbnail: IMG_0176-thumb.jpg
+thumbnail: ./IMG_0176-thumb.jpg
 title: Arctic landscape 2
 ---
 
@@ -13,10 +13,12 @@ title: Arctic landscape 2
 
 ## Comments (1)
 
+<div id="comment">
+
 **Irfan ul haq** - March 11, 2012 11:45 AM
 
 fantastic i can feel the chill any program this year?
 
----
+</div>
 
 </div>

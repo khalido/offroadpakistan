@@ -1,9 +1,9 @@
 ---
 date: 2003-06-20
 gallery: gawadur-2001
-image: gawadur4.jpg
+image: ./gawadur4.jpg
 order: 5
-thumbnail: gawadur4-thumb.jpg
+thumbnail: ./gawadur4-thumb.jpg
 title: CJ7 | Chinese Jeep
 ---
 

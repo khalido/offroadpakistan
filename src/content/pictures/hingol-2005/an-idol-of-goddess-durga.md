@@ -1,9 +1,9 @@
 ---
 date: 2005-09-10
 gallery: hingol-2005
-image: IMG_75651.jpg
+image: ./IMG_75651.jpg
 order: 47
-thumbnail: IMG_75651-thumb.jpg
+thumbnail: ./IMG_75651-thumb.jpg
 title: An idol of Goddess Durga
 ---
 
@@ -15,6 +15,8 @@ Inside one of the main temples at Hinglach. This is a picture of an idol of Godd
 
 ## Comments (50)
 
+<div id="comment">
+
 **gautam gohil** - November 25, 2005 11:46 AM
 
 These are some great pixs thanks for the same. I am from India, and I am really thrilled to see
@@ -22,7 +24,9 @@ Hindu Goddess Ma Hinglaj on this site. For more info, there is a similar Hinglaj
 
 Gautam Gohil.
 
----
+</div>
+
+<div id="comment">
 
 **Chinmay Deshpande** - February  2, 2006  9:59 AM
 
@@ -39,7 +43,9 @@ Thanks to the people who have given me the opportunity to view this Hinglaj Mata
 
 May Goddess Hinglaj mata bless you all.
 
----
+</div>
+
+<div id="comment">
 
 **shivraj** - February 11, 2006  2:04 PM
 
@@ -51,7 +57,9 @@ p.o.box 81384
 mombasa
 kenya
 
----
+</div>
+
+<div id="comment">
 
 **Chinmay Deshpande** - February 21, 2006  9:07 PM
 
@@ -61,7 +69,9 @@ I don't have any information regarding schedules of yatras so i can not help you
 
 Thank You
 
----
+</div>
+
+<div id="comment">
 
 **Ramesh BHANUSHALI** - May 30, 2006  4:13 PM
 
@@ -70,19 +80,25 @@ We have grand temples of MATA at all our key community properties. One is in Nal
 
 JAI MAA HINGLAJ
 
----
+</div>
+
+<div id="comment">
 
 **bankim chandra** - December 17, 2006 12:30 PM
 
 GREAT JOB GUYS..ITS WONDERFULL TO SEE THAT IN PAKISTAN A HINDU HAS POSTED THE PIC OF MATA JI .IT IS REALLY IMPORTANT TO RESPECT THE CULTURE OF BOTH THE RELIGIONS BECOUSE WE NO LANGER STAY IN THE TIME OF GHAURI OR ASHOKA...the temple looks more like mata vaishno devis temple in katra..thanks ...
 
----
+</div>
+
+<div id="comment">
 
 **vijay** - December 27, 2006  4:06 PM
 
 i dont have any information of hingalaj maa so send me your responce i live in karachi
 
----
+</div>
+
+<div id="comment">
 
 **RAM BABURAO CHAVAN** - August 22, 2007  3:47 PM
 
@@ -90,45 +106,59 @@ Jai Mata Di.
 Jai Hinglaj Mata Ki.
 I live in Jalna, Maharashtra(I). If any additional information about higlaj Mata. pl. send us.
 
----
+</div>
+
+<div id="comment">
 
 **PURUSHOTHAM RAO** - August 24, 2007  2:09 PM
 
 IS HINGLAJ MATA CONNECTED WITH BHAVA SARA KSHATRIYAS CASTE LOCATED IN SOUTH INDIA
 OR PARASURAM RISHI CONNECTED WITH BHAVASARA KSHATRIYAS
 
----
+</div>
+
+<div id="comment">
 
 **JIgar Patel** - August 31, 2007  2:49 PM
 
 Please Can you send me the original photo Of Hinglaj MA situated at Bulichistan
 
----
+</div>
+
+<div id="comment">
 
 **prakash(ompuri)** - October  9, 2007  6:58 AM
 
 plz send me photo higlaj maa
 Email :rockay_raj@yahoo.com
 
----
+</div>
+
+<div id="comment">
 
 **manoj dwivedi** - October 12, 2007 11:54 AM
 
 Jai Mata Di. I seen it and lost in its devine beauti
 
----
+</div>
+
+<div id="comment">
 
 **Priya** - November 14, 2007 10:31 PM
 
 Jai MataRani Ki!!!! I am from Pakistan staying in USA and most of my relatives have visited Hinglaj. Every year during Chetichand the bhakts organize the pilgrimage through SwamiNarayan temple in Karachi. I dont have their telephone number right now. I shall arrange to get the number and forward it to whoever is interestred.
 
----
+</div>
+
+<div id="comment">
 
 **dinesh chandra bhanushali** - February 11, 2008 12:07 PM
 
 Hinglaj Mataji is Bhanushali community's Kuldevi, having temples at Nailya, Shirva, Ghatkopar, Mata No madh etc..
 
----
+</div>
+
+<div id="comment">
 
 **Ramchandra P Khatri** - February 23, 2008  4:39 PM
 
@@ -144,7 +174,9 @@ AHMEDABAD , GUJARAT.
 INDIA.
 rpkhatri.ind@gmail.com
 
----
+</div>
+
+<div id="comment">
 
 **Ratanlal Barot** - April 15, 2008  3:09 PM
 
@@ -154,20 +186,26 @@ I feel proud that my uncle aged 75 from Sindhodi-Kutch has been granted visa for
 
 It was really a touching moment when he explained that why he wanted to visit this sacred place to the man who interviewed him for the visa. The man after hearing his answer promptly said to him (my uncle) that he need not worry and he has been granted visa.
 
----
+</div>
+
+<div id="comment">
 
 **SANJAY TRIVEDI** - May  1, 2008  3:21 PM
 
 i am impressed with your work. i ever heard about MAA HINGLAG's temple, but didn't know any thingh about it. it is the dream place i have to visit once. the information provided by your site will help me much more, infact your site has motivated me to visit MAA's place. THANKES. MAA bless you. in future if you have any more information about this HOLY YATRA kindly inform me.
 with a lot of thanks....
 
----
+</div>
+
+<div id="comment">
 
 **ashok adepal** - June  6, 2008  7:34 PM
 
 Jay HINGLAJ MATA
 
----
+</div>
+
+<div id="comment">
 
 **Hari Rajan Durgia** - June 22, 2008  4:52 PM
 
@@ -177,44 +215,58 @@ Thanks to the person for ever who uploaded this page n Idol of Maa. I'm residing
 Kindly post more n more images n information details of Maa to my e-mail. TYvm. May Maa Bless u n me n all her kids for ever.
 *Jai Mata Di*
 
----
+</div>
+
+<div id="comment">
 
 **Anup Kumar Biswas** - June 23, 2008 12:35 PM
 
 Jay Marutirtha Hinlaj Mata Shaki Peeth
 after seen the exvcellent Photographs of Hinlaj devi Shkti Peeth, Distt Makran of South west of Baluchisthan Province , Pakisthan , I also interested , if Hinlaj Devi Mata call, " ie Bulawa from Devi Darbar " there , I like get this oppertunity to visit that place .Please communicate ,how to visit that Holy place of our nebouring country ,what are formalities is required , Get Visa of Pakisthan to visit mat Hinlaj Devi in group . The ifomatiom , which i have , its generally takes place inbetween 15 th April and May 1st week every year (During "Chayita Month Navratri days" . Please inform any organisation , who coducting this yatra from Mumai Ahemdabad or Rajkot (Junagarh ), I can also join them to vist this great holy place.
 
----
+</div>
+
+<div id="comment">
 
 **shilpa tejura/vithlani** - July 15, 2008  7:23 PM
 
 JAI MATAJI
 
----
+</div>
+
+<div id="comment">
 
 **sanjiv bhati** - August 21, 2008  8:50 PM
 
 jai mata hinglaj devi its like a dream comes true maa hinglaj bless me and all those who has faith in maa
 
----
+</div>
+
+<div id="comment">
 
 **Jigar Masharuwala** - October  2, 2008  1:04 AM
 
 I felt very nice by visiting this site,amazing...I m khatri and I would like to know about our gotra...also want to know that what is different between khatri and vanza khatri??? plz guide me...
 
----
+</div>
+
+<div id="comment">
 
 **prem** - October  6, 2008  2:42 PM
 
 jai maa HINGLAJ.
 
----
+</div>
+
+<div id="comment">
 
 **prem** - October  6, 2008  2:50 PM
 
 jai maa HINGLAJ.
 
----
+</div>
+
+<div id="comment">
 
 **Sireesha** - October  8, 2008  5:24 PM
 
@@ -249,7 +301,9 @@ Please keep faith on her.
 
 There is delay but no failure!!!
 
----
+</div>
+
+<div id="comment">
 
 **RAJKUMAR GADHAVI** - October 17, 2008  5:56 PM
 
@@ -257,7 +311,9 @@ jai ma hingalaja,a to sarva shrestha raja,mari maat hingalaja.
 
 hii friends, I belong to Charan community.It is said that AAI HINGALAJ was born in my community thus we are called "DEVI PUTRA" from ancient times.Also AAI AAVAD,AAI KARNI were born in our community.Its a glory that i am born in such a community great.It is said herself calls for charans in navratra. MAA is omni present. read DEVIYAAN by ISHARDAN BARHAT.
 
----
+</div>
+
+<div id="comment">
 
 **Saksham** - February 28, 2009 10:15 PM
 
@@ -269,7 +325,9 @@ Saadar Parnaam Mai Hinglaj, watch the below Videos on Mata Hinglaj Ji.
 
 Jai Mata Ji.
 
----
+</div>
+
+<div id="comment">
 
 **HARDIK NAVIN DHERAI** - March  6, 2009 10:59 PM
 
@@ -278,19 +336,25 @@ HINGLAJ MAA HAMARE PARIVAR KE KUL DEVI MATA HAI.
 "KOTI KOTI PRANAM"
 "JAI HINGLAJMAA"
 
----
+</div>
+
+<div id="comment">
 
 **Shah Farhan MAK Jalali** - March 23, 2009 11:38 PM
 
 By the way this is general information of Hindu Community members from INDIA and overseas,the pictures on this site were taken and posted by proud Muslim Pakistanis.The group you saw in the series of Photograph are all Muslims.Being Muslim we are more open to Religious tolerance.We got big heart to tolerate hindu Temples and the idols of hindu dieties although those things are in direct confrontation of Islamic teachings.I read a lot about Hinduism those are only mythology and hearsay nothing to substatiate those tales.Look into the Buddhaism it is also very OLD religion yet lot of things of the religion can be physically proved.Any way open your mind and heart and Read about Islam and then compare between TRUTH and MYTHOLOGY.Do continue to believe in Hinduism but at the same time think with Logic.
 
----
+</div>
+
+<div id="comment">
 
 **sunil singh** - March 30, 2009 11:11 PM
 
 our kuldevi is hinglajmata, it is hard for us to go in pakisthan. so i want to know other temples of hinglajmata in india so i could take blessing of mata
 
----
+</div>
+
+<div id="comment">
 
 **Deepak Rajput** - April  3, 2009 12:38 PM
 
@@ -299,19 +363,25 @@ Can you give me address of Hinglaj Mata Mandir In Rajastan.
 
 Thaking You.
 
----
+</div>
+
+<div id="comment">
 
 **Mukesh Goswami** - June 12, 2009  4:23 PM
 
 Nice photograph....Thanks for putting this photo of our Kuldevi Hingalaj Mataji...Thanks a lot...
 
----
+</div>
+
+<div id="comment">
 
 **shailesh gala** - July 18, 2009  8:01 PM
 
 Jai mat ji. god bless you. plz send me photo Shree Higlaj Maa. shail2109@gmail.com.
 
----
+</div>
+
+<div id="comment">
 
 **Rohan** - September 16, 2009  5:17 PM
 
@@ -319,13 +389,17 @@ Maa Hinglaj is our Gramdevta
 my villege have one hinglaj tempal
 Please Can you send me the original photo Of Hinglaj MA situated at Bulichistan
 
----
+</div>
+
+<div id="comment">
 
 **Sejal** - September 18, 2009 10:41 PM
 
 Pls can someone tell me the best way to get to hinglaj ma temple from india. Is there any tours companys from India that do this tour?
 
----
+</div>
+
+<div id="comment">
 
 **rajesh samor** - September 24, 2009  8:09 PM
 
@@ -336,35 +410,45 @@ I belongs to the 'Charan' community and Mataji is our ancestor, thats why we are
 
 Maa aap sab ka bhalaa karain!
 
----
+</div>
+
+<div id="comment">
 
 **gaurav khatri** - October  4, 2009 11:08 PM
 
 Jai mata di . god bless you. plz send me photo Shree Higlaj Maa.
 Pls can someone tell me the best way to get to hinglaj ma temple from india. Is there any tours companys from India that do this tour?
 
----
+</div>
+
+<div id="comment">
 
 **Raju Dangar** - October  8, 2009 11:36 PM
 
 Jay mataji to all
 jay maa hinglaj
 
----
+</div>
+
+<div id="comment">
 
 **Rajvrat Gadhvi** - October  8, 2009 11:40 PM
 
 jay mataji to all,
 jay maa hinglaj we pray to hinglaj that our drem's come true to once come in her darbar in life jay mata rani ki.
 
----
+</div>
+
+<div id="comment">
 
 **varad** - October 13, 2009 10:42 PM
 
 Jai mata di . god bless you. plz send me photo Shree Higlaj Maa.
 Pls can someone tell me the best way to get to hinglaj ma temple from india. Is there any tours companys from India that do this tour?
 
----
+</div>
+
+<div id="comment">
 
 **mahesh** - November  5, 2009 11:38 AM
 
@@ -372,13 +456,17 @@ jai mata hinlaj dhanay ha wo log jo mata ka darshan kar nay jatay ha or mata jin
 ki jai
 from,karachi,pakistan
 
----
+</div>
+
+<div id="comment">
 
 **Deepak** - December 29, 2009 10:51 AM
 
 Please send me other photos of Maa Hinglaj
 
----
+</div>
+
+<div id="comment">
 
 **Lekhraj Khatri** - October  4, 2010  4:09 PM
 
@@ -396,43 +484,55 @@ LEKHRAJ BHOOT
 
 GOD BLESS YOU
 
----
+</div>
+
+<div id="comment">
 
 **dilipkumar kaku** - March  5, 2011  8:57 PM
 
 JAI MATA HINGALAJ
 I THANKS TO ALL THERE IS NO WORD TO SAY I AM TOO LET
 
----
+</div>
+
+<div id="comment">
 
 **Manoj Bhawsar** - April 14, 2011  1:38 PM
 
 Jai Maa Hinglaj. Please can you send me the original photo of Maa Hinglaj situated at baluchistan [Pakistan] on my e-mail address bhawsarmanojdharampuri@rediffmail.com
 
----
+</div>
+
+<div id="comment">
 
 **Sattwata Das** - April 27, 2011  7:35 PM
 
 JAI MATA HINGLAJ...I WANT TO GO TO YOUR PLACE...BLESS ME AND ALL OF US...
 
----
+</div>
+
+<div id="comment">
 
 **satej khadse** - June 17, 2011  2:54 PM
 
 I AM BHAWSAR KSHATRIYA FROM GOA ,INDIA , OUR SAMAJ GODDES IS HINGULAMBIKA , THANKS FOR THIS INFORMATION AND PHOTOGRAPHS .
 
----
+</div>
+
+<div id="comment">
 
 **vivek giri** - July 13, 2011  3:20 PM
 
 our kuldevi is hinglajmata .I want more information about migration of our forfathers from pakistan to india.
 
----
+</div>
+
+<div id="comment">
 
 **Raj** - September 26, 2011 10:36 AM
 
 j mataji
 
----
+</div>
 
 </div>

@@ -1,9 +1,9 @@
 ---
 date: 2008-01-18
 gallery: goran-gatti-2008
-image: p1182783.jpg
+image: ./p1182783.jpg
 order: 7
-thumbnail: p1182783-thumb.jpg
+thumbnail: ./p1182783-thumb.jpg
 title: The 4th Jeep
 ---
 

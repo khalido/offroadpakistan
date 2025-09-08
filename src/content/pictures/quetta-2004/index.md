@@ -1,5 +1,5 @@
 ---
-date: 2025-08-18
+date: 2025-09-08
 picture_count: 51
 title: Quetta 2004
 type: gallery

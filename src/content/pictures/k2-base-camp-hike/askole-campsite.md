@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0318.jpg
+image: ./IMG_0318.jpg
 order: 33
-thumbnail: IMG_0318-thumb.jpg
+thumbnail: ./IMG_0318-thumb.jpg
 title: Askole Campsite
 ---
 

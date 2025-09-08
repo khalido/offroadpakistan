@@ -1,9 +1,9 @@
 ---
 date: 2006-08-26
 gallery: thar-2006
-image: P8181711.jpg
+image: ./P8181711.jpg
 order: 6
-thumbnail: P8181711-thumb.jpg
+thumbnail: ./P8181711-thumb.jpg
 title: Chopping up a Keekar Tree
 ---
 

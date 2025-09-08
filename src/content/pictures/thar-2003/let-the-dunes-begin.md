@@ -1,9 +1,9 @@
 ---
 date: 2003-10-11
 gallery: thar-2003
-image: thar14.jpg
+image: ./thar14.jpg
 order: 18
-thumbnail: thar14-thumb.jpg
+thumbnail: ./thar14-thumb.jpg
 title: Let the dunes begin
 ---
 

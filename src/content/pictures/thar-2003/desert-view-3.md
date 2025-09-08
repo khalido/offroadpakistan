@@ -1,9 +1,9 @@
 ---
 date: 2003-10-12
 gallery: thar-2003
-image: thar27.jpg
+image: ./thar27.jpg
 order: 31
-thumbnail: thar27-thumb.jpg
+thumbnail: ./thar27-thumb.jpg
 title: Desert View 3
 ---
 

@@ -1,9 +1,9 @@
 ---
 date: 2003-06-20
 gallery: gawadur-2001
-image: gawadur9.jpg
+image: ./gawadur9.jpg
 order: 10
-thumbnail: gawadur9-thumb.jpg
+thumbnail: ./gawadur9-thumb.jpg
 title: Yaseen | Sikander
 ---
 
@@ -15,23 +15,31 @@ Yaseen and Sikander standing in front of a active mud spout.
 
 ## Comments (8)
 
+<div id="comment">
+
 **batul ali** - June 19, 2004 12:33 AM
 
 how come you don't have more pix of the sea & the beaches in Gwadar? add them to the site if you have any.
 
----
+</div>
+
+<div id="comment">
 
 **abid omar** - June 19, 2004 12:16 PM
 
 Contrary to the caption, Yaseen and Sikander think they are at the �beach' in Gawadur.
 
----
+</div>
+
+<div id="comment">
 
 **Yaseen** - June 23, 2004  2:45 AM
 
 I never thought I was at the beach and neither did I suggest that I was!
 
----
+</div>
+
+<div id="comment">
 
 **Dr. Ahmed** - June 23, 2004 11:17 AM
 
@@ -42,7 +50,9 @@ Regards
 
 Ahmed
 
----
+</div>
+
+<div id="comment">
 
 **Imad** - June 24, 2004  2:51 AM
 
@@ -52,19 +62,25 @@ Have a nice day.
 
 Imad
 
----
+</div>
+
+<div id="comment">
 
 **sishah** - June 24, 2004  2:11 PM
 
 I LOVE JEEPS. i dont know much about the mechanics involved, but for me, the aesthetics are good enough. i think what you guys are doing is amazing. there is just so much out there to learn about and discover, and what grander way to do it than in a jeep? what a power-trip!
 
----
+</div>
+
+<div id="comment">
 
 **Imad** - June 24, 2004 11:52 PM
 
 Actually, exploring the country in a jeep isn't much of a powertrip. Rather, it's an unparalleled feeling of freedom. The wind in your hair, the sun in your face, the guys in the slower jeeps eating your dust, the smack talking, the nagging of backseat passengers cramped between towering mountains of luggage :). What fun... it's like a big rolling party going from town to town.
 
----
+</div>
+
+<div id="comment">
 
 **Raheel** - December 15, 2004  8:08 AM
 
@@ -74,6 +90,6 @@ P.S.: - Is the RSS feed for us? Is there freedom for all?
 
 RESQJAX - CA, USA
 
----
+</div>
 
 </div>

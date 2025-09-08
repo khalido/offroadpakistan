@@ -37,12 +37,12 @@ const picturesCollection = defineCollection({
     base: "./src/content/pictures",
     pattern: ["**/*.{md,mdx}", "!**/index.{md,mdx}"],
   }),
-  schema: z.object({
+  schema: ({ image }) => z.object({
     title: z.string(),
     date: z.coerce.date(),
     gallery: z.string(),
-    image: z.string(),
-    thumbnail: z.string().optional(),
+    image: image(),
+    thumbnail: image().optional(),
     order: z.number().optional(),
     photographer: z.string().optional(),
     draft: z.boolean().default(false),

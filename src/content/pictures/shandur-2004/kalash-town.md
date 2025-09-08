@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: shandur-2004
-image: 100_0823.jpg
+image: ./100_0823.jpg
 order: 62
-thumbnail: 100_0823-thumb.jpg
+thumbnail: ./100_0823-thumb.jpg
 title: Kalash Town
 ---
 

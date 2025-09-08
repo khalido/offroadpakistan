@@ -1,9 +1,9 @@
 ---
 date: 2006-01-26
 gallery: hingol-river-jan-06
-image: DSCN0607.jpg
+image: ./DSCN0607.jpg
 order: 26
-thumbnail: DSCN0607-thumb.jpg
+thumbnail: ./DSCN0607-thumb.jpg
 title: Watching the tents being put up
 ---
 

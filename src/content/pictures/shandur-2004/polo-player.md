@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: shandur-2004
-image: 2004-06-27_16-57-59_208.jpg
+image: ./2004-06-27_16-57-59_208.jpg
 order: 126
-thumbnail: 2004-06-27_16-57-59_208-thumb.jpg
+thumbnail: ./2004-06-27_16-57-59_208-thumb.jpg
 title: Polo Player
 ---
 
@@ -15,10 +15,12 @@ En route to Shandur for the polo match.
 
 ## Comments (1)
 
+<div id="comment">
+
 **Nour ull Huda Yaftali** - August 23, 2007 12:36 PM
 
 This polo player is belong to Laspur team. Rt.Hawaldar M.Sharif
 
----
+</div>
 
 </div>

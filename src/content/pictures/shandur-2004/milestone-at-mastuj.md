@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: shandur-2004
-image: 2003-01-04_04-11-13_0011.jpg
+image: ./2003-01-04_04-11-13_0011.jpg
 order: 75
-thumbnail: 2003-01-04_04-11-13_0011-thumb.jpg
+thumbnail: ./2003-01-04_04-11-13_0011-thumb.jpg
 title: Milestone at Mastuj
 ---
 
@@ -15,10 +15,12 @@ Getting closer to Shandur...
 
 ## Comments (1)
 
+<div id="comment">
+
 **Navveed** - August 17, 2006  6:32 AM
 
 Thats not a milestone, it shows km.
 
----
+</div>
 
 </div>

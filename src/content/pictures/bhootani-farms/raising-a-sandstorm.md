@@ -1,9 +1,9 @@
 ---
 date: 2004-02-27
 gallery: bhootani-farms
-image: P1100055.jpg
+image: ./P1100055.jpg
 order: 16
-thumbnail: P1100055-thumb.jpg
+thumbnail: ./P1100055-thumb.jpg
 title: Raising a Sandstorm
 ---
 

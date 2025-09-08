@@ -1,9 +1,9 @@
 ---
 date: 2008-01-18
 gallery: goran-gatti-2008
-image: dsc03823.jpg
+image: ./dsc03823.jpg
 order: 74
-thumbnail: dsc03823-thumb.jpg
+thumbnail: ./dsc03823-thumb.jpg
 title: Goran Gatti
 ---
 
@@ -15,16 +15,20 @@ Goran Gatti, height 1050 m. View from where we turned back due to lack of time. 
 
 ## Comments (2)
 
+<div id="comment">
+
 **MUHAMMAD iqbal** - February 22, 2008  8:44 PM
 
 MASHALLAH
 
----
+</div>
+
+<div id="comment">
 
 **Kashif Tahir** - July 22, 2008  2:55 PM
 
 Hope to join you guys for the next trip to complete the journey to Goran Gatti.
 
----
+</div>
 
 </div>

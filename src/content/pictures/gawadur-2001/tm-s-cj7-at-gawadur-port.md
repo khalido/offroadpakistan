@@ -1,9 +1,9 @@
 ---
 date: 2003-06-20
 gallery: gawadur-2001
-image: gawadur6.jpg
+image: ./gawadur6.jpg
 order: 7
-thumbnail: gawadur6-thumb.jpg
+thumbnail: ./gawadur6-thumb.jpg
 title: TM's CJ7 at Gawadur Port
 ---
 

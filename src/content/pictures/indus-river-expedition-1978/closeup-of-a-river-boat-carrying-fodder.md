@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: indus-river-expedition-1978
-image: scan0075.jpg
+image: ./scan0075.jpg
 order: 21
-thumbnail: scan0075-thumb.jpg
+thumbnail: ./scan0075-thumb.jpg
 title: Closeup of a river boat carrying fodder
 ---
 

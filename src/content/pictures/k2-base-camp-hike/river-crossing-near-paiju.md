@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0405.jpg
+image: ./IMG_0405.jpg
 order: 49
-thumbnail: IMG_0405-thumb.jpg
+thumbnail: ./IMG_0405-thumb.jpg
 title: River crossing near Paiju
 ---
 
@@ -15,23 +15,29 @@ This was a tricky one! You had to jump from one slippery rock to the other, whil
 
 ## Comments (3)
 
+<div id="comment">
+
 **KARAM TALPUR** - December 18, 2008  1:17 PM
 
 IDHAR NAHEEN GIRE TO PHIR KIDHAR GIRE
 
----
+</div>
+
+<div id="comment">
 
 **Adeel** - December 22, 2008 12:37 PM
 
 Is tarha ki situations main aik baat zahin main rakhni chahiyee "its OK to fall" :)
 
----
+</div>
+
+<div id="comment">
 
 **Adeel (Wrangler)** - December 23, 2008 11:07 AM
 
 Hmmm...there is another Adeel writing comments, so v'll have to identify which Adeel's comments r there.
 Cheers.
 
----
+</div>
 
 </div>

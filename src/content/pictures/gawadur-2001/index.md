@@ -1,5 +1,5 @@
 ---
-date: 2025-08-18
+date: 2025-09-08
 picture_count: 12
 title: Gawadur 2001
 type: gallery

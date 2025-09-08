@@ -1,9 +1,9 @@
 ---
 date: 2005-01-10
 gallery: shandur-2004
-image: 000016.jpg
+image: ./000016.jpg
 order: 132
-thumbnail: 000016-thumb.jpg
+thumbnail: ./000016-thumb.jpg
 title: Charpai
 ---
 

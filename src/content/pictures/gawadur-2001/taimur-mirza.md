@@ -1,9 +1,9 @@
 ---
 date: 2003-06-20
 gallery: gawadur-2001
-image: gawadur1.jpg
+image: ./gawadur1.jpg
 order: 2
-thumbnail: gawadur1-thumb.jpg
+thumbnail: ./gawadur1-thumb.jpg
 title: Taimur Mirza
 ---
 

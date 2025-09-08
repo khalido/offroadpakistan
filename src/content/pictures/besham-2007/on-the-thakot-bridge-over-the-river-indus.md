@@ -1,9 +1,9 @@
 ---
 date: 2007-11-25
 gallery: besham-2007
-image: IMG_1816.jpg
+image: ./IMG_1816.jpg
 order: 20
-thumbnail: IMG_1816-thumb.jpg
+thumbnail: ./IMG_1816-thumb.jpg
 title: On the Thakot bridge over the river Indus
 ---
 
@@ -15,10 +15,12 @@ On the way to besham
 
 ## Comments (1)
 
+<div id="comment">
+
 **ajab khan** - August  6, 2008  1:58 PM
 
 i think this person is a big fan of jeeps.because i have never seen such kind of jeep.
 
----
+</div>
 
 </div>

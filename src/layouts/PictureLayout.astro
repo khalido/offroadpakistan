@@ -1,4 +1,8 @@
 ---
+import { Image } from "astro:assets";
+import { render } from "astro:content";
+import BaseLayout from "./BaseLayout.astro";
+
 interface Props {
     title: string;
     picture: any;
@@ -16,206 +20,237 @@ const {
     pictureNumber,
     totalPictures,
 } = Astro.props;
+
+// Render the picture content to get the description text
+const { Content } = await render(picture);
 ---
 
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta
-            name="description"
-            content="Pakistani adventure and travel documentation from the 4x4 Offroaders Club Karachi"
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <title>{title}</title>
-        <style>
-            body {
-                margin: 0;
-                padding: 20px;
-                background-color: #e4e4e4;
-                font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
-                font-size: 11px;
-                line-height: 1.6;
-            }
-            .container {
-                max-width: 1000px;
-                margin: 0 auto;
-                background: white;
-                padding: 20px;
-            }
-            .nav-links {
-                text-align: center;
-                margin-bottom: 20px;
-                padding: 10px;
-                border-bottom: 1px solid #ccc;
-                font-size: 12px;
-            }
-            .picture-display {
-                text-align: center;
-                margin-bottom: 30px;
-            }
-            .picture-title {
-                font-size: 18px;
-                font-weight: bold;
-                color: #333;
-                margin: 20px 0 10px 0;
-                text-align: center;
-            }
-            .picture-description {
-                max-width: 600px;
-                margin: 0 auto 20px auto;
-                font-size: 13px;
-                line-height: 1.5;
-                color: #333;
-            }
-            .picture-meta {
-                text-align: center;
-                font-size: 11px;
-                color: #666;
-                margin-bottom: 30px;
-            }
-            .bottom-nav {
-                text-align: center;
-                padding-top: 20px;
-                border-top: 1px solid #ccc;
-                font-size: 12px;
-            }
-            .back-link {
-                text-align: center;
-                margin-top: 20px;
-                font-size: 12px;
-            }
-            .heritage-links a:link {
-                color: #00473f;
-                text-decoration: none;
-            }
-            .heritage-links a:visited {
-                color: #cc9966;
-            }
-            .heritage-links a:hover {
-                color: #00473f;
-                text-decoration: underline;
-            }
-            .back-link a {
-                color: #98a100;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <!-- Top Navigation -->
-            <div class="nav-links heritage-links">
+<BaseLayout title={title}>
+    <!-- Main content container with heritage styling -->
+    <div class="max-w-4xl mx-auto bg-white border border-gray-300 p-4 mb-4">
+        <!-- Top Navigation -->
+        <div class="text-center mb-6 pb-3 border-b border-gray-300">
+            <div class="heritage-links text-xs">
                 {
                     prevPicture && (
                         <a
-                            href={`/pictures/${picture.data.gallery}/${prevPicture.id.split("/").pop()}/`}
+                            href={`/pictures/${picture.data.gallery}/${prevPicture.id.split("/").pop()?.replace(".md", "")}/`}
+                            class="text-teal-600 hover:text-green-600"
                         >
                             « prev
                         </a>
                     )
                 }
-                {prevPicture && nextPicture && <span> | </span>}
+                {
+                    prevPicture && pictureNumber && totalPictures && (
+                        <span class="text-gray-500"> | </span>
+                    )
+                }
                 {
                     pictureNumber && totalPictures && (
-                        <span>
+                        <span class="text-gray-700">
                             {pictureNumber} of {totalPictures}
                         </span>
                     )
                 }
-                {prevPicture && nextPicture && <span> | </span>}
+                {
+                    pictureNumber && totalPictures && nextPicture && (
+                        <span class="text-gray-500"> | </span>
+                    )
+                }
                 {
                     nextPicture && (
                         <a
-                            href={`/pictures/${picture.data.gallery}/${nextPicture.id.split("/").pop()}/`}
+                            href={`/pictures/${picture.data.gallery}/${nextPicture.id.split("/").pop()?.replace(".md", "")}/`}
+                            class="text-teal-600 hover:text-green-600"
                         >
                             next »
                         </a>
                     )
                 }
             </div>
+        </div>
 
-            <!-- Main Picture Display -->
-            <div class="picture-display">
-                <div class="heritage-picture-frame">
-                    <img
-                        src={`/src/content/pictures/${picture.data.gallery}/${picture.data.image}`}
-                        alt={picture.data.title}
-                        style="display: block; max-width: 100%; height: auto; max-height: 600px;"
-                    />
-                </div>
+        <!-- Main Picture Display -->
+
+        <!-- Picture Title and Description -->
+        <div class="mb-6">
+            <h1 class="text-sm text-gray-800">
+                <a
+                    href={`/pictures/${picture.data.gallery}/`}
+                    class="heritage-links text-green-200 hover:text-green-600"
+                >
+                    {
+                        picture.data.gallery.charAt(0).toUpperCase() +
+                            picture.data.gallery.slice(1)
+                    }:
+                </a>
+                {picture.data.title}
+            </h1>
+
+            <div class="text-xs text-gray-700 picture-description">
+                <Content />
             </div>
+        </div>
 
-            <!-- Picture Title -->
-            <h1 class="picture-title">{picture.data.title}</h1>
-
-            <!-- Picture Description -->
-            <div class="picture-description">
-                <div set:html={picture.rendered?.html || ""} />
-            </div>
-
-            <!-- Picture Metadata -->
-            <div class="picture-meta heritage-links">
-                {
-                    picture.data.date && (
-                        <span>
-                            Posted on{" "}
-                            {picture.data.date.toLocaleDateString("en-US", {
-                                year: "numeric",
-                                month: "long",
-                                day: "numeric",
-                            })}
-                        </span>
-                    )
-                }
-                {
-                    picture.data.gallery && (
-                        <>
-                            <span> in </span>
-                            <a href={`/pictures/${picture.data.gallery}/`}>
-                                {picture.data.gallery} #
+        <!-- Picture Metadata -->
+        <div class="heritage-links text-xs text-gray-600 mb-6">
+            {
+                picture.data.date && (
+                    <span>
+                        Posted on{" "}
+                        {picture.data.date.toLocaleDateString("en-US", {
+                            year: "numeric",
+                            month: "long",
+                            day: "numeric",
+                        })}{" "}
+                        in
+                    </span>
+                )
+            }
+            {
+                picture.data.gallery && (
+                    <>
+                        <span> </span>
+                        <strong>
+                            <a
+                                href={`/pictures/${picture.data.gallery}/`}
+                                class="text-teal-600 hover:text-green-600"
+                            >
+                                {picture.data.gallery.charAt(0).toUpperCase() +
+                                    picture.data.gallery.slice(1)}
                             </a>
-                        </>
-                    )
-                }
-            </div>
+                        </strong>
+                    </>
+                )
+            }
+            {
+                picture.data.photographer && (
+                    <>
+                        <span> by </span>
+                        <span>{picture.data.photographer}</span>
+                    </>
+                )
+            }
+        </div>
 
-            <!-- Bottom Navigation -->
-            <div class="bottom-nav heritage-links">
+        <!-- Bottom Navigation -->
+        <div class="text-center text-xs mb-4">
+            <p class="mb-3 text-gray-700">
+                You are looking at picture {pictureNumber} of {totalPictures} in
+                the {picture.data.gallery} picture gallery. For more, follow the
+                links below.
+            </p>
+            <div class="heritage-links">
                 {
                     prevPicture && (
                         <a
-                            href={`/pictures/${picture.data.gallery}/${prevPicture.id.split("/").pop()}/`}
+                            href={`/pictures/${picture.data.gallery}/${prevPicture.id.split("/").pop()?.replace(".md", "")}/`}
+                            class="text-teal-600 hover:text-green-600"
                         >
                             « prev
                         </a>
                     )
                 }
                 {
-                    pictureNumber && totalPictures && (
-                        <span>
-                            {" "}
-                            | {pictureNumber} of {totalPictures} |{" "}
-                        </span>
+                    prevPicture && nextPicture && (
+                        <span class="text-gray-500"> | </span>
                     )
                 }
                 {
                     nextPicture && (
                         <a
-                            href={`/pictures/${picture.data.gallery}/${nextPicture.id.split("/").pop()}/`}
+                            href={`/pictures/${picture.data.gallery}/${nextPicture.id.split("/").pop()?.replace(".md", "")}/`}
+                            class="text-teal-600 hover:text-green-600"
                         >
                             next »
                         </a>
                     )
                 }
-            </div>
-
-            <!-- Back to Gallery Link -->
-            <div class="back-link heritage-links">
-                <a href={`/pictures/${picture.data.gallery}/`}>
-                    ← Back to {picture.data.gallery} gallery
+                <span class="text-gray-500"> | </span>
+                <a
+                    href={`/pictures/${picture.data.gallery}/`}
+                    class="text-teal-600 hover:text-green-600"
+                >
+                    This Trip
+                </a>
+                <span class="text-gray-500"> | </span>
+                <a href="/pictures/" class="text-teal-600 hover:text-green-600">
+                    Picture Gallery
+                </a>
+                <span class="text-gray-500"> | </span>
+                <a href="/" class="text-teal-600 hover:text-green-600">
+                    Home
                 </a>
             </div>
         </div>
-    </body>
-</html>
+
+        <!-- Copyright -->
+        <div
+            class="text-xs text-gray-600 text-center border-t border-gray-300 pt-3"
+        >
+            Copyright © Offroaders Club Karachi.
+            <a href="/about/" class="text-teal-600 hover:text-green-600"
+                >Some Rights Reserved</a
+            >.
+        </div>
+    </div>
+</BaseLayout>
+
+<style>
+    /* Hide image elements from rendered markdown content to prevent duplication */
+    .picture-description img {
+        display: none;
+    }
+
+    /* Style for heritage images */
+    .heritage-image {
+        padding: 4px;
+        border: 1px solid #ccc;
+        background: #f8f8ff;
+    }
+
+    /* Heritage link colors */
+    .heritage-links a:link {
+        color: #00473f;
+        text-decoration: none;
+    }
+    .heritage-links a:visited {
+        color: #cc9966;
+    }
+    .heritage-links a:hover {
+        color: #00473f;
+        text-decoration: underline;
+    }
+
+    /* Comments styling inspired by original pics.css */
+    #comments {
+        margin-top: 24px;
+        padding-top: 16px;
+        border-top: 1px solid #ddd;
+    }
+
+    #comment {
+        padding: 8px;
+        margin: 0 0 12px 0;
+        border: 1px solid #ccc;
+        background: #e3e3f8;
+        font-size: 11px;
+        line-height: 1.5;
+    }
+
+    #comment:hover {
+        background: #eef;
+        border-color: #dadaba;
+    }
+
+    #comment strong {
+        color: #00473f;
+        font-weight: bold;
+    }
+
+    #comment p {
+        margin: 4px 0;
+        font-size: 11px;
+    }
+</style>

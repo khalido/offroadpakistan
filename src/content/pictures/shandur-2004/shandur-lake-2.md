@@ -1,9 +1,9 @@
 ---
 date: 2004-09-26
 gallery: shandur-2004
-image: 000023a.jpg
+image: ./000023a.jpg
 order: 99
-thumbnail: 000023a-thumb.jpg
+thumbnail: ./000023a-thumb.jpg
 title: Shandur Lake 2
 ---
 

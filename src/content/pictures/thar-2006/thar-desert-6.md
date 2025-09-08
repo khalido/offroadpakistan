@@ -1,9 +1,9 @@
 ---
 date: 2006-09-24
 gallery: thar-2006
-image: 000079.jpg
+image: ./000079.jpg
 order: 59
-thumbnail: 000079-thumb.jpg
+thumbnail: ./000079-thumb.jpg
 title: Thar Desert 6
 ---
 
@@ -13,16 +13,20 @@ title: Thar Desert 6
 
 ## Comments (2)
 
+<div id="comment">
+
 **Badar Khushnood** - November 27, 2006  4:01 PM
 
 Amazing! Looks like a painting!
 
----
+</div>
+
+<div id="comment">
 
 **shahzad ghori** - April 14, 2009  6:15 PM
 
 zabar dast yarrrrrrr
 
----
+</div>
 
 </div>

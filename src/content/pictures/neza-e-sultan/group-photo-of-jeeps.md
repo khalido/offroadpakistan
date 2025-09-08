@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: neza-e-sultan
-image: F1020021.jpg
+image: ./F1020021.jpg
 order: 82
-thumbnail: F1020021-thumb.jpg
+thumbnail: ./F1020021-thumb.jpg
 title: Group Photo of Jeeps
 ---
 

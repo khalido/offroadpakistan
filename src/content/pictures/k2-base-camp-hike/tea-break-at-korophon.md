@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0337.jpg
+image: ./IMG_0337.jpg
 order: 38
-thumbnail: IMG_0337-thumb.jpg
+thumbnail: ./IMG_0337-thumb.jpg
 title: Tea break at Korophon
 ---
 

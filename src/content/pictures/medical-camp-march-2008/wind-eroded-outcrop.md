@@ -1,9 +1,9 @@
 ---
 date: 2008-03-21
 gallery: medical-camp-march-2008
-image: dsc06114.jpg
+image: ./dsc06114.jpg
 order: 8
-thumbnail: dsc06114-thumb.jpg
+thumbnail: ./dsc06114-thumb.jpg
 title: Wind eroded outcrop
 ---
 
@@ -13,10 +13,12 @@ title: Wind eroded outcrop
 
 ## Comments (1)
 
+<div id="comment">
+
 **M. IQBAL** - July 20, 2008 11:26 AM
 
 its a bueaty which can only be felt from heart.
 
----
+</div>
 
 </div>

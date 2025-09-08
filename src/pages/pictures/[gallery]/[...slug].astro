@@ -1,5 +1,5 @@
 ---
-import { getCollection, render } from 'astro:content';
+import { getCollection } from "astro:content";
 import PictureLayout from "../../../layouts/PictureLayout.astro";
 
 export async function getStaticPaths() {
@@ -9,14 +9,13 @@ export async function getStaticPaths() {
     return pictures.map((picture) => ({
         params: {
             gallery: picture.data.gallery,
-            slug: picture.id.split("/").pop(), // Get just the filename without gallery path
+            slug: picture.id.split("/").pop()?.replace(".md", ""), // Get just the filename without gallery path and .md extension
         },
         props: { picture },
     }));
 }
 
 const { picture } = Astro.props;
-// const { Content } = await picture.render();
 
 // Get other pictures in the same gallery for navigation
 const allPictures = await getCollection(

@@ -1,9 +1,9 @@
 ---
 date: 2008-01-18
 gallery: goran-gatti-2008
-image: img_2579.jpg
+image: ./img_2579.jpg
 order: 30
-thumbnail: img_2579-thumb.jpg
+thumbnail: ./img_2579-thumb.jpg
 title: Ford F1
 ---
 

@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: uthal-2002
-image: F1000015.jpg
+image: ./F1000015.jpg
 order: 4
-thumbnail: F1000015-thumb.jpg
+thumbnail: ./F1000015-thumb.jpg
 title: AO
 ---
 

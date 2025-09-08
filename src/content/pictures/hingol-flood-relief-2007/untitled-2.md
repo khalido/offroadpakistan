@@ -1,9 +1,9 @@
 ---
 date: 2007-07-23
 gallery: hingol-flood-relief-2007
-image: DSC00619.jpg
+image: ./DSC00619.jpg
 order: 24
-thumbnail: DSC00619-thumb.jpg
+thumbnail: ./DSC00619-thumb.jpg
 title: Untitled 2
 ---
 

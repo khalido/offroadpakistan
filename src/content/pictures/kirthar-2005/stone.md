@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: kirthar-2005
-image: DSC05690.jpg
+image: ./DSC05690.jpg
 order: 21
-thumbnail: DSC05690-thumb.jpg
+thumbnail: ./DSC05690-thumb.jpg
 title: Stone
 ---
 

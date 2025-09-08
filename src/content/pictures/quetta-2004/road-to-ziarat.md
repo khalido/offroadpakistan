@@ -1,9 +1,9 @@
 ---
 date: 2004-04-13
 gallery: quetta-2004
-image: F1020002.jpg
+image: ./F1020002.jpg
 order: 31
-thumbnail: F1020002-thumb.jpg
+thumbnail: ./F1020002-thumb.jpg
 title: Road to Ziarat
 ---
 

@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0656.jpg
+image: ./IMG_0656.jpg
 order: 193
-thumbnail: IMG_0656-thumb.jpg
+thumbnail: ./IMG_0656-thumb.jpg
 title: Askole to Skardu
 ---
 
@@ -13,10 +13,12 @@ title: Askole to Skardu
 
 ## Comments (1)
 
+<div id="comment">
+
 **sam** - January 13, 2011  6:27 PM
 
 heavenly ...
 
----
+</div>
 
 </div>

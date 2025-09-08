@@ -1,9 +1,9 @@
 ---
 date: 2008-01-18
 gallery: goran-gatti-2008
-image: img_2296.jpg
+image: ./img_2296.jpg
 order: 18
-thumbnail: img_2296-thumb.jpg
+thumbnail: ./img_2296-thumb.jpg
 title: Water from THE TAP
 ---
 

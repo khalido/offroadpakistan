@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: neza-e-sultan
-image: F1010030.jpg
+image: ./F1010030.jpg
 order: 77
-thumbnail: F1010030-thumb.jpg
+thumbnail: ./F1010030-thumb.jpg
 title: Breakdown
 ---
 
@@ -15,10 +15,12 @@ Dr. Baig's M38 broke down on the way in the middle of nowhere. Luckily we manage
 
 ## Comments (1)
 
+<div id="comment">
+
 **Imad** - July 30, 2003  1:32 AM
 
 Too bad I wasn't around to get up to my elbows in grease this time.
 
----
+</div>
 
 </div>

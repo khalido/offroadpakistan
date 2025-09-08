@@ -1,9 +1,9 @@
 ---
 date: 2002-10-16
 gallery: neza-e-sultan
-image: F1000101.jpg
+image: ./F1000101.jpg
 order: 21
-thumbnail: F1000101-thumb.jpg
+thumbnail: ./F1000101-thumb.jpg
 title: M38 up Sandy Slope
 ---
 
@@ -15,22 +15,28 @@ White Jeep clawing away at the loose sand for traction. This path was steeper th
 
 ## Comments (3)
 
+<div id="comment">
+
 **Jeeper** - October  8, 2004  2:50 PM
 
 the shedded passenger still lurks in the background....................... did he make it to the top unaided??
 
----
+</div>
+
+<div id="comment">
 
 **Jeeper** - October  8, 2004  2:52 PM
 
 dont tell me you guys had to use a tow strap on him too...........................
 
----
+</div>
+
+<div id="comment">
 
 **Yaseen** - October 11, 2004  2:45 PM
 
 The offloaded passenger in the background was not actually offloaded but he was guiding drivers up the slope. He happens to be the same person who underwent an angioplasty and then a couple of weeks later on a hunting trip shot a hare and then ran after it!
 
----
+</div>
 
 </div>

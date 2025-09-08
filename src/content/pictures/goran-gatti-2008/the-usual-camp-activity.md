@@ -1,9 +1,9 @@
 ---
 date: 2008-01-18
 gallery: goran-gatti-2008
-image: dsc03509.jpg
+image: ./dsc03509.jpg
 order: 54
-thumbnail: dsc03509-thumb.jpg
+thumbnail: ./dsc03509-thumb.jpg
 title: The usual camp activity
 ---
 

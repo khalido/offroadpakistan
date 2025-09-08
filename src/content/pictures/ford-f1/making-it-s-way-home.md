@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: ford-f1
-image: DSC03649.jpg
+image: ./DSC03649.jpg
 order: 4
-thumbnail: DSC03649-thumb.jpg
+thumbnail: ./DSC03649-thumb.jpg
 title: Making it's way home
 ---
 

@@ -1,9 +1,9 @@
 ---
 date: 2004-01-14
 gallery: hub-dam
-image: F1000093.jpg
+image: ./F1000093.jpg
 order: 21
-thumbnail: F1000093-thumb.jpg
+thumbnail: ./F1000093-thumb.jpg
 title: Rappelling
 ---
 

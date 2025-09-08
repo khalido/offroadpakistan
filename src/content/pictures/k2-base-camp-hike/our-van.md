@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0078.jpg
+image: ./IMG_0078.jpg
 order: 5
-thumbnail: IMG_0078-thumb.jpg
+thumbnail: ./IMG_0078-thumb.jpg
 title: Our Van
 ---
 

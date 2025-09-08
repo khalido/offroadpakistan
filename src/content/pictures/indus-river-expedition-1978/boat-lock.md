@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: indus-river-expedition-1978
-image: scan0158.jpg
+image: ./scan0158.jpg
 order: 28
-thumbnail: scan0158-thumb.jpg
+thumbnail: ./scan0158-thumb.jpg
 title: Boat lock
 ---
 

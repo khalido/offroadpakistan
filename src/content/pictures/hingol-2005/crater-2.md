@@ -1,9 +1,9 @@
 ---
 date: 2005-09-10
 gallery: hingol-2005
-image: IMG_77041.jpg
+image: ./IMG_77041.jpg
 order: 57
-thumbnail: IMG_77041-thumb.jpg
+thumbnail: ./IMG_77041-thumb.jpg
 title: Crater 2
 ---
 

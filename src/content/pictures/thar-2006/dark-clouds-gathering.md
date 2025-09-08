@@ -1,9 +1,9 @@
 ---
 date: 2006-08-26
 gallery: thar-2006
-image: DSC00134.jpg
+image: ./DSC00134.jpg
 order: 9
-thumbnail: DSC00134-thumb.jpg
+thumbnail: ./DSC00134-thumb.jpg
 title: Dark Clouds Gathering
 ---
 

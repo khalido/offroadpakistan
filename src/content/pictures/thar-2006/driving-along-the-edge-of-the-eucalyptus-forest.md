@@ -1,9 +1,9 @@
 ---
 date: 2006-08-26
 gallery: thar-2006
-image: DSC03176.jpg
+image: ./DSC03176.jpg
 order: 3
-thumbnail: DSC03176-thumb.jpg
+thumbnail: ./DSC03176-thumb.jpg
 title: Driving along the edge of the Eucalyptus forest
 ---
 

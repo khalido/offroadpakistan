@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: neza-e-sultan
-image: F1010029.jpg
+image: ./F1010029.jpg
 order: 76
-thumbnail: F1010029-thumb.jpg
+thumbnail: ./F1010029-thumb.jpg
 title: AO | Aamr
 ---
 
@@ -15,6 +15,8 @@ Another stop along the way.
 
 ## Comments (1)
 
+<div id="comment">
+
 **S Ali Rehan** - January  6, 2005  2:56 PM
 
 Hi,
@@ -22,6 +24,6 @@ My name is REHAN and Im the owner of a JEEP CJ-5 and very much willing to partic
 my numbers are
 0320-4074228 Karachi Pakistan
 
----
+</div>
 
 </div>

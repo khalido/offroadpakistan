@@ -1,9 +1,9 @@
 ---
 date: 2004-01-14
 gallery: hub-dam
-image: F1000135.jpg
+image: ./F1000135.jpg
 order: 28
-thumbnail: F1000135-thumb.jpg
+thumbnail: ./F1000135-thumb.jpg
 title: Campfire
 ---
 
@@ -15,16 +15,20 @@ Our little campfire. It got quite cold at night.
 
 ## Comments (2)
 
+<div id="comment">
+
 **AnAs** - August  3, 2004  2:42 AM
 
 hi pictures i like them all
 
----
+</div>
+
+<div id="comment">
 
 **Alex** - April 28, 2012 10:00 AM
 
 Nope, no sign of him anywhere he may not be my cat, but I'm still kinda worerid about him. There was a little black and white cat in the school the other day, looking lost, but when i tried to walk up to it, it took off, spinning its wheels on the slick floor. T'was mucho funnyo.
 
----
+</div>
 
 </div>

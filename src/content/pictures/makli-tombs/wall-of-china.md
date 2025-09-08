@@ -1,9 +1,9 @@
 ---
 date: 2005-12-13
 gallery: makli-tombs
-image: DSCN0366.jpg
+image: ./DSCN0366.jpg
 order: 28
-thumbnail: DSCN0366-thumb.jpg
+thumbnail: ./DSCN0366-thumb.jpg
 title: Wall of China
 ---
 

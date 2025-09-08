@@ -1,9 +1,9 @@
 ---
 date: 2005-09-10
 gallery: hingol-2005
-image: IMG_76051.jpg
+image: ./IMG_76051.jpg
 order: 49
-thumbnail: IMG_76051-thumb.jpg
+thumbnail: ./IMG_76051-thumb.jpg
 title: Dusk
 ---
 

@@ -1,9 +1,9 @@
 ---
 date: 2007-11-18
 gallery: besham-2007
-image: DSC01753.jpg
+image: ./DSC01753.jpg
 order: 5
-thumbnail: DSC01753-thumb.jpg
+thumbnail: ./DSC01753-thumb.jpg
 title: Group Photo at Lahore
 ---
 
@@ -12,6 +12,8 @@ title: Group Photo at Lahore
 <div id="comments">
 
 ## Comments (1)
+
+<div id="comment">
 
 **Shreyas** - March 10, 2012  3:31 PM
 
@@ -23,6 +25,6 @@ Immediately stand out that you guys are learned, rich and just middle class peop
 
 Nice pictures.
 
----
+</div>
 
 </div>

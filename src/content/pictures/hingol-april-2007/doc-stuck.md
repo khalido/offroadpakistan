@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: hingol-april-2007
-image: DSC05245.jpg
+image: ./DSC05245.jpg
 order: 39
-thumbnail: DSC05245-thumb.jpg
+thumbnail: ./DSC05245-thumb.jpg
 title: Doc stuck
 ---
 
@@ -15,10 +15,12 @@ Everyone was getting stuck here. Except KO, or course, who was winching all of t
 
 ## Comments (1)
 
+<div id="comment">
+
 **zeeshan ahmad** - March 16, 2011  2:22 PM
 
 I love adventure, and pakistan, pakistan is very very beautifull, this place is nice
 
----
+</div>
 
 </div>

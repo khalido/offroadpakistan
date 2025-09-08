@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: taftan-plantak-2005
-image: DSCN0216.jpg
+image: ./DSCN0216.jpg
 order: 20
-thumbnail: DSCN0216-thumb.jpg
+thumbnail: ./DSCN0216-thumb.jpg
 title: The 15 second tent
 ---
 
@@ -15,6 +15,8 @@ Complete with bedding and lights. While everyone else struggled to put up their 
 
 ## Comments (1)
 
+<div id="comment">
+
 **Farhat A Malik** - January 14, 2006 11:01 PM
 
 I enjoyed your article & photo gallery on the taftan trip.
@@ -25,6 +27,6 @@ best regards
 
 farhat a malik
 
----
+</div>
 
 </div>

@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: besham-2007
-image: DSC02016.jpg
+image: ./DSC02016.jpg
 order: 72
-thumbnail: DSC02016-thumb.jpg
+thumbnail: ./DSC02016-thumb.jpg
 title: Pumpkin
 ---
 

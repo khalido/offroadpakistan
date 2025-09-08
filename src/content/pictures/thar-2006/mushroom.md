@@ -1,9 +1,9 @@
 ---
 date: 2006-08-30
 gallery: thar-2006
-image: P8202040.jpg
+image: ./P8202040.jpg
 order: 33
-thumbnail: P8202040-thumb.jpg
+thumbnail: ./P8202040-thumb.jpg
 title: Mushroom
 ---
 

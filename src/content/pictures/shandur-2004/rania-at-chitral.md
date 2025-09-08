@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: shandur-2004
-image: 2004-06-29_08-41-54_067.jpg
+image: ./2004-06-29_08-41-54_067.jpg
 order: 51
-thumbnail: 2004-06-29_08-41-54_067-thumb.jpg
+thumbnail: ./2004-06-29_08-41-54_067-thumb.jpg
 title: Rania at Chitral
 ---
 
@@ -15,10 +15,12 @@ Cute!!!!!!
 
 ## Comments (1)
 
+<div id="comment">
+
 **Ameena Husain** - February 16, 2005  8:16 PM
 
 hehe...she's laughing at shamu
 
----
+</div>
 
 </div>

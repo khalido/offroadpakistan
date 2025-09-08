@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0428.jpg
+image: ./IMG_0428.jpg
 order: 53
-thumbnail: IMG_0428-thumb.jpg
+thumbnail: ./IMG_0428-thumb.jpg
 title: Paiju Campsite
 ---
 

@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: besham-2007
-image: DSC01939.jpg
+image: ./DSC01939.jpg
 order: 58
-thumbnail: DSC01939-thumb.jpg
+thumbnail: ./DSC01939-thumb.jpg
 title: Shamu still asleep and refusing to get up as usual!
 ---
 
@@ -13,10 +13,12 @@ title: Shamu still asleep and refusing to get up as usual!
 
 ## Comments (1)
 
+<div id="comment">
+
 **Kamran Mehmod** - April 26, 2012  1:19 AM
 
 It seems you have great trip & you guys preserved & shared it quite well.
 
----
+</div>
 
 </div>

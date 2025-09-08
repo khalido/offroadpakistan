@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: hingol-april-2007
-image: DSC00196.jpg
+image: ./DSC00196.jpg
 order: 16
-thumbnail: DSC00196-thumb.jpg
+thumbnail: ./DSC00196-thumb.jpg
 title: Pushing
 ---
 

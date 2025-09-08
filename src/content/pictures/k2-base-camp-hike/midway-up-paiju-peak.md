@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0434.jpg
+image: ./IMG_0434.jpg
 order: 56
-thumbnail: IMG_0434-thumb.jpg
+thumbnail: ./IMG_0434-thumb.jpg
 title: Midway up Paiju Peak
 ---
 

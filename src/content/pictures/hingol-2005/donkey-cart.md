@@ -1,9 +1,9 @@
 ---
 date: 2005-07-29
 gallery: hingol-2005
-image: DSC08143.jpg
+image: ./DSC08143.jpg
 order: 4
-thumbnail: DSC08143-thumb.jpg
+thumbnail: ./DSC08143-thumb.jpg
 title: Donkey Cart
 ---
 
@@ -15,6 +15,8 @@ Donkey cart load of firewood under the hot mid day sun.
 
 ## Comments (1)
 
+<div id="comment">
+
 **Vinay Khatri** - November  6, 2007 12:57 PM
 
 एक चुटकुलाः
@@ -24,6 +26,6 @@ a joke:
 Q: what is the difference between a car and a donkeycart?
 Ans: in donkeycart, donky is outside the cart!
 
----
+</div>
 
 </div>

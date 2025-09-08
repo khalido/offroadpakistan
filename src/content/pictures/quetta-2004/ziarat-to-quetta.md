@@ -1,9 +1,9 @@
 ---
 date: 2004-04-13
 gallery: quetta-2004
-image: F1020012.jpg
+image: ./F1020012.jpg
 order: 32
-thumbnail: F1020012-thumb.jpg
+thumbnail: ./F1020012-thumb.jpg
 title: Ziarat to Quetta
 ---
 

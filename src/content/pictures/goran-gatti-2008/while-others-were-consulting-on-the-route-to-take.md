@@ -1,9 +1,9 @@
 ---
 date: 2008-01-18
 gallery: goran-gatti-2008
-image: goran_gatti_123.jpg
+image: ./goran_gatti_123.jpg
 order: 40
-thumbnail: goran_gatti_123-thumb.jpg
+thumbnail: ./goran_gatti_123-thumb.jpg
 title: While others were consulting on the route to take
 ---
 
@@ -15,10 +15,12 @@ M.O (our official video maker female person) gets the camera fixed to the bumper
 
 ## Comments (1)
 
+<div id="comment">
+
 **Kamran Mehmod** - April 26, 2012  2:07 AM
 
 Heads of to that lady for taking amazingly awesome & unique photos,I will contact you guys.
 
----
+</div>
 
 </div>

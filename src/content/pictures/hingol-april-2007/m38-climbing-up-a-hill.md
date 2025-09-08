@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: hingol-april-2007
-image: DSC00209.jpg
+image: ./DSC00209.jpg
 order: 19
-thumbnail: DSC00209-thumb.jpg
+thumbnail: ./DSC00209-thumb.jpg
 title: M38 climbing up a hill
 ---
 

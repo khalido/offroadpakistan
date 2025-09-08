@@ -1,9 +1,9 @@
 ---
 date: 2006-11-27
 gallery: dureji-2006
-image: DSCN2282.jpg
+image: ./DSCN2282.jpg
 order: 10
-thumbnail: DSCN2282-thumb.jpg
+thumbnail: ./DSCN2282-thumb.jpg
 title: Puppo Sahib in his 1942 Ford Jeep
 ---
 
@@ -15,10 +15,12 @@ Waiting for the people up ahead to get a move on.
 
 ## Comments (1)
 
+<div id="comment">
+
 **Khizar** - December 12, 2006 10:40 AM
 
 Very much extraordinary jeep�. I was shocked to see that this jeep did not got stuck in any of the rough areas����.
 
----
+</div>
 
 </div>

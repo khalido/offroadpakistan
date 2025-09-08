@@ -1,9 +1,9 @@
 ---
 date: 2003-06-22
 gallery: khunjerab-2000
-image: khunjerab11.jpg
+image: ./khunjerab11.jpg
 order: 11
-thumbnail: khunjerab11-thumb.jpg
+thumbnail: ./khunjerab11-thumb.jpg
 title: Patricia Mirza
 ---
 
@@ -15,23 +15,31 @@ Patricia Mirza at the Khunjerab sign.
 
 ## Comments (4)
 
+<div id="comment">
+
 **Patricia Mirza** - September 20, 2003  8:17 AM
 
 I could not believe that there was another Patricia Mirza in the world. I've been to Pakistan, too! Just intrigued about the whole thing! Pat Mirza
 
----
+</div>
+
+<div id="comment">
 
 **patricia** - September 21, 2003  2:23 PM
 
 Wow! I'm even more intrigued!
 
----
+</div>
+
+<div id="comment">
 
 **Patricia W. Mirza** - April  9, 2005 12:51 AM
 
 Hi Patricia of Pakistan - we lost touch! Please write back! Patricia of USA
 
----
+</div>
+
+<div id="comment">
 
 **Inge-Lise Vejlgaard Sayyed** - November 25, 2008 12:26 AM
 
@@ -39,6 +47,6 @@ Hi Patricia, Are you my long lost friend Sulaiman I in visited in Clifton. I hop
 
 Lise vSayyed
 
----
+</div>
 
 </div>

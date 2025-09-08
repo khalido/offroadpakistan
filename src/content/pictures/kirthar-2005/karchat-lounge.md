@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: kirthar-2005
-image: DSC05579.jpg
+image: ./DSC05579.jpg
 order: 8
-thumbnail: DSC05579-thumb.jpg
+thumbnail: ./DSC05579-thumb.jpg
 title: Karchat Lounge
 ---
 

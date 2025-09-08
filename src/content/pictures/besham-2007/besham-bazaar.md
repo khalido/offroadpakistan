@@ -1,9 +1,9 @@
 ---
 date: 2007-11-25
 gallery: besham-2007
-image: DSC02063.jpg
+image: ./DSC02063.jpg
 order: 30
-thumbnail: DSC02063-thumb.jpg
+thumbnail: ./DSC02063-thumb.jpg
 title: Besham Bazaar
 ---
 

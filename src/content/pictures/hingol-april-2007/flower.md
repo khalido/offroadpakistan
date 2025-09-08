@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: hingol-april-2007
-image: DSC00386.jpg
+image: ./DSC00386.jpg
 order: 28
-thumbnail: DSC00386-thumb.jpg
+thumbnail: ./DSC00386-thumb.jpg
 title: Flower
 ---
 
@@ -12,6 +12,8 @@ title: Flower
 <div id="comments">
 
 ## Comments (4)
+
+<div id="comment">
 
 **Obaid** - October 18, 2007 10:28 AM
 
@@ -22,7 +24,9 @@ Regards,
 Obaid
 Lahore.
 
----
+</div>
+
+<div id="comment">
 
 **KO** - October 26, 2007  5:54 PM
 
@@ -30,7 +34,9 @@ All these pictures are from different cameras - so I'm not sure which once this 
 
 p.s thanks for the good words!
 
----
+</div>
+
+<div id="comment">
 
 **Mahera Omar** - October 26, 2007  6:05 PM
 
@@ -41,12 +47,14 @@ Exposure time: 0.001s
 Aperture: f/6.3
 ISO: 100
 
----
+</div>
+
+<div id="comment">
 
 **Mir Zafar** - February 17, 2010  3:03 AM
 
 Man, you guys are equally good with cameras. I'd love to meet you ALL someday.
 
----
+</div>
 
 </div>

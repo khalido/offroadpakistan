@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0153.jpg
+image: ./IMG_0153.jpg
 order: 99
-thumbnail: IMG_0153-thumb.jpg
+thumbnail: ./IMG_0153-thumb.jpg
 title: Shelter from a snowstorm at Goro I
 ---
 

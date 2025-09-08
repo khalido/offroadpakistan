@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: hingol-april-2007
-image: DSC00423.jpg
+image: ./DSC00423.jpg
 order: 34
-thumbnail: DSC00423-thumb.jpg
+thumbnail: ./DSC00423-thumb.jpg
 title: Hingol bridge
 ---
 

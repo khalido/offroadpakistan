@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0156.jpg
+image: ./IMG_0156.jpg
 order: 14
-thumbnail: IMG_0156-thumb.jpg
+thumbnail: ./IMG_0156-thumb.jpg
 title: Bridge over Bra Pani
 ---
 

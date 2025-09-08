@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: indus-river-expedition-1978
-image: scan0188.jpg
+image: ./scan0188.jpg
 order: 2
-thumbnail: scan0188-thumb.jpg
+thumbnail: ./scan0188-thumb.jpg
 title: Start of trip
 ---
 

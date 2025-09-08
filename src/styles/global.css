@@ -283,6 +283,59 @@ p {
     }
 }
 
+/* Heritage comments styling inspired by original pics.css */
+#comments {
+    width: 95%;
+    margin-top: 24px;
+    padding: 16px 12px 8px 12px;
+    border-top: 1px solid #ddd;
+}
+
+#comment {
+    padding: 8px;
+    margin: 0 16px 12px 16px;
+    border: 1px solid #ccc;
+    background: #f5f5f8;
+    font-size: 11px;
+    line-height: 1.4;
+    border-radius: 2px;
+}
+
+#comment:hover {
+    background: #f8f8ff;
+    border-color: #dadaba;
+}
+
+#comment p {
+    margin: 4px 0;
+    padding: 0;
+    font-size: 11px;
+    line-height: 1.4;
+    background: transparent;
+}
+
+#comment strong {
+    color: #00473f;
+    font-weight: bold;
+    background: #f5f5dc;
+    padding: 2px 4px;
+    display: inline-block;
+    margin-bottom: 2px;
+}
+
+/* Enhanced heritage image styling for individual picture pages */
+.picture-content img,
+.picture-description img:not([style*="display: none"]) {
+    padding: 4px;
+    border: 1px solid #ccc;
+    background: #f8f8ff;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
 /* Utility classes */
 .font-heritage {
     font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;

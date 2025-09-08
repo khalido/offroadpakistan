@@ -1,9 +1,9 @@
 ---
 date: 2006-01-23
 gallery: hingol-river-jan-06
-image: 000020.jpg
+image: ./000020.jpg
 order: 4
-thumbnail: 000020-thumb.jpg
+thumbnail: ./000020-thumb.jpg
 title: Muddy kamani
 ---
 

@@ -1,9 +1,9 @@
 ---
 date: 2008-01-18
 gallery: goran-gatti-2008
-image: img_2413.jpg
+image: ./img_2413.jpg
 order: 22
-thumbnail: img_2413-thumb.jpg
+thumbnail: ./img_2413-thumb.jpg
 title: Along the stream
 ---
 

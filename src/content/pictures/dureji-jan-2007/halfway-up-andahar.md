@@ -1,9 +1,9 @@
 ---
 date: 2007-03-18
 gallery: dureji-jan-2007
-image: CIMG0306.jpg
+image: ./CIMG0306.jpg
 order: 12
-thumbnail: CIMG0306-thumb.jpg
+thumbnail: ./CIMG0306-thumb.jpg
 title: Halfway up Andahar
 ---
 

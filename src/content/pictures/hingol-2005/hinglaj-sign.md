@@ -1,9 +1,9 @@
 ---
 date: 2005-07-29
 gallery: hingol-2005
-image: DSC08185.jpg
+image: ./DSC08185.jpg
 order: 12
-thumbnail: DSC08185-thumb.jpg
+thumbnail: ./DSC08185-thumb.jpg
 title: Hinglaj Sign
 ---
 

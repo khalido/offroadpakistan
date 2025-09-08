@@ -1,9 +1,9 @@
 ---
 date: 2007-11-25
 gallery: besham-2007
-image: IMG_1038.jpg
+image: ./IMG_1038.jpg
 order: 50
-thumbnail: IMG_1038-thumb.jpg
+thumbnail: ./IMG_1038-thumb.jpg
 title: Donkeys on the trail
 ---
 

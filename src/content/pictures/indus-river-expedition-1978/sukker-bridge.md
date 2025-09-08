@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: indus-river-expedition-1978
-image: scan0050.jpg
+image: ./scan0050.jpg
 order: 11
-thumbnail: scan0050-thumb.jpg
+thumbnail: ./scan0050-thumb.jpg
 title: Sukker Bridge
 ---
 
@@ -15,11 +15,15 @@ A view of Sukker road and railway bridge, dating back to the British Raj.
 
 ## Comments (6)
 
+<div id="comment">
+
 **Salman Ali** - November  4, 2005  6:57 PM
 
 That looks like Landsdown Bridge, which is a few miles upstreamof Sukkur Barrage.
 
----
+</div>
+
+<div id="comment">
 
 **Shelton Faria** - July 15, 2006  9:57 AM
 
@@ -28,19 +32,25 @@ Regards
 
 Shelton
 
----
+</div>
+
+<div id="comment">
 
 **priscilla** - April 15, 2007  1:07 AM
 
 that looks like the snake river in washington state. usa. beautiful
 
----
+</div>
+
+<div id="comment">
 
 **Shelton** - September 11, 2009  9:36 PM
 
 Quetta has allot of British made bridges through Bolan Pass but no pictures are shown in this site, would like to see the pictures of these well built bridges.
 
----
+</div>
+
+<div id="comment">
 
 **atiq butt** - February 25, 2010 11:48 PM
 
@@ -49,13 +59,15 @@ thats not sukker barrage.it is KALABAGH BRIDGE near Manwali district.British mad
 and the snap is taken from the NAWAB OF KALA BAGH fort.i visited it and stayed for a whole week.if anyone need more pics i can provide.
 thats one of the most amazing place i ever visited on earth.
 
----
+</div>
+
+<div id="comment">
 
 **atiq butt** - February 25, 2010 11:51 PM
 
 there are also 5000 old trees of pippul.any guideline required plz contact
 burjees@yahoo.com
 
----
+</div>
 
 </div>

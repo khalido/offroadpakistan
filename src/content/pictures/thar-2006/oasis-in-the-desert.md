@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: thar-2006
-image: 000050.jpg
+image: ./000050.jpg
 order: 39
-thumbnail: 000050-thumb.jpg
+thumbnail: ./000050-thumb.jpg
 title: Oasis in the Desert
 ---
 

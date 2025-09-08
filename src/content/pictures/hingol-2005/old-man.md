@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: hingol-2005
-image: DSC08275.jpg
+image: ./DSC08275.jpg
 order: 28
-thumbnail: DSC08275-thumb.jpg
+thumbnail: ./DSC08275-thumb.jpg
 title: Old man
 ---
 

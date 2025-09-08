@@ -1,9 +1,9 @@
 ---
 date: 2005-09-10
 gallery: hingol-2005
-image: IMG_76641.jpg
+image: ./IMG_76641.jpg
 order: 54
-thumbnail: IMG_76641-thumb.jpg
+thumbnail: ./IMG_76641-thumb.jpg
 title: Approaching the Mud Volcanoes
 ---
 

@@ -1,9 +1,9 @@
 ---
 date: 2007-11-18
 gallery: besham-2007
-image: IMG_0798.jpg
+image: ./IMG_0798.jpg
 order: 4
-thumbnail: IMG_0798-thumb.jpg
+thumbnail: ./IMG_0798-thumb.jpg
 title: Travelling at Eid
 ---
 
@@ -14,6 +14,8 @@ We travelled during Eid Holidays - there are crowds of people like this in every
 <div id="comments">
 
 ## Comments (2)
+
+<div id="comment">
 
 **2007 Breyer Horses** - April 29, 2008  4:55 PM
 
@@ -29,13 +31,15 @@ Useful site. Thanks!
 <http://topwebstore/free10gb.com/social-security> Home Security
 <http://topwebstore/free10gb.com/spyware-doctor> Spyware Doctor Reviews
 
----
+</div>
+
+<div id="comment">
 
 **Kohls Shoes** - July 16, 2008  9:29 PM
 
 qhjify rxbsev
 <http://topstore.hu.tl/kohls> Kohls Locations
 
----
+</div>
 
 </div>

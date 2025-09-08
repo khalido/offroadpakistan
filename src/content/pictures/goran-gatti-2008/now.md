@@ -1,9 +1,9 @@
 ---
 date: 2008-01-18
 gallery: goran-gatti-2008
-image: img_2563.jpg
+image: ./img_2563.jpg
 order: 42
-thumbnail: img_2563-thumb.jpg
+thumbnail: ./img_2563-thumb.jpg
 title: Now
 ---
 
@@ -15,16 +15,20 @@ Now, thats what I call offroading! (smooth going - no bumps, out of this world s
 
 ## Comments (2)
 
+<div id="comment">
+
 **Yaseen** - November 22, 2008  9:15 PM
 
 Almost looks unreal.
 
----
+</div>
+
+<div id="comment">
 
 **Kamran Mehmod** - April 26, 2012  2:09 AM
 
 o my your photography rocks,Thums up guys you rocked me.Love you all
 
----
+</div>
 
 </div>

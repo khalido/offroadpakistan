@@ -1,9 +1,9 @@
 ---
 date: 2007-11-25
 gallery: besham-2007
-image: IMG_0894.jpg
+image: ./IMG_0894.jpg
 order: 34
-thumbnail: IMG_0894-thumb.jpg
+thumbnail: ./IMG_0894-thumb.jpg
 title: End of the dirt track to Barakayli
 ---
 

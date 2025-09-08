@@ -1,9 +1,9 @@
 ---
 date: 2008-03-21
 gallery: medical-camp-march-2008
-image: img_3190.jpg
+image: ./img_3190.jpg
 order: 10
-thumbnail: img_3190-thumb.jpg
+thumbnail: ./img_3190-thumb.jpg
 title: Storage
 ---
 
@@ -12,6 +12,8 @@ title: Storage
 <div id="comments">
 
 ## Comments (1)
+
+<div id="comment">
 
 **David from Texas** - June  1, 2008 10:32 PM
 
@@ -29,6 +31,6 @@ Thank You, Guys, for All That You Do,
 
 From A Dirty Old TeXas Fisherman
 
----
+</div>
 
 </div>

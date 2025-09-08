@@ -1,9 +1,9 @@
 ---
 date: 2003-06-21
 gallery: khunjerab-2000
-image: khunjerab6.jpg
+image: ./khunjerab6.jpg
 order: 6
-thumbnail: khunjerab6-thumb.jpg
+thumbnail: ./khunjerab6-thumb.jpg
 title: Raikot Tatu Sign | AO
 ---
 
@@ -16,10 +16,12 @@ We stopped here on our way to Fairy Meadows for lunch after our night stay at Sh
 
 ## Comments (1)
 
+<div id="comment">
+
 **tanya** - February 26, 2004 11:11 PM
 
 the food here was absolutely disgusting, unedible and the biggest rip off we've probably had to put up with till this day.... four plates of daal and a couple of dozen shreds of oily potato for fifteen hundred bucks!
 
----
+</div>
 
 </div>

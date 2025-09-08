@@ -1,9 +1,9 @@
 ---
 date: 2004-08-18
 gallery: shandur-2004
-image: 2004-06-24_17-44-37_024.jpg
+image: ./2004-06-24_17-44-37_024.jpg
 order: 34
-thumbnail: 2004-06-24_17-44-37_024-thumb.jpg
+thumbnail: ./2004-06-24_17-44-37_024-thumb.jpg
 title: Cold Ice
 ---
 

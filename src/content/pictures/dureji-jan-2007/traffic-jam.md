@@ -1,9 +1,9 @@
 ---
 date: 2007-03-18
 gallery: dureji-jan-2007
-image: P1284647.jpg
+image: ./P1284647.jpg
 order: 33
-thumbnail: P1284647-thumb.jpg
+thumbnail: ./P1284647-thumb.jpg
 title: Traffic Jam
 ---
 
@@ -15,10 +15,12 @@ Stopped for one of our numerous stops on the way up Andahar where we were headed
 
 ## Comments (1)
 
+<div id="comment">
+
 **Hassaan** - March 23, 2007  1:18 AM
 
 beautiful scene n 4X4 making it even better.
 
----
+</div>
 
 </div>

@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: hingol-april-2007
-image: DSC00358.jpg
+image: ./DSC00358.jpg
 order: 78
-thumbnail: DSC00358-thumb.jpg
+thumbnail: ./DSC00358-thumb.jpg
 title: Hilux Surf in action
 ---
 
@@ -15,10 +15,12 @@ Toyota Surf, recently acquired, on it's first offroad trip. It's now being upgra
 
 ## Comments (1)
 
+<div id="comment">
+
 **Hamid Omar** - October  7, 2007  3:45 AM
 
 I drove the Toyota Hilux Surf on this Hingol off-road trip and it performed really well. It has a 3.4 liter V6 petrol engine and automatic transmission. On its next trip its suspension would have been upgraded to raise its ground clearance - a must for going through river crossings and rocky areas.
 
----
+</div>
 
 </div>

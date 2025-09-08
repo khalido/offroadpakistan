@@ -1,9 +1,9 @@
 ---
 date: 2005-07-29
 gallery: hingol-2005
-image: DSC08156.jpg
+image: ./DSC08156.jpg
 order: 8
-thumbnail: DSC08156-thumb.jpg
+thumbnail: ./DSC08156-thumb.jpg
 title: Hingol River 1
 ---
 

@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: kirthar-2005
-image: DSC05648.jpg
+image: ./DSC05648.jpg
 order: 17
-thumbnail: DSC05648-thumb.jpg
+thumbnail: ./DSC05648-thumb.jpg
 title: Untitled 1
 ---
 

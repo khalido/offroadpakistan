@@ -1,9 +1,9 @@
 ---
 date: 2003-10-11
 gallery: thar-2003
-image: thar02.jpg
+image: ./thar02.jpg
 order: 3
-thumbnail: thar02-thumb.jpg
+thumbnail: ./thar02-thumb.jpg
 title: Eucalyptus Forest
 ---
 
@@ -15,10 +15,12 @@ This is a large Eucalyptus forest planted by the government. It is under forestr
 
 ## Comments (1)
 
+<div id="comment">
+
 **ali raza rajar** - October 13, 2003  1:08 AM
 
 forest looks really great in the picture.
 
----
+</div>
 
 </div>

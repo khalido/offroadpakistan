@@ -1,9 +1,9 @@
 ---
 date: 2008-11-20
 gallery: goran-gatti-nov-2008
-image: dsc07856.jpg
+image: ./dsc07856.jpg
 order: 88
-thumbnail: dsc07856-thumb.jpg
+thumbnail: ./dsc07856-thumb.jpg
 title: Dinner is ready at last.
 ---
 
@@ -13,10 +13,12 @@ title: Dinner is ready at last.
 
 ## Comments (1)
 
+<div id="comment">
+
 **Aamir Bilal Sheikh** - November 20, 2008  9:58 AM
 
 Boti pay itney wild nazarain doc aap aesay tho na thaiy
 
----
+</div>
 
 </div>

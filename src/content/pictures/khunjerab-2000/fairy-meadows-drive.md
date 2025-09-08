@@ -1,9 +1,9 @@
 ---
 date: 2003-06-21
 gallery: khunjerab-2000
-image: khunjerab7.jpg
+image: ./khunjerab7.jpg
 order: 7
-thumbnail: khunjerab7-thumb.jpg
+thumbnail: ./khunjerab7-thumb.jpg
 title: Fairy Meadows Drive
 ---
 
@@ -19,11 +19,15 @@ Posted on June 21, 2003 in Khunjerab 2000 #
 
 ## Comments (4)
 
+<div id="comment">
+
 **Imad** - July 30, 2003  7:27 AM
 
 Correct me if I am wrong but isn't Tatu at 6500 feet? I am pretty sure Fairy Meadows is at 11900 feet. Hiking to Fairy Meadows from Tatu was tough enough, imagine starting out at Raikot bridge. Some people might break into a chorus of "Where have all the mules gone?" (my apologies to Trisha Yearwood).
 
----
+</div>
+
+<div id="comment">
 
 **Nasir Ghaznavi** - November 11, 2006 12:36 AM
 
@@ -31,18 +35,22 @@ No Fairy Meadows is at 10,500 Feet(The first camp site) and Tatu - the point whe
 
 Also the road washes away from time to time but is rebuilt.
 
----
+</div>
+
+<div id="comment">
 
 **Kurt Langland** - October 18, 2008  5:22 AM
 
 The road washes out or collapses several times a year. Out trip in 2007 had two sections that had failed and required transferring jeeps. By the next day one of the sections had already been repaired by a group of about 20 men.
 
----
+</div>
+
+<div id="comment">
 
 **Kurt Langland** - October 18, 2008  5:22 AM
 
 The road washes out or collapses several times a year. Our trip in 2007 had two sections that had failed and required transferring jeeps. By the next day one of the sections had already been repaired by a group of about 20 men.
 
----
+</div>
 
 </div>

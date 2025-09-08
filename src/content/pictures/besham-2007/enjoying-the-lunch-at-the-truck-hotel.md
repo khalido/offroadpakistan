@@ -1,9 +1,9 @@
 ---
 date: 2007-11-25
 gallery: besham-2007
-image: IMG_1549.jpg
+image: ./IMG_1549.jpg
 order: 15
-thumbnail: IMG_1549-thumb.jpg
+thumbnail: ./IMG_1549-thumb.jpg
 title: Enjoying the lunch at the truck hotel
 ---
 
@@ -13,10 +13,12 @@ title: Enjoying the lunch at the truck hotel
 
 ## Comments (1)
 
+<div id="comment">
+
 **abid jadoon** - July 26, 2008  1:19 PM
 
 Marvelous, great trips photography enjoyed very well your expeditions
 
----
+</div>
 
 </div>

@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: hingol
-image: doc_hingol_15.jpg
+image: ./doc_hingol_15.jpg
 order: 15
-thumbnail: doc_hingol_15-thumb.jpg
+thumbnail: ./doc_hingol_15-thumb.jpg
 title: Campsite
 ---
 
@@ -15,11 +15,15 @@ Another view of the Campsite alongside the Hingol river. This particular spot wa
 
 ## Comments (3)
 
+<div id="comment">
+
 **Shahid Virk** - July 18, 2004 10:34 PM
 
 informative site,,,stunning pictures...enjoyed visiting the site...keep it up
 
----
+</div>
+
+<div id="comment">
 
 **Azhar Khan** - December 24, 2004  5:23 PM
 
@@ -34,12 +38,14 @@ This is a great website, I think you guys are doing a great job. Let me know if 
 Azhar
 Azhar
 
----
+</div>
+
+<div id="comment">
 
 **tezza`** - May 18, 2005  5:25 AM
 
 good pictures but might need sum of mud volcanoes erupting...now that would be kewl
 
----
+</div>
 
 </div>

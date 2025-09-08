@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: hingol-april-2007
-image: DSC01885.jpg
+image: ./DSC01885.jpg
 order: 79
-thumbnail: DSC01885-thumb.jpg
+thumbnail: ./DSC01885-thumb.jpg
 title: M38 front view
 ---
 
@@ -15,11 +15,15 @@ The world's most powerful jeep according to Google!
 
 ## Comments (2)
 
+<div id="comment">
+
 **Khizar** - October  7, 2007  8:57 PM
 
 HMMMMM!!!!!!!!!
 
----
+</div>
+
+<div id="comment">
 
 **Petszoodled** - September  1, 2008  3:08 PM
 
@@ -29,6 +33,6 @@ Young indian girls raped
 Real Rape Porn Videos
 Free download rape or forced sex movie or video clips
 
----
+</div>
 
 </div>

@@ -1,9 +1,9 @@
 ---
 date: 2009-02-27
 gallery: sorh-feb-09
-image: dsc08068.jpg
+image: ./dsc08068.jpg
 order: 4
-thumbnail: dsc08068-thumb.jpg
+thumbnail: ./dsc08068-thumb.jpg
 title: The rolling country of Sorh Valley
 ---
 

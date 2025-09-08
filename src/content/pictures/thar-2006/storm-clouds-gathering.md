@@ -1,9 +1,9 @@
 ---
 date: 2006-08-29
 gallery: thar-2006
-image: DSC03244.jpg
+image: ./DSC03244.jpg
 order: 29
-thumbnail: DSC03244-thumb.jpg
+thumbnail: ./DSC03244-thumb.jpg
 title: Storm clouds gathering
 ---
 

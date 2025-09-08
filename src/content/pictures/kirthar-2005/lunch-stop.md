@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: kirthar-2005
-image: DSC05556.jpg
+image: ./DSC05556.jpg
 order: 6
-thumbnail: DSC05556-thumb.jpg
+thumbnail: ./DSC05556-thumb.jpg
 title: Lunch Stop
 ---
 

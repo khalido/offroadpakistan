@@ -1,9 +1,9 @@
 ---
 date: 2004-09-18
 gallery: khunjerab-2000
-image: khunjerab_52.jpg
+image: ./khunjerab_52.jpg
 order: 38
-thumbnail: khunjerab_52-thumb.jpg
+thumbnail: ./khunjerab_52-thumb.jpg
 title: Going to Tatu
 ---
 
@@ -15,10 +15,12 @@ The zig-zag line across the mountain is the beginning of the climb to Fairy Mead
 
 ## Comments (1)
 
+<div id="comment">
+
 **hassan** - May  6, 2005  5:54 AM
 
 i love this
 
----
+</div>
 
 </div>

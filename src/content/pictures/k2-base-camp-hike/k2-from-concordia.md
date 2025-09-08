@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0382.jpg
+image: ./IMG_0382.jpg
 order: 126
-thumbnail: IMG_0382-thumb.jpg
+thumbnail: ./IMG_0382-thumb.jpg
 title: K2 from Concordia
 ---
 

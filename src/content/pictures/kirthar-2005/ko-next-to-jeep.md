@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: kirthar-2005
-image: DSC00743.jpg
+image: ./DSC00743.jpg
 order: 3
-thumbnail: DSC00743-thumb.jpg
+thumbnail: ./DSC00743-thumb.jpg
 title: KO next to Jeep
 ---
 
@@ -15,10 +15,12 @@ At Karchat, Sindh.
 
 ## Comments (1)
 
+<div id="comment">
+
 **TALIB** - May 16, 2008 12:54 AM
 
 I WANT PICTURS OF KHEER THAR NATIONAL PARK
 
----
+</div>
 
 </div>

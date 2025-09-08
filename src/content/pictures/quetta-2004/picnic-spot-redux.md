@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: quetta-2004
-image: F1000133.jpg
+image: ./F1000133.jpg
 order: 25
-thumbnail: F1000133-thumb.jpg
+thumbnail: ./F1000133-thumb.jpg
 title: Picnic Spot Redux
 ---
 

@@ -1,9 +1,9 @@
 ---
 date: 2007-11-25
 gallery: besham-2007
-image: DSCN3043.jpg
+image: ./DSCN3043.jpg
 order: 52
-thumbnail: DSCN3043-thumb.jpg
+thumbnail: ./DSCN3043-thumb.jpg
 title: Trekking up the mountain at night
 ---
 

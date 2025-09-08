@@ -1,9 +1,9 @@
 ---
 date: 2008-01-18
 gallery: goran-gatti-2008
-image: img_2549.jpg
+image: ./img_2549.jpg
 order: 43
-thumbnail: img_2549-thumb.jpg
+thumbnail: ./img_2549-thumb.jpg
 title: Often the way is confusing - turn left? turn right?
 ---
 

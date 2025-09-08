@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: hingol-april-2007
-image: DSCN4437.jpg
+image: ./DSCN4437.jpg
 order: 50
-thumbnail: DSCN4437-thumb.jpg
+thumbnail: ./DSCN4437-thumb.jpg
 title: Camel
 ---
 

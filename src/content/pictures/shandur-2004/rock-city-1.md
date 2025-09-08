@@ -1,9 +1,9 @@
 ---
 date: 2004-07-30
 gallery: shandur-2004
-image: 000025.jpg
+image: ./000025.jpg
 order: 12
-thumbnail: 000025-thumb.jpg
+thumbnail: ./000025-thumb.jpg
 title: Rock City 1
 ---
 
@@ -15,10 +15,12 @@ The view from Rock city hotel.
 
 ## Comments (1)
 
+<div id="comment">
+
 **Perwez** - August 17, 2005  1:57 PM
 
 Where is ROCK CITY??????Could be in Jacobabad
 
----
+</div>
 
 </div>

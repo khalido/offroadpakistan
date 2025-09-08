@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0232.jpg
+image: ./IMG_0232.jpg
 order: 20
-thumbnail: IMG_0232-thumb.jpg
+thumbnail: ./IMG_0232-thumb.jpg
 title: Deosai park sign
 ---
 
@@ -15,11 +15,15 @@ Deosai Plains make up one of the last frontiers of natural habitat for the Himal
 
 ## Comments (9)
 
+<div id="comment">
+
 **njnj** - November 23, 2008  7:59 PM
 
 I need news about only health or banks in this week,
 
----
+</div>
+
+<div id="comment">
 
 **prutraria** - August 20, 2009 12:07 AM
 
@@ -27,31 +31,41 @@ Have you been searching for a homeopathic cure for your hemorrhoids (aka piles)?
 
 Piles Treatment
 
----
+</div>
+
+<div id="comment">
 
 **talswilealnIt** - November  9, 2010  2:53 AM
 
 My darling threw me for another! I can't stop thinking about it and can't believe it! I'm so pissed, don't want to ever see him. pkf skarbiec
 
----
+</div>
+
+<div id="comment">
 
 **Naplepeempage** - December  5, 2010  3:55 PM
 
 Geez <http://is.gd/i2QVu>
 
----
+</div>
+
+<div id="comment">
 
 **Assuttive** - January 14, 2011  8:03 AM
 
 Thanks for the add, I look forward to learning a lot here.
 
----
+</div>
+
+<div id="comment">
 
 **jthecdnp** - April 29, 2011  1:37 PM
 
 penis advantage
 
----
+</div>
+
+<div id="comment">
 
 **staislilt** - December  4, 2011 11:25 PM
 
@@ -61,18 +75,22 @@ I adore you stories and i hope it is possible to maintain them coming. Honestly 
 I read about a hundred blog posts a week and i tend to only comment on some of them, this is 1 of them.
 Sorry i have not commented till now, i have been reading your blog for a even though now though. It has become component of my morning routine.
 
----
+</div>
+
+<div id="comment">
 
 **biberevo** - February 13, 2012 10:06 PM
 
 <http://amoxicillinbuy.us/> amoxicillin buy, buy amoxicillin, amoxicillin online
 
----
+</div>
+
+<div id="comment">
 
 **keven1970** - March 14, 2012  2:09 AM
 
 And i gave bloke would go on even. <http://mizonse.com>
 
----
+</div>
 
 </div>

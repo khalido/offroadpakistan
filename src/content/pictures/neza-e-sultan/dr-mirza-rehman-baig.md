@@ -1,9 +1,9 @@
 ---
 date: 2003-06-25
 gallery: neza-e-sultan
-image: F1000075.jpg
+image: ./F1000075.jpg
 order: 47
-thumbnail: F1000075-thumb.jpg
+thumbnail: ./F1000075-thumb.jpg
 title: DR. Mirza Rehman Baig
 ---
 

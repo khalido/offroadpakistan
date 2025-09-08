@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0556.jpg
+image: ./IMG_0556.jpg
 order: 70
-thumbnail: IMG_0556-thumb.jpg
+thumbnail: ./IMG_0556-thumb.jpg
 title: Rock suspended in the Glacier
 ---
 

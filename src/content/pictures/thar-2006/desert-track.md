@@ -1,9 +1,9 @@
 ---
 date: 2006-08-26
 gallery: thar-2006
-image: DSCN1587.jpg
+image: ./DSCN1587.jpg
 order: 16
-thumbnail: DSCN1587-thumb.jpg
+thumbnail: ./DSCN1587-thumb.jpg
 title: Desert track
 ---
 

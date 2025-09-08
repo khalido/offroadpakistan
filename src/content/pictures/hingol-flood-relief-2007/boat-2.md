@@ -1,9 +1,9 @@
 ---
 date: 2007-07-23
 gallery: hingol-flood-relief-2007
-image: DSC00636.jpg
+image: ./DSC00636.jpg
 order: 26
-thumbnail: DSC00636-thumb.jpg
+thumbnail: ./DSC00636-thumb.jpg
 title: Boat 2
 ---
 

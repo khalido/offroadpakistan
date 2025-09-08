@@ -1,9 +1,9 @@
 ---
 date: 2008-03-21
 gallery: medical-camp-march-2008
-image: dsc04905.jpg
+image: ./dsc04905.jpg
 order: 35
-thumbnail: dsc04905-thumb.jpg
+thumbnail: ./dsc04905-thumb.jpg
 title: Treating Patients at a Village
 ---
 

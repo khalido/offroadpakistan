@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0173.jpg
+image: ./IMG_0173.jpg
 order: 15
-thumbnail: IMG_0173-thumb.jpg
+thumbnail: ./IMG_0173-thumb.jpg
 title: Tea at Deosai
 ---
 
@@ -15,10 +15,12 @@ There is a chai shop in a tent at Bara Pani. It was quite cold, so we were all g
 
 ## Comments (1)
 
+<div id="comment">
+
 **khizar diwan** - December  2, 2008  3:35 PM
 
 hahahaa! true true.. the jeep ride into deosai was so bumpy that it made my hair curly
 
----
+</div>
 
 </div>

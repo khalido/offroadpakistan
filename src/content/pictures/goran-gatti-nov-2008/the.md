@@ -1,9 +1,9 @@
 ---
 date: 2008-11-20
 gallery: goran-gatti-nov-2008
-image: dsc07714.jpg
+image: ./dsc07714.jpg
 order: 81
-thumbnail: dsc07714-thumb.jpg
+thumbnail: ./dsc07714-thumb.jpg
 title: The
 ---
 

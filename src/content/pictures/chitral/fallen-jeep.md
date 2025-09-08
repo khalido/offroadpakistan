@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: chitral
-image: chitral_omars_25.jpg
+image: ./chitral_omars_25.jpg
 order: 23
-thumbnail: chitral_omars_25-thumb.jpg
+thumbnail: ./chitral_omars_25-thumb.jpg
 title: Fallen Jeep
 ---
 

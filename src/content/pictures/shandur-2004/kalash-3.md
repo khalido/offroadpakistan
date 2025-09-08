@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: shandur-2004
-image: 100_0814.jpg
+image: ./100_0814.jpg
 order: 60
-thumbnail: 100_0814-thumb.jpg
+thumbnail: ./100_0814-thumb.jpg
 title: Kalash 3
 ---
 

@@ -1,9 +1,9 @@
 ---
 date: 2003-06-26
 gallery: neza-e-sultan
-image: F1000081.jpg
+image: ./F1000081.jpg
 order: 58
-thumbnail: F1000081-thumb.jpg
+thumbnail: ./F1000081-thumb.jpg
 title: Group  Photo
 ---
 

@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: taftan-plantak-2005
-image: F1040031.jpg
+image: ./F1040031.jpg
 order: 42
-thumbnail: F1040031-thumb.jpg
+thumbnail: ./F1040031-thumb.jpg
 title: Accident on the way
 ---
 

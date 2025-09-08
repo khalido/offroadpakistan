@@ -1,9 +1,9 @@
 ---
 date: 2008-03-21
 gallery: medical-camp-march-2008
-image: img_3049.jpg
+image: ./img_3049.jpg
 order: 1
-thumbnail: img_3049-thumb.jpg
+thumbnail: ./img_3049-thumb.jpg
 title: Drawing
 ---
 

@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: indus-river-expedition-1978
-image: scan0073.jpg
+image: ./scan0073.jpg
 order: 19
-thumbnail: scan0073-thumb.jpg
+thumbnail: ./scan0073-thumb.jpg
 title: Ancient boat
 ---
 
@@ -15,10 +15,12 @@ Dried fodder for cattle is being transported in a boat that the Egyptian Pharohs
 
 ## Comments (1)
 
+<div id="comment">
+
 **priscilla** - April 15, 2007  1:12 AM
 
 That is a very impressive boat. I would like to sail on it.
 
----
+</div>
 
 </div>

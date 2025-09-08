@@ -1,9 +1,9 @@
 ---
 date: 2004-04-13
 gallery: quetta-2004
-image: F1020020.jpg
+image: ./F1020020.jpg
 order: 33
-thumbnail: F1020020-thumb.jpg
+thumbnail: ./F1020020-thumb.jpg
 title: Kia in repose
 ---
 
@@ -15,10 +15,12 @@ title: Kia in repose
 
 ## Comments (1)
 
+<div id="comment">
+
 **nasrin** - April 23, 2004 11:33 AM
 
 Allah has made nature so attractive.
 
----
+</div>
 
 </div>

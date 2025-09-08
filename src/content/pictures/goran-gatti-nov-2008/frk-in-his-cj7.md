@@ -1,9 +1,9 @@
 ---
 date: 2008-11-20
 gallery: goran-gatti-nov-2008
-image: img_3107.jpg
+image: ./img_3107.jpg
 order: 27
-thumbnail: img_3107-thumb.jpg
+thumbnail: ./img_3107-thumb.jpg
 title: FRK in his CJ7
 ---
 
@@ -15,10 +15,12 @@ got stuck here but after some back and forth and a lot of throttle managed to ge
 
 ## Comments (1)
 
+<div id="comment">
+
 **fj** - January  3, 2009  3:51 PM
 
 why no one considers deflation before getting into offroad?
 
----
+</div>
 
 </div>

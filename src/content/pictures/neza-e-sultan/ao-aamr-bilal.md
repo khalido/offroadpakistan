@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: neza-e-sultan
-image: F1020002.jpg
+image: ./F1020002.jpg
 order: 78
-thumbnail: F1020002-thumb.jpg
+thumbnail: ./F1020002-thumb.jpg
 title: AO | Aamr Bilal
 ---
 

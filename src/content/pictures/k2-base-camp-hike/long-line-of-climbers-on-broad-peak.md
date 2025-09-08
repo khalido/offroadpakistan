@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0600-1.jpg
+image: ./IMG_0600-1.jpg
 order: 145
-thumbnail: IMG_0600-1-thumb.jpg
+thumbnail: ./IMG_0600-1-thumb.jpg
 title: Long line of climbers on Broad Peak
 ---
 
@@ -15,10 +15,12 @@ There were 25 or 26 expeditions camped at base camp when we visited, and though 
 
 ## Comments (1)
 
+<div id="comment">
+
 **Irfan ul haq** - March 11, 2012 12:04 PM
 
 rare
 
----
+</div>
 
 </div>

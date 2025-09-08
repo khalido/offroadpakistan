@@ -1,9 +1,9 @@
 ---
 date: 2007-07-23
 gallery: hingol-flood-relief-2007
-image: DSC00504.jpg
+image: ./DSC00504.jpg
 order: 6
-thumbnail: DSC00504-thumb.jpg
+thumbnail: ./DSC00504-thumb.jpg
 title: Line for the Doctor
 ---
 

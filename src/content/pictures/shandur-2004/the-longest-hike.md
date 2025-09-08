@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: shandur-2004
-image: 2004-06-29_10-38-28_004.jpg
+image: ./2004-06-29_10-38-28_004.jpg
 order: 54
-thumbnail: 2004-06-29_10-38-28_004-thumb.jpg
+thumbnail: ./2004-06-29_10-38-28_004-thumb.jpg
 title: The longest hike
 ---
 
@@ -15,10 +15,12 @@ The rooms lie down there.
 
 ## Comments (1)
 
+<div id="comment">
+
 **Mahwish** - February 18, 2006  8:21 PM
 
 Nice view , going down stairs seems like that we r in blind alley.
 
----
+</div>
 
 </div>

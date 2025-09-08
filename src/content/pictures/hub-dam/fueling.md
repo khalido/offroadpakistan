@@ -1,9 +1,9 @@
 ---
 date: 2004-01-13
 gallery: hub-dam
-image: F1000145.jpg
+image: ./F1000145.jpg
 order: 1
-thumbnail: F1000145-thumb.jpg
+thumbnail: ./F1000145-thumb.jpg
 title: Fueling
 ---
 
@@ -15,17 +15,21 @@ A fuel stop as we set out.
 
 ## Comments (2)
 
+<div id="comment">
+
 **sohail** - October 20, 2007  8:01 PM
 
 great job.
 i would like2 bcome one of yr team member if possible.
 
----
+</div>
+
+<div id="comment">
 
 **AO** - December  8, 2008 11:45 PM
 
 You're not even out of Phase, and already look set to kill them hunt down some ducks.
 
----
+</div>
 
 </div>

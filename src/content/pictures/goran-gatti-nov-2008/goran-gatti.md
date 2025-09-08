@@ -1,9 +1,9 @@
 ---
 date: 2008-11-20
 gallery: goran-gatti-nov-2008
-image: dsc07931.jpg
+image: ./dsc07931.jpg
 order: 4
-thumbnail: dsc07931-thumb.jpg
+thumbnail: ./dsc07931-thumb.jpg
 title: Goran Gatti.
 ---
 
@@ -13,16 +13,20 @@ title: Goran Gatti.
 
 ## Comments (2)
 
+<div id="comment">
+
 **Syed Aleem Subhi** - March 29, 2009  4:46 PM
 
 Now that's what i call a classic pic......
 
----
+</div>
+
+<div id="comment">
 
 **SalmanZ** - December 30, 2009  1:17 AM
 
 Really v v nice picture.
 
----
+</div>
 
 </div>

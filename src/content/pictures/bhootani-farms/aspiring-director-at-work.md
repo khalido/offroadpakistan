@@ -1,9 +1,9 @@
 ---
 date: 2004-02-27
 gallery: bhootani-farms
-image: P1100053.jpg
+image: ./P1100053.jpg
 order: 15
-thumbnail: P1100053-thumb.jpg
+thumbnail: ./P1100053-thumb.jpg
 title: Aspiring Director at Work
 ---
 

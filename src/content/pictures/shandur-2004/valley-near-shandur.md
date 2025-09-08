@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: shandur-2004
-image: 2004-06-27_16-29-42_195.jpg
+image: ./2004-06-27_16-29-42_195.jpg
 order: 125
-thumbnail: 2004-06-27_16-29-42_195-thumb.jpg
+thumbnail: ./2004-06-27_16-29-42_195-thumb.jpg
 title: Valley near Shandur
 ---
 
@@ -15,11 +15,15 @@ breathtaking view from here. The camera doesn't do justice.
 
 ## Comments (2)
 
+<div id="comment">
+
 **Nour ull Huda Yaftali** - August 28, 2007 10:46 AM
 
 A Panoramic view of Baleem Laspur.Baleem is one of the breathtaking view vally of Laspur.
 
----
+</div>
+
+<div id="comment">
 
 **KARAM TALPUR** - January  6, 2009 11:55 AM
 
@@ -29,6 +33,6 @@ REGARDS
 
 KARAM TALPUR, ISLAMABAD
 
----
+</div>
 
 </div>

@@ -1,9 +1,9 @@
 ---
 date: 2006-01-24
 gallery: hingol-river-jan-06
-image: DSCN0585.jpg
+image: ./DSCN0585.jpg
 order: 18
-thumbnail: DSCN0585-thumb.jpg
+thumbnail: ./DSCN0585-thumb.jpg
 title: Camels Cherokee
 ---
 
@@ -15,10 +15,12 @@ If there were any foreigners with us on the trip, this would be their favourite 
 
 ## Comments (1)
 
+<div id="comment">
+
 **Saad** - January 24, 2006 12:22 PM
 
 Beautiful! This photo can be used as an advertisement for Jeep Cherokee.
 
----
+</div>
 
 </div>

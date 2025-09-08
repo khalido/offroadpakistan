@@ -1,9 +1,9 @@
 ---
 date: 2002-10-16
 gallery: neza-e-sultan
-image: F1000042.jpg
+image: ./F1000042.jpg
 order: 13
-thumbnail: F1000042-thumb.jpg
+thumbnail: ./F1000042-thumb.jpg
 title: Doc|Sik|T|S
 ---
 
@@ -15,10 +15,12 @@ Doc, Sikander, Taimur, Shahbaz and a unidentifiable person at Neza-e-Sultan.
 
 ## Comments (1)
 
+<div id="comment">
+
 **Rashid** - June  1, 2008  1:44 AM
 
 Is that a shotgun in the hands of Sikander?
 
----
+</div>
 
 </div>

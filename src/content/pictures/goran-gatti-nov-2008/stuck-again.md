@@ -1,9 +1,9 @@
 ---
 date: 2008-11-20
 gallery: goran-gatti-nov-2008
-image: img_0245.jpg
+image: ./img_0245.jpg
 order: 9
-thumbnail: img_0245-thumb.jpg
+thumbnail: ./img_0245-thumb.jpg
 title: Stuck again
 ---
 

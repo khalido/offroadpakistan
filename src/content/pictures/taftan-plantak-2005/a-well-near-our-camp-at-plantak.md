@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: taftan-plantak-2005
-image: DSCN0258.jpg
+image: ./DSCN0258.jpg
 order: 26
-thumbnail: DSCN0258-thumb.jpg
+thumbnail: ./DSCN0258-thumb.jpg
 title: A well near our camp at Plantak
 ---
 

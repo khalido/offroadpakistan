@@ -1,9 +1,9 @@
 ---
 date: 2003-06-19
 gallery: neza-e-sultan
-image: F1000092.jpg
+image: ./F1000092.jpg
 order: 30
-thumbnail: F1000092-thumb.jpg
+thumbnail: ./F1000092-thumb.jpg
 title: On the Road
 ---
 
@@ -15,10 +15,12 @@ The left jeep is Dr. Rehman Baig's M38, built by Daud. The middle one is Salman'
 
 ## Comments (1)
 
+<div id="comment">
+
 **ching** - October  7, 2004  2:48 PM
 
 where's the big meaty tires???????
 
----
+</div>
 
 </div>

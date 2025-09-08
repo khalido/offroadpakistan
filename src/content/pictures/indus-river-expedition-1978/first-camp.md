@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: indus-river-expedition-1978
-image: scan0193.jpg
+image: ./scan0193.jpg
 order: 3
-thumbnail: scan0193-thumb.jpg
+thumbnail: ./scan0193-thumb.jpg
 title: First camp
 ---
 

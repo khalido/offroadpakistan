@@ -1,9 +1,9 @@
 ---
 date: 2004-01-14
 gallery: hub-dam
-image: F1000097.jpg
+image: ./F1000097.jpg
 order: 22
-thumbnail: F1000097-thumb.jpg
+thumbnail: ./F1000097-thumb.jpg
 title: Coals Ablaze
 ---
 

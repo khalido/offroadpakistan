@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: khunjerab-2000
-image: salman_khunjerab11.jpg
+image: ./salman_khunjerab11.jpg
 order: 37
-thumbnail: salman_khunjerab11-thumb.jpg
+thumbnail: ./salman_khunjerab11-thumb.jpg
 title: Chairlift Ahoy!
 ---
 
@@ -15,16 +15,20 @@ Crossing the Gilgit River the good old way. Yasin Valley, Gilgit.
 
 ## Comments (2)
 
+<div id="comment">
+
 **Adnan** - March 31, 2004  4:56 PM
 
 One of the best pictures of northern areas of pakistan i have ever seen, Well done keep it up
 
----
+</div>
+
+<div id="comment">
 
 **hameed** - August  9, 2005  5:23 PM
 
 spectacular shot!
 
----
+</div>
 
 </div>

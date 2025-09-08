@@ -1,9 +1,9 @@
 ---
 date: 2006-08-26
 gallery: thar-2006
-image: DSC03214.jpg
+image: ./DSC03214.jpg
 order: 11
-thumbnail: DSC03214-thumb.jpg
+thumbnail: ./DSC03214-thumb.jpg
 title: Thar Desert 1
 ---
 

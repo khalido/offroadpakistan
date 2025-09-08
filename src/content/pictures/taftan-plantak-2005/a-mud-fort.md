@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: taftan-plantak-2005
-image: Sodhagan-5.jpg
+image: ./Sodhagan-5.jpg
 order: 54
-thumbnail: Sodhagan-5-thumb.jpg
+thumbnail: ./Sodhagan-5-thumb.jpg
 title: A mud fort
 ---
 

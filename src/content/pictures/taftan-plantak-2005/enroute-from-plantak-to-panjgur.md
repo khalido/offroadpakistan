@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: taftan-plantak-2005
-image: DSCN0280.jpg
+image: ./DSCN0280.jpg
 order: 28
-thumbnail: DSCN0280-thumb.jpg
+thumbnail: ./DSCN0280-thumb.jpg
 title: Enroute from Plantak to Panjgur.
 ---
 

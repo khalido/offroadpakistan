@@ -1,9 +1,9 @@
 ---
 date: 2005-12-12
 gallery: makli-tombs
-image: DSC09327.jpg
+image: ./DSC09327.jpg
 order: 7
-thumbnail: DSC09327-thumb.jpg
+thumbnail: ./DSC09327-thumb.jpg
 title: untitiled
 ---
 

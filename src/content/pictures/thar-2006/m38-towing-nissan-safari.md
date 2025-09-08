@@ -1,9 +1,9 @@
 ---
 date: 2006-08-26
 gallery: thar-2006
-image: DSCN1589.jpg
+image: ./DSCN1589.jpg
 order: 17
-thumbnail: DSCN1589-thumb.jpg
+thumbnail: ./DSCN1589-thumb.jpg
 title: M38 towing Nissan Safari
 ---
 
@@ -14,6 +14,8 @@ The M38 is lined up to tow the nissan out. While not apparent in the picture, th
 <div id="comments">
 
 ## Comments (3)
+
+<div id="comment">
 
 **Fahad Ali** - August 26, 2006  9:41 PM
 
@@ -27,7 +29,9 @@ Guyz keep the off road work coming.
 Regards,
 Fahad Ali
 
----
+</div>
+
+<div id="comment">
 
 **Saad** - September  5, 2006  1:00 PM
 
@@ -35,13 +39,15 @@ Dear Fahad,
 
 Be corrected that M38 was produced AFTER WW2
 
----
+</div>
+
+<div id="comment">
 
 **Arif Amin** - April  9, 2010  1:32 PM
 
 Hi guys,
 I am looking for a Range Rover LWB 91-95 models preferable in original petrol engine. Do anyone has any information regarding anyone selling RR?
 
----
+</div>
 
 </div>

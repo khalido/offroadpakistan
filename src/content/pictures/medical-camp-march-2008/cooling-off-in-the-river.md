@@ -1,9 +1,9 @@
 ---
 date: 2008-03-21
 gallery: medical-camp-march-2008
-image: dsc_7645.jpg
+image: ./dsc_7645.jpg
 order: 2
-thumbnail: dsc_7645-thumb.jpg
+thumbnail: ./dsc_7645-thumb.jpg
 title: Cooling off in the river
 ---
 
@@ -13,12 +13,16 @@ title: Cooling off in the river
 
 ## Comments (2)
 
+<div id="comment">
+
 **Asif Nizamani** - June  6, 2008 10:26 PM
 
 Must have felt like being in heaven considering the sweltering hot it must have been !!!
 May i know which river it was ?
 
----
+</div>
+
+<div id="comment">
 
 **Ibad ul Haque** - July 29, 2008 11:32 PM
 
@@ -36,6 +40,6 @@ With best regards
 
 Ibad ul Haque
 
----
+</div>
 
 </div>

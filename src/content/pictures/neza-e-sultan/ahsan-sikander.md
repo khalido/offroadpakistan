@@ -1,9 +1,9 @@
 ---
 date: 2002-10-16
 gallery: neza-e-sultan
-image: F1000018.jpg
+image: ./F1000018.jpg
 order: 8
-thumbnail: F1000018-thumb.jpg
+thumbnail: ./F1000018-thumb.jpg
 title: Ahsan | Sikander
 ---
 
@@ -15,10 +15,12 @@ Ahsan and Sikander
 
 ## Comments (1)
 
+<div id="comment">
+
 **Roby** - August  8, 2011  2:21 AM
 
 Going to put this atrlcie to good use now.
 
----
+</div>
 
 </div>

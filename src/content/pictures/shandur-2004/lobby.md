@@ -1,9 +1,9 @@
 ---
 date: 2004-08-31
 gallery: shandur-2004
-image: 2004-06-28_22-28-56__216.jpg
+image: ./2004-06-28_22-28-56__216.jpg
 order: 47
-thumbnail: 2004-06-28_22-28-56__216-thumb.jpg
+thumbnail: ./2004-06-28_22-28-56__216-thumb.jpg
 title: Lobby
 ---
 
@@ -15,10 +15,12 @@ The checkin counter at the Hindukush Heights.
 
 ## Comments (1)
 
+<div id="comment">
+
 **Nour ull Huda Yaftali** - August 23, 2007  1:36 PM
 
 Lobby of Shandur Hut.This Hot is inograted by late General Zia- ull- Haq.
 
----
+</div>
 
 </div>

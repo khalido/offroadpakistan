@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: hingol-2005
-image: DSC08197.jpg
+image: ./DSC08197.jpg
 order: 14
-thumbnail: DSC08197-thumb.jpg
+thumbnail: ./DSC08197-thumb.jpg
 title: Red Man
 ---
 
@@ -15,11 +15,15 @@ A idol at Mata Hinglaj. This is a new addition.
 
 ## Comments (4)
 
+<div id="comment">
+
 **Ashwini Ratnoo** - August 16, 2005  1:03 AM
 
 The idol is of Lord Hanuman
 
----
+</div>
+
+<div id="comment">
 
 **Arun Naik** - November 13, 2005 10:56 PM
 
@@ -29,13 +33,17 @@ On second thoughts, I wonder if there might have been a streak thought in Hindu 
 
 If so, then it is bound to be a very very old image.
 
----
+</div>
+
+<div id="comment">
 
 **Sarvesh** - August 30, 2006  1:59 AM
 
 I think it is the image of Bhairav Nath, not Hanuman. Images of Bhairav nath are commonly found accompanying Devi temples. For some reason the image has been coloured red giving the impression of Hanuman. Usual colour of Bhairavnath is black.
 
----
+</div>
+
+<div id="comment">
 
 **Priyank** - October 22, 2007  6:57 PM
 
@@ -44,6 +52,6 @@ Hats off to you once again.
 
 Thanks
 
----
+</div>
 
 </div>

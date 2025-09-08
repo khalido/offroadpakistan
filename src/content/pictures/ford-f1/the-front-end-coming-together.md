@@ -1,9 +1,9 @@
 ---
 date: 2007-08-26
 gallery: ford-f1
-image: DSC00838.jpg
+image: ./DSC00838.jpg
 order: 33
-thumbnail: DSC00838-thumb.jpg
+thumbnail: ./DSC00838-thumb.jpg
 title: The front end coming together
 ---
 
@@ -13,11 +13,15 @@ title: The front end coming together
 
 ## Comments (2)
 
+<div id="comment">
+
 **shahid** - September 19, 2007  6:37 PM
 
 Are these tire BFGoodrich M/T? and for howmuch did you get them for?
 
----
+</div>
+
+<div id="comment">
 
 **Hamid Omar** - September 22, 2007  2:25 AM
 
@@ -26,6 +30,6 @@ The tyres are BFGoodrich Mud-Terrain TA LT285/75R16. I bought them second hand (
 The truck is finally on road - will take some pictures of it this weekend and will post it on the web soon.
 HO
 
----
+</div>
 
 </div>

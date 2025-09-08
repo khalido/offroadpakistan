@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0441.jpg
+image: ./IMG_0441.jpg
 order: 132
-thumbnail: IMG_0441-thumb.jpg
+thumbnail: ./IMG_0441-thumb.jpg
 title: Hiking to K2 base camp from Concordia
 ---
 
@@ -13,10 +13,12 @@ title: Hiking to K2 base camp from Concordia
 
 ## Comments (1)
 
+<div id="comment">
+
 **Irfan ul haq** - March 11, 2012 11:58 AM
 
 nice chogolisa n the back
 
----
+</div>
 
 </div>

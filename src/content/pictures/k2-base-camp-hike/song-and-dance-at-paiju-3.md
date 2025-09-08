@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0298.jpg
+image: ./IMG_0298.jpg
 order: 178
-thumbnail: IMG_0298-thumb.jpg
+thumbnail: ./IMG_0298-thumb.jpg
 title: Song and dance at Paiju 3
 ---
 
@@ -13,10 +13,12 @@ title: Song and dance at Paiju 3
 
 ## Comments (1)
 
+<div id="comment">
+
 **khizar** - August 16, 2007  4:04 PM
 
 Party time. They all celebrate after coming back from the Baltoro glacier............
 
----
+</div>
 
 </div>

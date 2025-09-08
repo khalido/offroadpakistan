@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: besham-2007
-image: IMG_1713.jpg
+image: ./IMG_1713.jpg
 order: 57
-thumbnail: IMG_1713-thumb.jpg
+thumbnail: ./IMG_1713-thumb.jpg
 title: After a good nights sleep
 ---
 

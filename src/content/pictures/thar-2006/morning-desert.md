@@ -1,9 +1,9 @@
 ---
 date: 2006-09-24
 gallery: thar-2006
-image: 000089.jpg
+image: ./000089.jpg
 order: 47
-thumbnail: 000089-thumb.jpg
+thumbnail: ./000089-thumb.jpg
 title: Morning desert
 ---
 
@@ -15,6 +15,8 @@ The view from the campsite in the morning.
 
 ## Comments (2)
 
+<div id="comment">
+
 **Fahad Ali** - September 27, 2006  9:18 PM
 
 khalid,
@@ -24,7 +26,9 @@ Regards,
 Fahad Ali
 Isb
 
----
+</div>
+
+<div id="comment">
 
 **syed javed husain shah** - November  8, 2008  6:44 AM
 
@@ -32,6 +36,6 @@ I THANK YOU ALL FOR THE THAR DESERT PICTURES AND VIDEO. THIS REMINDS ME OF THE 1
 HUR MUJAHIDS AND THE RAJARS.I WAS SPECIALY FIGHTING THIS PART OF THE DESERT ABOUT A IOO MILES FROM HATHUNGO. I LIVE IN USA NOW AND THESE PICTURES BROUGHT MY MEMORIES BACK.
 THANK YOU ALL AND MAY ALLAH BLESS PAKISTAN AND BRING PEACE TO OUR COUNTRY.
 
----
+</div>
 
 </div>

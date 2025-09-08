@@ -1,9 +1,9 @@
 ---
 date: 2003-06-25
 gallery: neza-e-sultan
-image: F1000046.jpg
+image: ./F1000046.jpg
 order: 46
-thumbnail: F1000046-thumb.jpg
+thumbnail: ./F1000046-thumb.jpg
 title: Yaseen | Shahbaz
 ---
 

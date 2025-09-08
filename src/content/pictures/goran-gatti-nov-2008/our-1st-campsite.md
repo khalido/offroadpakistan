@@ -1,9 +1,9 @@
 ---
 date: 2008-11-20
 gallery: goran-gatti-nov-2008
-image: stb_0212.jpg
+image: ./stb_0212.jpg
 order: 70
-thumbnail: stb_0212-thumb.jpg
+thumbnail: ./stb_0212-thumb.jpg
 title: Our 1st campsite
 ---
 

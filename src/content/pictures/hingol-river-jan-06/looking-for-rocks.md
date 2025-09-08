@@ -1,9 +1,9 @@
 ---
 date: 2006-01-24
 gallery: hingol-river-jan-06
-image: DSC01830.jpg
+image: ./DSC01830.jpg
 order: 10
-thumbnail: DSC01830-thumb.jpg
+thumbnail: ./DSC01830-thumb.jpg
 title: Looking for rocks
 ---
 

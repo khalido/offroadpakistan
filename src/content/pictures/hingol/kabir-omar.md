@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: hingol
-image: doc_hingol_2.jpg
+image: ./doc_hingol_2.jpg
 order: 2
-thumbnail: doc_hingol_2-thumb.jpg
+thumbnail: ./doc_hingol_2-thumb.jpg
 title: Kabir Omar
 ---
 
@@ -15,10 +15,12 @@ Out in the midst of nowhere...
 
 ## Comments (1)
 
+<div id="comment">
+
 **jaydevsinh vaghela** - June 29, 2008  2:11 PM
 
 i want photographs of hinglaj mataji temple baluchistan. please send photos on email
 
----
+</div>
 
 </div>

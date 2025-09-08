@@ -1,9 +1,9 @@
 ---
 date: 2007-05-26
 gallery: ford-f1
-image: DSC03503.jpg
+image: ./DSC03503.jpg
 order: 1
-thumbnail: DSC03503-thumb.jpg
+thumbnail: ./DSC03503-thumb.jpg
 title: This is where it all began
 ---
 
@@ -15,16 +15,20 @@ At a scrapyard in California. There were 3-4 pickups of this type, this was in t
 
 ## Comments (2)
 
+<div id="comment">
+
 **Iftikhar Siddiqi** - March 30, 2009 10:05 PM
 
 Raza gave me the information about your jeep. This is fantastic. What was the original idea?
 
----
+</div>
+
+<div id="comment">
 
 **KO** - March 31, 2009  4:51 AM
 
 See <http://offroadpakistan.com/blog/the_ford_f1_story_from_california_to_karachi.html> for the story of the truck.
 
----
+</div>
 
 </div>

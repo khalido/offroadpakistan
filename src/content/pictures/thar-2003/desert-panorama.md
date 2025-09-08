@@ -1,9 +1,9 @@
 ---
 date: 2003-10-11
 gallery: thar-2003
-image: thar04.jpg
+image: ./thar04.jpg
 order: 7
-thumbnail: thar04-thumb.jpg
+thumbnail: ./thar04-thumb.jpg
 title: Desert panorama
 ---
 

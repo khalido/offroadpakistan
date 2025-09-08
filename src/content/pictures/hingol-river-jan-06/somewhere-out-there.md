@@ -1,9 +1,9 @@
 ---
 date: 2006-01-29
 gallery: hingol-river-jan-06
-image: DSCN0630.jpg
+image: ./DSCN0630.jpg
 order: 29
-thumbnail: DSCN0630-thumb.jpg
+thumbnail: ./DSCN0630-thumb.jpg
 title: Somewhere out there
 ---
 

@@ -1,9 +1,9 @@
 ---
 date: 2003-06-22
 gallery: khunjerab-2000
-image: khunjerab22.jpg
+image: ./khunjerab22.jpg
 order: 20
-thumbnail: khunjerab22-thumb.jpg
+thumbnail: ./khunjerab22-thumb.jpg
 title: Roadside Stop
 ---
 

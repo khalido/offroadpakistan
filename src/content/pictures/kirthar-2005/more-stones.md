@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: kirthar-2005
-image: DSC05691.jpg
+image: ./DSC05691.jpg
 order: 22
-thumbnail: DSC05691-thumb.jpg
+thumbnail: ./DSC05691-thumb.jpg
 title: More stones
 ---
 

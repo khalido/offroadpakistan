@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: taftan-plantak-2005
-image: DSCN0116.jpg
+image: ./DSCN0116.jpg
 order: 10
-thumbnail: DSCN0116-thumb.jpg
+thumbnail: ./DSCN0116-thumb.jpg
 title: Marble being trucked to Karachi
 ---
 
@@ -15,6 +15,8 @@ Marble (10 tons!) heading to Karachi from a mine somewhere in Baluchistan. Drivi
 
 ## Comments (1)
 
+<div id="comment">
+
 **Lashaar Baloch** - January  6, 2007  7:21 PM
 
 Dear
@@ -23,6 +25,6 @@ A beautifull pics but i want more like this pics if avilible than plz send me.I 
 with best wishes
 Lashaar Baloh
 
----
+</div>
 
 </div>

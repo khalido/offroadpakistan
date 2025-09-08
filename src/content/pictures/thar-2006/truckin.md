@@ -1,9 +1,9 @@
 ---
 date: 2006-09-24
 gallery: thar-2006
-image: P8212122.jpg
+image: ./P8212122.jpg
 order: 45
-thumbnail: P8212122-thumb.jpg
+thumbnail: ./P8212122-thumb.jpg
 title: Truckin
 ---
 
@@ -15,10 +15,12 @@ En route to Karachi.
 
 ## Comments (1)
 
+<div id="comment">
+
 **Affan** - October  2, 2006  2:40 AM
 
 so why's the jeep truckin?
 
----
+</div>
 
 </div>

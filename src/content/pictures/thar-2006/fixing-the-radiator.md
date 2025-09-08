@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: thar-2006
-image: 000008.jpg
+image: ./000008.jpg
 order: 37
-thumbnail: 000008-thumb.jpg
+thumbnail: ./000008-thumb.jpg
 title: Fixing the radiator
 ---
 

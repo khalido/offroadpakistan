@@ -1,9 +1,9 @@
 ---
 date: 2007-11-25
 gallery: besham-2007
-image: IMG_0876.jpg
+image: ./IMG_0876.jpg
 order: 32
-thumbnail: IMG_0876-thumb.jpg
+thumbnail: ./IMG_0876-thumb.jpg
 title: Photo stop
 ---
 

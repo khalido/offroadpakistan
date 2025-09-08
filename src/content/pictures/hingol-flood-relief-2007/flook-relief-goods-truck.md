@@ -1,9 +1,9 @@
 ---
 date: 2007-07-23
 gallery: hingol-flood-relief-2007
-image: DSC00446.jpg
+image: ./DSC00446.jpg
 order: 1
-thumbnail: DSC00446-thumb.jpg
+thumbnail: ./DSC00446-thumb.jpg
 title: Flook relief goods truck
 ---
 
@@ -13,10 +13,12 @@ title: Flook relief goods truck
 
 ## Comments (1)
 
+<div id="comment">
+
 **hammad** - November  7, 2007  7:54 AM
 
 Keep up the good work. May Allah bless you all...
 
----
+</div>
 
 </div>

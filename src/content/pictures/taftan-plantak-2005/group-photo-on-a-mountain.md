@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: taftan-plantak-2005
-image: DSCN0287.jpg
+image: ./DSCN0287.jpg
 order: 29
-thumbnail: DSCN0287-thumb.jpg
+thumbnail: ./DSCN0287-thumb.jpg
 title: Group photo on a mountain
 ---
 
@@ -21,16 +21,20 @@ Tanveer, Dr. Mansur, Alex Towns, Hanif Chaudhry (and then other guides).
 
 ## Comments (2)
 
+<div id="comment">
+
 **Kabir Omar** - December  8, 2005  1:30 PM
 
 I have named this rock as "Rock of the die hard offroaders" To get to this photo position it was a vertical climb and sharp edges my "Chappals" didnt much help.
 
----
+</div>
+
+<div id="comment">
 
 **zeeshan rattvi** - December 11, 2005  4:41 PM
 
 hello my name is zeeshan i am 13 years old and i am living in london.I always love to see your photos taken at different parts of pakistan.I liked the above group photo in which people of all ages enjoy life.i am waiting for your next offroad journey photos good bye
 
----
+</div>
 
 </div>

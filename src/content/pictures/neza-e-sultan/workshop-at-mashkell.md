@@ -1,9 +1,9 @@
 ---
 date: 2003-06-26
 gallery: neza-e-sultan
-image: F1000057.jpg
+image: ./F1000057.jpg
 order: 50
-thumbnail: F1000057-thumb.jpg
+thumbnail: ./F1000057-thumb.jpg
 title: Workshop at Mashkell
 ---
 
@@ -16,10 +16,12 @@ The Cherokee and the M38 had busted shock absorbers, while the Bronco's radiator
 
 ## Comments (1)
 
+<div id="comment">
+
 **Taimur Mirza** - June 26, 2003 11:57 AM
 
 The Town is Qila Ladghasht, Mashkel, close to the Iranian border.
 
----
+</div>
 
 </div>

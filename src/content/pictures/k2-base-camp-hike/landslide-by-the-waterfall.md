@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0297.jpg
+image: ./IMG_0297.jpg
 order: 30
-thumbnail: IMG_0297-thumb.jpg
+thumbnail: ./IMG_0297-thumb.jpg
 title: Landslide by the waterfall
 ---
 

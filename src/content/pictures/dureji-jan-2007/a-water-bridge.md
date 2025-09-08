@@ -1,9 +1,9 @@
 ---
 date: 2007-03-18
 gallery: dureji-jan-2007
-image: P1284626.jpg
+image: ./P1284626.jpg
 order: 32
-thumbnail: P1284626-thumb.jpg
+thumbnail: ./P1284626-thumb.jpg
 title: A water bridge
 ---
 
@@ -15,10 +15,12 @@ Crossing a ravine
 
 ## Comments (1)
 
+<div id="comment">
+
 **Khizar** - March 22, 2007 10:20 AM
 
 They all were scared........!!!!!!
 
----
+</div>
 
 </div>

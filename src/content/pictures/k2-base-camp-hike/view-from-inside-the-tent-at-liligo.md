@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0492.jpg
+image: ./IMG_0492.jpg
 order: 64
-thumbnail: IMG_0492-thumb.jpg
+thumbnail: ./IMG_0492-thumb.jpg
 title: View from inside the tent at Liligo
 ---
 

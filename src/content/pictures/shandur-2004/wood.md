@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: shandur-2004
-image: 2004-06-29_11-15-09_026.jpg
+image: ./2004-06-29_11-15-09_026.jpg
 order: 56
-thumbnail: 2004-06-29_11-15-09_026-thumb.jpg
+thumbnail: ./2004-06-29_11-15-09_026-thumb.jpg
 title: Wood
 ---
 
@@ -15,6 +15,8 @@ Deforestation at work. Or is it capatilism?
 
 ## Comments (2)
 
+<div id="comment">
+
 **amir Naseem** - January  8, 2007 12:48 PM
 
 hello dear.
@@ -25,7 +27,9 @@ regards.
 
 amir
 
----
+</div>
+
+<div id="comment">
 
 **shafiq** - May 18, 2008  8:36 PM
 
@@ -33,6 +37,6 @@ Dear Amir Naseem,
 Next time you make to visit to northern areas, pls ask me.
 Rgds: Shafiq(0346-2517194)
 
----
+</div>
 
 </div>

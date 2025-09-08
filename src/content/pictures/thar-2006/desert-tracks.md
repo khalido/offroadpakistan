@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: thar-2006
-image: 000056.jpg
+image: ./000056.jpg
 order: 41
-thumbnail: 000056-thumb.jpg
+thumbnail: ./000056-thumb.jpg
 title: Desert Tracks
 ---
 
@@ -15,10 +15,12 @@ Jeep tracks in thar desert - after the rain the dunes harden and it makes it muc
 
 ## Comments (1)
 
+<div id="comment">
+
 **ayesh** - September 20, 2006 12:17 AM
 
 Stretched to the point of no turning back...
 
----
+</div>
 
 </div>

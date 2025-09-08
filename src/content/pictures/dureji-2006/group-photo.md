@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: dureji-2006
-image: DSCN2356.jpg
+image: ./DSCN2356.jpg
 order: 21
-thumbnail: DSCN2356-thumb.jpg
+thumbnail: ./DSCN2356-thumb.jpg
 title: Group photo
 ---
 

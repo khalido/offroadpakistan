@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: ford-f1
-image: DSC00296.jpg
+image: ./DSC00296.jpg
 order: 18
-thumbnail: DSC00296-thumb.jpg
+thumbnail: ./DSC00296-thumb.jpg
 title: Front side view
 ---
 

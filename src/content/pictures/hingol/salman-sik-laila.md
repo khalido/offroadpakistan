@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: hingol
-image: doc_hingol_7.jpg
+image: ./doc_hingol_7.jpg
 order: 7
-thumbnail: doc_hingol_7-thumb.jpg
+thumbnail: ./doc_hingol_7-thumb.jpg
 title: Salman | Sik | Laila
 ---
 

@@ -1,9 +1,9 @@
 ---
 date: 2004-01-14
 gallery: hub-dam
-image: F1000124.jpg
+image: ./F1000124.jpg
 order: 26
-thumbnail: F1000124-thumb.jpg
+thumbnail: ./F1000124-thumb.jpg
 title: Taimur
 ---
 

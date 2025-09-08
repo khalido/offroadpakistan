@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0373.jpg
+image: ./IMG_0373.jpg
 order: 43
-thumbnail: IMG_0373-thumb.jpg
+thumbnail: ./IMG_0373-thumb.jpg
 title: A slippery descent
 ---
 
@@ -15,10 +15,12 @@ This is where walking sticks come in handy
 
 ## Comments (1)
 
+<div id="comment">
+
 **Riaz** - May  6, 2010 11:27 AM
 
 Dude, Why are you guys in sneakers? Didnt you have proper hiking boots? Did you go all the way in these shoes?
 
----
+</div>
 
 </div>

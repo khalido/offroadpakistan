@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: ford-f1
-image: DSCN1535.jpg
+image: ./DSCN1535.jpg
 order: 14
-thumbnail: DSCN1535-thumb.jpg
+thumbnail: ./DSCN1535-thumb.jpg
 title: The old front end
 ---
 

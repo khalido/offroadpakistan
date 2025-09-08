@@ -1,9 +1,9 @@
 ---
 date: 2003-06-26
 gallery: neza-e-sultan
-image: F1000079.jpg
+image: ./F1000079.jpg
 order: 57
-thumbnail: F1000079-thumb.jpg
+thumbnail: ./F1000079-thumb.jpg
 title: Truck
 ---
 

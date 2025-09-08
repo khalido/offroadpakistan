@@ -1,9 +1,9 @@
 ---
 date: 2008-01-18
 gallery: goran-gatti-2008
-image: dsc05927.jpg
+image: ./dsc05927.jpg
 order: 36
-thumbnail: dsc05927-thumb.jpg
+thumbnail: ./dsc05927-thumb.jpg
 title: Going to Goran Gatti
 ---
 

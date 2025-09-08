@@ -1,9 +1,9 @@
 ---
 date: 2004-01-13
 gallery: hub-dam
-image: F1000078.jpg
+image: ./F1000078.jpg
 order: 19
-thumbnail: F1000078-thumb.jpg
+thumbnail: ./F1000078-thumb.jpg
 title: En-Route towing
 ---
 
@@ -15,6 +15,8 @@ On the way to the dam.
 
 ## Comments (2)
 
+<div id="comment">
+
 **umer farooq** - March  4, 2004 12:01 AM
 
 This site is very attractive,amazing for me
@@ -25,12 +27,14 @@ I am very glad to visit your web site
 must reply me
 Umer Farooq
 
----
+</div>
+
+<div id="comment">
 
 **Sheraz khan** - March  9, 2011  3:24 PM
 
 its a great picture.In hub dam,I have mercedes 300gd,I feel offloading experience,in mud,in water,&everywhere,
 
----
+</div>
 
 </div>

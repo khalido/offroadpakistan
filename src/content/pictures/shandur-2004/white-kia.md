@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: shandur-2004
-image: 000026.jpg
+image: ./000026.jpg
 order: 22
-thumbnail: 000026-thumb.jpg
+thumbnail: ./000026-thumb.jpg
 title: White Kia
 ---
 

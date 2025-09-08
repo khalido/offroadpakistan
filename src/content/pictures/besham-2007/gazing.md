@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: besham-2007
-image: IMG_1074.jpg
+image: ./IMG_1074.jpg
 order: 69
-thumbnail: IMG_1074-thumb.jpg
+thumbnail: ./IMG_1074-thumb.jpg
 title: Gazing
 ---
 

@@ -1,9 +1,9 @@
 ---
 date: 2002-10-16
 gallery: neza-e-sultan
-image: F1000069.jpg
+image: ./F1000069.jpg
 order: 25
-thumbnail: F1000069-thumb.jpg
+thumbnail: ./F1000069-thumb.jpg
 title: White Jeep near Mashkell
 ---
 
@@ -15,10 +15,12 @@ White Jeep front end. This picture taken in the salt plain near Mashkell.
 
 ## Comments (1)
 
+<div id="comment">
+
 **SalmanZ** - February 25, 2010  8:48 PM
 
 Nice Shot!
 
----
+</div>
 
 </div>

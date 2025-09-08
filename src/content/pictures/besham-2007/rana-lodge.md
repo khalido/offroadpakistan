@@ -1,9 +1,9 @@
 ---
 date: 2007-11-25
 gallery: besham-2007
-image: DSC02027.jpg
+image: ./DSC02027.jpg
 order: 29
-thumbnail: DSC02027-thumb.jpg
+thumbnail: ./DSC02027-thumb.jpg
 title: Rana Lodge
 ---
 

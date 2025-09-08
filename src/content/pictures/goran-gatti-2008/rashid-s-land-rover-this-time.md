@@ -1,9 +1,9 @@
 ---
 date: 2008-01-18
 gallery: goran-gatti-2008
-image: img_2429.jpg
+image: ./img_2429.jpg
 order: 23
-thumbnail: img_2429-thumb.jpg
+thumbnail: ./img_2429-thumb.jpg
 title: Rashid's Land Rover - this time
 ---
 
@@ -15,22 +15,28 @@ Rashid's Land Rover - this time (for the first time) it made it without getting 
 
 ## Comments (3)
 
+<div id="comment">
+
 **Yaseen** - November 20, 2008  1:36 AM
 
 Great picture.
 
----
+</div>
+
+<div id="comment">
 
 **sajidd** - November 20, 2008  9:44 PM
 
 This is an amazing picture. In fact looks like an ad for land rover
 
----
+</div>
+
+<div id="comment">
 
 **khizar** - November 21, 2008 11:23 AM
 
 WOW!
 
----
+</div>
 
 </div>

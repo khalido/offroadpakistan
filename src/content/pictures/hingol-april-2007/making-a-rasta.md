@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: hingol-april-2007
-image: DSCN4493.jpg
+image: ./DSCN4493.jpg
 order: 53
-thumbnail: DSCN4493-thumb.jpg
+thumbnail: ./DSCN4493-thumb.jpg
 title: Making a rasta
 ---
 

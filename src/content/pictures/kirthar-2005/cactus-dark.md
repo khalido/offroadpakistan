@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: kirthar-2005
-image: DSC00737.jpg
+image: ./DSC00737.jpg
 order: 2
-thumbnail: DSC00737-thumb.jpg
+thumbnail: ./DSC00737-thumb.jpg
 title: Cactus Dark
 ---
 
@@ -15,10 +15,12 @@ Picture by MO.
 
 ## Comments (1)
 
+<div id="comment">
+
 **Nasreen Ghori** - October 17, 2008 10:29 PM
 
 simply Shaandaaar
 
----
+</div>
 
 </div>

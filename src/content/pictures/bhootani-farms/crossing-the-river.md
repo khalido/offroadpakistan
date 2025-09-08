@@ -1,9 +1,9 @@
 ---
 date: 2004-02-13
 gallery: bhootani-farms
-image: P1100045.jpg
+image: ./P1100045.jpg
 order: 12
-thumbnail: P1100045-thumb.jpg
+thumbnail: ./P1100045-thumb.jpg
 title: Crossing the River
 ---
 

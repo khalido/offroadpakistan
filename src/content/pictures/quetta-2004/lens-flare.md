@@ -1,9 +1,9 @@
 ---
 date: 2004-04-30
 gallery: quetta-2004
-image: F1030023.jpg
+image: ./F1030023.jpg
 order: 41
-thumbnail: F1030023-thumb.jpg
+thumbnail: ./F1030023-thumb.jpg
 title: Lens Flare
 ---
 
@@ -15,10 +15,12 @@ Picture along the way. Another fine shot by KO.
 
 ## Comments (1)
 
+<div id="comment">
+
 **NADEEM IQBAL** - August 19, 2006  6:19 PM
 
 Realy Beautiful Shot, a time to remember..
 
----
+</div>
 
 </div>

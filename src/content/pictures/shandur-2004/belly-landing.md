@@ -1,9 +1,9 @@
 ---
 date: 2004-08-18
 gallery: shandur-2004
-image: 001026.jpg
+image: ./001026.jpg
 order: 33
-thumbnail: 001026-thumb.jpg
+thumbnail: ./001026-thumb.jpg
 title: Belly Landing
 ---
 
@@ -15,11 +15,15 @@ The plane landed too far up the runway. Notice the bent props - luckily no one g
 
 ## Comments (2)
 
+<div id="comment">
+
 **Masd** - July 26, 2005 10:26 PM
 
 Is it full of danger to fly to Chitral?
 
----
+</div>
+
+<div id="comment">
 
 **Waqas Usman** - August  3, 2006 12:05 PM
 
@@ -30,6 +34,6 @@ Now after the grounding of Fokkers, I don't know what the situation is nowadays,
 
 Waqas
 
----
+</div>
 
 </div>

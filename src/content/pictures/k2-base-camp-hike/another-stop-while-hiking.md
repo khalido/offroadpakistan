@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0370.jpg
+image: ./IMG_0370.jpg
 order: 42
-thumbnail: IMG_0370-thumb.jpg
+thumbnail: ./IMG_0370-thumb.jpg
 title: Another stop while hiking
 ---
 

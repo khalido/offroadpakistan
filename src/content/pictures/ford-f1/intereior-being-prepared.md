@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: ford-f1
-image: DSC00312.jpg
+image: ./DSC00312.jpg
 order: 24
-thumbnail: DSC00312-thumb.jpg
+thumbnail: ./DSC00312-thumb.jpg
 title: Intereior being prepared
 ---
 

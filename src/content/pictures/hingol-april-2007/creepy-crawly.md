@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: hingol-april-2007
-image: DSC00400.jpg
+image: ./DSC00400.jpg
 order: 29
-thumbnail: DSC00400-thumb.jpg
+thumbnail: ./DSC00400-thumb.jpg
 title: Creepy Crawly
 ---
 

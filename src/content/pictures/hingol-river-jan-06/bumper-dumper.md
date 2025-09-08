@@ -1,9 +1,9 @@
 ---
 date: 2006-01-23
 gallery: hingol-river-jan-06
-image: DSC01804.jpg
+image: ./DSC01804.jpg
 order: 6
-thumbnail: DSC01804-thumb.jpg
+thumbnail: ./DSC01804-thumb.jpg
 title: Bumper Dumper
 ---
 
@@ -15,10 +15,12 @@ This is one of the most vital pieces of equipment for offroaders, which is why A
 
 ## Comments (1)
 
+<div id="comment">
+
 **Imad** - February  2, 2006 12:30 AM
 
 Vital equipment!? Speak for yourself!! The bucket in the back window provides extra capacity!
 
----
+</div>
 
 </div>

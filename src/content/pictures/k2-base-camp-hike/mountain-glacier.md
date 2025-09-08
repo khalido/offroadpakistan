@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0584.jpg
+image: ./IMG_0584.jpg
 order: 71
-thumbnail: IMG_0584-thumb.jpg
+thumbnail: ./IMG_0584-thumb.jpg
 title: Mountain Glacier
 ---
 
@@ -15,10 +15,12 @@ While hiking on the Baltoro, at many points a glacier comes down from a mountain
 
 ## Comments (1)
 
+<div id="comment">
+
 **irtaza** - April  5, 2009 12:00 PM
 
 Nice picture.
 
----
+</div>
 
 </div>

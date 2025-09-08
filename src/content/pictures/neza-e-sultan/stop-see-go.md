@@ -1,9 +1,9 @@
 ---
 date: 2003-06-19
 gallery: neza-e-sultan
-image: F1010004.jpg
+image: ./F1010004.jpg
 order: 29
-thumbnail: F1010004-thumb.jpg
+thumbnail: ./F1010004-thumb.jpg
 title: Stop See Go
 ---
 
@@ -15,6 +15,8 @@ Abid is stopped and seeing. He is not yet go.
 
 ## Comments (1)
 
+<div id="comment">
+
 **Udayan** - February 22, 2006 11:34 AM
 
 Man!
@@ -23,6 +25,6 @@ Our countries should be associated with each other in many more ways... we are, 
 The world has to stop looking at India and Pakistan as rivals.
 Maybe a Union of Subcontinental Countries (Pakistan, Bangladesh, Nepal, and India), like the European union?
 
----
+</div>
 
 </div>

@@ -1,9 +1,9 @@
 ---
 date: 2003-06-21
 gallery: khunjerab-2000
-image: khunjerab9.jpg
+image: ./khunjerab9.jpg
 order: 9
-thumbnail: khunjerab9-thumb.jpg
+thumbnail: ./khunjerab9-thumb.jpg
 title: Khunjerab Sign
 ---
 
@@ -15,11 +15,15 @@ This is the sign at the Khunjerab Pass listing distances.
 
 ## Comments (3)
 
+<div id="comment">
+
 **IMRAN** - October 18, 2003  8:28 PM
 
 this is the border of two counrties ,china and pakistan
 
----
+</div>
+
+<div id="comment">
 
 **jalal** - May 13, 2005  7:45 PM
 
@@ -27,7 +31,9 @@ I am myself developing a site abt Pakistan and always in search of sites to add 
 Keep exploring this beautiful country of ours.
 jal
 
----
+</div>
+
+<div id="comment">
 
 **nasr** - August  1, 2005 12:41 AM
 
@@ -37,6 +43,6 @@ there in northern areas for 2 and half years and i m die hard to search, add and
 
 URS NASR
 
----
+</div>
 
 </div>

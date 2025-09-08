@@ -1,5 +1,6 @@
 ---
 import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
 import PageLayout from "../layouts/PageLayout.astro";
 import FeaturedPosts from "../components/content/FeaturedPosts.astro";
 import FeaturedPicture from "../components/content/FeaturedPicture.astro";
@@ -28,7 +29,7 @@ const regularPictures = allPictures.filter(({ data }) => !data.featured);
 
 // Combine featured pictures first, then regular pictures
 const pictures = [...featuredPictures, ...regularPictures];
-// Shuffle array and take 8 random pictures
+// Shuffle array and take 9 random pictures
 const randomPictures = pictures.sort(() => Math.random() - 0.5).slice(0, 9);
 ---
 
@@ -49,20 +50,13 @@ const randomPictures = pictures.sort(() => Math.random() - 0.5).slice(0, 9);
             content and pictures.
         </p>
         <p class="text-sm md:text-xs text-gray-600 mb-6">
-            This archive preserves decades of Pakistani adventure
-            documentation,originally published a long time ago in a Pakistan.
+            This archive preserves decades of Pakistani adventure documentation,
+            originally published a long time ago in a Pakistan.
         </p>
     </section>
 
-    <!-- Featured Picture -->
-    {
-        randomPictures.length > 0 && (
-            <FeaturedPicture
-                picture={randomPictures[0]}
-                totalCount={allPictures.length}
-            />
-        )
-    }
+    <!-- Featured Picture (now self-contained) -->
+    <FeaturedPicture />
 
     <!-- Random Pictures Grid -->
     <section class="mb-8">
@@ -78,14 +72,14 @@ const randomPictures = pictures.sort(() => Math.random() - 0.5).slice(0, 9);
             {
                 randomPictures.map((picture) => (
                     <a
-                        href={`/pictures/${picture.data.gallery}/${picture.id.split("/").pop()}`}
+                        href={`/pictures/${picture.data.gallery}/${picture.id.split("/").pop()?.replace(".md", "")}/`}
                         class="block"
                         title={picture.data.title}
                     >
-                        <img
-                            src={`/src/content/pictures/${picture.data.gallery}/${picture.data.thumbnail || picture.data.image}`}
+                        <Image
+                            src={picture.data.thumbnail || picture.data.image}
                             alt={picture.data.title}
-                            class="object-cover heritage-image"
+                            class="w-24 h-18 object-cover heritage-image"
                             loading="lazy"
                         />
                     </a>

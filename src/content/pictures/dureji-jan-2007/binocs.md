@@ -1,9 +1,9 @@
 ---
 date: 2007-03-18
 gallery: dureji-jan-2007
-image: P1284671.jpg
+image: ./P1284671.jpg
 order: 36
-thumbnail: P1284671-thumb.jpg
+thumbnail: ./P1284671-thumb.jpg
 title: Binocs
 ---
 

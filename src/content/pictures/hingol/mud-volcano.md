@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: hingol
-image: doc_hingol_10.jpg
+image: ./doc_hingol_10.jpg
 order: 10
-thumbnail: doc_hingol_10-thumb.jpg
+thumbnail: ./doc_hingol_10-thumb.jpg
 title: Mud Volcano
 ---
 
@@ -15,18 +15,24 @@ A picture of the top of the mud volcano. You can see the mud flowing down in slo
 
 ## Comments (35)
 
+<div id="comment">
+
 **Taimur Mirza** - August 18, 2003  2:46 PM
 
 There are two large active mud volcanoes on the coast of Balochistan. The higher one being 450 feet and the other about 250 with a large crater housing a small pond of bubbling water. These volcanoes have a special position in the Hindu religion and are called "Chandra Gups". Devotees travelling to the temple of Hinglaj stop here and make offerings of coconuts and other rituals. The temple of Hinglaj is further along the coast about 100 kilometers. Amongst numerous these two are the largest and highest mud volcanoes in the region.
 
----
+</div>
+
+<div id="comment">
 
 **Arun Naik** - January 11, 2005  5:34 PM
 
 I live in New Delhi and wish top make a pilgrimage to Hinglaj via Chandrakoop. I do not knbow how to visit these places. I shall be highly obliged if someone can guide me. I am also looking for fellow pilgrims who would like to undertake this journey with me.
 Arun Naik, New Delhi
 
----
+</div>
+
+<div id="comment">
 
 **Azhar  Khan** - February  4, 2005  4:18 PM
 
@@ -37,19 +43,25 @@ If yu go by car or jeep it will take yu one and a Half hour to chadarkoop and an
 I will leave a mssg for yu here about the exact dates. Try searchig Nani mandir and Nani hinglaj as ther are at least two web sites posted about this pilgrimage. They might be able to help yu also about yr arrangements.
 Azhar
 
----
+</div>
+
+<div id="comment">
 
 **Susmita** - March 16, 2005  3:28 PM
 
 I am an Indian. I intend to make a pilgrimage tour to mata hinglaj. Is there any tour operator either in Delhi or in Karachi.If anybody knows please help. I know one such operator from Kolkata, but I want to make it with local people.Please help.What will be the cost involved?
 
----
+</div>
+
+<div id="comment">
 
 **muhammad ali** - March 17, 2005 11:41 PM
 
 salam.me mashkel karehne wala hoon.aap logon ke mashkel aane se mutaalliq mallom howa to bhut afsoos howa kiyoonke us waqt me dubai me tha agar next time aap logon ka mashkel ana howa to pease mujhe zaroor bata dejeiga aap logon ki khid mat karke mujhe khoshi hogi.mashkel ke bare me aap logon ko buht malomat fraham karoonga.mera email hai===anjum851@hotmail.com
 
----
+</div>
+
+<div id="comment">
 
 **Salman Ali** - March 19, 2005 12:50 PM
 
@@ -61,7 +73,9 @@ Regards,
 
 Salman Ali
 
----
+</div>
+
+<div id="comment">
 
 **Salman Ali** - March 19, 2005 12:55 PM
 
@@ -73,7 +87,9 @@ Regards,
 
 Salman Ali
 
----
+</div>
+
+<div id="comment">
 
 **Arun Naik** - March 28, 2005  2:23 AM
 
@@ -85,7 +101,9 @@ I live in Delhi.
 
 Arun Naik
 
----
+</div>
+
+<div id="comment">
 
 **Jai singh ratanoo** - April 12, 2005  7:41 PM
 
@@ -98,14 +116,18 @@ my phoneno. 919891238173
 your
 jai singh
 
----
+</div>
+
+<div id="comment">
 
 **sachin** - April 14, 2005  7:30 PM
 
 Hello,
 This msg is for all who are seeking information about Hinglaj mata temple. I too was searching this info for my uncle. During my search I found this website www.hinglajmata.com which has has most useful info available. There are some contact details of the people who are actively involved in management activity related to it. Also there's 1 link of Yatra 2000 where Yatra details are given. hope this will be useful for all u people.
 
----
+</div>
+
+<div id="comment">
 
 **Pankaj** - April 21, 2005  4:53 PM
 
@@ -114,7 +136,9 @@ Hinglaj is our goddes, I know that from Karachi we can go at there but how in wh
 
 Pankaj Gandhi
 
----
+</div>
+
+<div id="comment">
 
 **Amit Makwana** - July  7, 2005  3:21 PM
 
@@ -123,13 +147,17 @@ Hinglaj is our Goddes.
 
 Amit
 
----
+</div>
+
+<div id="comment">
 
 **Dr. Dev** - July 16, 2005  4:07 AM
 
 my ancestors were the original inhabitants of Hinglaj. they left Hinglaj in 680 A.D., when the Arabs conquered Hinglaj. if your family diety/god (kul devata/kula devata) is Hinglaj Mata/Hingulambika, e-mail me at jhingade@gmail.com
 
----
+</div>
+
+<div id="comment">
 
 **Vinod Kumar** - August 25, 2005  1:17 PM
 
@@ -137,7 +165,9 @@ Hinglaj Mata Ki Jai
 
 When will be the next trip i inform on this site... coz this year due to bad weather... yatra was cancelled and next in april or march 2006.
 
----
+</div>
+
+<div id="comment">
 
 **Vinod Kumar** - August 25, 2005  1:38 PM
 
@@ -155,7 +185,9 @@ Vinod Kumar
 
 Jai Hinglaj Mata
 
----
+</div>
+
+<div id="comment">
 
 **Satyasri Ukil** - September 17, 2005  2:36 AM
 
@@ -165,7 +197,9 @@ Count me in if you are making a Yatra.
 My e-address is: sukil@chitralekha.org
 Thanks.
 
----
+</div>
+
+<div id="comment">
 
 **Arun Naik** - November 12, 2005  9:35 AM
 
@@ -177,7 +211,9 @@ My e-mail is akn@vastusindhu.com. Kindly get in touch with me directly so that w
 
 Arun
 
----
+</div>
+
+<div id="comment">
 
 **Pritesh Thakor** - November 12, 2005 11:43 PM
 
@@ -192,7 +228,9 @@ Pritesh
 
 Vinod Kumar: Could you please give me your email id...?
 
----
+</div>
+
+<div id="comment">
 
 **Arun Naik** - November 14, 2005  5:05 PM
 
@@ -202,7 +240,9 @@ please visit <http://groups.yahoo.com/group/hingalajmata/> and join the group fo
 
 ARUN NAIK
 
----
+</div>
+
+<div id="comment">
 
 **Vinod Kumar** - November 14, 2005  9:27 PM
 
@@ -213,7 +253,9 @@ I hear that u and Mr. Taimur plaining to visit Hinglaj Mata Mandir in February 2
 Vinod Kumar
 vinod128@hotmail.com
 
----
+</div>
+
+<div id="comment">
 
 **opmehra** - November 15, 2005  9:54 PM
 
@@ -227,7 +269,9 @@ Karachi, Pakistan. Karachi, Pakistan
 Tel: 262 4485 Tel: 521 8109 , 565 2433
 For more details visit www.hinglajmatamandir.com/info.html
 
----
+</div>
+
+<div id="comment">
 
 **Ayan Mondal** - December 13, 2005  3:46 PM
 
@@ -241,7 +285,9 @@ take care,
 regards,
 Ayan.
 
----
+</div>
+
+<div id="comment">
 
 **vinita jagasia** - February 27, 2006 10:32 PM
 
@@ -253,7 +299,9 @@ Regards
 Vinita
 Mumbai
 
----
+</div>
+
+<div id="comment">
 
 **Vinod Kumar** - March  1, 2006  4:54 PM
 
@@ -272,7 +320,9 @@ vinod128@hotmail.com
 
 Jai Mata Di
 
----
+</div>
+
+<div id="comment">
 
 **HIREN L.DHAKAN PARAJIYA SONI** - May 20, 2006  7:07 PM
 
@@ -280,7 +330,9 @@ Jai Mata Di
 my cast is PARAJIYA PATTNI our story is conected with hinglaj mataji.
 Thousands of year before our community people was bandits and they was no having any work. Then mata hinglaj though they work of gold smith and then hinglaj mata gave blessing to us. And I wish to go for my hinglaj mata darshan. I am from Mumbai.
 
----
+</div>
+
+<div id="comment">
 
 **manoj khatri** - September  2, 2007 12:12 PM
 
@@ -289,13 +341,17 @@ hi iam manoj khatri from karachi,and i visted the 4 time hinglaj yatra umer kot 
 and i ask the all members which time more is oldest the hinglaj yatra plz give me the some information for the hinglaj yatra
 thanks
 
----
+</div>
+
+<div id="comment">
 
 **shashikant.parmar** - September 17, 2007  4:30 AM
 
 Hinglaj is our kuldevi,we are wanza darji. what i heard is in time of parshuram all the rajputs left there shord,thay went for help to mataji .,she said to hide wepons and do some work to save your self from parhoram,so from that day rajputs starts to work to show them self thay are rajputs thay have to keep wepon in there hand.1)darji had a katar,valand has a astro (hear cuter)lohar hatodo (hammer) sonar hatodi,mochi rapi,suthar karvat khedut had a datardo. so far i have heard this story if any one knows moore then this please let me know.
 
----
+</div>
+
+<div id="comment">
 
 **assan das khatri** - October  1, 2007  1:47 PM
 
@@ -303,26 +359,34 @@ jai mata de to all my friends and all hindu brothers,
 hi me assan das khatri i said to all my brothers that plz do every thing with legal ways and plz send me some information about the oldest temple of hinglaj mata
 thanks and jai mata di
 
----
+</div>
+
+<div id="comment">
 
 **Chandra** - January  9, 2008  8:03 PM
 
 I am delighted very much about existince of a Hindu temple in baluchistan.It is highy
 appreciable the people of Pakistan are preserving their culture
 
----
+</div>
+
+<div id="comment">
 
 **M.Nandhakumar** - January 11, 2008 12:28 PM
 
 HI I live in Tamil Nadu.Only through Website I Knew about Hinglaj.I would like to visit the same.Can any one of you help me to reach from Karachi.
 
----
+</div>
+
+<div id="comment">
 
 **anil abhane** - February 23, 2008  4:30 PM
 
 we are based in india(aurangabad) maharashtra we aould like to take darshan at mata temple pls guide us how to reach there.
 
----
+</div>
+
+<div id="comment">
 
 **Bhavin Satikunvar** - March  9, 2008  9:41 PM
 
@@ -333,7 +397,9 @@ I am also Parajiya soni. Hiren is correct. Mataji's blessings are with us.
 Regards,
 Bhavin
 
----
+</div>
+
+<div id="comment">
 
 **rony** - July 20, 2008  4:56 AM
 
@@ -341,7 +407,9 @@ JAY MA HINGLAJ !
 
 WE HAVE JUST GOT A NEWS THAT PAKISTAN GOVERNMENT HAVE DECIDE TO BUILD A BRIDE ON THE PLACE OF HINGLAJ MATA TEMPLE.. AND THEY ARE GOING TO DEMOLISH TEMPLE SOON.. WHAT IS YOUR OPINION AS A HINDU DEVOTEE? WOULD YOU LIKE TO DO SOMETHING FOR OUR MATAJI ? OR SAVE OUR RELIGION ??? PLEASE THINK ABOUT IT AS EARLY AS POSSIBLE AND BE UNITED AND FIGHT FOR THAT ...GOD BLESS..JAY MAA HINGLAJ
 
----
+</div>
+
+<div id="comment">
 
 **Ashok** - July 27, 2008  1:36 PM
 
@@ -353,12 +421,14 @@ askhemani@hotmail.com
 ashok_papu200@yahoo.com
 JAi mata di
 
----
+</div>
+
+<div id="comment">
 
 **Sasha** - December  3, 2011 12:45 PM
 
 Um, will Karachi be affected if volcano erupts in Balochistan?
 
----
+</div>
 
 </div>

@@ -1,9 +1,9 @@
 ---
 date: 2003-10-11
 gallery: thar-2003
-image: thar45.jpg
+image: ./thar45.jpg
 order: 21
-thumbnail: thar45-thumb.jpg
+thumbnail: ./thar45-thumb.jpg
 title: Into the Desert
 ---
 
@@ -15,11 +15,15 @@ We're well into the desert now, way off the beaten track.
 
 ## Comments (3)
 
+<div id="comment">
+
 **Imad** - October 12, 2003 12:56 AM
 
 This looks like forbidding terrain.
 
----
+</div>
+
+<div id="comment">
 
 **sujo** - November 24, 2008 11:05 PM
 
@@ -36,7 +40,9 @@ sujogeographer@gmail.com
 Mob:+44(0)752606033 77
 Off:+44(0)1509222797
 
----
+</div>
+
+<div id="comment">
 
 **Adeel** - November 25, 2008  4:58 PM
 
@@ -51,6 +57,6 @@ However its very difficult to figure out the desert terrain in the pictures due 
 
 At offroadpakistan u'll find pictures of all types of terrain as Pakistan is blessed with mountains, deserts, rivers, sea....etc....u name it and its there. And I've seen one of the best variety and quality of pictures posted on this forum.
 
----
+</div>
 
 </div>

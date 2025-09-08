@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0009.jpg
+image: ./IMG_0009.jpg
 order: 84
-thumbnail: IMG_0009-thumb.jpg
+thumbnail: ./IMG_0009-thumb.jpg
 title: Walking on the Glacier
 ---
 
@@ -13,10 +13,12 @@ title: Walking on the Glacier
 
 ## Comments (1)
 
+<div id="comment">
+
 **Yousuf** - February 21, 2011  2:07 AM
 
 How many were on your trip? Please include all porters and hikers?
 
----
+</div>
 
 </div>

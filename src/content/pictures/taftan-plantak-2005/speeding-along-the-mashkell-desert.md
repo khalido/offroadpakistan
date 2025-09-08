@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: taftan-plantak-2005
-image: F1050017.jpg
+image: ./F1050017.jpg
 order: 43
-thumbnail: F1050017-thumb.jpg
+thumbnail: ./F1050017-thumb.jpg
 title: Speeding along the Mashkell desert
 ---
 

@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0469.jpg
+image: ./IMG_0469.jpg
 order: 60
-thumbnail: IMG_0469-thumb.jpg
+thumbnail: ./IMG_0469-thumb.jpg
 title: Moutains at the start of the Baltoro
 ---
 
@@ -15,22 +15,28 @@ Trango towers is visible between them.
 
 ## Comments (3)
 
+<div id="comment">
+
 **Imad** - August 12, 2007  9:56 AM
 
 Trango Towers?? I thought there was just one
 
----
+</div>
+
+<div id="comment">
 
 **Yaseen** - August 12, 2007  8:06 PM
 
 There are indeed 2!
 
----
+</div>
+
+<div id="comment">
 
 **Ahsan** - August 12, 2007 10:15 PM
 
 No, there are several of which three are the best known - Great Trango, Nameless Tower and Trango Castle. There is also Trango Ri, Monk, Pulpit etc.
 
----
+</div>
 
 </div>

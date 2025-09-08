@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: taftan-plantak-2005
-image: DSCN0316.jpg
+image: ./DSCN0316.jpg
 order: 33
-thumbnail: DSCN0316-thumb.jpg
+thumbnail: ./DSCN0316-thumb.jpg
 title: Repair stop
 ---
 

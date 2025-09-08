@@ -1,9 +1,9 @@
 ---
 date: 2005-09-10
 gallery: hingol-2005
-image: IMG_76481.jpg
+image: ./IMG_76481.jpg
 order: 52
-thumbnail: IMG_76481-thumb.jpg
+thumbnail: ./IMG_76481-thumb.jpg
 title: Sandstorm en route
 ---
 

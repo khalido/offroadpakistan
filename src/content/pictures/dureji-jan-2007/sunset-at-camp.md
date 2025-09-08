@@ -1,9 +1,9 @@
 ---
 date: 2007-03-18
 gallery: dureji-jan-2007
-image: DSC01187.jpg
+image: ./DSC01187.jpg
 order: 18
-thumbnail: DSC01187-thumb.jpg
+thumbnail: ./DSC01187-thumb.jpg
 title: Sunset at Camp
 ---
 

@@ -1,9 +1,9 @@
 ---
 date: 2006-09-24
 gallery: thar-2006
-image: DSCN1624.jpg
+image: ./DSCN1624.jpg
 order: 56
-thumbnail: DSCN1624-thumb.jpg
+thumbnail: ./DSCN1624-thumb.jpg
 title: CJ7 winching M38
 ---
 

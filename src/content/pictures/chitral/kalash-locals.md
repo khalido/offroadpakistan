@@ -1,9 +1,9 @@
 ---
 date: 2003-08-24
 gallery: chitral
-image: chitral_omars_9.jpg
+image: ./chitral_omars_9.jpg
 order: 9
-thumbnail: chitral_omars_9-thumb.jpg
+thumbnail: ./chitral_omars_9-thumb.jpg
 title: Kalash Locals
 ---
 
@@ -14,6 +14,8 @@ Another picture of the Kalash Dancers
 <div id="comments">
 
 ## Comments (1)
+
+<div id="comment">
 
 **S Nazar Fatimi** - September 19, 2009  1:42 PM
 
@@ -27,6 +29,6 @@ It is said about the NGO's (not all) that, their deeds are NOBLE, their DESIGNS 
 
 ssfatimi@gmail.com
 
----
+</div>
 
 </div>

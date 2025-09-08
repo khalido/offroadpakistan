@@ -1,9 +1,9 @@
 ---
 date: 2003-06-22
 gallery: khunjerab-2000
-image: khunjerab24.jpg
+image: ./khunjerab24.jpg
 order: 21
-thumbnail: khunjerab24-thumb.jpg
+thumbnail: ./khunjerab24-thumb.jpg
 title: Cooling
 ---
 

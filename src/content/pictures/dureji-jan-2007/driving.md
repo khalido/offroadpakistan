@@ -1,9 +1,9 @@
 ---
 date: 2007-03-18
 gallery: dureji-jan-2007
-image: DSC01029.jpg
+image: ./DSC01029.jpg
 order: 17
-thumbnail: DSC01029-thumb.jpg
+thumbnail: ./DSC01029-thumb.jpg
 title: Driving
 ---
 

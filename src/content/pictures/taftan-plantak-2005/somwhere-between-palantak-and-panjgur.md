@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: taftan-plantak-2005
-image: 000105.jpg
+image: ./000105.jpg
 order: 5
-thumbnail: 000105-thumb.jpg
+thumbnail: ./000105-thumb.jpg
 title: Somwhere between Palantak and Panjgur
 ---
 
@@ -15,10 +15,12 @@ Crossing the hills between Palantak and Panjgur, waiting for the all the vehicle
 
 ## Comments (1)
 
+<div id="comment">
+
 **babar** - November 29, 2007  2:35 PM
 
 panjgur should not be in pakistan
 
----
+</div>
 
 </div>

@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: indus-river-expedition-1978
-image: scan0001-1.jpg
+image: ./scan0001-1.jpg
 order: 4
-thumbnail: scan0001-1-thumb.jpg
+thumbnail: ./scan0001-1-thumb.jpg
 title: Boat woodwork
 ---
 

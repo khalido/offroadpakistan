@@ -1,9 +1,9 @@
 ---
 date: 2007-07-23
 gallery: hingol-flood-relief-2007
-image: DSC00600.jpg
+image: ./DSC00600.jpg
 order: 19
-thumbnail: DSC00600-thumb.jpg
+thumbnail: ./DSC00600-thumb.jpg
 title: Flood debris on the Hingol bridge
 ---
 

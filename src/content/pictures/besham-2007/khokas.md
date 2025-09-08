@@ -1,9 +1,9 @@
 ---
 date: 2007-11-25
 gallery: besham-2007
-image: DSC02293.jpg
+image: ./DSC02293.jpg
 order: 11
-thumbnail: DSC02293-thumb.jpg
+thumbnail: ./DSC02293-thumb.jpg
 title: Khokas
 ---
 

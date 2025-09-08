@@ -1,9 +1,9 @@
 ---
 date: 2003-10-11
 gallery: thar-2003
-image: thar36.jpg
+image: ./thar36.jpg
 order: 20
-thumbnail: thar36-thumb.jpg
+thumbnail: ./thar36-thumb.jpg
 title: Shifting sands
 ---
 

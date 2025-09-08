@@ -1,9 +1,9 @@
 ---
 date: 2003-10-11
 gallery: thar-2003
-image: thar29.jpg
+image: ./thar29.jpg
 order: 19
-thumbnail: thar29-thumb.jpg
+thumbnail: ./thar29-thumb.jpg
 title: Looking in the distance
 ---
 

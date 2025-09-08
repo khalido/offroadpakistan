@@ -1,9 +1,9 @@
 ---
 date: 2006-11-27
 gallery: dureji-2006
-image: DSCN2234.jpg
+image: ./DSCN2234.jpg
 order: 5
-thumbnail: DSCN2234-thumb.jpg
+thumbnail: ./DSCN2234-thumb.jpg
 title: On the way 2
 ---
 
@@ -13,10 +13,12 @@ title: On the way 2
 
 ## Comments (1)
 
+<div id="comment">
+
 **Khizar** - December 12, 2006 10:42 AM
 
 The best off roading TOY......... Its a small thing but ...... It is an amazing jeep......
 
----
+</div>
 
 </div>

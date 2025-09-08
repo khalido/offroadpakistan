@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: hingol-april-2007
-image: DSC00253.jpg
+image: ./DSC00253.jpg
 order: 23
-thumbnail: DSC00253-thumb.jpg
+thumbnail: ./DSC00253-thumb.jpg
 title: Wildlife tracks
 ---
 

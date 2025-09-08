@@ -1,9 +1,9 @@
 ---
 date: 2004-08-28
 gallery: shandur-2004
-image: 2004-06-28_18-53-17_096.jpg
+image: ./2004-06-28_18-53-17_096.jpg
 order: 45
-thumbnail: 2004-06-28_18-53-17_096-thumb.jpg
+thumbnail: ./2004-06-28_18-53-17_096-thumb.jpg
 title: Made in Chitral
 ---
 

@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: hingol
-image: doc_hingol_14.jpg
+image: ./doc_hingol_14.jpg
 order: 14
-thumbnail: doc_hingol_14-thumb.jpg
+thumbnail: ./doc_hingol_14-thumb.jpg
 title: Mirage
 ---
 

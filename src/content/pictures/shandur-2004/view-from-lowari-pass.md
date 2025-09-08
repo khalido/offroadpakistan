@@ -1,9 +1,9 @@
 ---
 date: 2004-08-18
 gallery: shandur-2004
-image: 001018.jpg
+image: ./001018.jpg
 order: 32
-thumbnail: 001018-thumb.jpg
+thumbnail: ./001018-thumb.jpg
 title: View From Lowari Pass
 ---
 
@@ -15,11 +15,13 @@ On our way up the Lowari Pass, heading back from Chitral, this is the view of th
 
 ## Comments (1)
 
+<div id="comment">
+
 **myra** - April 12, 2006  9:26 PM
 
 Mahera, i look at your snaps and feel that i know you:) they are just beautiful. I am reminded of a family trip to sawat in 2003. This picture reminded me of a drive we had through the mountains and how i felt at one with God's world. Love your website, and I am glad that I stumbled upon it. I hope that I can return to such places in my homeland again soon Inshallah. Keep up the good work!
 Myra
 
----
+</div>
 
 </div>

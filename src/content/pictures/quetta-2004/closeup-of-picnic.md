@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: quetta-2004
-image: F1000036.jpg
+image: ./F1000036.jpg
 order: 22
-thumbnail: F1000036-thumb.jpg
+thumbnail: ./F1000036-thumb.jpg
 title: Closeup of Picnic
 ---
 

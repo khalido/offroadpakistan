@@ -1,9 +1,9 @@
 ---
 date: 2007-11-25
 gallery: besham-2007
-image: DSC01845.jpg
+image: ./DSC01845.jpg
 order: 27
-thumbnail: DSC01845-thumb.jpg
+thumbnail: ./DSC01845-thumb.jpg
 title: Indus river at Besham
 ---
 

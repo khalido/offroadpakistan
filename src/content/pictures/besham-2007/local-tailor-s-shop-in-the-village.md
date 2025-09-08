@@ -1,9 +1,9 @@
 ---
 date: 2007-11-25
 gallery: besham-2007
-image: DSC01915.jpg
+image: ./DSC01915.jpg
 order: 47
-thumbnail: DSC01915-thumb.jpg
+thumbnail: ./DSC01915-thumb.jpg
 title: Local tailor's shop in the village
 ---
 
@@ -13,10 +13,12 @@ title: Local tailor's shop in the village
 
 ## Comments (1)
 
+<div id="comment">
+
 **shakeel** - May 17, 2009 10:15 AM
 
 wat this verse saying on wall , any memories with that
 
----
+</div>
 
 </div>

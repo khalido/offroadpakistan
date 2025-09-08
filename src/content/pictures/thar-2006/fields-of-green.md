@@ -1,9 +1,9 @@
 ---
 date: 2006-08-26
 gallery: thar-2006
-image: DSC03232.jpg
+image: ./DSC03232.jpg
 order: 26
-thumbnail: DSC03232-thumb.jpg
+thumbnail: ./DSC03232-thumb.jpg
 title: Fields of Green
 ---
 

@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: taftan-plantak-2005
-image: F1030018.jpg
+image: ./F1030018.jpg
 order: 37
-thumbnail: F1030018-thumb.jpg
+thumbnail: ./F1030018-thumb.jpg
 title: View from high
 ---
 
@@ -13,10 +13,12 @@ title: View from high
 
 ## Comments (1)
 
+<div id="comment">
+
 **Kabir Omar** - December  8, 2005  1:24 PM
 
 Khalid fantastic picture. It was a tough ride over these hills.
 
----
+</div>
 
 </div>

@@ -1,9 +1,9 @@
 ---
 date: 2004-02-13
 gallery: bhootani-farms
-image: P1100042.jpg
+image: ./P1100042.jpg
 order: 10
-thumbnail: P1100042-thumb.jpg
+thumbnail: ./P1100042-thumb.jpg
 title: Night Excursion
 ---
 

@@ -1,9 +1,9 @@
 ---
 date: 2006-08-26
 gallery: thar-2006
-image: P8202019.jpg
+image: ./P8202019.jpg
 order: 24
-thumbnail: P8202019-thumb.jpg
+thumbnail: ./P8202019-thumb.jpg
 title: CJ7 crossing water
 ---
 

@@ -1,9 +1,9 @@
 ---
 date: 2008-01-18
 gallery: goran-gatti-2008
-image: p1182793.jpg
+image: ./p1182793.jpg
 order: 38
-thumbnail: p1182793-thumb.jpg
+thumbnail: ./p1182793-thumb.jpg
 title: Beautiful
 ---
 

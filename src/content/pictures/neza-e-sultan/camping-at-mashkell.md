@@ -1,9 +1,9 @@
 ---
 date: 2002-10-16
 gallery: neza-e-sultan
-image: F1000053.jpg
+image: ./F1000053.jpg
 order: 2
-thumbnail: F1000053-thumb.jpg
+thumbnail: ./F1000053-thumb.jpg
 title: Camping at Mashkell
 ---
 

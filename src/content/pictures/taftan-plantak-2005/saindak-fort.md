@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: taftan-plantak-2005
-image: DSCN0152.jpg
+image: ./DSCN0152.jpg
 order: 14
-thumbnail: DSCN0152-thumb.jpg
+thumbnail: ./DSCN0152-thumb.jpg
 title: Saindak Fort
 ---
 

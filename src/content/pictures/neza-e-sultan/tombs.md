@@ -1,9 +1,9 @@
 ---
 date: 2003-06-26
 gallery: neza-e-sultan
-image: F1030010.jpg
+image: ./F1030010.jpg
 order: 53
-thumbnail: F1030010-thumb.jpg
+thumbnail: ./F1030010-thumb.jpg
 title: Tombs
 ---
 
@@ -15,10 +15,12 @@ The tombs at Galuga are unique as these are 'double storyed' the upper chamber c
 
 ## Comments (1)
 
+<div id="comment">
+
 **SalmanZ** - February 26, 2010  9:11 PM
 
 Double Story tombs: Sounds interesting and unique!
 
----
+</div>
 
 </div>

@@ -1,9 +1,9 @@
 ---
 date: 2005-09-10
 gallery: hingol-2005
-image: IMG_76021.jpg
+image: ./IMG_76021.jpg
 order: 48
-thumbnail: IMG_76021-thumb.jpg
+thumbnail: ./IMG_76021-thumb.jpg
 title: Rain shaped
 ---
 

@@ -1,9 +1,9 @@
 ---
 date: 2004-09-24
 gallery: bhootani-farms
-image: P1110073.jpg
+image: ./P1110073.jpg
 order: 22
-thumbnail: P1110073-thumb.jpg
+thumbnail: ./P1110073-thumb.jpg
 title: Group photo near Lake
 ---
 
@@ -15,11 +15,15 @@ Just about everyone is in the photo.
 
 ## Comments (2)
 
+<div id="comment">
+
 **fj** - January  3, 2009  3:46 PM
 
 very nice pictures mashallah. Hope u guys had a blast of fun drive ;)
 
----
+</div>
+
+<div id="comment">
 
 **Obaid Raza Mirza** - January 15, 2011 12:53 AM
 
@@ -29,6 +33,6 @@ Regards
 
 Obaid Raza Mirza
 
----
+</div>
 
 </div>

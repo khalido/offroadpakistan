@@ -1,9 +1,9 @@
 ---
 date: 2008-11-20
 gallery: goran-gatti-nov-2008
-image: dsc07582.jpg
+image: ./dsc07582.jpg
 order: 19
-thumbnail: dsc07582-thumb.jpg
+thumbnail: ./dsc07582-thumb.jpg
 title: Winding up the camp in the morning. The plastic rug
 ---
 
@@ -15,10 +15,12 @@ Winding up the camp in the morning. The plastic rug (durree) is a must have for 
 
 ## Comments (1)
 
+<div id="comment">
+
 **Asif Raza** - February 11, 2009 12:33 AM
 
 i love offroad adventures, when is the next trip?
 
----
+</div>
 
 </div>

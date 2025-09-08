@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: thar-2006
-image: 000054.jpg
+image: ./000054.jpg
 order: 40
-thumbnail: 000054-thumb.jpg
+thumbnail: ./000054-thumb.jpg
 title: Thar Desert 5
 ---
 

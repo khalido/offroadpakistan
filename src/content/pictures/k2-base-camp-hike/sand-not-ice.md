@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0532.jpg
+image: ./IMG_0532.jpg
 order: 66
-thumbnail: IMG_0532-thumb.jpg
+thumbnail: ./IMG_0532-thumb.jpg
 title: Sand NOT ICE
 ---
 

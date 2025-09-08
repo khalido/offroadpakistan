@@ -1,9 +1,9 @@
 ---
 date: 2006-08-26
 gallery: thar-2006
-image: P8181699.jpg
+image: ./P8181699.jpg
 order: 5
-thumbnail: P8181699-thumb.jpg
+thumbnail: ./P8181699-thumb.jpg
 title: Winching a Tree
 ---
 

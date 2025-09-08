@@ -1,9 +1,9 @@
 ---
 date: 2008-03-21
 gallery: medical-camp-march-2008
-image: img_3139.jpg
+image: ./img_3139.jpg
 order: 39
-thumbnail: img_3139-thumb.jpg
+thumbnail: ./img_3139-thumb.jpg
 title: Water skin
 ---
 
@@ -12,6 +12,8 @@ title: Water skin
 <div id="comments">
 
 ## Comments (1)
+
+<div id="comment">
 
 **David from Texas** - June  1, 2008 10:13 PM
 
@@ -22,6 +24,6 @@ You are indeed Angels of Mercy, and may God Bless you in All you do, and keep yo
 
 Gratitude From an Old TeXas Fisherman.......................................
 
----
+</div>
 
 </div>

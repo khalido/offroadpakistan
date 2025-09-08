@@ -1,9 +1,9 @@
 ---
 date: 2007-11-25
 gallery: besham-2007
-image: DSC01806.jpg
+image: ./DSC01806.jpg
 order: 12
-thumbnail: DSC01806-thumb.jpg
+thumbnail: ./DSC01806-thumb.jpg
 title: Ford F1 with a newer model Ford SUV
 ---
 
@@ -15,10 +15,12 @@ At the lake near Haripur (Khanpur Dam)
 
 ## Comments (1)
 
+<div id="comment">
+
 **ajab khan** - August  6, 2008  1:56 PM
 
 nice jeeps.
 
----
+</div>
 
 </div>

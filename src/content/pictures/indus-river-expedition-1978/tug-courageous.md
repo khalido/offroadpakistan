@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: indus-river-expedition-1978
-image: scan0059.jpg
+image: ./scan0059.jpg
 order: 13
-thumbnail: scan0059-thumb.jpg
+thumbnail: ./scan0059-thumb.jpg
 title: Tug Courageous
 ---
 

@@ -1,9 +1,9 @@
 ---
 date: 2004-04-30
 gallery: quetta-2004
-image: F1030033.jpg
+image: ./F1030033.jpg
 order: 43
-thumbnail: F1030033-thumb.jpg
+thumbnail: ./F1030033-thumb.jpg
 title: First Snow
 ---
 

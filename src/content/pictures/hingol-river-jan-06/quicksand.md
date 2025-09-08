@@ -1,9 +1,9 @@
 ---
 date: 2006-01-30
 gallery: hingol-river-jan-06
-image: DSCN0683.jpg
+image: ./DSCN0683.jpg
 order: 38
-thumbnail: DSCN0683-thumb.jpg
+thumbnail: ./DSCN0683-thumb.jpg
 title: Quicksand
 ---
 

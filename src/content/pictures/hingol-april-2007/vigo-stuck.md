@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: hingol-april-2007
-image: IMG_0359.jpg
+image: ./IMG_0359.jpg
 order: 65
-thumbnail: IMG_0359-thumb.jpg
+thumbnail: ./IMG_0359-thumb.jpg
 title: Vigo stuck
 ---
 

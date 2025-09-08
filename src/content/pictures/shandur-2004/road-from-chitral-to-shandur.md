@@ -1,9 +1,9 @@
 ---
 date: 2005-01-10
 gallery: shandur-2004
-image: 2004-06-29_15-22-46_024.jpg
+image: ./2004-06-29_15-22-46_024.jpg
 order: 139
-thumbnail: 2004-06-29_15-22-46_024-thumb.jpg
+thumbnail: ./2004-06-29_15-22-46_024-thumb.jpg
 title: Road from Chitral to Shandur
 ---
 

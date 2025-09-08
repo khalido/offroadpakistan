@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: indus-river-expedition-1978
-image: scan0187.jpg
+image: ./scan0187.jpg
 order: 39
-thumbnail: scan0187-thumb.jpg
+thumbnail: ./scan0187-thumb.jpg
 title: Boat Yard
 ---
 

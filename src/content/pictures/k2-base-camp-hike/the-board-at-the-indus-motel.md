@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0084.jpg
+image: ./IMG_0084.jpg
 order: 8
-thumbnail: IMG_0084-thumb.jpg
+thumbnail: ./IMG_0084-thumb.jpg
 title: The board at the Indus Motel
 ---
 

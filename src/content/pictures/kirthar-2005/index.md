@@ -1,5 +1,5 @@
 ---
-date: 2025-08-18
+date: 2025-09-08
 picture_count: 41
 title: Kirthar 2005
 type: gallery

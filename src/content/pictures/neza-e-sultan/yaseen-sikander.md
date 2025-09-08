@@ -1,9 +1,9 @@
 ---
 date: 2002-10-16
 gallery: neza-e-sultan
-image: F1000077.jpg
+image: ./F1000077.jpg
 order: 20
-thumbnail: F1000077-thumb.jpg
+thumbnail: ./F1000077-thumb.jpg
 title: Yaseen | Sikander
 ---
 

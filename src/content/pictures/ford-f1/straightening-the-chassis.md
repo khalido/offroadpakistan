@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: ford-f1
-image: DSC05022.jpg
+image: ./DSC05022.jpg
 order: 10
-thumbnail: DSC05022-thumb.jpg
+thumbnail: ./DSC05022-thumb.jpg
 title: Straightening the chassis
 ---
 

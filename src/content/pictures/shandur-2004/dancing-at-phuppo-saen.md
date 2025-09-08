@@ -1,9 +1,9 @@
 ---
 date: 2004-07-29
 gallery: shandur-2004
-image: 000005.jpg
+image: ./000005.jpg
 order: 8
-thumbnail: 000005-thumb.jpg
+thumbnail: ./000005-thumb.jpg
 title: Dancing at Phuppo Saen
 ---
 

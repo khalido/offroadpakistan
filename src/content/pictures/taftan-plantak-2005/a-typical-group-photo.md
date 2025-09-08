@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: taftan-plantak-2005
-image: DSCN0323.jpg
+image: ./DSCN0323.jpg
 order: 34
-thumbnail: DSCN0323-thumb.jpg
+thumbnail: ./DSCN0323-thumb.jpg
 title: A typical group photo
 ---
 

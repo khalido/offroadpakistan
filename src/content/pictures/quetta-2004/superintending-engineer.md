@@ -1,9 +1,9 @@
 ---
 date: 2004-04-30
 gallery: quetta-2004
-image: F1030036.jpg
+image: ./F1030036.jpg
 order: 45
-thumbnail: F1030036-thumb.jpg
+thumbnail: ./F1030036-thumb.jpg
 title: Superintending Engineer
 ---
 

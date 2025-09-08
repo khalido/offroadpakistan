@@ -1,9 +1,9 @@
 ---
 date: 2008-03-21
 gallery: medical-camp-march-2008
-image: dsc04794.jpg
+image: ./dsc04794.jpg
 order: 17
-thumbnail: dsc04794-thumb.jpg
+thumbnail: ./dsc04794-thumb.jpg
 title: An outdoor school
 ---
 
@@ -13,11 +13,15 @@ title: An outdoor school
 
 ## Comments (4)
 
+<div id="comment">
+
 **hamid omar** - April  3, 2008  4:24 AM
 
 better than nothing!
 
----
+</div>
+
+<div id="comment">
 
 **David from Texas** - June  1, 2008 10:00 PM
 
@@ -29,19 +33,23 @@ Fill them with food, water, clothing, as well as toys, and Most Importantly, You
 Thank You, My Lord and Creator of the Universe, In the Name of the Lord Jesus Christ.......!!!!!!!
 Thank You and Amen....................................
 
----
+</div>
+
+<div id="comment">
 
 **Imad Ali** - June  3, 2008 12:14 AM
 
 Thank you for the kind words, David!
 
----
+</div>
+
+<div id="comment">
 
 **hamid omar.** - June  3, 2008 12:28 AM
 
 David - its the people who think like you that is surely going to make that difference - thats a
 what is going to make this world a little better place!
 
----
+</div>
 
 </div>

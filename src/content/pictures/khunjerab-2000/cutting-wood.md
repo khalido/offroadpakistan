@@ -1,9 +1,9 @@
 ---
 date: 2003-06-21
 gallery: khunjerab-2000
-image: khunjerab3.jpg
+image: ./khunjerab3.jpg
 order: 3
-thumbnail: khunjerab3-thumb.jpg
+thumbnail: ./khunjerab3-thumb.jpg
 title: Cutting Wood
 ---
 

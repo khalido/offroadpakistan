@@ -1,9 +1,9 @@
 ---
 date: 2005-09-10
 gallery: hingol-2005
-image: IMG_76781.jpg
+image: ./IMG_76781.jpg
 order: 55
-thumbnail: IMG_76781-thumb.jpg
+thumbnail: ./IMG_76781-thumb.jpg
 title: Driving
 ---
 

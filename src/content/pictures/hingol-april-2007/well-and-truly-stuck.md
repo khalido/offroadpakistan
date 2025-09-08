@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: hingol-april-2007
-image: DSC00188.jpg
+image: ./DSC00188.jpg
 order: 14
-thumbnail: DSC00188-thumb.jpg
+thumbnail: ./DSC00188-thumb.jpg
 title: Well and truly stuck
 ---
 

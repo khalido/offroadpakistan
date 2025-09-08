@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: dureji-2006
-image: DSCN2305.jpg
+image: ./DSCN2305.jpg
 order: 14
-thumbnail: DSCN2305-thumb.jpg
+thumbnail: ./DSCN2305-thumb.jpg
 title: Going through the valley
 ---
 
@@ -15,10 +15,12 @@ Yes, these are temporary captions.
 
 ## Comments (1)
 
+<div id="comment">
+
 **hassanv3** - November  8, 2011  8:04 AM
 
 very very nice tour beautiful balochistan my heart is quetta
 
----
+</div>
 
 </div>

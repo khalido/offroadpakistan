@@ -1,9 +1,9 @@
 ---
 date: 2003-06-24
 gallery: neza-e-sultan
-image: F1000011.jpg
+image: ./F1000011.jpg
 order: 36
-thumbnail: F1000011-thumb.jpg
+thumbnail: ./F1000011-thumb.jpg
 title: A view of Chaghai
 ---
 

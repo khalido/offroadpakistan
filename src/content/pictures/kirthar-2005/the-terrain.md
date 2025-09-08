@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: kirthar-2005
-image: F1020025.jpg
+image: ./F1020025.jpg
 order: 40
-thumbnail: F1020025-thumb.jpg
+thumbnail: ./F1020025-thumb.jpg
 title: The terrain
 ---
 

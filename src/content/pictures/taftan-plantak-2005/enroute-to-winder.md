@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: taftan-plantak-2005
-image: 000145.jpg
+image: ./000145.jpg
 order: 7
-thumbnail: 000145-thumb.jpg
+thumbnail: ./000145-thumb.jpg
 title: Enroute to Winder
 ---
 

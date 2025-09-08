@@ -1,5 +1,5 @@
 ---
-date: 2025-08-18
+date: 2025-09-08
 picture_count: 31
 title: Chitral
 type: gallery

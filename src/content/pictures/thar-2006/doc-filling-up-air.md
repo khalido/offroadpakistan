@@ -1,9 +1,9 @@
 ---
 date: 2006-08-26
 gallery: thar-2006
-image: P8191798.jpg
+image: ./P8191798.jpg
 order: 8
-thumbnail: P8191798-thumb.jpg
+thumbnail: ./P8191798-thumb.jpg
 title: Doc filling up air
 ---
 

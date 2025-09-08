@@ -1,9 +1,9 @@
 ---
 date: 2007-07-23
 gallery: hingol-flood-relief-2007
-image: DSC00598.jpg
+image: ./DSC00598.jpg
 order: 18
-thumbnail: DSC00598-thumb.jpg
+thumbnail: ./DSC00598-thumb.jpg
 title: Going upriver
 ---
 

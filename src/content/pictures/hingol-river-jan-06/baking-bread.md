@@ -1,9 +1,9 @@
 ---
 date: 2006-01-30
 gallery: hingol-river-jan-06
-image: DSCN0703.jpg
+image: ./DSCN0703.jpg
 order: 42
-thumbnail: DSCN0703-thumb.jpg
+thumbnail: ./DSCN0703-thumb.jpg
 title: Baking bread
 ---
 

@@ -1,5 +1,5 @@
 ---
-date: 2025-08-18
+date: 2025-09-08
 picture_count: 42
 title: Dureji Jan 2007
 type: gallery

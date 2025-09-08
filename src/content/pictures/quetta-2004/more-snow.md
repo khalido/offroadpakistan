@@ -1,9 +1,9 @@
 ---
 date: 2004-04-15
 gallery: quetta-2004
-image: F1020032.jpg
+image: ./F1020032.jpg
 order: 37
-thumbnail: F1020032-thumb.jpg
+thumbnail: ./F1020032-thumb.jpg
 title: More snow
 ---
 
@@ -16,6 +16,8 @@ Another shot from a moving car.
 
 ## Comments (1)
 
+<div id="comment">
+
 **Zapbug** - March  3, 2006 10:15 AM
 
 Wow this picture is really amazing, shows the true beauty of Quetta....
@@ -26,6 +28,6 @@ oooooooooooooooooooooooooooooooooooooooo with a nice chick + 4x4..............
 
 danm..........thats out of this world experience.....
 
----
+</div>
 
 </div>

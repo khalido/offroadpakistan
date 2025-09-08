@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: besham-2007
-image: DSC02017.jpg
+image: ./DSC02017.jpg
 order: 75
-thumbnail: DSC02017-thumb.jpg
+thumbnail: ./DSC02017-thumb.jpg
 title: Winter approaching
 ---
 

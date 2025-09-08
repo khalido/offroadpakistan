@@ -1,5 +1,5 @@
 ---
-date: 2025-08-18
+date: 2025-09-08
 picture_count: 43
 title: Medical Camp March 2008
 type: gallery

@@ -1,9 +1,9 @@
 ---
 date: 2008-11-20
 gallery: goran-gatti-nov-2008
-image: img_0180.jpg
+image: ./img_0180.jpg
 order: 56
-thumbnail: img_0180-thumb.jpg
+thumbnail: ./img_0180-thumb.jpg
 title: We have seen a lot of cocodiles in the Hingol River
 ---
 

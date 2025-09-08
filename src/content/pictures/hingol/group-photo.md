@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: hingol
-image: doc_hingol_12.jpg
+image: ./doc_hingol_12.jpg
 order: 12
-thumbnail: doc_hingol_12-thumb.jpg
+thumbnail: ./doc_hingol_12-thumb.jpg
 title: Group Photo
 ---
 
@@ -15,6 +15,8 @@ The 5 jeeps that went on this trip.
 
 ## Comments (1)
 
+<div id="comment">
+
 **Sudeep** - July 20, 2006  2:35 AM
 
 Nice pic.
@@ -24,6 +26,6 @@ fully restored
 want to in contact with you.
 Sudeep
 
----
+</div>
 
 </div>

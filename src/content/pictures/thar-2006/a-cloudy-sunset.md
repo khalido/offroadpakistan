@@ -1,9 +1,9 @@
 ---
 date: 2006-09-24
 gallery: thar-2006
-image: DSC03101.jpg
+image: ./DSC03101.jpg
 order: 51
-thumbnail: DSC03101-thumb.jpg
+thumbnail: ./DSC03101-thumb.jpg
 title: A cloudy sunset
 ---
 

@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: chitral
-image: chitral_omars_26.jpg
+image: ./chitral_omars_26.jpg
 order: 24
-thumbnail: chitral_omars_26-thumb.jpg
+thumbnail: ./chitral_omars_26-thumb.jpg
 title: Winching
 ---
 
@@ -15,23 +15,29 @@ Taimur Mirza's CJ7 and Hamid Omar's M38 are winching up the jeep. These warn win
 
 ## Comments (3)
 
+<div id="comment">
+
 **hydrocodone 10mg** - March  4, 2007 11:34 AM
 
 Nice site. Thanks:-)
 [hydrocodone addiction](http://s-url.net/02yj/)
 
----
+</div>
+
+<div id="comment">
 
 **Kamran Khaliq** - November  4, 2007 12:50 PM
 
 you guys are really adventurous. You have really enjoyed the jeap adventure with brave heart.
 
----
+</div>
+
+<div id="comment">
 
 **ajab khan** - August  6, 2008  1:41 PM
 
 i am also a big fan of jeeps & offroading.nice pic.
 
----
+</div>
 
 </div>

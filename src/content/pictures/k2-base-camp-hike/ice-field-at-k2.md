@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0597.jpg
+image: ./IMG_0597.jpg
 order: 144
-thumbnail: IMG_0597-thumb.jpg
+thumbnail: ./IMG_0597-thumb.jpg
 title: Ice field at K2
 ---
 
@@ -13,10 +13,12 @@ title: Ice field at K2
 
 ## Comments (1)
 
+<div id="comment">
+
 **aamir** - April  5, 2009 12:32 PM
 
 Horrible & terrifying.
 
----
+</div>
 
 </div>

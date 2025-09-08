@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: k2-base-camp-hike
-image: IMG_0270.jpg
+image: ./IMG_0270.jpg
 order: 122
-thumbnail: IMG_0270-thumb.jpg
+thumbnail: ./IMG_0270-thumb.jpg
 title: Icy landscape
 ---
 

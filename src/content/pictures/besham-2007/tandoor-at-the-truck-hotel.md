@@ -1,9 +1,9 @@
 ---
 date: 2007-11-25
 gallery: besham-2007
-image: DSC01830.jpg
+image: ./DSC01830.jpg
 order: 13
-thumbnail: DSC01830-thumb.jpg
+thumbnail: ./DSC01830-thumb.jpg
 title: Tandoor at the truck hotel
 ---
 

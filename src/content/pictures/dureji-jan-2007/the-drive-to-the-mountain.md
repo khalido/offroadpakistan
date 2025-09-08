@@ -1,9 +1,9 @@
 ---
 date: 2007-03-18
 gallery: dureji-jan-2007
-image: CIMG0298.jpg
+image: ./CIMG0298.jpg
 order: 11
-thumbnail: CIMG0298-thumb.jpg
+thumbnail: ./CIMG0298-thumb.jpg
 title: The drive to the mountain
 ---
 

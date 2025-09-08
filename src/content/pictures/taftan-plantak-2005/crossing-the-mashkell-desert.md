@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: taftan-plantak-2005
-image: DSCN0170.jpg
+image: ./DSCN0170.jpg
 order: 17
-thumbnail: DSCN0170-thumb.jpg
+thumbnail: ./DSCN0170-thumb.jpg
 title: Crossing the Mashkell desert
 ---
 
@@ -15,6 +15,8 @@ heading towards Qilla Ladgasht.
 
 ## Comments (2)
 
+<div id="comment">
+
 **athar** - August  4, 2009  4:38 PM
 
 READY STEADY GO...
@@ -24,7 +26,9 @@ I WANTED TO KNOW FROM U GUYS THAT HOW GOOD THE GRAND SPORTAGE IS AS A 4X4 .IVE S
 
 REGARDS ATHAR
 
----
+</div>
+
+<div id="comment">
 
 **athar** - August  4, 2009  4:39 PM
 
@@ -35,6 +39,6 @@ I WANTED TO KNOW FROM U GUYS THAT HOW GOOD THE GRAND SPORTAGE IS AS A 4X4 .IVE S
 
 REGARDS ATHAR
 
----
+</div>
 
 </div>

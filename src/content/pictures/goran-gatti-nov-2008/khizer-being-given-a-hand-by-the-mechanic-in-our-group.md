@@ -1,9 +1,9 @@
 ---
 date: 2008-11-20
 gallery: goran-gatti-nov-2008
-image: dsc08020.jpg
+image: ./dsc08020.jpg
 order: 42
-thumbnail: dsc08020-thumb.jpg
+thumbnail: ./dsc08020-thumb.jpg
 title: Khizer being given a hand by the mechanic in our group.
 ---
 

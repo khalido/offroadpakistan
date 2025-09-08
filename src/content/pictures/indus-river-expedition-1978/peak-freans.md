@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: indus-river-expedition-1978
-image: scan0084.jpg
+image: ./scan0084.jpg
 order: 24
-thumbnail: scan0084-thumb.jpg
+thumbnail: ./scan0084-thumb.jpg
 title: Peak Freans
 ---
 

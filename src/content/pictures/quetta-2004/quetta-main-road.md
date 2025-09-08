@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: quetta-2004
-image: F1000014.jpg
+image: ./F1000014.jpg
 order: 13
-thumbnail: F1000014-thumb.jpg
+thumbnail: ./F1000014-thumb.jpg
 title: Quetta Main Road
 ---
 

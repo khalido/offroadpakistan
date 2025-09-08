@@ -1,9 +1,9 @@
 ---
 date: 2008-01-18
 gallery: goran-gatti-2008
-image: p1202957.jpg
+image: ./p1202957.jpg
 order: 46
-thumbnail: p1202957-thumb.jpg
+thumbnail: ./p1202957-thumb.jpg
 title: NOW IT'S THE MOST POWERFUL
 ---
 

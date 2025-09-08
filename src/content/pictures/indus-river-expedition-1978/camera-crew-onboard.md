@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: indus-river-expedition-1978
-image: scan0023.jpg
+image: ./scan0023.jpg
 order: 5
-thumbnail: scan0023-thumb.jpg
+thumbnail: ./scan0023-thumb.jpg
 title: Camera Crew onboard
 ---
 
@@ -15,22 +15,28 @@ From Attock to Kalabagh. we had rented a local river crossing boat to accompany 
 
 ## Comments (3)
 
+<div id="comment">
+
 **Adeel** - December  7, 2008 12:00 PM
 
 Is there any video made for this trip? If yes, is it possible to be uploaded here?
 
----
+</div>
+
+<div id="comment">
 
 **KO** - December  7, 2008  8:16 PM
 
 Something happened to the video - it was never seen after being filmed.
 
----
+</div>
+
+<div id="comment">
 
 **Adeel** - December  9, 2008  8:57 AM
 
 Thats sad!
 
----
+</div>
 
 </div>

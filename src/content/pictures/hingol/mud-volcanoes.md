@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: hingol
-image: doc_hingol_11.jpg
+image: ./doc_hingol_11.jpg
 order: 11
-thumbnail: doc_hingol_11-thumb.jpg
+thumbnail: ./doc_hingol_11-thumb.jpg
 title: Mud Volcanoes
 ---
 
@@ -15,6 +15,8 @@ Another picture of the mud volcano. There are two, this is the smaller one.
 
 ## Comments (14)
 
+<div id="comment">
+
 **kashif** - October 27, 2004  4:09 PM
 
 After seeing your pictures, we also make a trip to hingiol last weekend
@@ -22,7 +24,9 @@ really it iis a beautiful place
 
 kashif
 
----
+</div>
+
+<div id="comment">
 
 **Peter Martin-Kaye** - February 24, 2005  1:59 AM
 
@@ -38,7 +42,9 @@ best regards
 
 Peter
 
----
+</div>
+
+<div id="comment">
 
 **aquaris** - April  5, 2005 10:34 PM
 
@@ -48,7 +54,9 @@ Peter could you please post your pictures for the benefit of all...
 
 because by your account i thought its some Bubble spirilling Marsh land...but the picture above is that of a mountain......
 
----
+</div>
+
+<div id="comment">
 
 **aquaris** - April  5, 2005 10:36 PM
 
@@ -56,13 +64,17 @@ Sorry I forget to post the link.....to Peter's re-pulblished article....its at..
 
 <http://www.orkut.com/CommMsgs.aspx?cmm=614392&tid=9968575>
 
----
+</div>
+
+<div id="comment">
 
 **H.Mandalia** - April 11, 2005  7:40 PM
 
 I am trying to organise a yatra to Hinglaj Temple from Leicester, England. For 20 to 25 people. We have not travel to Hinglaj before, therefore are in need of help in organising such a yatra. Any infromation will be most welcomed.
 
----
+</div>
+
+<div id="comment">
 
 **Delisle** - April 12, 2005  5:28 PM
 
@@ -78,7 +90,9 @@ References of papers
 DELISLE, G., VON RAD, U., ANDRULEIT, H., VON DANIELS, C.H., TABREZ, A.R., .INAM, A. (2002): Active mud volcanoes on- and offshore eastern Makran, Pakistan. – International Journal of Earth Sciences, 91, 93-110.
 DELISLE, G. (2005): Mud volcanoes of Pakistan – an overview. – In: Martinelli, G. & Panahi, B. (eds), Mud Volcanoes, Geodynamics and Seismicity, Springer Verlag, 159-169.
 
----
+</div>
+
+<div id="comment">
 
 **Martin Hovland** - June  9, 2005 12:29 AM
 
@@ -87,7 +101,9 @@ Snead, R.E., 1964. Active mud volcanoes of Baluchistan, West Pakistan. Geographi
 I have also studied satellite pictures over this region, and also here the large mud volcanoes show up very well. Peter Martin-Kaye's and George Delisle's accounts, above are really informative. It is said that mud volcanoes are more active during low-tide than high tide (moon phases) - does this make sense - I think Dr. Delisle has documented this in Azerbaijan or in baluchistan.
 Thanks, Martin Hovland
 
----
+</div>
+
+<div id="comment">
 
 **MUZAMMIL SIRAJ** - June 18, 2005  2:19 PM
 
@@ -101,14 +117,18 @@ rgds
 
 Muzammil Siraj Khan
 
----
+</div>
+
+<div id="comment">
 
 **IKRAM PASHA** - November 11, 2005 12:04 AM
 
 Dear Bloggers,
 It is very unfortunate that few details about the Tsunami of 1945 in Makran area is available,I am delighted to read the adventures of Mr. Peter and I request him and any body having fruitful information about that disaster to present and post on the web so we the people and the authrorities in Pakistan may prepare if such event happens again.Best regards to all specially to MR. Peter
 
----
+</div>
+
+<div id="comment">
 
 **Rahul** - December  8, 2005 12:25 PM
 
@@ -118,7 +138,9 @@ REGARDS
 
 JAI MATA DI....
 
----
+</div>
+
+<div id="comment">
 
 **vivek sen** - April 17, 2006  3:51 PM
 
@@ -127,7 +149,9 @@ Apke comment ke lie dahnyabad karta hon. kripa kar aapki li hui tasveerey mujhe 
 Vivek Sen Delhi, India.
 viveksen53@yahoo.com
 
----
+</div>
+
+<div id="comment">
 
 **Kanti Kothari** - April 12, 2008  8:49 AM
 
@@ -141,14 +165,18 @@ Thank you for a wonderful post.
 
 Best Regards to Everyone on this Board
 
----
+</div>
+
+<div id="comment">
 
 **shaikh Jabir** - June 26, 2008  5:31 PM
 
 chandar gup or raja gup is a marvellous mud volcano,
 needed to explore and find realities associated to the religios myths to this volcano.
 
----
+</div>
+
+<div id="comment">
 
 **Syed Hasan shahid Bukhari** - May  1, 2009  1:42 PM
 
@@ -164,6 +192,6 @@ But what I see very interesting, is BBC's promoting of the Akhund Bharat Idea, w
 Syed Hasan shahid Bukhari
 1st of May, 2009
 
----
+</div>
 
 </div>

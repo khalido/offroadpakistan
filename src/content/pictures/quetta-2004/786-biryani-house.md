@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: quetta-2004
-image: F1000121.jpg
+image: ./F1000121.jpg
 order: 23
-thumbnail: F1000121-thumb.jpg
+thumbnail: ./F1000121-thumb.jpg
 title: 786 Biryani House
 ---
 
@@ -15,6 +15,8 @@ There is where we got the fried fish for dinner - trucked all the way from Karac
 
 ## Comments (1)
 
+<div id="comment">
+
 **abdullah** - July 13, 2006  2:23 PM
 
 i like quetta city for every time and this is my birth place and i like this too much
@@ -22,6 +24,6 @@ nowi am here afghanistan and i am working with UN office with american armi so i
 thanks
 and i like thies shop and i have been eat many time here best food thanks
 
----
+</div>
 
 </div>

@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: kirthar-2005
-image: F1000017.jpg
+image: ./F1000017.jpg
 order: 27
-thumbnail: F1000017-thumb.jpg
+thumbnail: ./F1000017-thumb.jpg
 title: Offroading!
 ---
 

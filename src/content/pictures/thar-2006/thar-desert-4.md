@@ -1,9 +1,9 @@
 ---
 date: 2006-08-26
 gallery: thar-2006
-image: P8201977.jpg
+image: ./P8201977.jpg
 order: 20
-thumbnail: P8201977-thumb.jpg
+thumbnail: ./P8201977-thumb.jpg
 title: Thar Desert 4
 ---
 
@@ -15,6 +15,8 @@ More Sand dunes. The rains completely changed the look of the desert, making the
 
 ## Comments (1)
 
+<div id="comment">
+
 **fahadali** - August 26, 2006  9:35 PM
 
 Khalid,
@@ -22,6 +24,6 @@ Very Nice pictures.U people had lot of fun.I love desert.I wish i could be there
 Regards,
 Fahad ALi
 
----
+</div>
 
 </div>

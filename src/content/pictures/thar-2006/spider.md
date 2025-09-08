@@ -1,9 +1,9 @@
 ---
 date: 2006-08-26
 gallery: thar-2006
-image: P8201968.jpg
+image: ./P8201968.jpg
 order: 18
-thumbnail: P8201968-thumb.jpg
+thumbnail: ./P8201968-thumb.jpg
 title: Spider
 ---
 

@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: thar-2006
-image: P8202059.jpg
+image: ./P8202059.jpg
 order: 36
-thumbnail: P8202059-thumb.jpg
+thumbnail: ./P8202059-thumb.jpg
 title: M38 stuck
 ---
 

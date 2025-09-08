@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: kirthar-2005
-image: DSC05639.jpg
+image: ./DSC05639.jpg
 order: 15
-thumbnail: DSC05639-thumb.jpg
+thumbnail: ./DSC05639-thumb.jpg
 title: The view 1
 ---
 
@@ -15,10 +15,12 @@ The view from the lookout point.
 
 ## Comments (1)
 
+<div id="comment">
+
 **shehryar** - August  7, 2008  8:14 PM
 
 do you know dr.rizvi.if u dont than next time ask the local people of kirthar about him. he was my uncle as he was my fathers first cousin..
 
----
+</div>
 
 </div>

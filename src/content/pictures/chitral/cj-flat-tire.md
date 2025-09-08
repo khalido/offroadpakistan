@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: chitral
-image: chitral_omars_15.jpg
+image: ./chitral_omars_15.jpg
 order: 14
-thumbnail: chitral_omars_15-thumb.jpg
+thumbnail: ./chitral_omars_15-thumb.jpg
 title: CJ Flat Tire
 ---
 
@@ -14,6 +14,8 @@ Salman is trying to fix the jack under the CJ5. Every day it would have at least
 <div id="comments">
 
 ## Comments (2)
+
+<div id="comment">
 
 **shehryar** - August 14, 2005  8:59 PM
 
@@ -31,12 +33,14 @@ Happy off-roading.
 
 Shehryar
 
----
+</div>
+
+<div id="comment">
 
 **Wrangler** - April 27, 2010 12:48 PM
 
 What is this desert tire doing on the rocks anyways ;-)
 
----
+</div>
 
 </div>

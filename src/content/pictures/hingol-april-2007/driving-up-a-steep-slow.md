@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: hingol-april-2007
-image: IMG_0460.jpg
+image: ./IMG_0460.jpg
 order: 70
-thumbnail: IMG_0460-thumb.jpg
+thumbnail: ./IMG_0460-thumb.jpg
 title: Driving up a steep slow
 ---
 

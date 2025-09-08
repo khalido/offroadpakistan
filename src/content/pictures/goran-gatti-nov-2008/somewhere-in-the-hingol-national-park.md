@@ -1,9 +1,9 @@
 ---
 date: 2008-11-20
 gallery: goran-gatti-nov-2008
-image: dsc08386.jpg
+image: ./dsc08386.jpg
 order: 12
-thumbnail: dsc08386-thumb.jpg
+thumbnail: ./dsc08386-thumb.jpg
 title: Somewhere in the Hingol National Park
 ---
 
@@ -12,6 +12,8 @@ title: Somewhere in the Hingol National Park
 <div id="comments">
 
 ## Comments (1)
+
+<div id="comment">
 
 **Susann Thomsen** - January 31, 2009  2:13 AM
 
@@ -22,6 +24,6 @@ Thanks for your hospitality,
 all the best,
 Susann
 
----
+</div>
 
 </div>

@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: neza-e-sultan
-image: F1030033.jpg
+image: ./F1030033.jpg
 order: 95
-thumbnail: F1030033-thumb.jpg
+thumbnail: ./F1030033-thumb.jpg
 title: Discussion
 ---
 

@@ -1,9 +1,9 @@
 ---
 date: 2008-01-18
 gallery: goran-gatti-2008
-image: img_2593.jpg
+image: ./img_2593.jpg
 order: 27
-thumbnail: img_2593-thumb.jpg
+thumbnail: ./img_2593-thumb.jpg
 title: Heres the FIX we made - worked like new all the way back through the rugged
   terrain
 ---
@@ -16,6 +16,8 @@ Withstood sand, mud, boulders, steep inclines and more, and a few days of Karach
 
 ## Comments (1)
 
+<div id="comment">
+
 **Hasaan** - January 18, 2009  5:34 PM
 
 Guys.
@@ -23,6 +25,6 @@ as a jeep/ offroad lover ( read fanatic) and now too much involved in profession
 take care and keep on enjoying
 rgds
 
----
+</div>
 
 </div>

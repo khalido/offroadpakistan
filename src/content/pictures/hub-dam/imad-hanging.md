@@ -1,9 +1,9 @@
 ---
 date: 2004-01-13
 gallery: hub-dam
-image: F1000006.jpg
+image: ./F1000006.jpg
 order: 4
-thumbnail: F1000006-thumb.jpg
+thumbnail: ./F1000006-thumb.jpg
 title: Imad Hanging
 ---
 

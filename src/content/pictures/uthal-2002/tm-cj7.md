@@ -1,9 +1,9 @@
 ---
 date: 2004-02-19
 gallery: uthal-2002
-image: F1000005.jpg
+image: ./F1000005.jpg
 order: 8
-thumbnail: F1000005-thumb.jpg
+thumbnail: ./F1000005-thumb.jpg
 title: TM CJ7
 ---
 

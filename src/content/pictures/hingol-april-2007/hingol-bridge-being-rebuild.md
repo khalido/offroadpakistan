@@ -1,9 +1,9 @@
 ---
 date: 2003-01-01
 gallery: hingol-april-2007
-image: DSC00417.jpg
+image: ./DSC00417.jpg
 order: 33
-thumbnail: DSC00417-thumb.jpg
+thumbnail: ./DSC00417-thumb.jpg
 title: Hingol bridge being rebuild
 ---
 

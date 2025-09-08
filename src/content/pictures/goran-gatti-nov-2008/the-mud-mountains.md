@@ -1,9 +1,9 @@
 ---
 date: 2008-11-20
 gallery: goran-gatti-nov-2008
-image: dsc07672.jpg
+image: ./dsc07672.jpg
 order: 75
-thumbnail: dsc07672-thumb.jpg
+thumbnail: ./dsc07672-thumb.jpg
 title: The mud mountains.
 ---
 
@@ -13,10 +13,12 @@ title: The mud mountains.
 
 ## Comments (1)
 
+<div id="comment">
+
 **SalmanZ** - September 23, 2009  9:39 PM
 
 OMG!
 
----
+</div>
 
 </div>
