@@ -5,6 +5,7 @@ image: ./DSC01885.jpg
 order: 79
 thumbnail: ./DSC01885-thumb.jpg
 title: M38 front view
+featured: true
 ---
 
 ![M38 front view](./DSC01885.jpg)

@@ -68,15 +68,15 @@ body {
 /* Desktop layout - two columns */
 @media (min-width: 768px) {
     .heritage-content {
-        width: 482px;
+        width: 525px;
         float: left;
         border-right: none;
         border-top: none;
-        padding: 16px;
+        padding: 15px;
     }
 
     .heritage-sidebar {
-        width: 240px;
+        width: 235px;
         float: right;
         border-top: none;
         padding: 10px;

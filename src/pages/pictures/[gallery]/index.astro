@@ -35,98 +35,113 @@ const sortedPictures = pictures.sort(
 ---
 
 <BaseLayout title={gallery.data.title}>
-    <!-- Gallery Header -->
-    <div class="mb-6">
-        <nav class="mb-4">
-            <a href="/pictures/" class="text-green-600 hover:underline text-xs">
-                ← Back to all galleries
-            </a>
-        </nav>
+    <!-- Main content container with proper padding -->
+    <div class="max-w-[780px] mx-auto bg-white">
+        <div class="px-4 py-6 md:px-8 md:py-8 lg:px-10 lg:py-10">
+            <!-- Gallery Header -->
+            <div class="mb-6">
+                <nav class="mb-4">
+                    <a
+                        href="/pictures/"
+                        class="text-green-600 hover:underline text-xs"
+                    >
+                        ← Back to all galleries
+                    </a>
+                </nav>
 
-        <h1 class="text-xl font-bold text-teal-600 mb-4">
-            {gallery.data.title}
-        </h1>
+                <h1 class="text-xl font-bold text-teal-600 mb-4">
+                    {gallery.data.title}
+                </h1>
 
-        <!-- Gallery Description -->
-        <div class="prose prose-sm max-w-none mb-4 text-xs">
-            <Content />
-        </div>
-
-        <!-- Gallery Info -->
-        
-    </div>
-
-    <!-- Featured First Picture -->
-    {
-        sortedPictures.length > 0 && (
-            <div id="img" class="mb-8 text-center">
-                <div id="topnav" class="heritage-picture-nav heritage-links">
-                    <p>
-                        1 of {sortedPictures.length}
-                        {sortedPictures.length > 1 && (
-                            <>
-                                {" | "}
-                                <a
-                                    href={`/pictures/${gallerySlug}/${sortedPictures[1].id.split("/").pop()?.replace(".md", "")}/`}
-                                >
-                                    next »
-                                </a>
-                            </>
-                        )}
-                    </p>
+                <!-- Gallery Description -->
+                <div class="prose prose-sm max-w-none mb-4 text-xs">
+                    <Content />
                 </div>
-                <a
-                    href={`/pictures/${gallerySlug}/${sortedPictures[0].id.split("/").pop()?.replace(".md", "")}/`}
-                >
-                    <div class="flex justify-center items-center bg-white p-4 border border-gray-300 mb-2">
-                        <Image
-                            src={sortedPictures[0].data.image}
-                            alt={sortedPictures[0].data.title}
-                            class="max-w-full h-auto object-contain cursor-pointer heritage-image"
-                        />
+
+                <!-- Gallery Info -->
+            </div>
+
+            <!-- Featured First Picture -->
+            {
+                sortedPictures.length > 0 && (
+                    <div id="img" class="mb-8 text-center">
+                        <div
+                            id="topnav"
+                            class="heritage-picture-nav heritage-links"
+                        >
+                            <p>
+                                1 of {sortedPictures.length}
+                                {sortedPictures.length > 1 && (
+                                    <>
+                                        {" | "}
+                                        <a
+                                            href={`/pictures/${gallerySlug}/${sortedPictures[1].id.split("/").pop()?.replace(".md", "")}/`}
+                                        >
+                                            next »
+                                        </a>
+                                    </>
+                                )}
+                            </p>
+                        </div>
+                        <a
+                            href={`/pictures/${gallerySlug}/${sortedPictures[0].id.split("/").pop()?.replace(".md", "")}/`}
+                        >
+                            <div class="flex justify-center items-center bg-white p-1  mb-2">
+                                <Image
+                                    src={sortedPictures[0].data.image}
+                                    alt={sortedPictures[0].data.title}
+                                    class="max-w-full h-auto object-contain cursor-pointer heritage-image"
+                                />
+                            </div>
+                        </a>
+                        <p class="text-xs mt-2 text-gray-700">
+                            <strong>{sortedPictures[0].data.title}:</strong>
+                            {sortedPictures[0].data.gallery && (
+                                <span>
+                                    {" "}
+                                    From the {
+                                        sortedPictures[0].data.gallery
+                                    }{" "}
+                                    gallery.
+                                </span>
+                            )}
+                        </p>
                     </div>
-                </a>
-                <p class="text-xs mt-2 text-gray-700">
-                    <strong>{sortedPictures[0].data.title}:</strong>
-                    {sortedPictures[0].data.gallery && (
-                        <span>
-                            {" "}
-                            From the {sortedPictures[0].data.gallery} gallery.
-                        </span>
-                    )}
+                )
+            }
+
+            <!-- Thumbnail Grid -->
+            <div class="flex flex-wrap gap-1 mb-8">
+                {
+                    sortedPictures.map((picture) => (
+                        <a
+                            href={`/pictures/${gallerySlug}/${picture.id.split("/").pop()?.replace(".md", "")}/`}
+                            class="block"
+                            title={picture.data.title}
+                        >
+                            <Image
+                                src={
+                                    picture.data.thumbnail || picture.data.image
+                                }
+                                alt={picture.data.title}
+                                class="w-32 h-24 object-cover heritage-image"
+                                loading="lazy"
+                            />
+                        </a>
+                    ))
+                }
+            </div>
+
+            <!-- Heritage Note -->
+            <div class="mt-8 p-4 bg-gray-50 border border-gray-200 text-xs">
+                <h3 class="font-bold text-teal-600 mb-2">Gallery Archive</h3>
+                <p class="text-gray-700">
+                    This gallery is part of the 4x4 Offroaders Club Karachi
+                    heritage archive, documenting decades of Pakistani adventure
+                    travel. Click on any thumbnail to view the full-size image
+                    and read the original descriptions.
                 </p>
             </div>
-        )
-    }
-
-    <!-- Thumbnail Grid -->
-    <div class="flex flex-wrap gap-1 mb-8">
-        {
-            sortedPictures.map((picture) => (
-                <a
-                    href={`/pictures/${gallerySlug}/${picture.id.split("/").pop()?.replace(".md", "")}/`}
-                    class="block"
-                    title={picture.data.title}
-                >
-                    <Image
-                        src={picture.data.thumbnail || picture.data.image}
-                        alt={picture.data.title}
-                        class="w-24 h-18 object-cover heritage-image"
-                        loading="lazy"
-                    />
-                </a>
-            ))
-        }
-    </div>
-
-    <!-- Heritage Note -->
-    <div class="mt-8 p-4 bg-gray-50 border border-gray-200 text-xs">
-        <h3 class="font-bold text-teal-600 mb-2">Gallery Archive</h3>
-        <p class="text-gray-700">
-            This gallery is part of the 4x4 Offroaders Club Karachi heritage
-            archive, documenting decades of Pakistani adventure travel. Click on
-            any thumbnail to view the full-size image and read the original
-            descriptions.
-        </p>
+        </div>
     </div>
 </BaseLayout>

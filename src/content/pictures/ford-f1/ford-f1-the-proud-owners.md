@@ -5,6 +5,7 @@ image: ./DSC00103.jpg
 order: 41
 thumbnail: ./DSC00103-thumb.jpg
 title: Ford F1 - the proud owners
+featured: true
 ---
 
 ![Ford F1 - the proud owners](./DSC00103.jpg)

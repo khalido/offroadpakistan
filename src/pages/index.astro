@@ -34,13 +34,13 @@ const randomPictures = pictures.sort(() => Math.random() - 0.5).slice(0, 9);
 ---
 
 <PageLayout
-    title="OffroadPakistan - Pakistani Adventure Heritage Archive"
+    title="OffroadPakistan"
     description="Decades of Pakistani adventure and travel documentation from the 4x4 Offroaders Club Karachi. Explore remote valleys, desert expeditions, and mountain adventures."
 >
     <!-- Main Introduction -->
     <section class="mb-8">
         <h1 class="text-base md:text-sm font-bold text-gray-600 mb-2">
-            Pakistani Adventure Heritage Archive
+            OffroadPakistan
         </h1>
         <p class="text-sm md:text-xs text-gray-700 mb-4">
             These are the journeys of the 4x4 Offroaders Club Karachi, venturing
@@ -50,8 +50,7 @@ const randomPictures = pictures.sort(() => Math.random() - 0.5).slice(0, 9);
             content and pictures.
         </p>
         <p class="text-sm md:text-xs text-gray-600 mb-6">
-            This archive preserves decades of Pakistani adventure documentation,
-            originally published a long time ago in a Pakistan.
+            This archive preserves decades of Pakistani adventure documentation, originally published a long time ago in a Pakistan.
         </p>
     </section>
 
@@ -79,7 +78,7 @@ const randomPictures = pictures.sort(() => Math.random() - 0.5).slice(0, 9);
                         <Image
                             src={picture.data.thumbnail || picture.data.image}
                             alt={picture.data.title}
-                            class="w-24 h-18 object-cover heritage-image"
+                            class="w-39 h-27 object-cover heritage-image"
                             loading="lazy"
                         />
                     </a>

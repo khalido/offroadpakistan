@@ -5,6 +5,7 @@ image: ./F1000071.jpg
 order: 17
 thumbnail: ./F1000071-thumb.jpg
 title: Horizon Shot
+featured: true
 ---
 
 ![Horizon Shot](./F1000071.jpg)
